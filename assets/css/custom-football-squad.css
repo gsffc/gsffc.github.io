@@ -1,0 +1,226 @@
+.row-game {
+    display: -ms-flex; display: -webkit-flex; display: flex;
+}
+
+.row-game:after {
+    content: "";
+    display: table;
+    clear: both;
+    float: none;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    
+    flex: 1;
+}
+
+
+@media all and (max-width: 600px) {
+    .column {
+        float: none;
+        width: 100%;
+    }
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    float: none;
+}
+
+
+.block {
+    float: none;
+    width: 100%;
+    
+}
+
+
+.football_field_background {
+    background-image: url("../img/field.png")
+}
+
+.football_field {
+    position: relative;
+}
+
+.player {
+    position: absolute;
+    width: 20%;
+}
+
+.player img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+    width: 50%;
+}
+
+.player p {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* GK */
+.player.GK {
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Defender */
+.player.LWB {
+    bottom: 35%;
+    left: 5%;
+}
+
+.player.LB {
+    bottom: 20%;
+    left: 8%;
+}
+
+.player.LCB {
+    bottom: 20%;
+    left: 30%;
+}
+
+.player.CB {
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player.RCB {
+    bottom: 20%;
+    right: 30%;
+}
+
+.player.RB {
+    bottom: 20%;
+    right: 8%;
+}
+
+.player.RWB {
+    bottom: 35%;
+    right: 5%;
+}
+
+/* Defending Midfielder */
+
+.player.LDM {
+    bottom: 35%;
+    left: 30%;
+}
+
+.player.CDM {
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player.RDM {
+    bottom: 35%;
+    right: 30%;
+}
+
+/* Midfielder */
+
+.player.LM {
+    bottom: 50%;
+    left: 8%;
+}
+
+.player.LCM {
+    bottom: 50%;
+    left: 30%;
+}
+
+.player.CM {
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player.RCM {
+    bottom: 50%;
+    right: 30%;
+}
+
+.player.RM {
+    bottom: 50%;
+    right: 8%;
+}
+
+/* Wingers, CAM */
+
+.player.LW {
+    bottom: 65%;
+    left: 10%;
+}
+
+.player.CAM {
+    bottom: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player.RW {
+    bottom: 65%;
+    right: 10%;
+}
+
+/* Strikers */
+
+.player.LS {
+    bottom: 79%;
+    left: 25%;
+}
+
+.player.ST {
+    bottom: 79%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.player.RS {
+    bottom: 79%;
+    right: 25%;
+}
+
+
+/* player list table */
+table {
+    text-align: center;
+}
+table.playerlist img {
+    width: 40px;
+}
+table.playerlist th {
+    padding: 0.3em;
+}
+table.playerlist td {
+    padding: 0.3em;
+}
+
+.team-logo {
+    width: 30px !important;
+}
+
+/* team history stats table */
+.cur-season-line {
+    font-weight: bold;
+}
+
+/* hack for embed video*/
+iframe {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    min-height: 400px;
+}

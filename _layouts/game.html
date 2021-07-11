@@ -1,0 +1,75 @@
+---
+layout: page
+---
+
+<div class="row-game">
+    <div class="column" align="right">
+
+        <img width="70%" src='{{site.baseurl}}/assets/img/{{page.game.home.logo}}'/>
+        <h2>
+            <a href='../../{{page.game.home.key}}'>
+                {{ page.game.home.display_name }}
+            </a>
+        </h2>
+        <br/>
+        <br/>
+
+        {% for event in page.game.home.events %}
+        <p>
+            <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
+            {{event.time}}'  
+            {{event.player}}
+        </p>
+        {% endfor %}
+    </div>
+
+    <div class="column" align="center">
+        <p>{% translate {{ page.game.type | prepend: "games."}} %}</p>
+        <p>{{ page.game.date }}</p>
+        {% if page.game.schedule %}
+        <h2>&nbsp;VS&nbsp;</h2>
+        {% else %}
+        <h2> {{ page.game.home.score }} : {{ page.game.away.score }} </h2>
+        {% endif %}
+        {% if page.game.extra %}
+        <p>{{page.game.extra}}</p>
+        {% endif %}
+    </div>
+
+    <div class="column" align="left">
+        <img width="70%" src='{{site.baseurl}}/assets/img/{{page.game.away.logo}}'/>
+        <h2>
+            <a href='../../{{page.game.away.key}}'>
+                {{ page.game.away.display_name }}
+            </a>
+        </h2>
+        <br/>
+        <br/>
+
+        {% for event in page.game.away.events %}
+        <p>
+            <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
+            {{event.time}}'  
+            {{event.player}}
+        </p>
+        {% endfor %}
+    </div>
+</div>
+
+{% if page.game.video %}
+<div class="row-game">
+    <div class="column" align="center">
+        {{page.game.video | url_decode}}
+    </div>
+</div>
+{% endif %}
+
+{% if page.game.images %}
+<div class="row-game">
+    <div class="column" align="center">
+        {% for url in page.game.images %}
+        <img src="{{site.baseurl}}/assets/img/games/{{url}}" />
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

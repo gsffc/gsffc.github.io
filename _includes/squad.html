@@ -1,0 +1,13 @@
+<div class="football_field">
+  <img src="{{"/assets/img/field.svg" | relative_url }}" />
+
+  {% for player in include.squad %}
+    {% if player.locator != nil %}
+      <div class="player {{player.locator}}">
+          <img src="{{site.baseurl}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
+          <p>{{player.number}} {{player.name}}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+
+</div>

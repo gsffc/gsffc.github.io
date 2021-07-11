@@ -1,0 +1,19 @@
+{
+    "date": "2021-07-17 02:00PM",
+    "type": "#1",
+    "schedule": true,
+    "images": [
+    ],
+    "home": {
+        "key": "CalBlue",
+        "score": 0,
+        "events": [
+        ]
+    },
+    "away": {
+        "key": "ICP",
+        "score": 0,
+        "events": [
+        ]
+    }
+}
