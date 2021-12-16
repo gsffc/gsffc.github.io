@@ -13,12 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: NCCSF
-author: 北加州华人足球联盟
+title: NCCSF北加足球生涯
+author: 狄学长
 # email: sul@sul.com
 description: >- # this means to ignore newlines until "baseurl:"
-  北加州华人足球联盟（Northern California Chinese Soccer Federation, aka NCCSF) 是由旧金山湾区华人球队共同发起成立的, 经美国联邦和加州政府认证的非盈利组织（501c.4 nonprofit organization)。 NCCSF 致力于发展华人社区群众足球运动，提高社区球员/球队数量及足球水平，促进社区球队/球员之间友好交流，从而达到提高足球运动在北加州/北美社区的普及度及增强华人体质的目标。
-  通过参与组织各类有有益社区的足球比赛及活动，NCCSF 力争为北加州华人社区足球队提供良好的后勤保障服务，为成员球队和广大足球爱好者打造一个资源共享的公共平台。
+  NCCSF非官方战报赛果阵容，记录足球生活。战报倾向性取决于作者转会到哪个队踢
 baseurl: "" # the subpath of your site
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh

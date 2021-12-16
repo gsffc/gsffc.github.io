@@ -1,0 +1,20 @@
+{
+    "date": "2021-12-12 06:00PM",
+    "type": "#12",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/mTRaX-T3_E8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/k_9lsXROgHg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "THU",
+        "score": 4,
+        "events": [
+        ]
+    },
+    "away": {
+        "key": "GSF-C",
+        "score": 1,
+        "events": [
+        ]
+    }
+}
