@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: NCCSF北加足球生涯
-author: 狄学长
+title: GSF足球队俱乐部
+author: By 狄学长
 # email: sul@sul.com
 description: >- # this means to ignore newlines until "baseurl:"
-  NCCSF非官方战报赛果阵容，记录足球生活。战报倾向性取决于作者转会到哪个队踢
+  GSF球队网站，记录我们自己的足球文化
 baseurl: "" # the subpath of your site
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh

@@ -1,0 +1,38 @@
+{
+    "date": "2022-02-06 04:00PM",
+    "type": "#1",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/ev0eDzbFqwE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/Q2mYQLHyVV8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/s4A-IZDmTaY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/w60SpgekXx8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/z6g4gZpvuYQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 8, "player": "王金鹏"},
+            {"type": "penalty", "time": 53, "player": "Kevin"},
+            {"type": "goal", "time": 71, "player": "王钊"}
+        ],
+        "squad": [
+            {"name": "王钊", "locator": "GK"}
+            ,{"name": "chen总", "locator": "LB"}
+            ,{"name": "一鸣", "locator": "CB"}
+            ,{"name": "庭朝", "locator": "RB"}
+            ,{"name": "玄宗", "locator": "LM"}
+            ,{"name": "王金鹏", "locator": "LDM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "艾泽杰", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "ST"}
+        ]
+    },
+    "away": {
+        "key": "Hunters",
+        "score": 0,
+        "events": [
+        ],
+        "squad": []
+    }
+}

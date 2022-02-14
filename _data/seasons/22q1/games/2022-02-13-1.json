@@ -1,0 +1,39 @@
+{
+    "date": "2022-02-13 04:00PM",
+    "type": "#2",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 50, "player": "王金鹏"},
+            {"type": "goal", "time": 60, "player": "玄宗"},
+            {"type": "goal", "time": 70, "player": "马超"}
+        ],
+        "squad": [
+            {"name": "王钊", "locator": "GK"}
+            ,{"name": "胡梅尔振", "locator": "LCB"}
+            ,{"name": "KevinL.", "locator": "RCB"}
+            ,{"name": "庭朝", "locator": "RWB"}
+            ,{"name": "狄克", "locator": "LWB"}
+            ,{"name": "王金鹏", "locator": "CM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "马超", "locator": "LDM"}
+            ,{"name": "Kevin", "locator": "ST"}
+        ]
+    },
+    "away": {
+        "key": "EBU",
+        "score": 6,
+        "events": [
+            {"type": "goal", "time": 5, "player": "??"},
+            {"type": "goal", "time": 15, "player": "??"},
+            {"type": "goal", "time": 25, "player": "??"},
+            {"type": "goal", "time": 65, "player": "??"},
+            {"type": "goal", "time": 75, "player": "??"},
+            {"type": "penalty", "time": 80, "player": "??"}
+        ],
+        "squad": []
+    }
+}

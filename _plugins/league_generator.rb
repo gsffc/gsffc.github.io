@@ -408,6 +408,7 @@ module League
                     game['away']['logo'] = away_team['logo']
 
                     game['home']['events'].each do |e|
+                        next if e['player'] == '??'
                         if e['type'] == 'goal' or e['type'] == 'penalty'
                             player = home_team['player_hash'][e['player']]
                             if player == nil
@@ -424,6 +425,7 @@ module League
                     end
 
                     game['away']['events'].each do |e|
+                        next if e['player'] == '??'
                         if e['type'] == 'goal' or e['type'] == 'penalty'
                             player = away_team['player_hash'][e['player']]
                             if player == nil
