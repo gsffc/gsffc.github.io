@@ -14,13 +14,13 @@
         "squad": [
             {"name": "王钊", "locator": "GK"}
             ,{"name": "胡梅尔振", "locator": "LCB"}
-            ,{"name": "KevinL.", "locator": "RCB"}
+            ,{"name": "KevinLiang", "locator": "RCB"}
             ,{"name": "庭朝", "locator": "RWB"}
             ,{"name": "狄克", "locator": "LWB"}
             ,{"name": "王金鹏", "locator": "CM"}
             ,{"name": "杨谱", "locator": "RDM"}
             ,{"name": "马超", "locator": "LDM"}
-            ,{"name": "Kevin", "locator": "ST"}
+            ,{"name": "Kevin", "locator": "CAM"}
         ]
     },
     "away": {
