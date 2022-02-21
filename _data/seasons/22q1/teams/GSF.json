@@ -9,21 +9,21 @@
             {
                 "number": 25,
                 "name": "王钊",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/wangzhao.jpg",
                 "position": "中场",
                 "locator": "GK"
             }
             ,{
                 "number": 91,
                 "name": "王金鹏",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/wangjinpeng.jpg",
                 "position": "中场",
                 "locator": "CM"
             }
             ,{
                 "number": 35,
                 "name": "Kevin",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/kevin.jpg",
                 "position": "前锋",
                 "locator": "RS"
             }
@@ -44,21 +44,21 @@
             ,{
                 "number": 99,
                 "name": "玄宗",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/xuan.jpg",
                 "position": "中场",
                 "locator": "LM"
             }
             ,{
                 "number": 18,
                 "name": "杨谱",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/yangpu.jpg",
                 "position": "中场",
                 "locator": "RM"
             }
             ,{
                 "number": 16,
                 "name": "杜若衡",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/duruoheng.jpg",
                 "position": "中场",
                 "locator": "LCM"
             }
@@ -72,7 +72,7 @@
             ,{
                 "number": 6,
                 "name": "Ted",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/ted.jpg",
                 "position": "中场",
                 "locator": "LCM"
             }
@@ -86,63 +86,63 @@
             ,{
                 "number": 55,
                 "name": "狄克",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/di.jpg",
                 "position": "后卫",
                 "locator": "LWB"
             }
             ,{
                 "number": 17,
                 "name": "Evan",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/evan.jpg",
                 "position": "后卫",
                 "locator": "RCB"
             }
             ,{
                 "number": 37,
                 "name": "庭朝",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/tingzhao.jpg",
                 "position": "后卫",
                 "locator": "RB"
             }
             ,{
                 "number": 19,
                 "name": "Alpha",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/alpha.jpg",
                 "position": "后卫",
                 "locator": "RB"
             }
             ,{
                 "number": 5,
                 "name": "chen总",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/chenzong.jpg",
                 "position": "后卫",
                 "locator": "RB"
             }
             ,{
                 "number": 25,
                 "name": "胡梅尔振",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/humeierzhen.jpg",
                 "position": "后卫",
                 "locator": "RB"
             }
             ,{
                 "number": 30,
                 "name": "KevinLiang",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/kevinliang.jpg",
                 "position": "后卫",
                 "locator": "RB"
             }
             ,{
                 "number": 15,
                 "name": "张一宁",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/zhangyining.jpg",
                 "position": "前锋",
                 "locator": "ST"
             }
             ,{
                 "number": 2,
                 "name": "杨帆",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/yangfan.jpg",
                 "position": "前锋",
                 "locator": "LS"
             }
@@ -156,7 +156,7 @@
             ,{
                 "number": 29,
                 "name": "东林",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/donglin.jpg",
                 "position": "中场",
                 "locator": "RM"
             }
