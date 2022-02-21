@@ -134,7 +134,7 @@
             }
             ,{
                 "number": 15,
-                "name": "一宁",
+                "name": "张一宁",
                 "img": "placeholder-player.jpg",
                 "position": "前锋",
                 "locator": "ST"
@@ -152,6 +152,13 @@
                 "img": "placeholder-player.jpg",
                 "position": "门将",
                 "locator": "GK"
+            }
+            ,{
+                "number": 29,
+                "name": "东林",
+                "img": "placeholder-player.jpg",
+                "position": "中场",
+                "locator": "RM"
             }
         ]
     }

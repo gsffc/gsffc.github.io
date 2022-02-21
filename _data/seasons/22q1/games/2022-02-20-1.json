@@ -7,7 +7,39 @@
         "key": "GSF",
         "score": 1,
         "events": [
-            {"type": "goal", "time": 79, "player": "Kevin"}
+            {"type": "off", "time": 21, "player": "杨帆"}
+            ,{"type": "sub", "time": 21, "player": "东林"}
+            ,{"type": "off", "time": 24, "player": "王金鹏"}
+            ,{"type": "sub", "time": 24, "player": "狄克"}
+            ,{"type": "off", "time": 34, "player": "狄克"}
+            ,{"type": "sub", "time": 34, "player": "王金鹏"}
+            ,{"type": "off", "time": 40, "player": "东林"}
+            ,{"type": "sub", "time": 40, "player": "杨帆"}
+            ,{"type": "off", "time": 40, "player": "杜若衡"}
+            ,{"type": "sub", "time": 40, "player": "狄克"}
+            ,{"type": "off", "time": 43, "player": "张一宁"}
+            ,{"type": "sub", "time": 43, "player": "东林"}
+            ,{"type": "off", "time": 55, "player": "一鸣"}
+            ,{"type": "sub", "time": 55, "player": "Kevin"}
+            ,{"type": "off", "time": 60, "player": "狄克"}
+            ,{"type": "sub", "time": 60, "player": "Ted"}
+            ,{"type": "off", "time": 65, "player": "杨帆"}
+            ,{"type": "sub", "time": 65, "player": "张一宁"}
+            ,{"type": "off", "time": 70, "player": "王金鹏"}
+            ,{"type": "sub", "time": 70, "player": "狄克"}
+            ,{"type": "off", "time": 77, "player": "杜若衡"}
+            ,{"type": "sub", "time": 77, "player": "王金鹏"}
+            ,{"type": "goal", "time": 79, "player": "Kevin"}
+            ,{"type": "off", "time": 80, "player": "haolan"}
+            ,{"type": "sub", "time": 80, "player": "Kevin"}
+            ,{"type": "off", "time": 87, "player": "狄克"}
+            ,{"type": "sub", "time": 87, "player": "杨帆"}
+            ,{"type": "off", "time": 89, "player": "Ted"}
+            ,{"type": "sub", "time": 89, "player": "狄克"}
+            ,{"type": "off", "time": 89, "player": "张一宁"}
+            ,{"type": "sub", "time": 89, "player": "Kevin"}
+            
+            ,{}
         ],
         "squad": [
             {"name": "小丁", "locator": "GK"}
@@ -17,7 +49,7 @@
             ,{"name": "杨帆", "locator": "LM"}
             ,{"name": "王钊", "locator": "LDM"}
             ,{"name": "杜若衡", "locator": "RDM"}
-            ,{"name": "一宁", "locator": "RM"}
+            ,{"name": "张一宁", "locator": "RM"}
             ,{"name": "王金鹏", "locator": "CAM"}
         ]
     },
