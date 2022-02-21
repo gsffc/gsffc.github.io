@@ -38,8 +38,6 @@
             ,{"type": "sub", "time": 89, "player": "狄克"}
             ,{"type": "off", "time": 89, "player": "张一宁"}
             ,{"type": "sub", "time": 89, "player": "Kevin"}
-            
-            ,{}
         ],
         "squad": [
             {"name": "小丁", "locator": "GK"}
