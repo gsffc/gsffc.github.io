@@ -1,0 +1,33 @@
+{
+    "date": "2022-02-20 04:00PM",
+    "type": "#3",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 79, "player": "Kevin"}
+        ],
+        "squad": [
+            {"name": "小丁", "locator": "GK"}
+            ,{"name": "杨谱", "locator": "LB"}
+            ,{"name": "一鸣", "locator": "CB"}
+            ,{"name": "Ted", "locator": "RB"}
+            ,{"name": "杨帆", "locator": "LM"}
+            ,{"name": "王钊", "locator": "LDM"}
+            ,{"name": "杜若衡", "locator": "RDM"}
+            ,{"name": "一宁", "locator": "RM"}
+            ,{"name": "王金鹏", "locator": "CAM"}
+        ]
+    },
+    "away": {
+        "key": "CalBlue",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 25, "player": "??"},
+            {"type": "goal", "time": 46, "player": "??"}
+        ],
+        "squad": []
+    }
+}

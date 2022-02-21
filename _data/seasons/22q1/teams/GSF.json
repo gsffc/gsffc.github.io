@@ -42,7 +42,7 @@
                 "locator": "RM"
             }
             ,{
-                "number": 15,
+                "number": 99,
                 "name": "玄宗",
                 "img": "placeholder-player.jpg",
                 "position": "中场",
@@ -77,7 +77,7 @@
                 "locator": "LCM"
             }
             ,{
-                "number": 55,
+                "number": 4,
                 "name": "一鸣",
                 "img": "placeholder-player.jpg",
                 "position": "后卫",
@@ -119,18 +119,39 @@
                 "locator": "RB"
             }
             ,{
-                "number": 4,
+                "number": 25,
                 "name": "胡梅尔振",
                 "img": "placeholder-player.jpg",
                 "position": "后卫",
                 "locator": "RB"
             }
             ,{
-                "number": 3,
+                "number": 30,
                 "name": "KevinLiang",
                 "img": "placeholder-player.jpg",
                 "position": "后卫",
                 "locator": "RB"
+            }
+            ,{
+                "number": 15,
+                "name": "一宁",
+                "img": "placeholder-player.jpg",
+                "position": "前锋",
+                "locator": "ST"
+            }
+            ,{
+                "number": 2,
+                "name": "杨帆",
+                "img": "placeholder-player.jpg",
+                "position": "前锋",
+                "locator": "LS"
+            }
+            ,{
+                "number": 1,
+                "name": "小丁",
+                "img": "placeholder-player.jpg",
+                "position": "门将",
+                "locator": "GK"
             }
         ]
     }
