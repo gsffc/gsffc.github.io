@@ -1,0 +1,33 @@
+{
+    "date": "2022-02-27 04:00PM",
+    "type": "#4",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 30, "player": "王金鹏"}
+        ],
+        "squad": [
+            {"name": "王钊", "locator": "GK"}
+            ,{"name": "狄克", "locator": "LB"}
+            ,{"name": "Marshall", "locator": "CB"}
+            ,{"name": "张谌", "locator": "RB"}
+            ,{"name": "马超", "locator": "LM"}
+            ,{"name": "王金鹏", "locator": "LDM"}
+            ,{"name": "黄中焱", "locator": "RDM"}
+            ,{"name": "张昀", "locator": "RM"}
+            ,{"name": "haolan", "locator": "CAM"}
+        ]
+    },
+    "away": {
+        "key": "DeepSoccer",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 61, "player": "??"},
+            {"type": "goal", "time": 70, "player": "??"}
+        ],
+        "squad": []
+    }
+}

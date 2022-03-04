@@ -113,7 +113,7 @@
             }
             ,{
                 "number": 5,
-                "name": "chen总",
+                "name": "张谌",
                 "img": "teams/GSF/chenzong.jpg",
                 "position": "后卫",
                 "locator": "RB"
@@ -157,6 +157,27 @@
                 "number": 29,
                 "name": "东林",
                 "img": "teams/GSF/donglin.jpg",
+                "position": "中场",
+                "locator": "RM"
+            }
+            ,{
+                "number": 98,
+                "name": "Marshall",
+                "img": "placeholder-player.jpg",
+                "position": "后卫",
+                "locator": "CB"
+            }
+            ,{
+                "number": 97,
+                "name": "张昀",
+                "img": "placeholder-player.jpg",
+                "position": "中场",
+                "locator": "RM"
+            }
+            ,{
+                "number": 96,
+                "name": "黄中焱",
+                "img": "placeholder-player.jpg",
                 "position": "中场",
                 "locator": "RM"
             }
