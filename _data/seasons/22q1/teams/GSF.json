@@ -181,6 +181,20 @@
                 "position": "中场",
                 "locator": "RM"
             }
+            ,{
+                "number": 95,
+                "name": "彭亮",
+                "img": "placeholder-player.jpg",
+                "position": "中场",
+                "locator": "RM"
+            }
+            ,{
+                "number": 80,
+                "name": "老许",
+                "img": "placeholder-player.jpg",
+                "position": "中场",
+                "locator": "RM"
+            }
         ]
     }
 }

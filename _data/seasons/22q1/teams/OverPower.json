@@ -6,6 +6,13 @@
         "starting": [
         ],
         "subs": [
+            {
+                "number": 99,
+                "name": "玄宗（租借）",
+                "img": "teams/GSF/xuan.jpg",
+                "position": "中场",
+                "locator": "LM"
+            }
         ]
     }
 }
