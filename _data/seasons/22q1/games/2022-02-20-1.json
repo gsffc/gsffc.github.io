@@ -46,7 +46,7 @@
             ,{"type": "sub", "time": 89, "player": "Kevin"}
         ],
         "squad": [
-            {"name": "小丁", "locator": "GK"}
+            {"name": "小丁（租借）", "locator": "GK"}
             ,{"name": "杨谱", "locator": "LB"}
             ,{"name": "一鸣", "locator": "CB"}
             ,{"name": "Ted", "locator": "RB"}

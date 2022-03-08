@@ -7,7 +7,7 @@
         "key": "GSF",
         "score": 4,
         "events": [
-            {"type": "owngoal", "time": 5, "player": "（乌龙，杨帆助攻）"}
+            {"type": "owngoal", "time": 5, "player": "（乌龙，助攻：张一宁）"}
             ,{"type": "goal", "time": 8, "player": "杨帆"}
             ,{"type": "goal", "time": 25, "player": "马超"}
             ,{"type": "goal", "time": 30, "player": "狄克"}
@@ -16,7 +16,7 @@
             {"name": "王钊", "locator": "GK"}
             ,{"name": "Ted", "locator": "LB"}
             ,{"name": "Marshall", "locator": "CB"}
-            ,{"name": "庭朝", "locator": "RB"}
+            ,{"name": "彭亮", "locator": "RB"}
             ,{"name": "老于", "locator": "LM"}
             ,{"name": "王金鹏", "locator": "LDM"}
             ,{"name": "黄中焱", "locator": "RDM"}
