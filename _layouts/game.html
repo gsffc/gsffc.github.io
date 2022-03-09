@@ -19,6 +19,13 @@ layout: page
             <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
             {{event.time}}'  
             {{event.player}}
+            {% if event.assist %}
+                <img width="30px" src="{{site.baseurl}}/assets/img/icon/assist.png" />
+                {{event.assist}}
+                {% elsif event.sub %}
+                <img width="30px" src="{{site.baseurl}}/assets/img/icon/sub.png" />
+                {{event.sub}}
+            {% endif %}
         </p>
         {% endfor %}
     </div>

@@ -10,10 +10,10 @@
         "key": "GSF",
         "score": 4,
         "events": [
-            {"type": "owngoal", "time": 5, "player": "（乌龙，助攻：张一宁）"}
-            ,{"type": "goal", "time": 8, "player": "杨帆"}
+            {"type": "owngoal", "time": 5, "player": "（乌龙）", "assist": "张一宁"}
+            ,{"type": "goal", "time": 8, "player": "杨帆", "assist": "老于"}
             ,{"type": "goal", "time": 25, "player": "马超"}
-            ,{"type": "goal", "time": 30, "player": "狄克"}
+            ,{"type": "goal", "time": 30, "player": "狄克", "assist": "彭亮"}
         ],
         "squad": [
             {"name": "王钊", "locator": "GK"}
