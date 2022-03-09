@@ -62,6 +62,11 @@
     width: 50%;
 }
 
+.player.sub {
+    position:static !important;
+    float: left;
+}
+
 .team-page-squad .player p {
     text-align: center;
     font-size: 12px;
