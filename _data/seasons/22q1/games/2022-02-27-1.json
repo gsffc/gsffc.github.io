@@ -20,6 +20,13 @@
             ,{"name": "张昀", "locator": "RM"}
             ,{"name": "haolan", "locator": "CAM"}
         ]
+        ,"bench": [
+            {"name": "杨帆"}
+            ,{"name": "Kevin"}
+            ,{"name": "Ted"}
+            ,{"name": "庭朝"}
+            ,{"name": "杨谱"}
+        ]
     },
     "away": {
         "key": "DeepSoccer",

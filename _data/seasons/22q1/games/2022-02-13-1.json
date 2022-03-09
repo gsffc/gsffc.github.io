@@ -26,6 +26,14 @@
             ,{"name": "马超", "locator": "LDM"}
             ,{"name": "Kevin", "locator": "CAM"}
         ]
+        ,"bench": [
+            {"name": "haolan"}
+            ,{"name": "Alpha"}
+            ,{"name": "Evan"}
+            ,{"name": "玄宗"}
+            ,{"name": "杨帆"}
+            ,{"name": "杜若恒"}
+        ]
     },
     "away": {
         "key": "EBU",

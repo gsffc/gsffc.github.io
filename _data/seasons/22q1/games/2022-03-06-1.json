@@ -26,6 +26,13 @@
             ,{"name": "张一宁", "locator": "RM"}
             ,{"name": "杨帆", "locator": "CAM"}
         ]
+        ,"bench": [
+            {"name": "狄克"}
+            ,{"name": "庭朝"}
+            ,{"name": "Kevin"}
+            ,{"name": "马超"}
+            ,{"name": "杜若恒"}
+        ]
     },
     "away": {
         "key": "OverPower",
