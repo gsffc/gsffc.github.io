@@ -1,0 +1,38 @@
+{
+    "date": "2022-03-13 06:00PM",
+    "type": "#6",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 1,
+        "events": [
+            {"type": "owngoal", "time": 10, "player": "（乌龙）"}
+        ],
+        "squad": [
+            {"name": "马超", "locator": "GK"}
+            ,{"name": "Jingzhi（租借）", "locator": "LB"}
+            ,{"name": "王金鹏", "locator": "CB"}
+            ,{"name": "KevinLiang", "locator": "RB"}
+            ,{"name": "Jingkun（租借）", "locator": "LM"}
+            ,{"name": "王钊", "locator": "LDM"}
+            ,{"name": "黄中焱", "locator": "RDM"}
+            ,{"name": "狄克", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+        ]
+    },
+    "away": {
+        "key": "SouthBay",
+        "score": 5,
+        "events": [
+            {"type": "goal", "time": 20, "player": "??"}
+            ,{"type": "goal", "time": 40, "player": "??"}
+            ,{"type": "goal", "time": 50, "player": "??"}
+            ,{"type": "goal", "time": 70, "player": "??"}
+            ,{"type": "owngoal", "time": 80, "player": "狄克"}
+        ],
+        "squad": []
+    }
+}
