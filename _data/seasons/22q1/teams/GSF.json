@@ -224,6 +224,13 @@
                 "locator": "RM"
             }
             ,{
+                "number": 85,
+                "name": "Leo",
+                "img": "placeholder-player.jpg",
+                "position": "中场",
+                "locator": "RM"
+            }
+            ,{
                 "number": 71,
                 "name": "Jingzhi（租借）",
                 "img": "placeholder-player.jpg",
