@@ -1,0 +1,46 @@
+{
+    "date": "2022-03-20 06:00PM",
+    "type": "#7",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 10, "player": "Kevin", "assist": "王琛"}
+            ,{"type": "goal", "time": 20, "player": "Kevin"}
+        ],
+        "squad": [
+            {"name": "Marco", "locator": "GK"}
+            ,{"name": "Ted", "locator": "LB"}
+            ,{"name": "Evan", "locator": "CB"}
+            ,{"name": "杨谱", "locator": "RB"}
+            ,{"name": "王琛", "locator": "LM"}
+            ,{"name": "王金鹏", "locator": "CM"}
+            ,{"name": "黄中焱", "locator": "CDM"}
+            ,{"name": "杜若衡", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "杨帆"}
+            ,{"name": "玄宗"}
+            ,{"name": "Colin"}
+            ,{"name": "Leo"}
+            ,{"name": "Bruce"}
+            ,{"name": "KevinLiang"}
+        ]
+    },
+    "away": {
+        "key": "WU",
+        "score": 6,
+        "events": [
+            {"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 40, "player": "??"}
+            ,{"type": "goal", "time": 50, "player": "??"}
+            ,{"type": "goal", "time": 60, "player": "??"}
+            ,{"type": "goal", "time": 70, "player": "??"}
+            ,{"type": "goal", "time": 80, "player": "??"}
+        ],
+        "squad": []
+    }
+}
