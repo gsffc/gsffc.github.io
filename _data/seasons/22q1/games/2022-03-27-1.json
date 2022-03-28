@@ -1,0 +1,40 @@
+{
+    "date": "2022-03-27 04:00PM",
+    "type": "#8",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "Alan", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "Evan", "locator": "CB"}
+            ,{"name": "张谌", "locator": "RB"}
+            ,{"name": "Ted", "locator": "LM"}
+            ,{"name": "王金鹏", "locator": "LDM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "Han", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "狄克"}
+            ,{"name": "小白（租借）"}
+        ]
+    },
+    "away": {
+        "key": "THU",
+        "score": 6,
+        "events": [
+            {"type": "goal", "time": 10, "player": "??"}
+            ,{"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 70, "player": "??"}
+            ,{"type": "owngoal", "time": 80, "player": "杨谱"}
+            ,{"type": "goal", "time": 85, "player": "??"}
+            ,{"type": "goal", "time": 90, "player": "??"}
+        ],
+        "squad": []
+    }
+}
