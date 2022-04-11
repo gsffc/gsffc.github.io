@@ -1,0 +1,44 @@
+{
+    "date": "2022-04-10 04:00PM",
+    "type": "#10",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 40, "player": "王金鹏", "assist": "杨谱"}
+            ,{"type": "goal", "time": 60, "player": "Ivan（外援）", "assist": "黄中焱"}
+        ],
+        "squad": [
+            {"name": "小丁（租借）", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "Evan", "locator": "CB"}
+            ,{"name": "孟祥宇", "locator": "RB"}
+            ,{"name": "黄中焱", "locator": "LM"}
+            ,{"name": "王金鹏", "locator": "LDM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "刘喆", "locator": "RM"}
+            ,{"name": "吴俊", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Kevin"}
+            ,{"name": "王钊"}
+            ,{"name": "Alan"}
+            ,{"name": "Ivan（外援）"}
+            ,{"name": "元健"}
+            ,{"name": "Leo"}
+        ]
+    },
+    "away": {
+        "key": "ICP",
+        "score":4,
+        "events": [
+            {"type": "goal", "time": 65, "player": "??"}
+            ,{"type": "penalty", "time": 70, "player": "??"}
+            ,{"type": "goal", "time": 80, "player": "??"}
+            ,{"type": "goal", "time": 90, "player": "??"}
+        ],
+        "squad": []
+    }
+}

@@ -249,12 +249,6 @@
                 "position": "中场"
             }
             ,{
-                "number": 73,
-                "name": "小白（租借）",
-                "img": "placeholder-player.jpg",
-                "position": "中场"
-            }
-            ,{
                 "number": 1,
                 "name": "Alan",
                 "img": "placeholder-player.jpg",
@@ -263,6 +257,36 @@
             ,{
                 "number": 3,
                 "name": "Han",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 61,
+                "name": "刘喆",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 9,
+                "name": "吴俊",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 62,
+                "name": "孟祥宇",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 63,
+                "name": "Ivan（外援）",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 64,
+                "name": "元健",
                 "img": "placeholder-player.jpg",
                 "position": "中场"
             }
