@@ -1,0 +1,36 @@
+{
+    "date": "2022-07-17 02:00PM",
+    "type": "#2",
+    "schedule": true, 
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/wDIlQnrIDl0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "张稞雨", "locator": "RCB"}
+            ,{"name": "文韬", "locator": "LM"}
+            ,{"name": "杜若衡", "locator": "CDM"}
+            ,{"name": "玄宗", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Ted"}
+            ,{"name": "锡麟"}
+            ,{"name": "元健"}
+            ,{"name": "李峰"}
+        ]
+    },
+    "away": {
+        "key": "HIT",
+        "score": 0,
+        "events": [
+        ],
+        "squad": []
+    }
+}

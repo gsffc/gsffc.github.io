@@ -1,0 +1,43 @@
+{
+    "date": "2022-07-16 04:00PM",
+    "type": "#1",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/wDIlQnrIDl0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 17, "player": "狄克", "assist": "杨帆"}
+            ,{"type": "penalty", "time": 49, "player": "狄克"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "张自然", "locator": "RCB"}
+            ,{"name": "王政", "locator": "LM"}
+            ,{"name": "张一宁", "locator": "CDM"}
+            ,{"name": "狄克", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Ted"}
+            ,{"name": "庭朝"}
+            ,{"name": "杨帆"}
+            ,{"name": "玄宗"}
+            ,{"name": "杜若衡"}
+            ,{"name": "文韬"}
+            ,{"name": "刘喆"}
+            ,{"name": "Max"}
+            ,{"name": "李峰"}
+        ]
+    },
+    "away": {
+        "key": "CMU",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 90, "player": "??"}
+        ],
+        "squad": []
+    }
+}
