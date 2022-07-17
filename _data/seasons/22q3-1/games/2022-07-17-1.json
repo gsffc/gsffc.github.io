@@ -1,14 +1,14 @@
 {
     "date": "2022-07-17 02:00PM",
     "type": "#2",
-    "schedule": true, 
     "videos": [
-        "<iframe src=\"https://www.youtube.com/embed/wDIlQnrIDl0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF",
-        "score": 0,
+        "score": 2,
         "events": [
+            {"type": "goal", "time": 30, "player": "Kevin", "assist": "杨帆"}
+            ,{"type": "goal", "time": 70, "player": "元健", "assist": "玄宗"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -21,15 +21,20 @@
         ]
         ,"bench": [
             {"name": "Ted"}
+            ,{"name": "杨帆"}
             ,{"name": "锡麟"}
             ,{"name": "元健"}
             ,{"name": "李峰"}
+            ,{"name": "王政"}
+            ,{"name": "老韩"}
+            ,{"name": "张自然"}
         ]
     },
     "away": {
         "key": "HIT",
-        "score": 0,
+        "score": 1,
         "events": [
+            {"type": "goal", "time": 50, "player": "??"}
         ],
         "squad": []
     }
