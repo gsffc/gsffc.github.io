@@ -5,13 +5,13 @@
     ],
     "home": {
         "key": "NJU",
-        "score": 1,
+        "score": 4,
         "events": [
         ]
     },
     "away": {
         "key": "HIT",
-        "score": 4,
+        "score": 1,
         "events": [
         ]
     }
