@@ -42,7 +42,7 @@
                 "locator": "RM"
             }
             ,{
-                "number": 99,
+                "number": 9,
                 "name": "玄宗",
                 "img": "teams/GSF/xuan.jpg",
                 "position": "中场",
@@ -163,7 +163,7 @@
             ,{
                 "number": 19,
                 "name": "Marshall",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/marshall.jpg",
                 "position": "后卫",
                 "locator": "CB"
             }
@@ -177,7 +177,7 @@
             ,{
                 "number": 96,
                 "name": "黄中焱",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/huangzhongyuan.jpg",
                 "position": "中场",
                 "locator": "RM"
             }
@@ -261,13 +261,13 @@
                 "position": "中场"
             }
             ,{
-                "number": 61,
+                "number": 21,
                 "name": "刘喆",
                 "img": "teams/GSF/liuzhe.jpg",
                 "position": "中场"
             }
             ,{
-                "number": 9,
+                "number": 99,
                 "name": "吴俊",
                 "img": "placeholder-player.jpg",
                 "position": "中场"
