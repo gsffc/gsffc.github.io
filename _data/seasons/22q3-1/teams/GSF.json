@@ -266,7 +266,7 @@
             ,{
                 "number": 68,
                 "name": "王政",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/wangzhen.jpg",
                 "position": "中场"
             }
             ,{
@@ -303,6 +303,12 @@
                 "number": 36,
                 "name": "宁广涵",
                 "img": "teams/GSF/ningguanghan.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 97,
+                "name": "胡智宇",
+                "img": "placeholder-player.jpg",
                 "position": "中场"
             }
         ]

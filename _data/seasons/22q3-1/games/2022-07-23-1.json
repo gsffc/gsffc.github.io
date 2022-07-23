@@ -1,0 +1,45 @@
+{
+    "date": "2022-07-23 10:00AM",
+    "type": "#3",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 20, "player": "Kevin", "assist": "玄宗"}
+            ,{"type": "owngoal", "time": 80, "player": "（乌龙）", "assist": "李峰"}
+            ,{"type": "goal", "time": 90, "player": "玄宗", "assist": "狄克"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "张自然", "locator": "RCB"}
+            ,{"name": "王政", "locator": "LM"}
+            ,{"name": "张一宁", "locator": "CDM"}
+            ,{"name": "玄宗", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Ted"}
+            ,{"name": "庭朝"}
+            ,{"name": "杨帆"}
+            ,{"name": "元健"}
+            ,{"name": "胡智宇"}
+            ,{"name": "文韬"}
+            ,{"name": "刘喆"}
+            ,{"name": "Alpha"}
+            ,{"name": "李峰"}
+            ,{"name": "王琛"}
+        ]
+    },
+    "away": {
+        "key": "Knight",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 10, "player": "??"},
+            {"type": "penalty", "time": 30, "player": "??"}
+        ],
+        "squad": []
+    }
+}
