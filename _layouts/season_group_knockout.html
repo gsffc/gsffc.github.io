@@ -11,10 +11,10 @@ layout: default
 {% include team_link.html team=page.winner %}
 {% endif %}
 
+{% if page.knockout_array != nil %}
 <div class="row">&nbsp;</div>
-
 <h3>{% translate knockout_stage %}</h3>
-
+{% endif %}
 
 <div class="tournament">
 {% for round in page.knockout_array  %}

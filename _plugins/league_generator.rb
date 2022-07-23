@@ -243,49 +243,50 @@ module League
 
             knockout_stage = config['knockout_stage']
             # puts knockout_stage
-            
-            if config['display_name'] != nil
-                self.data['display_name'] = config['display_name']
-            end
 
-            # knock out stage
-
-            # make it in correct order
-            # self.data['knockout_teams']
-            knockout_array = Array.new(knockout_stage.length)
-
-            # puts knockout_stage.length
-
-            for i in 0..(knockout_stage.length-1)
-                round = knockout_stage[i]
-                round_array = Array.new(round.length)
-
-                for j in 0..(round.length-1)
-                    game = round[j]
-                    game_array = Array.new(3)
-                    
-                    # there's team info in game
-                    # but we still write team info
-                    # because we display versus before game happens
-                    game_array[0] = team_hash[game[0]]
-                    game_array[1] = team_hash[game[1]]
-                    game_array[2] = [game[2], games_hash[game[2]]]
-
-                    round_array[j] = game_array
+            if (knockout_stage != nil)
+                if config['display_name'] != nil
+                    self.data['display_name'] = config['display_name']
                 end
 
-                knockout_array[i] = round_array
+                # knock out stage
 
-                # puts knockout_array[i]
-                # puts team_hash[round[0]]
-                # puts team_hash['613111']
+                # make it in correct order
+                # self.data['knockout_teams']
+                knockout_array = Array.new(knockout_stage.length)
+
+                # puts knockout_stage.length
+
+                for i in 0..(knockout_stage.length-1)
+                    round = knockout_stage[i]
+                    round_array = Array.new(round.length)
+
+                    for j in 0..(round.length-1)
+                        game = round[j]
+                        game_array = Array.new(3)
+                        
+                        # there's team info in game
+                        # but we still write team info
+                        # because we display versus before game happens
+                        game_array[0] = team_hash[game[0]]
+                        game_array[1] = team_hash[game[1]]
+                        game_array[2] = [game[2], games_hash[game[2]]]
+
+                        round_array[j] = game_array
+                    end
+
+                    knockout_array[i] = round_array
+
+                    # puts knockout_array[i]
+                    # puts team_hash[round[0]]
+                    # puts team_hash['613111']
+                end
+
+                # puts knockout_array
+
+                self.data['knockout_array'] = knockout_array
+                self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
             end
-
-            # puts knockout_array
-
-            self.data['knockout_array'] = knockout_array
-            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
-
 
             # group stage
 
