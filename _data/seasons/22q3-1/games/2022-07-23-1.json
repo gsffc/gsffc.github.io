@@ -36,7 +36,7 @@
         ]
     },
     "away": {
-        "key": "Knight",
+        "key": "SouthBay",
         "score": 2,
         "events": [
             {"type": "goal", "time": 11, "player": "??"},
