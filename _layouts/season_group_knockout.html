@@ -66,6 +66,7 @@ layout: default
 <table class="block">
   <thead>
     <tr>
+      <th></th>
       <th>{{group_key}}</th>
       <th>{% translate table.played %}</th>
       <th>{% translate table.win %}</th>
@@ -80,6 +81,7 @@ layout: default
   <tbody>
     {% for team in group[1] %}
     <tr>
+      <td>{{ forloop.index }}</td>
       <td>
         {% include team_link.html team=team %}
       </td>
