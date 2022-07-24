@@ -7,7 +7,7 @@
         ],
         "subs": [
             {
-                "number": 1,
+                "number": 33,
                 "name": "锡麟",
                 "img": "teams/GSF/xilin.jpg",
                 "position": "门将",
@@ -183,7 +183,7 @@
             ,{
                 "number": 81,
                 "name": "王琛",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/wangchen.jpg",
                 "position": "中场",
                 "locator": "RM"
             }
@@ -272,13 +272,13 @@
             ,{
                 "number": 10,
                 "name": "Max",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/max.jpg",
                 "position": "前锋"
             }
             ,{
                 "number": 11,
                 "name": "李峰",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/lifeng.jpg",
                 "position": "前锋"
             }
             ,{
@@ -288,7 +288,7 @@
                 "position": "前锋"
             }
             ,{
-                "number": 50,
+                "number": 21,
                 "name": "刘洪泽",
                 "img": "teams/GSF/hongze.jpg",
                 "position": "后卫"
@@ -308,7 +308,7 @@
             ,{
                 "number": 97,
                 "name": "胡智宇",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/huzhiyu.jpg",
                 "position": "中场"
             }
         ]
