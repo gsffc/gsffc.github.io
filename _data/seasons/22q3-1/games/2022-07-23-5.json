@@ -38,7 +38,7 @@
         "key": "BIT",
         "score": 0,
         "events": [
-            {"type": "red", "time": 50, "player": "??"}
+            {"type": "yellow", "time": 50, "player": "??"}
         ],
         "squad": []
     }
