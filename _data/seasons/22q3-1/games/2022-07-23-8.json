@@ -1,0 +1,18 @@
+{
+    "date": "2022-07-23 04:00PM",
+    "type": "group#4",
+    "videos": [
+    ],
+    "home": {
+        "key": "CMU",
+        "score": 2,
+        "events": [
+        ]
+    },
+    "away": {
+        "key": "UF",
+        "score": 1,
+        "events": [
+        ]
+    }
+}

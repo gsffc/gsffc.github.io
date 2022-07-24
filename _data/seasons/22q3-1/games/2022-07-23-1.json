@@ -2,13 +2,14 @@
     "date": "2022-07-23 10:00AM",
     "type": "group#3",
     "videos": [
+        "<a href=\"https://app.veo.co/matches/20220723-knights-vs-gsf/\"><img src=\"/assets/img/games/sbk-screenshot.jpg\"></img></a>"
     ],
     "home": {
         "key": "GSF",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 20, "player": "Kevin", "assist": "玄宗"}
-            ,{"type": "owngoal", "time": 80, "player": "（乌龙）", "assist": "李峰"}
+            {"type": "goal", "time": 17, "player": "Kevin", "assist": "玄宗"}
+            ,{"type": "goal", "time": 67, "player": "李峰", "assist": "玄宗"}
             ,{"type": "goal", "time": 90, "player": "玄宗", "assist": "狄克"}
         ],
         "squad": [
@@ -38,8 +39,8 @@
         "key": "Knight",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 10, "player": "??"},
-            {"type": "penalty", "time": 30, "player": "??"}
+            {"type": "goal", "time": 11, "player": "??"},
+            {"type": "penalty", "time": 36, "player": "??"}
         ],
         "squad": []
     }
