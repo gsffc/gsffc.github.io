@@ -30,6 +30,8 @@ categories: news
 {% assign g = site.data.seasons[page.season_key].games[gk] %}
 {% include game_lines.md game_key=gk game=g season_key=page.season_key %}
 
+![](/assets/img/news/first-champion/cup.jpg)
+
 ![](/assets/img/news/first-champion/mmexport1658631983170.jpg)
 
 ![](/assets/img/news/first-champion/mmexport1658631991497.jpg)
