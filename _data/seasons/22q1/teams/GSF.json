@@ -210,7 +210,7 @@
                 "locator": "RM"
             }
             ,{
-                "number": 83,
+                "number": 5,
                 "name": "Colin",
                 "img": "teams/GSF/colin.jpg",
                 "position": "中场",
@@ -261,7 +261,7 @@
                 "position": "中场"
             }
             ,{
-                "number": 21,
+                "number": 20,
                 "name": "刘喆",
                 "img": "teams/GSF/liuzhe.jpg",
                 "position": "中场"
