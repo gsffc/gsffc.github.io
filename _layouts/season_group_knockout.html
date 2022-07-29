@@ -9,12 +9,12 @@ layout: default
 {% if page.winner != nil and page.winner != "" %}
 <h3>🏆 {% translate champion %}</h3>
 {% include team_link.html team=page.winner %}
+<div class="row">&nbsp;</div>
 {% endif %}
 
 {% if page.knockout_array != nil %}
 <div class="row">&nbsp;</div>
 <h3>{% translate knockout_stage %}</h3>
-{% endif %}
 
 <div class="tournament">
 {% for round in page.knockout_array  %}
@@ -56,6 +56,7 @@ layout: default
 {% endif %}
 </ul>
 </div>
+{% endif %}
 
 {% if page.group_tables != nil %}
 

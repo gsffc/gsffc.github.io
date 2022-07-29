@@ -285,8 +285,9 @@ module League
                 # puts knockout_array
 
                 self.data['knockout_array'] = knockout_array
-                self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
             end
+
+            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
 
             # group stage
 
