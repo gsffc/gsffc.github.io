@@ -1,0 +1,11 @@
+{
+    "display_name": "SouthBay FC",
+    "description": "SOUTHBAY FC是由主要集中在湾区南部地区的华人于2006年组建的业余足球俱乐部。ONE TEAM, ONE FAMILY!",
+    "logo": "teams/SouthBay/logo.png",
+    "players": {
+        "starting": [
+        ],
+        "subs": [
+        ]
+    }
+}

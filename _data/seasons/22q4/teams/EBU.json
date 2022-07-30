@@ -1,0 +1,11 @@
+{
+    "display_name": "East Bay United",
+    "description": "EBU (East Bay United) 東灣聯隊成立於2001年，是一支多元化中青年足球隊伍。球隊成立之初志在給予大家相聚切磋球技的一个大環境。基於大家的投入和熱心，球隊發展迅速。在過去幾年大力參加各項賽事，球隊取到不錯的成績與提高，並於2015年獲得華體會公開娛樂組的冠軍，2016年獲得北加新光岩杯娛樂組冠軍！球隊目前基地依然設在Fremont, 每周六、日下午都會有開放式的訓練在Fremont Central Park，歡迎足球愛好者加入，鍛練身體，共蹉球技。",
+    "logo": "teams/EBU/logo.jpg",
+    "players": {
+        "starting": [
+        ],
+        "subs": [
+        ]
+    }
+}

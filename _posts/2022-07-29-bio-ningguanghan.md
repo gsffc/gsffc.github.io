@@ -1,9 +1,7 @@
 ---
 layout: game_post
-season_key: "22q3-1"
-game_key: "2022-07-16-1"
 
-title:  "人物小传：MP5球王宁广涵"
+title:  "【人物小传】MP5球王宁广涵"
 categories: news
 ---
 
