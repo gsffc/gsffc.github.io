@@ -7,9 +7,9 @@ By shrekshao狄学长
 
 目前网站部署在netlify上。会自动拾取`main` branch 进行build。
 
-primary custom domain为 https://www.gsffc.org。
+primary custom domain为 https://www.gsffc.org
 
-现在https://gsffc.github.io也会redirect到新的域名。所以`gh-pages` branch现在不用了。
+现在 https://gsffc.github.io 也会redirect到新的域名。所以`gh-pages` branch现在不用了。
 
 ## 如果在本地预览
 
