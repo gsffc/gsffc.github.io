@@ -88,7 +88,7 @@
             ,{
                 "number": 17,
                 "name": "Ricky",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/ricky.jpg",
                 "position": "中场",
                 "locator": "LDM"
             }
@@ -134,7 +134,7 @@
             ,{
                 "number": 66,
                 "name": "蒋小神",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/jiangxiaoshen.jpg",
                 "position": "中场"
             }
             ,{
@@ -153,7 +153,7 @@
             ,{
                 "number": 92,
                 "name": "张稞雨",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/zhangkeyu.jpg",
                 "position": "前锋"
             }
             ,{
