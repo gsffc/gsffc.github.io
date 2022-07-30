@@ -1,206 +1,118 @@
-# 超业余足球联赛网站生成器
-# Super Unprofessional League Website Generator
+# GSF球队内部网站更新指南
 
 By shrekshao狄学长
 
-[EN](docs/EN.md) | [简体中文](#)
-
-[示例](https://super-unprofessional-league.github.io/super-unprofessional-league-website/)
-
-一个基于Jekyll的静态网站生成器，转为建造超业余足球联赛网站定制，适用于校园内赛事，社区联赛等。 
-
-![](docs/tournament-page.png)
-
-![](docs/team-page.png)
-
-![](docs/game-page.png)
-
-已支持以下功能：
-* 多个赛季
-    - 联赛（传统积分榜，积分等数据根据比赛信息自动计算）
-    - 杯赛（小组赛积分榜 + 淘汰赛树状图）
-* 比赛页面
-    - 比分
-    - 各类信息: 日期, 点球决胜，弃权等
-    - 比赛事件
-        - 进球
-        - 乌龙球
-        - 点球
-        - 红黄牌
-        - 换人
-        - 照片
-        - 视频外链嵌入
-* 球员数据榜
-    - 射手榜（进球数根据比赛信息自动计算）
-* 队伍页面
-    - 球员列表
-    - 首发阵容
-    - 照片
-* 语言翻译支持
-* 战报，新闻，通知等文章发布
+更多细节功能请参考[这篇文档](https://github.com/super-unprofessional-league/super-unprofessional-league-website/blob/master/README.md)（欢迎贡献）
 
 
+目前网站部署在netlify上。会自动拾取`main` branch 进行build。
 
-## 快速开始
+primary custom domain为 https://www.gsffc.org。
+
+现在https://gsffc.github.io也会redirect到新的域名。所以`gh-pages` branch现在不用了。
+
+## 如果在本地预览
 
 * 安装 [Jekyll](https://jekyllrb.com/docs/) (参考Jekyll官方文档)
 * `bundle install`
-* 开发状态下 `bundle exec jekyll serve`
-* 生成网站 `bundle exec jekyll build` （`_site/`下）
-* `_site/` 目录下 `git init`, push 到 github上或其他服务商来部署（参考 github page 文档等）
-    * 注意：因为项目使用了自定义Jekyll plugin所以无法使用github自带的自动生成
+* `bundle exec jekyll serve`
+* 浏览器打开`localhost:4000`
+* 确保build没有问题，各方面满意后git add/commit/..., 可以直接push到main上。不需要review。
 
+## 如果老子不想配环境的话
 
-## 添加你的联赛数据
+* 建议通过fork repo后提交pull request的方式进行改动（以防止build失败）。
 
-所有比赛相关数据在 `_data/` 目录下
+## 添加战报
 
-所有静态文件（照片等）置于 `assets` 目录下
+* `_posts/` 目录下复制粘贴一个以前的post进行修改最方便
+* 文件名称格式 `2022-07-30-title-blablabla.md`
+* 如果是针对一场比赛的战报，`season_key`和`game_key`填入对应比赛数值即可生成一个formatted比赛链接。否则可以删掉这两个field
+* 图片放置在`assets/img/news`目录下，欢迎新建subfolder
+* `![](/assets/img/news/first-champion/r3-squad.png){:.centered}`以插入图片（`{.centered}`是ref一个css class用来居中）
+* 带描述文字的图片也可以这样添加`{% include imgdesc.html url="assets/img/news/bio/ningguanghan-1.gif" description="Dribbling / solo goals" %}`
+* 样例
+```
+---
+layout: game_post
+season_key: "22q3-1"
+game_key: "2022-07-23-1"
 
-### _data 数据结构示例
+title:  "克星神威再现造三球！榜首大战GSF 3:2 逆转绝杀SBK"
+categories: news
+---
 
-* _data
-    - seasons
-        - 2018-2019
-            - config.json (可选，若无则默认为联赛模式)
-            - teams
-                * bayern.json
-                * dortmund.json
-            - games
-                * 2018-11-10-1.json
+*文 某位球星*
 
-### teams 队伍数据结构
+2022校联杯第三比赛日，一日双赛，第三轮GSF迎来榜首大战，对阵两场同积6分的SouthBay Knight。
+GSF最终3:2逆转绝杀SBK。玄宗助攻Kevin 李峰两度扳平比分，并在90分钟杀入禁区完成绝杀，再现曾经对SBK帽子戏法的克星本色！
 
-```json
-{
-    "display_name": "多特蒙德",
-    "description": "blahblahblah...",
-    "logo": "bvb09.jpg",
-    "players": {
-        "starting": [
-            {
-                "number": 1,
-                "name": "布尔基",
-                "img": "placeholder-player.jpg",
-                "locator": "GK",
-                "position": "门将"
-            }
-            ,{
-                "number": 28,
-                "name": "维特塞尔",
-                "img": "placeholder-player.jpg",
-                "locator": "CDM",
-                "position": "中场"
-            }
-            ,{
-                "number": 11,
-                "name": "罗伊斯",
-                "img": "placeholder-player.jpg",
-                "locator": "CAM",
-                "position": "中场"
-            }
-        ],
-        "subs": [
-            {
-                "number": 9,
-                "name": "哈兰德",
-                "img": "placeholder-player.jpg",
-                "position": "前锋"
-            }
-            
-        ]
-    }
-}
+![](/assets/img/news/first-champion/r3-squad.png){:.centered}
+
+此战由洪泽指导指挥。。。
+
+{% include imgdesc.html url="assets/img/news/bio/ningguanghan-1.gif" description="Dribbling / solo goals" %}
+
 ```
 
-* 队伍文件名似乎暂时只支持ascii英文字符
-* 阵容位置缩写 (`GK`, `CM`, etc) 对应到css里预设的位置 ([在这里看全部可用位置缩写](https://github.com/super-unprofessional-league/super-unprofessional-league-website/blob/master/assets/css/custom-football-squad.css#L70))
+## 添加比赛
 
-![](docs/field-locator.png)
-
-### games 比赛数据结构
-
-```json
+* 路径和文件名`_data/seasons/22q4/games/2022-08-06-1234.json`（复制一个修改即可）
+* 如有youtube上的视频，只需要复制`https://www.youtube.com/watch?v=SUJhUunlCU8`的v=后面部分替换就行。
+* 队伍Key对应的`_data/seasons/22q4/teams/`下的json文件名。
+* 球员名称对应相应队伍json文件中的name。如果是其他队不认识的人进球之类，可以用`"??"`，这样插件不会去寻找这个球员。
+* 若为小组赛比赛`type`要包含`group`字样。联赛比赛无所谓，可以写个轮数`#2`。
+* 支持的比赛事件列在下面的样例里了。复制粘贴依样画葫芦就行。
+* 比分要手填并非自动计算（照顾其他队不知道进球事件只知道比分的情况）
+* 样例
+```
 {
-    "date": "2018/11/10/9:30",
-    "type": "group-r1",
-    "schedule": false,
+    "date": "2022-07-16 04:00PM",
+    "type": "group#1",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/wDIlQnrIDl0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
-        "key": "dortmund",
-        "score": 3,
+        "key": "GSF",
+        "score": 2,
         "events": [
-            {"type": "yellow", "time": 29, "player": "Weigl"},
-            {"type": "yellow", "time": 36, "player": "Akanji"},
-            {"type": "off", "time": 46, "player": "Weigl"},
-            {"type": "sub", "time": 46, "player": "Dahoud"},
-            {"type": "penalty", "time": 49, "player": "Reus"},
-            {"type": "goal", "time": 67, "player": "Reus"},
-            {"type": "goal", "time": 73, "player": "Paco Alcacer"}
+            {"type": "goal", "time": 17, "player": "狄克", "assist": "杨帆"}
+            ,{"type": "penalty", "time": 49, "player": "狄克"}
+            ,{"type": "off", "time": 50, "player": "狄克", "sub": "王金鹏"}
+            ,{"type": "yellow", "time": 51, "player": "狄克"}
+            ,{"type": "red", "time": 52, "player": "狄克"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "张自然", "locator": "RCB"}
+            ,{"name": "王政", "locator": "LM"}
+            ,{"name": "张一宁", "locator": "CDM"}
+            ,{"name": "狄克", "locator": "RM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Ted"}
+            ,{"name": "庭朝"}
+            ,{"name": "杨帆"}
+            ,{"name": "玄宗"}
+            ,{"name": "杜若衡"}
+            ,{"name": "文韬"}
+            ,{"name": "刘喆"}
+            ,{"name": "Max"}
+            ,{"name": "李峰"}
         ]
     },
     "away": {
-        "key": "bayern",
+        "key": "CMU",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 26, "player": "Lewandowski"},
-            {"type": "goal", "time": 52, "player": "Lewandowski"},
-            {"type": "yellow", "time": 55, "player": "Ribery"}
-        ]
+            {"type": "owngoal", "time": 18, "player": "狄克"}
+            ,{"type": "goal", "time": 90, "player": "??"}
+        ],
+        "squad": []
     }
 }
 ```
 
-* `type` string若包含`group`则为小组赛阶段比赛
-
-### config.json 联赛设置
-
-```json
-{
-  "display_name": "健雄杯2013",
-  "type": "group + knockout",
-  "group_stage": {
-    "A": [
-      "613111",
-      "610122",
-      "610121",
-      "610111"
-    ],
-    "B": [
-      "611111",
-      "613121",
-      "610113",
-      "610112"
-    ]
-  },
-  "knockout_stage": [
-    [
-      ["610131", "610111", "2013-10-21-1"],
-      
-      ["613111", "610112", "2013-10-20-1"],
-
-      ["613131", "611131", ""],
-
-      ["610132", "611111", "2013-10-15-1"]
-    ],
-    [
-      ["610111", "613111", "2013-11-14-1"],
-      
-      ["611131", "610132", "2013-11-15-1"]
-    ],
-    [
-      ["613111","611131", "2013-11-17-1"]
-    ]
-  ],
-  "winner": "613111",
-  "rules": "*大一球队直接进入淘汰赛\n*各小组前两名出线"
-}
-```
-
-* 若无此文件则赛季默认为联赛
-* `type`
-    - `league`
-    - `group + knockout`
-* 若为 `group + knockout`
-    * `group_stage` 为 `小组名` => `队伍文件名（无后缀）`
-    * `knockout_stage`每个数组轮次为2的幂次递减，... 16, 8, 4, 2, 1
-    * `["主队文件名（无后缀）", "客队文件名（无后缀）", "比赛文件名（无后缀）"]`
+## 添加赛季(TODO)
