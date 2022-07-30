@@ -4,6 +4,10 @@ img.centered {
     margin-right: auto;
 }
 
+figcaption {
+    text-align: center;
+}
+
 .row-game {
     display: -ms-flex; display: -webkit-flex; display: flex;
 }
