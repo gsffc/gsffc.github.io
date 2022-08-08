@@ -157,6 +157,18 @@
                 "position": "前锋"
             }
             ,{
+                "number": 93,
+                "name": "李胡敖",
+                "img": "teams/GSF/placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 94,
+                "name": "单老师",
+                "img": "teams/GSF/placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 101,
                 "name": "Bruce",
                 "img": "teams/GSF/bruce.jpg",

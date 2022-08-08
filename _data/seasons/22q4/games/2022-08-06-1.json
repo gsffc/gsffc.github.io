@@ -11,7 +11,7 @@
             {"type": "penalty", "time": 58, "player": "黄中焱", "assist": "Bruce"}
             ,{"type": "goal", "time": 63, "player": "张稞雨", "assist": "厚汝轩"}
             ,{"type": "goal", "time": 66, "player": "Colin"}
-            ,{"type": "goal", "time": 75, "player": "??", "assist": "Ricky"}
+            ,{"type": "goal", "time": 75, "player": "李胡敖", "assist": "Ricky"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -19,16 +19,16 @@
             ,{"name": "张自然", "locator": "CB"}
             ,{"name": "王琛", "locator": "RB"}
             ,{"name": "孟祥宇", "locator": "LM"}
-            ,{"name": "??", "locator": "CAM"}
-            ,{"name": "黄庭朝", "locator": "CDM"}
+            ,{"name": "单老师", "locator": "LDM"}
+            ,{"name": "黄庭朝", "locator": "RDM"}
             ,{"name": "Ricky", "locator": "RM"}
-            ,{"name": "张稞雨", "locator": "ST"}
+            ,{"name": "张稞雨", "locator": "CAM"}
         ]
         ,"bench": [
             {"name": "玄宗"}
             ,{"name": "刘喆"}
             ,{"name": "厚汝轩"}
-            ,{"name": "??"}
+            ,{"name": "李胡敖"}
             ,{"name": "黄中焱"}
         ]
     },
