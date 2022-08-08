@@ -11,7 +11,7 @@
             {"type": "penalty", "time": 58, "player": "黄中焱", "assist": "Bruce"}
             ,{"type": "goal", "time": 63, "player": "张稞雨", "assist": "厚汝轩"}
             ,{"type": "goal", "time": 66, "player": "Colin"}
-            ,{"type": "goal", "time": 75, "player": "单老师", "assist": "Ricky"}
+            ,{"type": "goal", "time": 75, "player": "??", "assist": "Ricky"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
