@@ -1,0 +1,44 @@
+{
+    "date": "2022-08-06 04:00PM",
+    "type": "#1",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/WktDHWkyqz0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 4,
+        "events": [
+            {"type": "penalty", "time": 58, "player": "黄中焱", "assist": "Bruce"}
+            ,{"type": "goal", "time": 63, "player": "张稞雨", "assist": "厚汝轩"}
+            ,{"type": "goal", "time": 66, "player": "Colin"}
+            ,{"type": "goal", "time": 75？, "player": "单老师", "assist": "Ricky"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LB"}
+            ,{"name": "张自然", "locator": "CB"}
+            ,{"name": "王琛", "locator": "RB"}
+            ,{"name": "祥宇", "locator": "LM"}
+            ,{"name": "单老师", "locator": "CAM"}
+            ,{"name": "黄庭朝", "locator": "CDM"}
+            ,{"name": "Ricky", "locator": "RM"}
+            ,{"name": "张稞雨", "locator": "ST"}
+        ]
+        ,"bench": [
+            {"name": "郑轩"}
+            ,{"name": "刘喆"}
+            ,{"name": "厚汝轩"}
+            ,{"name": "xiaoming"}
+            ,{"name": "李胡敖"}
+            ,{"name": "黄中焱"}
+        ]
+    },
+    "away": {
+        "key": "CalBlue",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 48, "player": "??"}
+        ],
+        "squad": []
+    }
+}
