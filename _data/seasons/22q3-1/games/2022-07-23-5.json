@@ -11,7 +11,7 @@
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
-            ,{"name": "刘洪泽", "locator": "LCB"}
+            ,{"name": "洪泽", "locator": "LCB"}
             ,{"name": "刘喆", "locator": "RCB"}
             ,{"name": "文韬", "locator": "LM"}
             ,{"name": "李峰", "locator": "CDM"}
