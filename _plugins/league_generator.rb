@@ -44,6 +44,11 @@ module League
                 s = squad[i]
                 l = s['locator']
                 p = team_player_hash[s['name']]
+                
+                if p == nil
+                    puts "!!!! Player '#{s['name']}' is not found in cur team"
+                end
+
                 if l != nil
                     squad[i] = {
                         'name' => p['name'],
