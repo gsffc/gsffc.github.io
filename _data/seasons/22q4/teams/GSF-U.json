@@ -132,12 +132,6 @@
                 "locator": "RM"
             }
             ,{
-                "number": 66,
-                "name": "蒋小神",
-                "img": "teams/GSF/jiangxiaoshen.jpg",
-                "position": "中场"
-            }
-            ,{
                 "number": 77,
                 "name": "Tony",
                 "img": "placeholder-player.jpg",
@@ -159,13 +153,13 @@
             ,{
                 "number": 93,
                 "name": "李胡敖",
-                "img": "teams/GSF/placeholder-player.jpg",
+                "img": "placeholder-player.jpg",
                 "position": "中场"
             }
             ,{
                 "number": 94,
                 "name": "单老师",
-                "img": "teams/GSF/placeholder-player.jpg",
+                "img": "placeholder-player.jpg",
                 "position": "中场"
             }
             ,{
