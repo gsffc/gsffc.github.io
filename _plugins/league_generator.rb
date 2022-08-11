@@ -427,36 +427,40 @@ module League
                     game['away']['display_name'] = away_team['display_name']
                     game['away']['logo'] = away_team['logo']
 
-                    game['home']['events'].each do |e|
-                        next if e['player'] == '??'
-                        if e['type'] == 'goal' or e['type'] == 'penalty'
-                            player = home_team['player_hash'][e['player']]
-                            if player == nil
-                                # puts e['player']
-                                home_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
+                    if game['home']['events'] != nil
+                        game['home']['events'].each do |e|
+                            next if e['player'] == '??'
+                            if e['type'] == 'goal' or e['type'] == 'penalty'
                                 player = home_team['player_hash'][e['player']]
-                            end
-                            
-                            player['goals'] += 1
-                            if e['type'] == 'penalty'
-                                player['penalty'] += 1
+                                if player == nil
+                                    # puts e['player']
+                                    home_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
+                                    player = home_team['player_hash'][e['player']]
+                                end
+                                
+                                player['goals'] += 1
+                                if e['type'] == 'penalty'
+                                    player['penalty'] += 1
+                                end
                             end
                         end
                     end
 
-                    game['away']['events'].each do |e|
-                        next if e['player'] == '??'
-                        if e['type'] == 'goal' or e['type'] == 'penalty'
-                            player = away_team['player_hash'][e['player']]
-                            if player == nil
-                                # puts e['player']
-                                away_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
+                    if game['home']['events'] != nil
+                        game['away']['events'].each do |e|
+                            next if e['player'] == '??'
+                            if e['type'] == 'goal' or e['type'] == 'penalty'
                                 player = away_team['player_hash'][e['player']]
-                            end
+                                if player == nil
+                                    # puts e['player']
+                                    away_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
+                                    player = away_team['player_hash'][e['player']]
+                                end
 
-                            player['goals'] += 1
-                            if e['type'] == 'penalty'
-                                player['penalty'] += 1
+                                player['goals'] += 1
+                                if e['type'] == 'penalty'
+                                    player['penalty'] += 1
+                                end
                             end
                         end
                     end
