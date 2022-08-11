@@ -1,0 +1,12 @@
+{
+    "date": "2022-08-06 06:00PM",
+    "type": "#1",
+    "home": {
+        "key": "DeepSoccer",
+        "score": 5
+    },
+    "away": {
+        "key": "EBURangers",
+        "score": 4
+    }
+}

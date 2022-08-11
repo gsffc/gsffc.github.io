@@ -5,76 +5,8 @@
     "image": "teams/ICP/team.jpg",
     "players": {
         "starting": [
-            {
-                "number": 1,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "门将",
-                "locator": "GK"
-            }
-            ,{
-                "number": 14,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "后卫",
-                "locator": "RCB"
-            }
-            ,{
-                "number": 16,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "后卫",
-                "locator": "LB"
-            }
-            ,{
-                "number": 55,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "后卫",
-                "locator": "RWB"
-            }
-            ,{
-                "number": 4,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "中场",
-                "locator": "CDM"
-            }
-            ,{
-                "number": 9,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "中场",
-                "locator": "LCM"
-            }
-            ,{
-                "number": 10,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "前锋",
-                "locator": "LW"
-            }
-            ,{
-                "number": 11,
-                "name": "名字",
-                "img": "teams/ICP/a/gk.jpg",
-                "position": "前锋",
-                "locator": "ST"
-            }
         ],
         "subs": [
-            {
-                "number": 12,
-                "name": "名字",
-                "position": "前锋",
-                "locator": "LW"
-            }
-            ,{
-                "number": 13,
-                "name": "名字",
-                "position": "前锋",
-                "locator": "ST"
-            }
         ]
     }
 }
