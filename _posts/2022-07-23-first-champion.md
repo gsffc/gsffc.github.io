@@ -4,6 +4,8 @@ season_key: "22q3-1"
 
 title:  "队史首冠！GSF勇夺校联杯社区盾"
 categories: news
+tags: gamepost 7p
+author: 狄克
 ---
 
 {% assign gk = "2022-07-16-1" %}

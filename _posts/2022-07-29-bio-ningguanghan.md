@@ -3,6 +3,8 @@ layout: game_post
 
 title:  "【人物小传】MP5球王宁广涵"
 categories: news
+tags: bio
+author: 宁广涵
 ---
 
 *编者按：值此GSF夺取队史首冠之际，众球星展开了忆苦思甜活动，追忆球队历史，表彰球队名宿 ~~自我夸奖~~。以期球队未来能获得更多美好的瞬间*

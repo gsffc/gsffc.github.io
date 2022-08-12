@@ -3,6 +3,8 @@ layout: game_post
 
 title:  "2022/03/11 训练赛录像总结"
 categories: news
+
+tags: 11p
 ---
 
 
