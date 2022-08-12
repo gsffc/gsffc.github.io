@@ -50,10 +50,10 @@
 }
 
 .tag:hover {
-  background-color: rgb(85, 145, 224);
+  background-color: #263472;
   color: white;
 }
 
 .tag:hover::after {
-   border-left-color: rgb(85, 145, 224); 
+   border-left-color: #263472; 
 }
