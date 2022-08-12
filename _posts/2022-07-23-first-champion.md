@@ -4,7 +4,7 @@ season_key: "22q3-1"
 
 title:  "队史首冠！GSF勇夺校联杯社区盾"
 categories: news
-tags: gamepost 7p
+tags: 战报 7人制 22校联杯
 author: 狄克
 ---
 

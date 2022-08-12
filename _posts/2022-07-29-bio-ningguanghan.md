@@ -3,7 +3,7 @@ layout: game_post
 
 title:  "【人物小传】MP5球王宁广涵"
 categories: news
-tags: bio
+tags: 人物专稿
 author: 宁广涵
 ---
 
