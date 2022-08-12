@@ -3,21 +3,13 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
+            <a href="https://www.youtube.com/channel/UCzBpxFbbCs1QKGg8VYyg-tw/videos">GSF Youtube Channel</a>
             </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+            <li><a href="about">我想加入GSF！</a></li>
         </ul>
       </div>
 
@@ -27,7 +19,7 @@
 
       <div class="footer-col footer-col-3">
         <p>{{- site.description | escape -}}</p>
-        <p>powered by<br/>  <a href="https://github.com/super-unprofessional-league/super-unprofessional-league-website">Super Unprofessional League Website Generator</a></p>
+        <p>powered by<br/>  <a href="https://github.com/super-unprofessional-league/soccer-website-generator">Super Unprofessional League Website Generator</a></p>
       </div>
 
     </div>
