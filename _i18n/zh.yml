@@ -2,6 +2,7 @@ posts_title: 战报
 schedule: 赛程
 goal_scorers: 射手榜
 season: 赛季
+season_list: 全部赛季
 player:
   photo: 头像
   name: 姓名
