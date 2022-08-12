@@ -7,7 +7,13 @@ title:  "GSF United大胜CalBlue迎开门红，Colin逆天倒钩艳压梅西一�
 categories: news
 tags: 战报 9人制 22秋
 author: 宁广涵
+
+show_excerpts: true
 ---
+
+![](/assets/img/news/season-22/r1_calblue/colin_goal_short.gif){:.centered}
+
+<!--more-->
 
 8月6日，2022年湾区华人足联9人制联赛第一轮拉开了序幕。GSF United迎战CalBlue。CalBlue今年在华人足联11人制联赛中刚刚获得了冠军，是一支传统强队。而GSF也是在刚刚闭幕的校联杯7人制比赛中获得了社区盾的冠军。两个冠军的对决，注定精彩纷呈。
 
