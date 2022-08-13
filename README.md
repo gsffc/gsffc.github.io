@@ -5,6 +5,8 @@ By shrekshao狄学长
 更多细节功能请参考[这篇文档](https://github.com/super-unprofessional-league/super-unprofessional-league-website/blob/master/README.md)（欢迎贡献）
 
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ece017b0-680e-49d1-b5b2-7b5e322d64c1/deploy-status)](https://app.netlify.com/sites/gsffc/deploys)
+
 目前网站部署在netlify上。会自动拾取`main` branch 进行build。
 
 primary custom domain为 https://www.gsffc.org
