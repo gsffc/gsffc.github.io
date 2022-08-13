@@ -1,12 +1,24 @@
 {
     "date": "2022-05-22 10:30AM",
     "type": "rank-r2",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/Y5ZzT_Mb0Cs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
         "key": "GSF",
-        "score": 1
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 16, "player": "Kevin"}
+        ]
     },
     "away": {
         "key": "HeHe",
-        "score": 4
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 7, "player": "??"}
+            ,{"type": "goal", "time": 11, "player": "??"}
+            ,{"type": "goal", "time": 27, "player": "??"}
+            ,{"type": "goal", "time": 54, "player": "??"}
+        ]
     }
 }

@@ -251,6 +251,18 @@
                 "img": "teams/GSF/yuanjian.jpg",
                 "position": "中场"
             }
+            ,{
+                "number": 90,
+                "name": "Pedro（外援）",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 11,
+                "name": "Casper",
+                "img": "placeholder-player.jpg",
+                "position": "前锋"
+            }
         ]
     }
 }
