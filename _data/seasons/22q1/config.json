@@ -1,6 +1,6 @@
 {
   "display_name": "22春",
   "description": "NCCSF 2022春季联赛",
-  "type": "league",
-  "rules": "*性质为友谊赛\n*9v9"
+  "type": "friendly",
+  "rules": "*性质为友谊赛\n*9人制"
 }

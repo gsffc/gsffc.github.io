@@ -1,0 +1,12 @@
+{
+    "date": "2022-05-28 12:30PM",
+    "type": "third-place-playoff",
+    "home": {
+        "key": "Davis",
+        "score": 3
+    },
+    "away": {
+        "key": "Hunters",
+        "score": 0
+    }
+}

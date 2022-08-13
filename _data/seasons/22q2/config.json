@@ -1,0 +1,87 @@
+{
+  "display_name": "22足联杯",
+  "description": "2022北加州足联杯锦标赛",
+  "type": "region knockouts ranking",
+  "rules": "*11人制\n*分为小组排位赛和淘汰赛两个阶段\n*16支球队抽签分为四组，进行两轮排位赛。小组内第一轮对阵由抽签决定，第二轮由第一轮的两场比赛胜者相互对阵，两场比赛败者相互对阵。\n*排位赛积分表现为第一轮胜者得2分，第二轮胜者得1分，败者不得分\n*两轮排位赛后，每个小组第一名争夺冠军杯，第二名争夺优胜者杯，第三名争夺矽谷杯，第四名争夺勇者杯\n*淘汰赛阶段每个奖杯分区四支队伍进行单循环淘汰赛，决定奖杯归属",
+  "winner": "CalBlue",
+  "regions": {
+    "N1": [
+      "OverPower",
+      "GSF",
+      "HeHe",
+      "Shoreline"
+    ],
+    "N2": [
+      "SVTigers",
+      "DeepSoccer",
+      "WU",
+      "Davis"
+    ],
+    "S1": [
+      "SouthBay",
+      "Hunters",
+      "THU",
+      "PKUFDU"
+    ],
+    "S2": [
+      "EBU",
+      "SouthBaySuper",
+      "CalBlue",
+      "Berkeley"
+    ]
+  },
+  "knockouts": {
+    "冠军杯": {
+      "winner": "CalBlue",
+      "bracket": [
+        [
+          ["OverPower", "SVTigers", "2022-05-28-7"]
+          ,["SouthBay", "CalBlue", "2022-05-28-8"]
+        ],
+        [
+          ["SVTigers", "CalBlue", "2022-05-29-8"]
+        ]
+      ],
+      "other_games": ["2022-05-29-7"]
+    }
+    ,"优胜者杯": {
+      "winner": "WU",
+      "bracket": [
+        [
+          ["Shoreline", "WU", "2022-05-28-5"]
+          ,["THU", "SouthBaySuper", "2022-05-28-6"]
+        ],
+        [
+          ["WU", "SouthBaySuper", "2022-05-29-6"]
+        ]
+      ],
+      "other_games": ["2022-05-29-5"]
+    }
+    ,"矽谷杯": {
+      "winner": "EBU",
+      "bracket": [
+        [
+          ["HeHe", "Davis", "2022-05-28-3"],
+          ["Hunters", "EBU", "2022-05-28-4"]
+        ],
+        [
+          ["HeHe", "EBU", "2022-05-29-4"]
+        ]
+      ],
+      "other_games": ["2022-05-29-3"]
+    }
+    ,"勇者杯": {
+      "winner": "Berkeley",
+      "bracket": [
+        [
+          ["PKUFDU", "Berkeley", "2022-05-28-1"]
+          ,["GSF", "DeepSoccer", "2022-05-28-2"]
+        ],
+        [
+          ["Berkeley", "DeepSoccer", "2022-05-29-2"]
+        ]
+      ],
+      "other_games": ["2022-05-29-1"]
+    }
+  }
+}

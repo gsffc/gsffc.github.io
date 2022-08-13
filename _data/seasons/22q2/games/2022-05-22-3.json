@@ -1,0 +1,13 @@
+{
+    "date": "2022-05-22 12:30PM",
+    "type": "rank-r2",
+    "home": {
+        "key": "DeepSoccer",
+        "score": 2
+    },
+    "away": {
+        "key": "Davis",
+        "score": 5
+    },
+    "extra": "（点球 0:3）"
+}

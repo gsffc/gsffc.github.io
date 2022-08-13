@@ -1,0 +1,12 @@
+{
+    "date": "2022-05-28 10:30AM",
+    "type": "final",
+    "home": {
+        "key": "Berkeley",
+        "score": 1
+    },
+    "away": {
+        "key": "DeepSoccer",
+        "score": 0
+    }
+}
