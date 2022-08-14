@@ -33,7 +33,7 @@
   // line-height: $base-line-height * $base-font-size * 2.25;
   position: absolute;
   top: 10px;
-
+  user-select: none;
   // right: $spacing-unit / 2;
   right: 5px;
   background-color: $background-color;
