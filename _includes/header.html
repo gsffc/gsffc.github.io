@@ -14,8 +14,8 @@
         </label>
 
         <div class="trigger">
-          {%- for s in site.data.seasons -%}
-            <a class="page-link" href="{{site.baseurl}}/seasons/{{s[0]}}">{{ s[1].config.display_name | escape }}</a>
+          {%- for s in site.data.nav_lists -%}
+            <a class="page-link" href="{{site.baseurl}}/seasons/{{s.key}}">{{ s.display_name | escape }}</a>
           {%- endfor -%}
         </div>
       </nav>

@@ -757,15 +757,25 @@ module League
                 
             end # each season
 
+            site.data['nav_lists'] = Array.new
             site.data['seasons'].each do |season_key, season|
                 team_hash = season['teams']
                 team_hash.each do |team_key, team|
                     history_stats = site.data['history_teams_stats'][team_key].to_a.reverse()
                     site.pages << TeamPage.new(site, site.source, File.join('seasons', season_key, team_key), team_key, team, season_key, season, history_stats)
                 end
+
+                site.data['nav_lists'].push({
+                    'key' => season_key,
+                    'display_name' => season['config']['display_name']
+                })
+
+                # puts season['config']
             end
 
+            site.data['nav_lists'] = (site.data['nav_lists'].sort_by { |s| s['key'] }).reverse()
 
+            # puts site.data['nav_lists']
 
         end
     end
