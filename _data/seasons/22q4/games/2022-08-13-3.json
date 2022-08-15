@@ -10,7 +10,7 @@
         "score": 2,
         "events": [
             {"type": "penalty", "time": 71, "player": "Ted", "assist": "元健"}
-            ,{"type": "goal", "time": 88, "player": "秘鲁小哥（外援）", "assist": "杜若衡"}
+            ,{"type": "goal", "time": 88, "player": "Moises", "assist": "杜若衡"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -24,7 +24,7 @@
             ,{"name": "Caio（外援）", "locator": "CAM"}
         ]
         ,"bench": [
-            {"name": "秘鲁小哥（外援）"}
+            {"name": "Moises"}
             ,{"name": "Cedar"}
             ,{"name": "李强兵"}
             ,{"name": "吴骏"}
