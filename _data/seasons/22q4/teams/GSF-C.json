@@ -163,6 +163,30 @@
                 "img": "teams/GSF/alan.jpg",
                 "position": "中场"
             }
+            ,{
+                "number": 32,
+                "name": "Cyrus",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 93,
+                "name": "Roger",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 90,
+                "name": "Caio（外援）",
+                "img": "placeholder-player.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 96,
+                "name": "秘鲁小哥（外援）",
+                "img": "placeholder-player.jpg",
+                "position": "前锋"
+            }
         ]
     }
 }
