@@ -3,13 +3,14 @@
     "type": "#2",
     "videos": [
         "<iframe src=\"https://www.youtube.com/embed/_NjGotkoiSg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/53Nga3L4mpw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-C",
         "score": 2,
         "events": [
-            {"type": "penalty", "time": 30, "player": "Ted"}
-            ,{"type": "goal", "time": 90, "player": "秘鲁小哥（外援）", "assist": "杜若衡"}
+            {"type": "penalty", "time": 71, "player": "Ted", "assist": "元健"}
+            ,{"type": "goal", "time": 88, "player": "秘鲁小哥（外援）", "assist": "杜若衡"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -41,9 +42,9 @@
         "score": 4,
         "events": [
             {"type": "goal", "time": 10, "player": "??"}
-            ,{"type": "goal", "time": 20, "player": "??"}
-            ,{"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 52, "player": "拓拓"}
             ,{"type": "goal", "time": 60, "player": "??"}
+            ,{"type": "goal", "time": 69, "player": "??", "assist": "拓拓"}
         ],
         "squad": []
     }
