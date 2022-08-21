@@ -2,5 +2,5 @@
   "display_name": "22秋",
   "description": "NCCSF 2022 第六届 九人制联赛",
   "type": "league",
-  "rules": "*9人制"
+  "rules": "*9人制\n*单场比赛净胜球最多计算3个，多出的胜方进球不计入赛果"
 }

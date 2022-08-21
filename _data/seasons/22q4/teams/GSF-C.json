@@ -34,6 +34,12 @@
                 "locator": "LS"
             }
             ,{
+                "number": 12,
+                "name": "xiaoming",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 19,
                 "name": "Cedar",
                 "img": "teams/GSF/cedar.jpg",
@@ -172,6 +178,12 @@
             ,{
                 "number": 93,
                 "name": "Roger",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 95,
+                "name": "陈晨",
                 "img": "placeholder-player.jpg",
                 "position": "后卫"
             }

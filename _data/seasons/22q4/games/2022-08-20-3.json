@@ -1,0 +1,50 @@
+{
+    "date": "2022-08-20 06:00PM",
+    "type": "#3",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/_NjGotkoiSg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "SVTigers",
+        "score": 5,
+        "events": [
+            {"type": "goal", "time": 20, "player": "??"}
+            ,{"type": "goal", "time": 52, "player": "??"}
+            ,{"type": "goal", "time": 60, "player": "??"}
+            ,{"type": "goal", "time": 69, "player": "??"}
+            ,{"type": "goal", "time": 80, "player": "??"}
+        ],
+        "squad": []
+    },
+    "away": {
+        "key": "GSF-C",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 30, "player": "Caio（外援）", "assist": "蒋小神"}
+            ,{"type": "goal", "time": 40, "player": "Caio（外援）"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "liuzheng", "locator": "LB"}
+            ,{"name": "Cyrus", "locator": "RCB"}
+            ,{"name": "庭朝", "locator": "LCB"}
+            ,{"name": "李强兵", "locator": "RB"}
+            ,{"name": "杜若衡", "locator": "LCM"}
+            ,{"name": "杨谱", "locator": "RCM"}
+            ,{"name": "元健", "locator": "RS"}
+            ,{"name": "Caio（外援）", "locator": "LS"}
+        ]
+        ,"bench": [
+            {"name": "郝宇"}
+            ,{"name": "杨帆"}
+            ,{"name": "刘昊"}
+            ,{"name": "蒋小神"}
+            ,{"name": "李峰"}
+            ,{"name": "兰帕德"}
+            ,{"name": "linwei"}
+            ,{"name": "Roger"}
+            ,{"name": "xiaoming"}
+            ,{"name": "陈晨"}
+        ]
+    }
+}
