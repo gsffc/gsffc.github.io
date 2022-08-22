@@ -125,11 +125,24 @@
                 "locator": "RS"
             }
             ,{
+                "number": 53,
+                "name": "李胡敖",
+                "img": "teams/GSF/lihuao.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 55,
                 "name": "狄克",
                 "img": "teams/GSF/di.jpg",
                 "position": "中场",
                 "locator": "RM"
+            }
+            ,{
+                "number": 68,
+                "name": "云帆",
+                "img": "teams/GSF/yunfan.jpg",
+                "position": "中场",
+                "locator": "LM"
             }
             ,{
                 "number": 77,
@@ -151,16 +164,16 @@
                 "position": "前锋"
             }
             ,{
-                "number": 93,
-                "name": "李胡敖",
-                "img": "placeholder-player.jpg",
-                "position": "中场"
-            }
-            ,{
                 "number": 94,
                 "name": "单思远",
                 "img": "placeholder-player.jpg",
                 "position": "中场"
+            }
+            ,{
+                "number": 98,
+                "name": "Zihao",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
             }
             ,{
                 "number": 101,

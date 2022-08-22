@@ -1,0 +1,41 @@
+{
+    "date": "2022-08-06 04:00PM",
+    "type": "#3",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/Rh4hmdbuC7E\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LB"}
+            ,{"name": "王金鹏", "locator": "CB"}
+            ,{"name": "王琛", "locator": "RB"}
+            ,{"name": "云帆", "locator": "LM"}
+            ,{"name": "黄中焱", "locator": "LDM"}
+            ,{"name": "Bruce", "locator": "RDM"}
+            ,{"name": "Ricky", "locator": "RM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "玄宗"}
+            ,{"name": "刘喆"}
+            ,{"name": "厚汝轩"}
+            ,{"name": "李胡敖"}
+            ,{"name": "狄克"}
+            ,{"name": "王政"}
+            ,{"name": "Zihao"}
+        ]
+    },
+    "away": {
+        "key": "DeepSoccer",
+        "score": 0,
+        "events": [
+            {"type": "yellow", "time": 80, "player": "??"}
+        ],
+        "squad": []
+    }
+}
