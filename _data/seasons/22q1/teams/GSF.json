@@ -65,7 +65,7 @@
             ,{
                 "number": 13,
                 "name": "马超",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/machao.jpg",
                 "position": "中场",
                 "locator": "LDM"
             }
