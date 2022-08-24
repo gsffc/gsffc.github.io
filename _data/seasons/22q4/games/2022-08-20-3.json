@@ -8,11 +8,14 @@
         "key": "SVTigers",
         "score": 5,
         "events": [
-            {"type": "goal", "time": 20, "player": "??"}
-            ,{"type": "goal", "time": 52, "player": "??"}
-            ,{"type": "goal", "time": 60, "player": "??"}
-            ,{"type": "goal", "time": 69, "player": "??"}
-            ,{"type": "goal", "time": 80, "player": "??"}
+            {"type": "goal", "time": 16, "player": "??"}
+            ,{"type": "goal", "time": 46, "player": "??"}
+            ,{"type": "goal", "time": 55, "player": "??"}
+            ,{"type": "goal", "time": 57, "player": "??"}
+            ,{"type": "goal", "time": 62, "player": "??"}
+            ,{"type": "goal", "time": 72, "player": "??"}
+            ,{"type": "goal", "time": 83, "player": "??"}
+            ,{"type": "goal", "time": 86, "player": "??"}
         ],
         "squad": []
     },
@@ -20,24 +23,24 @@
         "key": "GSF-C",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 30, "player": "Caio（外援）", "assist": "蒋小神"}
-            ,{"type": "goal", "time": 40, "player": "Caio（外援）"}
+            {"type": "goal", "time": 20, "player": "Caio（外援）", "assist": "蒋小神"}
+            ,{"type": "goal", "time": 23, "player": "Caio（外援）", "assist": "兰帕德"}
+            ,{"type": "red", "time": 87, "player": "Caio（外援）"}
         ],
         "squad": [
-            {"name": "Alpha", "locator": "GK"}
+            {"name": "杨谱", "locator": "GK"}
             ,{"name": "liuzheng", "locator": "LB"}
             ,{"name": "Cyrus", "locator": "RCB"}
             ,{"name": "庭朝", "locator": "LCB"}
             ,{"name": "李强兵", "locator": "RB"}
             ,{"name": "杜若衡", "locator": "LCM"}
-            ,{"name": "杨谱", "locator": "RCM"}
+            ,{"name": "刘昊", "locator": "RCM"}
             ,{"name": "元健", "locator": "RS"}
             ,{"name": "Caio（外援）", "locator": "LS"}
         ]
         ,"bench": [
             {"name": "郝宇"}
             ,{"name": "杨帆"}
-            ,{"name": "刘昊"}
             ,{"name": "蒋小神"}
             ,{"name": "李峰"}
             ,{"name": "兰帕德"}
