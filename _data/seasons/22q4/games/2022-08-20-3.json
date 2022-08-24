@@ -24,20 +24,19 @@
             ,{"type": "goal", "time": 40, "player": "Caio（外援）"}
         ],
         "squad": [
-            {"name": "Alpha", "locator": "GK"}
+            {"name": "杨谱", "locator": "GK"}
             ,{"name": "liuzheng", "locator": "LB"}
             ,{"name": "Cyrus", "locator": "RCB"}
             ,{"name": "庭朝", "locator": "LCB"}
             ,{"name": "李强兵", "locator": "RB"}
             ,{"name": "杜若衡", "locator": "LCM"}
-            ,{"name": "杨谱", "locator": "RCM"}
+            ,{"name": "刘昊", "locator": "RCM"}
             ,{"name": "元健", "locator": "RS"}
             ,{"name": "Caio（外援）", "locator": "LS"}
         ]
         ,"bench": [
             {"name": "郝宇"}
             ,{"name": "杨帆"}
-            ,{"name": "刘昊"}
             ,{"name": "蒋小神"}
             ,{"name": "李峰"}
             ,{"name": "兰帕德"}
