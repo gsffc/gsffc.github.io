@@ -3,7 +3,9 @@
     "type": "#3",
     "home": {
         "key": "Berkeley",
-        "score": 5
+        "score": 5,
+        "events": [
+        ]
     },
     "away": {
         "key": "OverPower",
