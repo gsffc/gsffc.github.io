@@ -1,6 +1,9 @@
 <a href="{{include.season_base_url}}games/{{include.game_key}}">
 <font color="#aaa">{{include.game.date}}</font>
 <font color="#aaa">{% translate {{include.game.type | prepend: "games."}} %}</font>
+{% if include.game.extra != nil %}
+<font color="#aaa">({{include.game.extra}})</font>
+{% endif %}
   {{ include.game.home.display_name }}
   <img class="team-logo" src='{{site.baseurl}}/assets/img/{{ include.game.home.logo }}'/>
   {% if include.game.schedule %}
