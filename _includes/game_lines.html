@@ -2,7 +2,7 @@
 <font color="#aaa">{{include.game.date}}</font>
 <font color="#aaa">{% translate {{include.game.type | prepend: "games."}} %}</font>
 {% if include.game.extra != nil %}
-<font color="#aaa">({{include.game.extra}})</font>
+<font color="#aaa">{{include.game.extra}}</font>
 {% endif %}
   {{ include.game.home.display_name }}
   <img class="team-logo" src='{{site.baseurl}}/assets/img/{{ include.game.home.logo }}'/>
