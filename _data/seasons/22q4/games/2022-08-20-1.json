@@ -7,6 +7,9 @@
     },
     "away": {
         "key": "OverPower",
-        "score": 2
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 46, "player": "拓拓"}
+        ]
     }
 }
