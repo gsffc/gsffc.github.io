@@ -14,6 +14,13 @@
                 "locator": "GK"
             }
             ,{
+                "number": 0,
+                "name": "Alpha",
+                "img": "teams/GSF/alpha.jpg",
+                "position": "门将",
+                "locator": "GK"
+            }
+            ,{
                 "number": 2,
                 "name": "孟祥宇",
                 "img": "teams/GSF/xiangyu.jpg",

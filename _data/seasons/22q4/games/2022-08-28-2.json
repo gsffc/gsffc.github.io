@@ -1,0 +1,47 @@
+{
+    "date": "2022-08-28 04:00PM",
+    "type": "#4",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 80, "player": "Alpha"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "Cyrus", "locator": "LB"}
+            ,{"name": "洪泽", "locator": "RCB"}
+            ,{"name": "庭朝", "locator": "LCB"}
+            ,{"name": "杨谱", "locator": "RB"}
+            ,{"name": "杜若衡", "locator": "LCM"}
+            ,{"name": "兰帕德", "locator": "RCM"}
+            ,{"name": "李峰", "locator": "RS"}
+            ,{"name": "Ted", "locator": "LS"}
+        ]
+        ,"bench": [
+            {"name": "郝宇"}
+            ,{"name": "杨帆"}
+            ,{"name": "liuzheng"}
+            ,{"name": "刘昊"}
+            ,{"name": "Cedar"}
+            ,{"name": "吴骏"}
+            ,{"name": "李强兵"}
+            ,{"name": "Han"}
+            ,{"name": "元健"}
+            ,{"name": "潘言星"}
+        ]
+    },
+    "away": {
+        "key": "Berkeley",
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 10, "player": "??"}
+            ,{"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 40, "player": "??"}
+            ,{"type": "goal", "time": 60, "player": "??"}
+        ],
+        "squad": []
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "date": "2022-08-28 06:00PM",
+    "type": "#4",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 35, "player": "张稞雨", "assist": "张自然"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "Colin", "locator": "LB"}
+            ,{"name": "张自然", "locator": "CB"}
+            ,{"name": "王琛", "locator": "RB"}
+            ,{"name": "玄宗", "locator": "LM"}
+            ,{"name": "黄中焱", "locator": "LDM"}
+            ,{"name": "马超", "locator": "RDM"}
+            ,{"name": "Ricky", "locator": "RM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Kevin"}
+            ,{"name": "刘喆"}
+            ,{"name": "厚汝轩"}
+            ,{"name": "李胡敖"}
+            ,{"name": "狄克"}
+            ,{"name": "张一宁"}
+            ,{"name": "Zihao"}
+        ]
+    },
+    "away": {
+        "key": "JTU",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 70, "player": "??"}
+        ],
+        "squad": []
+    }
+}
