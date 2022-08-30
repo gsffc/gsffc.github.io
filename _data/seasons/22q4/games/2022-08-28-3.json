@@ -2,12 +2,14 @@
     "date": "2022-08-28 06:00PM",
     "type": "#4",
     "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/l4PQ4RDOfHc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/S6YztqGtMZQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
         "score": 1,
         "events": [
-            {"type": "goal", "time": 35, "player": "张稞雨", "assist": "张自然"}
+            {"type": "goal", "time": 21, "player": "张稞雨", "assist": "张自然"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -34,7 +36,7 @@
         "key": "JTU",
         "score": 1,
         "events": [
-            {"type": "goal", "time": 70, "player": "??"}
+            {"type": "goal", "time": 63, "player": "??"}
         ],
         "squad": []
     }
