@@ -50,10 +50,10 @@
 }
 
 .tag:hover {
-  background-color: #263472;
+  background-color: $brand-color;
   color: white;
 }
 
 .tag:hover::after {
-   border-left-color: #263472; 
+   border-left-color: $brand-color; 
 }
