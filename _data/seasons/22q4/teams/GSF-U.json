@@ -151,6 +151,12 @@
                 "locator": "RM"
             }
             ,{
+                "number": 63,
+                "name": "单思远",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 68,
                 "name": "云帆",
                 "img": "teams/GSF/yunfan.jpg",
@@ -175,12 +181,6 @@
                 "name": "张稞雨",
                 "img": "teams/GSF/zhangkeyu.jpg",
                 "position": "前锋"
-            }
-            ,{
-                "number": 94,
-                "name": "单思远",
-                "img": "placeholder-player.jpg",
-                "position": "中场"
             }
             ,{
                 "number": 101,
