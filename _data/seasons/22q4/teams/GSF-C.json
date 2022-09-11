@@ -176,28 +176,28 @@
                 "position": "后卫"
             }
             ,{
-                "number": 93,
-                "name": "Roger",
-                "img": "placeholder-player.jpg",
-                "position": "后卫"
-            }
-            ,{
-                "number": 95,
+                "number": 60,
                 "name": "陈晨",
                 "img": "placeholder-player.jpg",
                 "position": "后卫"
             }
             ,{
-                "number": 90,
+                "number": 51,
                 "name": "Caio（外援）",
                 "img": "placeholder-player.jpg",
                 "position": "前锋"
             }
             ,{
-                "number": 96,
+                "number": 108,
                 "name": "Moises",
                 "img": "placeholder-player.jpg",
                 "position": "前锋"
+            }
+            ,{
+                "number": 105,
+                "name": "Roger",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
             }
         ]
     }
