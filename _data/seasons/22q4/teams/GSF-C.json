@@ -46,6 +46,12 @@
                 "position": "后卫"
             }
             ,{
+                "number": 20,
+                "name": "刘喆",
+                "img": "teams/GSF/liuzhe.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 21,
                 "name": "洪泽",
                 "img": "teams/GSF/hongze.jpg",
@@ -179,6 +185,12 @@
                 "number": 60,
                 "name": "陈晨",
                 "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 70,
+                "name": "Evan",
+                "img": "teams/GSF/evan.jpg",
                 "position": "后卫"
             }
             ,{

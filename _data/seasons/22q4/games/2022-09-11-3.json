@@ -1,0 +1,46 @@
+{
+    "date": "2022-09-11 06:00PM",
+    "type": "#5",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/ugq6-jr6uyY\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 70, "player": "Han"}
+            ,{"type": "penalty", "time": 80, "player": "蒋小神"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "Evan", "locator": "RCB"}
+            ,{"name": "陈晨", "locator": "LCB"}
+            ,{"name": "刘喆", "locator": "RB"}
+            ,{"name": "杜若衡", "locator": "RDM"}
+            ,{"name": "蒋小神", "locator": "LDM"}
+            ,{"name": "李峰", "locator": "RCM"}
+            ,{"name": "郝宇", "locator": "LCM"}
+        ]
+        ,"bench": [
+            {"name": "张谌"}
+            ,{"name": "杨帆"}
+            ,{"name": "吴骏"}
+            ,{"name": "洪泽"}
+            ,{"name": "元健"}
+            ,{"name": "Ted"}
+            ,{"name": "刘昊"}
+            ,{"name": "Cedar"}
+            ,{"name": "liuzheng"}
+            ,{"name": "linwei"}
+            ,{"name": "Han"}
+        ]
+    },
+    "away": {
+        "key": "Shoreline",
+        "score": 5,
+        "events": [
+        ],
+        "squad": []
+    }
+}

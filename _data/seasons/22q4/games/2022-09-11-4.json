@@ -1,0 +1,47 @@
+{
+    "date": "2022-09-11 06:00PM",
+    "type": "#5",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/l4PQ4RDOfHc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/S6YztqGtMZQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 60, "player": "黄中焱", "assist": "Bruce"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "王政", "locator": "LB"}
+            ,{"name": "张自然", "locator": "CB"}
+            ,{"name": "Colin", "locator": "RB"}
+            ,{"name": "李胡傲", "locator": "LM"}
+            ,{"name": "张一宁", "locator": "LDM"}
+            ,{"name": "王钊", "locator": "RDM"}
+            ,{"name": "Ricky", "locator": "RM"}
+            ,{"name": "王金鹏", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "张稞雨"}
+            ,{"name": "孟祥宇"}
+            ,{"name": "厚汝轩"}
+            ,{"name": "单思远"}
+            ,{"name": "狄克"}
+            ,{"name": "黄中焱"}
+            ,{"name": "Bruce"}
+            ,{"name": "马超"}
+            ,{"name": "玄宗"}
+            ,{"name": "王琛"}
+        ]
+    },
+    "away": {
+        "key": "OX9",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 35, "player": "??"}
+            ,{"type": "goal", "time": 70, "player": "??"}
+        ],
+        "squad": []
+    }
+}
