@@ -23,7 +23,7 @@
             ,{
                 "number": 7,
                 "name": "吴骏",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/wujun.jpg",
                 "position": "中场"
             }
             ,{
@@ -154,7 +154,7 @@
             ,{
                 "number": 83,
                 "name": "liuzheng",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/liuzheng.jpg",
                 "position": "中场"
             }
             ,{
@@ -166,7 +166,7 @@
             ,{
                 "number": 98,
                 "name": "郝宇",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/haoyu.jpg",
                 "position": "中场"
             }
             ,{
@@ -184,7 +184,7 @@
             ,{
                 "number": 60,
                 "name": "陈晨",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/chenchen.jpg",
                 "position": "后卫"
             }
             ,{
