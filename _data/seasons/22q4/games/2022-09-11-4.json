@@ -2,8 +2,8 @@
     "date": "2022-09-11 06:00PM",
     "type": "#5",
     "videos": [
-        "<iframe src=\"https://www.youtube.com/embed/l4PQ4RDOfHc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-        ,"<iframe src=\"https://www.youtube.com/embed/S6YztqGtMZQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        "<iframe src=\"https://www.youtube.com/embed/7elhECI9t1w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/n0KTSCqui5A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
@@ -40,7 +40,7 @@
         "score": 2,
         "events": [
             {"type": "goal", "time": 35, "player": "??"}
-            ,{"type": "goal", "time": 70, "player": "??"}
+            ,{"type": "owngoal", "time": 70, "player": "（乌龙）"}
         ],
         "squad": []
     }
