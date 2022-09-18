@@ -1,0 +1,46 @@
+{
+    "date": "2022-09-17 06:00PM",
+    "type": "#6",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/7elhECI9t1w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/n0KTSCqui5A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 10, "player": "王政"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "王政", "locator": "LB"}
+            ,{"name": "张自然", "locator": "CB"}
+            ,{"name": "Bruce", "locator": "RB"}
+            ,{"name": "张一宁", "locator": "LM"}
+            ,{"name": "黄中焱", "locator": "LDM"}
+            ,{"name": "王钊", "locator": "RDM"}
+            ,{"name": "王金鹏", "locator": "RM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Kevin"}
+            ,{"name": "狄克"}
+            ,{"name": "Colin"}
+            ,{"name": "马超"}
+            ,{"name": "玄宗"}
+            ,{"name": "王琛"}
+            ,{"name": "张子豪"}
+        ]
+    },
+    "away": {
+        "key": "SVTigers",
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 2, "player": "??"}
+            ,{"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "penalty", "time": 40, "player": "??"}
+            ,{"type": "goal", "time": 90, "player": "??"}
+        ],
+        "squad": []
+    }
+}
