@@ -11,7 +11,7 @@
                 "number": 0,
                 "name": "Alpha",
                 "img": "teams/GSF/alpha.jpg",
-                "position": "后卫",
+                "position": "门将",
                 "locator": "RB"
             }
             ,{
@@ -38,7 +38,7 @@
                 "number": 12,
                 "name": "xiaoming",
                 "img": "placeholder-player.jpg",
-                "position": "后卫"
+                "position": "中场"
             }
             ,{
                 "number": 19,
@@ -81,7 +81,7 @@
                 "number": 27,
                 "name": "元健",
                 "img": "teams/GSF/yuanjian.jpg",
-                "position": "中场"
+                "position": "前锋"
             }
             ,{
                 "number": 28,
@@ -156,7 +156,7 @@
                 "number": 83,
                 "name": "liuzheng",
                 "img": "teams/GSF/liuzheng.jpg",
-                "position": "中场"
+                "position": "后卫"
             }
             ,{
                 "number": 88,
@@ -168,7 +168,7 @@
                 "number": 98,
                 "name": "郝宇",
                 "img": "teams/GSF/haoyu.jpg",
-                "position": "中场"
+                "position": "前锋"
             }
             ,{
                 "number": 99,
@@ -201,6 +201,12 @@
                 "position": "前锋"
             }
             ,{
+                "number": 202,
+                "name": "方平",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 108,
                 "name": "Moises",
                 "img": "placeholder-player.jpg",
@@ -210,7 +216,7 @@
                 "number": 105,
                 "name": "Roger",
                 "img": "placeholder-player.jpg",
-                "position": "后卫"
+                "position": "中场"
             }
         ]
     }

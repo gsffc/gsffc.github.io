@@ -25,7 +25,7 @@
                 "number": 2,
                 "name": "孟祥宇",
                 "img": "teams/GSF/xiangyu.jpg",
-                "position": "中场"
+                "position": "后卫"
             }
             ,{
                 "number": 3,
@@ -45,7 +45,7 @@
                 "number": 6,
                 "name": "王政",
                 "img": "teams/GSF/wangzhen.jpg",
-                "position": "中场"
+                "position": "后卫"
             }
             ,{
                 "number": 8,
@@ -90,7 +90,7 @@
                 "number": 16,
                 "name": "厚汝轩",
                 "img": "placeholder-player.jpg",
-                "position": "后卫",
+                "position": "中场",
                 "locator": "LDM"
             }
             ,{
@@ -161,7 +161,7 @@
                 "number": 68,
                 "name": "云帆",
                 "img": "teams/GSF/yunfan.jpg",
-                "position": "中场",
+                "position": "前锋",
                 "locator": "LM"
             }
             ,{
