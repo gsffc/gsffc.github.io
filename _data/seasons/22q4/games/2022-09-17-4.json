@@ -2,14 +2,15 @@
     "date": "2022-09-17 06:00PM",
     "type": "#6",
     "videos": [
-        "<iframe src=\"https://www.youtube.com/embed/7elhECI9t1w\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-        ,"<iframe src=\"https://www.youtube.com/embed/n0KTSCqui5A\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        "<iframe src=\"https://www.youtube.com/embed/3BqNZ3Ygl_I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
         "score": 1,
         "events": [
-            {"type": "goal", "time": 10, "player": "王政"}
+            {"type": "goal", "time": 6, "player": "王政"}
+            ,{"type": "yellow", "time": 52, "player": "黄中焱"}
+            ,{"type": "yellow", "time": 57, "player": "王政"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -36,9 +37,10 @@
         "key": "SVTigers",
         "score": 4,
         "events": [
-            {"type": "goal", "time": 2, "player": "??"}
+            {"type": "goal", "time": 1, "player": "??"}
             ,{"type": "goal", "time": 30, "player": "??"}
-            ,{"type": "penalty", "time": 40, "player": "??"}
+            ,{"type": "penalty", "time": 44, "player": "??"}
+            ,{"type": "yellow", "time": 83, "player": "??"}
             ,{"type": "goal", "time": 90, "player": "??"}
         ],
         "squad": []

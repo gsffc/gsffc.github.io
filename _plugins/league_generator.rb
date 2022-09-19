@@ -123,7 +123,8 @@ module League
                 'goals_for' => 0,
                 'goals_against' => 0,
                 'goals_diff' => 0,
-                'points' => 0
+                'points' => 0,
+                'forfeits' => 0,
             }
         end
 
@@ -155,13 +156,19 @@ module League
                 t0['draws'] += 1;
                 t1['draws'] += 1;
             end
+
+            if game['home']['forfeit'] != nil
+                t0['forfeits'] += 1;
+            elsif game['away']['forfeit'] != nil
+                t1['forfeits'] += 1;
+            end
         end
 
         # post process
         for team in team_hash
             t = team[1][entry]
             t['goals_diff'] = t['goals_for'] - t['goals_against']
-            t['points'] = t['wins'] * 3 + t['draws']
+            t['points'] = t['wins'] * 3 + t['draws'] - 3 * t['forfeits']
 
             t['avg_gf'] = t['games_played'] == 0 ? 0.0 : t['goals_for'].fdiv(t['games_played'])
             t['avg_ga'] = t['games_played'] == 0 ? 0.0 : t['goals_against'].fdiv(t['games_played'])

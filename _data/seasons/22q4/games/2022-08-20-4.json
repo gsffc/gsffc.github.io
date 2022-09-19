@@ -7,6 +7,7 @@
     },
     "away": {
         "key": "CalBlue",
+        "forfeit": true,
         "score": 0
     },
     "extra": "（CalBlue弃权）"

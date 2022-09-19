@@ -1,0 +1,47 @@
+{
+    "date": "2022-09-18 06:00PM",
+    "type": "#6",
+    "videos": [
+    ],
+    "images": [
+        "r6-c-ox9/team.jpg"
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 80, "player": "蒋小神"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "洪泽", "locator": "LCB"}
+            ,{"name": "刘喆", "locator": "RCB"}
+            ,{"name": "Ted", "locator": "RB"}
+            ,{"name": "蒋小神", "locator": "LDM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "杜若衡", "locator": "LCM"}
+            ,{"name": "杨帆", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "张谌"}
+            ,{"name": "方平"}
+            ,{"name": "Evan"}
+            ,{"name": "元健"}
+            ,{"name": "郝宇"}
+            ,{"name": "李强兵"}
+            ,{"name": "Cedar"}
+            ,{"name": "liuzheng"}
+            ,{"name": "Han"}
+            ,{"name": "李峰"}
+        ]
+    },
+    "away": {
+        "key": "OX9",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 50, "player": "??"}
+        ],
+        "squad": []
+    }
+}
