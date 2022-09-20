@@ -2,6 +2,7 @@
     "date": "2022-09-18 06:00PM",
     "type": "#6",
     "videos": [
+        "<a href=\"https://adilo.bigcommand.com/watch/Oaisstvv\"><img src=\"/assets/img/games/c-ox9-screenshot.jpg\"></img></a>"
     ],
     "images": [
         "r6-c-ox9/team.jpg"
@@ -10,7 +11,7 @@
         "key": "GSF-C",
         "score": 1,
         "events": [
-            {"type": "penalty", "time": 80, "player": "蒋小神"}
+            {"type": "penalty", "time": 52, "player": "蒋小神"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -40,7 +41,7 @@
         "key": "OX9",
         "score": 1,
         "events": [
-            {"type": "goal", "time": 50, "player": "??"}
+            {"type": "goal", "time": 46, "player": "??"}
         ],
         "squad": []
     }
