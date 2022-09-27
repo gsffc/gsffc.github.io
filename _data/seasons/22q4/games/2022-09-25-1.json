@@ -2,13 +2,14 @@
     "date": "2022-09-25 04:00PM",
     "type": "#7",
     "videos": [
-        "<iframe src=\"https://www.youtube.com/embed/3BqNZ3Ygl_I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        "<iframe src=\"https://www.youtube.com/embed/ErTCPzchDkk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/oGb8ruE-jcc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
         "score": 6,
         "events": [
-            {"type": "goal", "time": 35, "player": "Kevin", "assist": "王金鹏"}
+            {"type": "goal", "time": 30, "player": "Kevin", "assist": "王金鹏"}
             ,{"type": "goal", "time": 50, "player": "小明", "assist": "王钊"}
             ,{"type": "goal", "time": 60, "player": "马超", "assist": "Kevin"}
             ,{"type": "goal", "time": 70, "player": "张稞雨", "assist": "玄宗"}
@@ -42,8 +43,8 @@
         "key": "Berkeley",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 10, "player": "??"}
-            ,{"type": "goal", "time": 40, "player": "??"}
+            {"type": "goal", "time": 8, "player": "??"}
+            ,{"type": "goal", "time": 32, "player": "??"}
             ,{"type": "red", "time": 70, "player": "??"}
         ],
         "squad": []
