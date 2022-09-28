@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div class="row-game">
-    <div class="column" align="right">
+    <div class="column align-right">
 
         <img class="team-logo-large" src='{{site.baseurl}}/assets/img/{{page.game.home.logo}}'/>
         <h2>
@@ -30,7 +30,7 @@ layout: page
         {% endfor %}
     </div>
 
-    <div class="column" align="center">
+    <div class="column align-center">
         <p>{% translate {{ page.game.type | prepend: "games."}} %}</p>
         <p>{{ page.game.date }}</p>
         {% if page.game.schedule %}
@@ -43,7 +43,7 @@ layout: page
         {% endif %}
     </div>
 
-    <div class="column" align="left">
+    <div class="column align-left">
         <img class="team-logo-large" src='{{site.baseurl}}/assets/img/{{page.game.away.logo}}'/>
         <h2>
             <a href='../../{{page.game.away.key}}'>
@@ -71,40 +71,44 @@ layout: page
 </div>
 
 <div class="row-game">
-    <div class="column game-page-squad" align="right">
+    <div class="column game-page-squad align-right">
         {% if page.game.home.squad != nil %}
         {% include squad.html squad=page.game.home.squad %}
         {% endif %}
 
         {% if page.game.home.bench != nil %}
+        <div class="row align-left">
         {% for player in page.game.home.bench %}
         <div class="player sub">
             <img src="{{site.baseurl}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
             <p>{{player.number}} {{player.name}}</p>
         </div>
         {% endfor %}
+        </div>
         {% endif %}
     </div>
 
-    <div class="column game-page-squad" align="left">
+    <div class="column game-page-squad align-left">
         {% if page.game.away.squad != nil %}
         {% include squad.html squad=page.game.away.squad %}
         {% endif %}
 
         {% if page.game.away.bench != nil %}
+        <div class="row align-left">
         {% for player in page.game.away.bench %}
         <div class="player sub">
             <img src="{{site.baseurl}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
             <p>{{player.number}} {{player.name}}</p>
         </div>
         {% endfor %}
+        </div>
         {% endif %}
     </div>
 </div>
 
 {% if page.game.video %}
 <div class="row-game">
-    <div class="column" align="center">
+    <div class="column align-center">
         {{page.game.video | url_decode}}
     </div>
 </div>
@@ -112,7 +116,7 @@ layout: page
 {% if page.game.videos %}
 {% for v in page.game.videos %}
 <div class="row-game">
-    <div class="column" align="center">
+    <div class="column align-center">
         {{v | url_decode}}
     </div>
 </div>
@@ -121,7 +125,7 @@ layout: page
 
 {% if page.game.images %}
 <div class="row-game">
-    <div class="column" align="center">
+    <div class="column align-center">
         {% for url in page.game.images %}
         <img src="{{site.baseurl}}/assets/img/games/{{url}}" />
         {% endfor %}

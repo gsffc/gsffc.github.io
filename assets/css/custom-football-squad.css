@@ -20,10 +20,19 @@ figcaption {
 }
 
 .column {
-    float: left;
     width: 50%;
     
     flex: 1;
+}
+
+.align-right {
+    text-align: right;
+}
+.align-center {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
 }
 
 
@@ -59,8 +68,10 @@ figcaption {
 }
 
 .player {
+    display: inline-block;
     position: absolute;
-    width: 20%;
+    width: 19%;
+    margin: 0;
 }
 
 .player img {
@@ -74,7 +85,6 @@ figcaption {
 
 .player.sub {
     position:static !important;
-    float: left;
 }
 
 .team-page-squad .player p {
