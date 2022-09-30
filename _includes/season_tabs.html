@@ -4,6 +4,7 @@
 <p>{{include.description | newline_to_br}}</p>
 {% endif %}
 
+{% if include.disable_tabs == nil %}
 <div class="row">
   <a href=".">{% translate schedule %}</a>
   &nbsp;
@@ -11,3 +12,4 @@
   &nbsp;
   <a href="goal_scorers">{% translate goal_scorers %}</a>
 </div>
+{% endif %}

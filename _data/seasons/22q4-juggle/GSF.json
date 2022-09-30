@@ -1,0 +1,377 @@
+{
+    "display_name": "GSF",
+    "description": "GSF足球俱乐部 (Google Soccer Field, 简称“GSF”, 昵称“高帅富”)，最初由FAANG (Facebook, Apple, Amazon, Netflix, Google) 等硅谷高科技公司的工程狮、程序猿组成，发起于2012年盛夏，活跃在Google Athletic Recreational Field Park，每个周末固定在GSF娱乐野球，故此得名。",
+    "logo": "teams/GSF/logo.png",
+    "image": "teams/GSF/gsf2022.jpg",
+    "players": [
+        {
+            "number": 0,
+            "name": "Alpha",
+            "img": "teams/GSF/alpha.jpg",
+            "position": "门将",
+            "locator": "GK"
+        }
+        ,{
+            "number": 1,
+            "name": "锡麟",
+            "img": "teams/GSF/xilin.jpg",
+            "position": "门将",
+            "locator": "GK"
+        }
+        ,{
+            "number": 2,
+            "name": "孟祥宇",
+            "img": "teams/GSF/xiangyu.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 3,
+            "name": "黄中焱",
+            "img": "teams/GSF/huangzhongyan.jpg",
+            "position": "中场",
+            "locator": "CM"
+        }
+        ,{
+            "number": 4,
+            "name": "张谌",
+            "img": "teams/GSF/chenzong.jpg",
+            "position": "后卫",
+            "locator": "RB"
+        }
+        ,{
+            "number": 5,
+            "name": "Colin",
+            "img": "teams/GSF/colin.jpg",
+            "position": "后卫",
+            "locator": "RM"
+        }
+        ,{
+            "number": 6,
+            "name": "王政",
+            "img": "teams/GSF/wangzhen.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 7,
+            "name": "吴骏",
+            "img": "teams/GSF/wujun.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 8,
+            "name": "张自然",
+            "img": "teams/GSF/zhangziran.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 9,
+            "name": "玄宗",
+            "img": "teams/GSF/xuan.jpg",
+            "position": "前锋",
+            "locator": "LM"
+        }
+        ,{
+            "number": 10,
+            "name": "宁广涵",
+            "img": "teams/GSF/ningguanghan.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 11,
+            "name": "杨帆",
+            "img": "teams/GSF/yangfan.jpg",
+            "position": "前锋",
+            "locator": "LS"
+        }
+        ,{
+            "number": 12,
+            "name": "小明",
+            "img": "placeholder-player.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 13,
+            "name": "Pedro（外援）",
+            "img": "teams/GSF/pedro.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 14,
+            "name": "王琛",
+            "img": "teams/GSF/wangchen.jpg",
+            "position": "中场",
+            "locator": "RM"
+        }
+        ,{
+            "number": 15,
+            "name": "马超",
+            "img": "teams/GSF/machao.jpg",
+            "position": "中场",
+            "locator": "LDM"
+        }
+        ,{
+            "number": 16,
+            "name": "厚汝轩",
+            "img": "placeholder-player.jpg",
+            "position": "中场",
+            "locator": "LDM"
+        }
+        ,{
+            "number": 17,
+            "name": "Ricky",
+            "img": "teams/GSF/ricky.jpg",
+            "position": "中场",
+            "locator": "LDM"
+        }
+        ,{
+            "number": 18,
+            "name": "张一宁",
+            "img": "teams/GSF/zhangyining.jpg",
+            "position": "中场",
+            "locator": "CM"
+        }
+        ,{
+            "number": 19,
+            "name": "Cedar",
+            "img": "teams/GSF/cedar.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 20,
+            "name": "刘喆",
+            "img": "teams/GSF/liuzhe.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 21,
+            "name": "洪泽",
+            "img": "teams/GSF/hongze.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 22,
+            "name": "一鸣",
+            "img": "placeholder-player.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 23,
+            "name": "Han",
+            "img": "teams/GSF/han.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 24,
+            "name": "Ted",
+            "img": "teams/GSF/ted.jpg",
+            "position": "中场",
+            "locator": "LCM"
+        }
+        ,{
+            "number": 25,
+            "name": "王钊",
+            "img": "teams/GSF/wangzhao.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 26,
+            "name": "潘言星",
+            "img": "placeholder-player.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 27,
+            "name": "元健",
+            "img": "teams/GSF/yuanjian.jpg",
+            "position": "前锋"
+        }
+        ,{
+            "number": 28,
+            "name": "杨谱",
+            "img": "teams/GSF/yangpu.jpg",
+            "position": "中场",
+            "locator": "RM"
+        }
+        ,{
+            "number": 29,
+            "name": "杜若衡",
+            "img": "teams/GSF/duruoheng.jpg",
+            "position": "中场",
+            "locator": "LCM"
+        }
+        ,{
+            "number": 30,
+            "name": "linwei",
+            "img": "placeholder-player.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 32,
+            "name": "Cyrus",
+            "img": "placeholder-player.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 33,
+            "name": "文韬",
+            "img": "teams/GSF/wentao.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 35,
+            "name": "Kevin",
+            "img": "teams/GSF/kevin.jpg",
+            "position": "前锋",
+            "locator": "RS"
+        }
+        ,{
+            "number": 36,
+            "name": "李峰",
+            "img": "teams/GSF/lifeng.jpg",
+            "position": "前锋"
+        }
+        ,{
+            "number": 37,
+            "name": "庭朝",
+            "img": "teams/GSF/tingzhao.jpg",
+            "position": "后卫",
+            "locator": "RB"
+        }
+        ,{
+            "number": 40,
+            "name": "李强兵",
+            "img": "teams/GSF/liqiangbing.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 43,
+            "name": "张子豪",
+            "img": "placeholder-player.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 45,
+            "name": "刘昊",
+            "img": "teams/GSF/liuhao.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 47,
+            "name": "xiang",
+            "img": "placeholder-player.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 49,
+            "name": "Max",
+            "img": "teams/GSF/max.jpg",
+            "position": "前锋"
+        }
+        ,{
+            "number": 51,
+            "name": "Caio（外援）",
+            "img": "placeholder-player.jpg",
+            "position": "前锋"
+        }
+        ,{
+            "number": 53,
+            "name": "李胡傲",
+            "img": "teams/GSF/lihuao.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 55,
+            "name": "狄克",
+            "img": "teams/GSF/di.jpg",
+            "position": "中场",
+            "locator": "RM"
+        }
+        ,{
+            "number": 60,
+            "name": "陈晨",
+            "img": "teams/GSF/chenchen.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 63,
+            "name": "单思远",
+            "img": "teams/GSF/shansiyuan.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 66,
+            "name": "蒋小神",
+            "img": "teams/GSF/jiangxiaoshen.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 68,
+            "name": "云帆",
+            "img": "teams/GSF/yunfan.jpg",
+            "position": "前锋",
+            "locator": "LM"
+        }
+        ,{
+            "number": 70,
+            "name": "Evan",
+            "img": "teams/GSF/evan.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 77,
+            "name": "Tony",
+            "img": "teams/GSF/tony.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 83,
+            "name": "liuzheng",
+            "img": "teams/GSF/liuzheng.jpg",
+            "position": "后卫"
+        }
+        ,{
+            "number": 88,
+            "name": "兰帕德",
+            "img": "placeholder-player.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 91,
+            "name": "王金鹏",
+            "img": "teams/GSF/wangjinpeng.jpg",
+            "position": "中场",
+            "locator": "CM"
+        }
+        ,{
+            "number": 92,
+            "name": "张稞雨",
+            "img": "teams/GSF/zhangkeyu.jpg",
+            "position": "前锋"
+        }
+        ,{
+            "number": 98,
+            "name": "郝宇",
+            "img": "teams/GSF/haoyu.jpg",
+            "position": "前锋"
+        }
+        ,{
+            "number": 99,
+            "name": "Alan",
+            "img": "teams/GSF/alan.jpg",
+            "position": "中场"
+        }
+        ,{
+            "number": 101,
+            "name": "Bruce",
+            "img": "teams/GSF/bruce.jpg",
+            "position": "中场",
+            "locator": "RM"
+        }
+        ,{
+            "number": 202,
+            "name": "方平",
+            "img": "placeholder-player.jpg",
+            "position": "中场"
+        }
+    ]
+}

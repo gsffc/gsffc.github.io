@@ -104,6 +104,12 @@
                 "position": "中场"
             }
             ,{
+                "number": 32,
+                "name": "Cyrus",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 33,
                 "name": "文韬",
                 "img": "teams/GSF/wentao.jpg",
@@ -147,10 +153,28 @@
                 "position": "前锋"
             }
             ,{
+                "number": 51,
+                "name": "Caio（外援）",
+                "img": "placeholder-player.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 60,
+                "name": "陈晨",
+                "img": "teams/GSF/chenchen.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 66,
                 "name": "蒋小神",
                 "img": "teams/GSF/jiangxiaoshen.jpg",
                 "position": "中场"
+            }
+            ,{
+                "number": 70,
+                "name": "Evan",
+                "img": "teams/GSF/evan.jpg",
+                "position": "后卫"
             }
             ,{
                 "number": 83,
@@ -175,30 +199,6 @@
                 "name": "Alan",
                 "img": "teams/GSF/alan.jpg",
                 "position": "中场"
-            }
-            ,{
-                "number": 32,
-                "name": "Cyrus",
-                "img": "placeholder-player.jpg",
-                "position": "后卫"
-            }
-            ,{
-                "number": 60,
-                "name": "陈晨",
-                "img": "teams/GSF/chenchen.jpg",
-                "position": "后卫"
-            }
-            ,{
-                "number": 70,
-                "name": "Evan",
-                "img": "teams/GSF/evan.jpg",
-                "position": "后卫"
-            }
-            ,{
-                "number": 51,
-                "name": "Caio（外援）",
-                "img": "placeholder-player.jpg",
-                "position": "前锋"
             }
             ,{
                 "number": 202,

@@ -87,6 +87,42 @@ figcaption {
     position:static !important;
 }
 
+td.player-td {
+    text-align: left;
+    margin: auto;
+}
+
+.player.static {
+    position:static !important;
+    font-size: 12px;
+    width: auto;
+    vertical-align: middle;
+    margin:auto;
+}
+
+.player.static img {
+    width: 3em !important;
+    max-width: 3em !important;
+}
+
+/* .player-td span {
+    margin:auto;
+} */
+
+.player.static span {
+    text-align: center;
+    font-size: 12px;
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: 0;
+    vertical-align: middle;
+}
+
+.player-game-result {
+    color:#555;
+    font-size: smaller;
+}
+
 .team-page-squad .player p {
     text-align: center;
     font-size: 12px;

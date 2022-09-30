@@ -1,0 +1,46 @@
+{
+  "display_name": "GSF首届颠球大会",
+  "description": "喜迎世界杯，球队大联欢",
+  "type": "player contest",
+  "rules": "",
+  "group_stage": {
+    "A": [
+      "Alpha",
+      "锡麟",
+      "孟祥宇",
+      "黄中焱"
+    ],
+    "B": [
+      "Colin",
+      "王政",
+      "张自然",
+      "玄宗"
+    ]
+  },
+  "knockout_stage": [
+    [
+      "K-Alpha-王政",
+      
+      null,
+
+      "K-锡麟-Colin",
+
+      null
+    ],
+    [
+      null,
+      
+      null
+    ],
+    [
+      null
+    ]
+  ],
+  "games": {
+    "G-A-Alpha-锡麟": [10, 8]
+    ,"G-A-孟祥宇-黄中焱": [10, 8]
+    ,"G-B-Colin-王政": [10, 8]
+    ,"G-B-张自然-玄宗": [10, 8]
+    ,"K-Alpha-王政": []
+  }
+}

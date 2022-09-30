@@ -110,6 +110,44 @@ module League
         end
     end
 
+    def self.calculate_table_player_contest (player_hash, games, group_games_hash)
+        games.each do |key, score|
+            # key = "G-A-宁广涵-张稞雨"
+            # score = [ 10, 8 ]
+            a = key.split('-', 4)
+            group_games_hash[a[1]][key] = {
+                'players' => [a[2], a[3]],
+                'score' => score
+            }
+            if score.length > 0
+                # already played
+                p0 = player_hash[a[2]]
+                p0['games_played'] += 1
+                p0['scores'] += score[0]
+
+                p1 = player_hash[a[3]]
+                p1['games_played'] += 1
+                p1['scores'] += score[1]
+
+                if score[0] > score[1]
+                    p0['wins'] += 1;
+                    p1['loses'] += 1;
+                elsif score[0] < score[1]
+                    p1['wins'] += 1;
+                    p0['loses'] += 1;
+                else
+                    p0['draws'] += 1;
+                    p1['draws'] += 1;
+                end
+            end
+        end
+
+        # post process
+        for p in player_hash
+            p[1]['points'] = p[1]['wins'] * 3 + p[1]['draws']
+        end
+    end
+
     def self.calculate_table (team_hash, games_pair, entry)
         # Iterate games to calculate data
 
@@ -323,6 +361,160 @@ module League
 
             self.data['description'] = config['description']
             self.data['rules'] = config['rules']
+        end
+    end
+
+    # player contest for juggle cup
+    class PlayerContestSeasonPage < Jekyll::Page
+        def initialize(site, base, dir, season, team_info, config)
+            @site = site
+            @base = base
+            @dir = dir
+            @name = "index.html"
+            self.process(@name)
+            self.read_yaml(File.join(base, "_layouts"), "season_player_contest.html")
+
+            season_name = config['display_name']
+
+            self.data['display_name'] = season_name
+            self.data["title"] = season_name
+            self.data['description'] = config['description']
+            self.data['rules'] = config['rules']
+
+            games = config['games']
+
+            self.data['winner'] = config['winner'] ? config['winner'] : nil
+
+            # group stage
+
+            groups = config['group_stage']
+
+            player_hash = Hash.new
+
+            if groups != nil
+
+                group_games = Hash.new
+                group_tables = Hash.new
+                
+                groups.each do |group_key, players|
+                    group_games[group_key] = Hash.new
+                    group_tables[group_key] = Hash.new
+                    group_tables[group_key]['players'] = Hash.new
+                    for player in players
+                        player_hash[player] = {
+                            'games_played' => 0,
+                            'wins' => 0,
+                            'draws' => 0,
+                            'loses' => 0,
+                            'scores' => 0,
+                            'points' => 0,
+                        }
+
+                        group_tables[group_key]['players'][player] = player_hash[player]
+                    end
+                end
+
+                team_info['players'].each do |info|
+                    p = player_hash[info['name']]
+                    if p != nil
+                        p['info'] = info
+                    end
+                end
+
+
+                group_games_input = games.select{|key, game| key.include? 'G-'}
+                League.calculate_table_player_contest(player_hash, group_games_input, group_games)
+
+                # Generate group games html contents
+
+                group_tables.each do |group_key, group|
+                    # simple not points version first
+                    sorted = (group['players'].sort_by { |k, p| [ -p['points'], -p['scores'], p['games_played'] ] })
+                    group['sorted'] = sorted
+                end
+
+                self.data['group_tables'] = group_tables
+                self.data['group_games'] = group_games
+                self.data['players'] = player_hash
+
+            end
+
+            knockout_stage = config['knockout_stage']
+            if (knockout_stage != nil)
+                # knock out stage
+
+                # knockout_games_input = games.select{|key, game| key.include? 'K-'}
+
+                # make it in correct order
+                # self.data['knockout_teams']
+                knockout_array = Array.new(knockout_stage.length)
+
+                # puts knockout_stage.length
+
+                # puts games
+
+                for i in 0..(knockout_stage.length-1)
+                    round = knockout_stage[i]
+                    round_array = Array.new(round.length)
+
+                    for j in 0..(round.length-1)
+                        key = round[j]
+                        
+                        if key == nil
+                            round_array[j] = nil
+                            next
+                        end
+
+                        game = games[key]
+                        a = key.split('-', 4)
+                        game_array = Array.new(3)
+                        round_array[j] = game_array
+
+                        if game != nil
+                            # key = "K-8-宁广涵-张稞雨"
+                            # score = [ 10, 8 ]
+                            
+                            game_array[0] = player_hash[a[2]]
+                            game_array[1] = player_hash[a[3]]
+                            if game.length > 0
+                                game_array[2] = game
+                            else
+                                game_array[2] = nil
+                            end
+                        else
+                            # key = "K-8-A1-B2"
+                            # 还未进行的小组赛分档用
+
+                            game_array[0] = { 
+                                'info' => {
+                                    'img' => 'question-mark.png',
+                                    'name' => a[2]
+                                }
+                            }
+                            game_array[1] = { 
+                                'info' => {
+                                    'img' => 'question-mark.png',
+                                    'name' => a[3]
+                                }
+                            }
+                            game_array[2] = nil
+                        end
+                    end
+
+                    knockout_array[i] = round_array
+
+                    # puts knockout_array[i]
+                    # puts team_hash[round[0]]
+                    # puts team_hash['613111']
+                end
+
+                # puts knockout_array
+
+                self.data['knockout_array'] = knockout_array
+            end
+
+            
+
         end
     end
 
@@ -569,7 +761,8 @@ module League
         safe true
 
         def generate(site)
-            # puts site.pages
+
+
 
             # team_key => { season_key => stats }
             site.data['history_teams_stats'] = Hash.new
@@ -577,6 +770,26 @@ module League
 
             site.data['seasons'].each do |season|
                 # convert nilClass to array
+
+                config = season[1]['config']
+
+                # --------------------------------------------------------------
+                # Player contests special
+
+                if config != nil and config['type'] == 'player contest'
+                    season_name = season[0]
+                    if config['display_name'] != nil
+                        season_name = config['display_name']
+                    end
+
+                    team_info = season[1][config['team_info']]
+
+                    site.pages << PlayerContestSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_info, config)
+                    next
+                end
+                # -------------------------------------------------------------
+
+
 
                 team_hash = season[1]['teams']
                 team_hash.each do |key, team|
@@ -699,7 +912,6 @@ module League
                 # include all games (groups and knockout for tournament)
                 League.calculate_table(team_hash, games_pair, 'stats')
 
-                config = season[1]['config']
                 season_name = season[0]
                 if config != nil and config['display_name'] != nil
                     season_name = config['display_name']
@@ -766,10 +978,13 @@ module League
 
             site.data['nav_lists'] = Array.new
             site.data['seasons'].each do |season_key, season|
-                team_hash = season['teams']
-                team_hash.each do |team_key, team|
-                    history_stats = site.data['history_teams_stats'][team_key].to_a.reverse()
-                    site.pages << TeamPage.new(site, site.source, File.join('seasons', season_key, team_key), team_key, team, season_key, season, history_stats)
+                if season['config']['type'] != 'player contest'
+                    team_hash = season['teams']
+                    team_hash.each do |team_key, team|
+                        history_stats = site.data['history_teams_stats'][team_key].to_a.reverse()
+                        site.pages << TeamPage.new(site, site.source, File.join('seasons', season_key, team_key), team_key, team, season_key, season, history_stats)
+                    end
+
                 end
 
                 site.data['nav_lists'].push({
