@@ -34,7 +34,7 @@
         "score": 3,
         "events": [
             {"type": "owngoal", "time": 10, "player": "（乌龙）"}
-            ,{"type": "goal", "time": 20, "player": "??"}
+            ,{"type": "penalty", "time": 20, "player": "??"}
             ,{"type": "owngoal", "time": 30, "player": "（乌龙）"}
             ,{"type": "goal", "time": 40, "player": "??"}
             ,{"type": "goal", "time": 70, "player": "??"}
