@@ -69,7 +69,7 @@
             ,{
                 "number": 12,
                 "name": "小明",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/xiaoming.jpg",
                 "position": "中场"
             }
             ,{
@@ -141,7 +141,7 @@
             ,{
                 "number": 43,
                 "name": "张子豪",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/zihao.jpg",
                 "position": "后卫"
             }
             ,{

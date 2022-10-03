@@ -1,0 +1,44 @@
+{
+    "date": "2022-10-02 04:00PM",
+    "type": "#8",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "Evan", "locator": "GK"}
+            ,{"name": "方平", "locator": "LB"}
+            ,{"name": "兰帕德", "locator": "LCB"}
+            ,{"name": "庭朝", "locator": "RCB"}
+            ,{"name": "李强兵", "locator": "RB"}
+            ,{"name": "Han", "locator": "LDM"}
+            ,{"name": "蒋小神", "locator": "RDM"}
+            ,{"name": "李峰", "locator": "LCM"}
+            ,{"name": "元健", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "刘昊"}
+            ,{"name": "linwei"}
+            ,{"name": "Evan"}
+            ,{"name": "Ted"}
+            ,{"name": "杜若衡"}
+            ,{"name": "吴骏"}
+            ,{"name": "Cyrus"}
+        ]
+    },
+    "away": {
+        "key": "DeepSoccer",
+        "score": 3,
+        "events": [
+            {"type": "owngoal", "time": 10, "player": "（乌龙）"}
+            ,{"type": "goal", "time": 20, "player": "??"}
+            ,{"type": "owngoal", "time": 30, "player": "（乌龙）"}
+            ,{"type": "goal", "time": 40, "player": "??"}
+            ,{"type": "goal", "time": 70, "player": "??"}
+        ],
+        "squad": []
+    }
+}

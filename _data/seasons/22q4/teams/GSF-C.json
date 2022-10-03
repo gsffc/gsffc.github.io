@@ -100,13 +100,13 @@
             ,{
                 "number": 30,
                 "name": "linwei",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/linwei.jpg",
                 "position": "中场"
             }
             ,{
                 "number": 32,
                 "name": "Cyrus",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/cyrus.jpg",
                 "position": "后卫"
             }
             ,{
@@ -185,7 +185,7 @@
             ,{
                 "number": 88,
                 "name": "兰帕德",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/lanpade.jpg",
                 "position": "中场"
             }
             ,{
@@ -203,7 +203,7 @@
             ,{
                 "number": 202,
                 "name": "方平",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/fangping.jpg",
                 "position": "中场"
             }
             ,{

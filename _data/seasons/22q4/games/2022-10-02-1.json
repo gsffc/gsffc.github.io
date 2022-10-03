@@ -1,0 +1,46 @@
+{
+    "date": "2022-10-02 04:00PM",
+    "type": "#8",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/ErTCPzchDkk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<iframe src=\"https://www.youtube.com/embed/oGb8ruE-jcc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 50, "player": "小明"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "王政", "locator": "LB"}
+            ,{"name": "张自然", "locator": "CB"}
+            ,{"name": "孟祥宇", "locator": "RB"}
+            ,{"name": "玄宗", "locator": "LM"}
+            ,{"name": "黄中焱", "locator": "CDM"}
+            ,{"name": "张一宁", "locator": "CM"}
+            ,{"name": "Ricky", "locator": "RM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "狄克"}
+            ,{"name": "小明"}
+            ,{"name": "Colin"}
+            ,{"name": "云帆"}
+            ,{"name": "王琛"}
+            ,{"name": "张子豪"}
+            ,{"name": "Bruce"}
+            ,{"name": "Kevin"}
+            ,{"name": "宁广涵"}
+        ]
+    },
+    "away": {
+        "key": "Hunters",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 15, "player": "??"}
+            ,{"type": "goal", "time": 35, "player": "??"}
+        ],
+        "squad": []
+    }
+}
