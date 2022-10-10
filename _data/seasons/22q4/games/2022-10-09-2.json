@@ -1,0 +1,44 @@
+{
+    "date": "2022-10-09 04:00PM",
+    "type": "#9",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/3hC6vz12Lec\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 1,
+        "events": [
+            {"type": "penalty", "time": 80, "player": "蒋小神"}
+        ],
+        "squad": [
+            {"name": "Evan", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "洪泽", "locator": "LCB"}
+            ,{"name": "刘喆", "locator": "RCB"}
+            ,{"name": "Ted", "locator": "RB"}
+            ,{"name": "杜若衡", "locator": "LDM"}
+            ,{"name": "蒋小神", "locator": "RDM"}
+            ,{"name": "李峰", "locator": "LCM"}
+            ,{"name": "吴骏", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "杨帆"}
+            ,{"name": "张谌"}
+            ,{"name": "方平"}
+            ,{"name": "潘言星"}
+            ,{"name": "元健"}
+            ,{"name": "陈晨"}
+            ,{"name": "Alpha"}
+        ]
+    },
+    "away": {
+        "key": "ICP",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 10, "player": "??"}
+            ,{"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 40, "player": "??"}
+        ],
+        "squad": []
+    }
+}

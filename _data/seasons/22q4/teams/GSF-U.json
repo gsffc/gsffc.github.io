@@ -190,6 +190,12 @@
                 "position": "前锋"
             }
             ,{
+                "number": 97,
+                "name": "Casper",
+                "img": "placeholder-player.jpg",
+                "position": "前锋"
+            }
+            ,{
                 "number": 101,
                 "name": "Bruce",
                 "img": "teams/GSF/bruce.jpg",
