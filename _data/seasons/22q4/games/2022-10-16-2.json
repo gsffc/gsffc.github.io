@@ -1,0 +1,42 @@
+{
+    "date": "2022-10-16 04:00PM",
+    "type": "#10",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "Evan", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "陈晨", "locator": "LCB"}
+            ,{"name": "刘喆", "locator": "RCB"}
+            ,{"name": "Ted", "locator": "RB"}
+            ,{"name": "蒋小神", "locator": "LDM"}
+            ,{"name": "杜若衡", "locator": "RDM"}
+            ,{"name": "郝宇", "locator": "LCM"}
+            ,{"name": "杨帆", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "兰帕德"}
+            ,{"name": "Cedar"}
+            ,{"name": "方平"}
+            ,{"name": "刘昊"}
+            ,{"name": "元健"}
+            ,{"name": "洪泽"}
+            ,{"name": "Han"}
+            ,{"name": "杨谱"}
+        ]
+    },
+    "away": {
+        "key": "THU",
+        "score": 2,
+        "events": [
+            {"type": "penalty", "time": 10, "player": "??"}
+            ,{"type": "goal", "time": 85, "player": "??"}
+        ],
+        "squad": []
+    }
+}
