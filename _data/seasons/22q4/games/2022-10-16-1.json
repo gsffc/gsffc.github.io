@@ -34,7 +34,7 @@
         ]
     },
     "away": {
-        "key": "Shoreline",
+        "key": "WU",
         "score": 3,
         "events": [
             {"type": "goal", "time": 20, "player": "??"}
