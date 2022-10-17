@@ -8,9 +8,9 @@
         "score": 5,
         "events": [
             {"type": "goal", "time": 10, "player": "张稞雨", "assist": "Ricky"}
-            ,{"type": "goal", "time": 30, "player": "Colin"}
+            ,{"type": "goal", "time": 30, "player": "Colin", "assist": "厚汝轩"}
             ,{"type": "goal", "time": 70, "player": "张稞雨", "assist": "厚汝轩"}
-            ,{"type": "penalty", "time": 80, "player": "张稞雨"}
+            ,{"type": "penalty", "time": 80, "player": "张稞雨", "assist": "Ricky"}
             ,{"type": "goal", "time": 90, "player": "Kevin", "assist": "玄宗"}
         ],
         "squad": [
