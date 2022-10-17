@@ -2,6 +2,7 @@
     "date": "2022-10-16 04:00PM",
     "type": "#10",
     "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/UfWBRMMeOxA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
