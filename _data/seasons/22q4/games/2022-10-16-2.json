@@ -34,7 +34,7 @@
         "key": "THU",
         "score": 2,
         "events": [
-            {"type": "penalty", "time": 10, "player": "??"}
+            {"type": "penalty", "time": 40, "player": "??"}
             ,{"type": "goal", "time": 85, "player": "??"}
         ],
         "squad": []
