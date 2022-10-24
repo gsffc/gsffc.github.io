@@ -8,10 +8,10 @@
         "key": "GSF-U",
         "score": 5,
         "events": [
-            {"type": "goal", "time": 10, "player": "张稞雨", "assist": "Ricky"}
-            ,{"type": "goal", "time": 30, "player": "Colin", "assist": "厚汝轩"}
+            {"type": "goal", "time": 5, "player": "张稞雨", "assist": "Ricky"}
+            ,{"type": "goal", "time": 36, "player": "Colin", "assist": "厚汝轩"}
             ,{"type": "goal", "time": 70, "player": "张稞雨", "assist": "厚汝轩"}
-            ,{"type": "penalty", "time": 80, "player": "张稞雨", "assist": "Ricky"}
+            ,{"type": "penalty", "time": 78, "player": "张稞雨", "assist": "Ricky"}
             ,{"type": "goal", "time": 90, "player": "Kevin", "assist": "玄宗"}
         ],
         "squad": [
@@ -37,9 +37,10 @@
         "key": "WU",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 20, "player": "??"}
-            ,{"type": "goal", "time": 40, "player": "??"}
-            ,{"type": "goal", "time": 50, "player": "??"}
+            {"type": "goal", "time": 23, "player": "??"}
+            ,{"type": "yellow", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 39, "player": "??"}
+            ,{"type": "goal", "time": 53, "player": "??"}
         ],
         "squad": []
     }

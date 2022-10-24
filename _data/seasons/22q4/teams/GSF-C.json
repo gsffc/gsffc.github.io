@@ -207,6 +207,18 @@
                 "position": "中场"
             }
             ,{
+                "number": 102,
+                "name": "小鱼",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 103,
+                "name": "汪兴",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 108,
                 "name": "Moises",
                 "img": "placeholder-player.jpg",

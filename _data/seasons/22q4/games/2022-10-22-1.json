@@ -1,0 +1,46 @@
+{
+    "date": "2022-10-22 04:00PM",
+    "type": "#11",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/uqnYCnbKejk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 13, "player": "李峰", "assist": "庭朝"}
+            ,{"type": "red", "time": 44, "player": "Ted"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "洪泽", "locator": "LCB"}
+            ,{"name": "李强兵", "locator": "RCB"}
+            ,{"name": "潘言星", "locator": "RB"}
+            ,{"name": "蒋小神", "locator": "LDM"}
+            ,{"name": "杜若衡", "locator": "RDM"}
+            ,{"name": "李峰", "locator": "LCM"}
+            ,{"name": "Ted", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "兰帕德"}
+            ,{"name": "小鱼"}
+            ,{"name": "方平"}
+            ,{"name": "郝宇"}
+            ,{"name": "Cedar"}
+            ,{"name": "Evan"}
+            ,{"name": "汪兴"}
+            ,{"name": "刘昊"}
+            ,{"name": "刘喆"}
+        ]
+    },
+    "away": {
+        "key": "Hunters",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 5, "player": "??"}
+            ,{"type": "red", "time": 44, "player": "??"}
+        ],
+        "squad": []
+    }
+}

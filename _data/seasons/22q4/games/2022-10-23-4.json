@@ -1,0 +1,14 @@
+{
+    "date": "2022-10-23 06:00PM",
+    "type": "#11",
+    "home": {
+        "key": "GSF-U",
+        "score": 3
+    },
+    "away": {
+        "key": "BD",
+        "forfeit": true,
+        "score": 0
+    },
+    "extra": "（北旦腾飞骑士弃权）"
+}
