@@ -1,0 +1,12 @@
+{
+    "date": "2022-10-23 06:00PM",
+    "type": "#12",
+    "home": {
+        "key": "Berkeley",
+        "score": 2
+    },
+    "away": {
+        "key": "SouthBay",
+        "score": 5
+    }
+}
