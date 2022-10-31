@@ -2,6 +2,7 @@
     "date": "2022-10-29 06:00PM",
     "type": "#12",
     "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/Z3mbm1dF4To\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-C",
