@@ -8,8 +8,8 @@
         "key": "GSF-U",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 60, "player": "玄宗", "assist": "Casper"}
-            ,{"type": "goal", "time": 85, "player": "Ricky"}
+            {"type": "goal", "time": 78, "player": "玄宗", "assist": "Casper"}
+            ,{"type": "goal", "time": 89, "player": "Ricky"}
             ,{"type": "goal", "time": 90, "player": "Kevin"}
         ],
         "squad": [
@@ -35,10 +35,10 @@
         "key": "EBU",
         "score": 4,
         "events": [
-            {"type": "goal", "time": 20, "player": "??"}
-            ,{"type": "goal", "time": 25, "player": "??"}
-            ,{"type": "goal", "time": 30, "player": "??"}
-            ,{"type": "goal", "time": 70, "player": "??"}
+            {"type": "goal", "time": 11, "player": "??"}
+            ,{"type": "goal", "time": 19, "player": "??"}
+            ,{"type": "goal", "time": 22, "player": "??"}
+            ,{"type": "goal", "time": 88, "player": "??"}
         ],
         "squad": []
     }
