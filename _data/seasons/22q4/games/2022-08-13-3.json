@@ -21,7 +21,7 @@
             ,{"name": "李峰", "locator": "LDM"}
             ,{"name": "杨谱", "locator": "RDM"}
             ,{"name": "元健", "locator": "RM"}
-            ,{"name": "Caio（外援）", "locator": "CAM"}
+            ,{"name": "Caio", "locator": "CAM"}
         ]
         ,"bench": [
             {"name": "Moises"}

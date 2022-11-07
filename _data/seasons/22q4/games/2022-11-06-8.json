@@ -1,0 +1,44 @@
+{
+    "date": "2022-11-06 06:00PM",
+    "type": "#13",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/zlSlN39Tf54\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 18, "player": "玄宗", "assist": "Colin"}
+            ,{"type": "goal", "time": 40, "player": "玄宗", "assist": "狄克"}
+            ,{"type": "goal", "time": 65, "player": "玄宗", "assist": "厚汝轩"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "王政", "locator": "LWB"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "肖毅捷", "locator": "RCB"}
+            ,{"name": "孟祥宇", "locator": "RWB"}
+            ,{"name": "黄中焱", "locator": "CDM"}
+            ,{"name": "宁广涵", "locator": "LCM"}
+            ,{"name": "玄宗", "locator": "RCM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "狄克"}
+            ,{"name": "王琛"}
+            ,{"name": "张子豪"}
+            ,{"name": "Ricky"}
+            ,{"name": "Bruce"}
+            ,{"name": "厚汝轩"}
+            ,{"name": "荆安东"}
+        ]
+    },
+    "away": {
+        "key": "OverPower",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 48, "player": "??"}
+        ],
+        "squad": []
+    }
+}

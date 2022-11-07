@@ -269,7 +269,7 @@
         }
         ,{
             "number": 51,
-            "name": "Caio（外援）",
+            "name": "Caio",
             "img": "placeholder-player.jpg",
             "position": "前锋"
         }
@@ -384,7 +384,8 @@
             "name": "安安"
         }
         ,{
-            "name": "荆安东"
+            "name": "荆安东",
+            "img": "teams/GSF/jingandong.jpg"
         }
     ]
 }

@@ -158,6 +158,12 @@
                 "locator": "RM"
             }
             ,{
+                "number": 56,
+                "name": "荆安东",
+                "img": "teams/GSF/jingandong.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 63,
                 "name": "单思远",
                 "img": "teams/GSF/shansiyuan.jpg",

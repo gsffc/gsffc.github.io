@@ -1,0 +1,50 @@
+{
+    "date": "2022-11-06 04:00PM",
+    "type": "#13",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/Z3mbm1dF4To\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 4,
+        "events": [
+            {"type": "penalty", "time": 10, "player": "布狄卡"}
+            ,{"type": "penalty", "time": 20, "player": "布狄卡"}
+            ,{"type": "penalty", "time": 35, "player": "布狄卡"}
+            ,{"type": "goal", "time": 60, "player": "布狄卡"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "汪兴", "locator": "LB"}
+            ,{"name": "庭朝", "locator": "LCB"}
+            ,{"name": "吴骏", "locator": "RCB"}
+            ,{"name": "Ted", "locator": "RB"}
+            ,{"name": "蒋小神", "locator": "LDM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "布狄卡", "locator": "LCM"}
+            ,{"name": "杜若衡", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "杨帆"}
+            ,{"name": "元健"}
+            ,{"name": "方平"}
+            ,{"name": "杨谱"}
+            ,{"name": "Evan"}
+            ,{"name": "张谌"}
+            ,{"name": "李强兵"}
+            ,{"name": "兰帕德"}
+        ]
+    },
+    "away": {
+        "key": "WU",
+        "score": 5,
+        "events": [
+            {"type": "penalty", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 50, "player": "??"}
+            ,{"type": "goal", "time": 70, "player": "??"}
+            ,{"type": "goal", "time": 80, "player": "??"}
+            ,{"type": "penalty", "time": 85, "player": "??"}
+        ],
+        "squad": []
+    }
+}

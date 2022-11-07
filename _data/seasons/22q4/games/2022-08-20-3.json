@@ -23,9 +23,9 @@
         "key": "GSF-C",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 20, "player": "Caio（外援）", "assist": "蒋小神"}
-            ,{"type": "goal", "time": 23, "player": "Caio（外援）", "assist": "兰帕德"}
-            ,{"type": "red", "time": 87, "player": "Caio（外援）"}
+            {"type": "goal", "time": 20, "player": "Caio", "assist": "蒋小神"}
+            ,{"type": "goal", "time": 23, "player": "Caio", "assist": "兰帕德"}
+            ,{"type": "red", "time": 87, "player": "Caio"}
         ],
         "squad": [
             {"name": "杨谱", "locator": "GK"}
@@ -36,7 +36,7 @@
             ,{"name": "杜若衡", "locator": "LCM"}
             ,{"name": "刘昊", "locator": "RCM"}
             ,{"name": "元健", "locator": "RS"}
-            ,{"name": "Caio（外援）", "locator": "LS"}
+            ,{"name": "Caio", "locator": "LS"}
         ]
         ,"bench": [
             {"name": "郝宇"}
