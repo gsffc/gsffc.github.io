@@ -1,0 +1,38 @@
+<div style="overflow:auto; width: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>{{include.group_name}}</th>
+        <th>{% translate table.team_name %}</th>
+        <th><b>{% translate table.points %}</b></th>
+        <th>{% translate table.played %}</th>
+        <th>{% translate table.win %}</th>
+        <th>{% translate table.tie %}</th>
+        <th>{% translate table.lose %}</th>
+        <th>{% translate table.goals_for %}</th>
+        <th>{% translate table.goals_against %}</th>
+        <th>{% translate table.goals_diff %}</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      {% for team in include.table %}
+      <tr>
+        <td>{{ forloop.index }}</td>
+        <td>
+          {% include team_link.html team=team %}
+        </td>
+        <td><b>{{ team.table.points }}</b></td>
+        <td>{{ team.table.games_played }}</td>
+        <td>{{ team.table.wins }}</td>
+        <td>{{ team.table.draws }}</td>
+        <td>{{ team.table.loses }}</td>
+        <td>{{ team.table.goals_for }}</td>
+        <td>{{ team.table.goals_against }}</td>
+        <td>{{ team.table.goals_diff }}</td>
+      </tr>
+      {% endfor %}
+      
+    </tbody>
+  </table>
+</div>

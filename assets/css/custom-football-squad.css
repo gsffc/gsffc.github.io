@@ -21,7 +21,6 @@ figcaption {
 
 .column {
     width: 50%;
-    
     flex: 1;
 }
 
@@ -127,12 +126,14 @@ td.player-td {
     text-align: center;
     font-size: 12px;
     white-space: nowrap;
+    margin-bottom: 15px;
 }
 
 .game-page-squad .player p {
     text-align: center;
     font-size: clamp(8px, 0.8vw, 12px);
     white-space: nowrap;
+    margin-bottom: 15px;
 }
 
 /* GK */

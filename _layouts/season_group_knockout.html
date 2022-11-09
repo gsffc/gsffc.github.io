@@ -13,7 +13,6 @@ layout: default
 {% endif %}
 
 {% if page.knockout_array != nil %}
-<div class="row">&nbsp;</div>
 <h3>{% translate knockout_stage %}</h3>
 
 <div class="tournament">
@@ -64,40 +63,8 @@ layout: default
 
 {% for group in page.group_tables %}
 {% assign group_key = group[0] %}
-<table class="block">
-  <thead>
-    <tr>
-      <th></th>
-      <th>{{group_key}}</th>
-      <th>{% translate table.played %}</th>
-      <th>{% translate table.win %}</th>
-      <th>{% translate table.tie %}</th>
-      <th>{% translate table.lose %}</th>
-      <th>{% translate table.goals_for %}</th>
-      <th>{% translate table.goals_against %}</th>
-      <th>{% translate table.goals_diff %}</th>
-      <th>{% translate table.points %}</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for team in group[1] %}
-    <tr>
-      <td>{{ forloop.index }}</td>
-      <td>
-        {% include team_link.html team=team %}
-      </td>
-      <td>{{ team.table.games_played }}</td>
-      <td>{{ team.table.wins }}</td>
-      <td>{{ team.table.draws }}</td>
-      <td>{{ team.table.loses }}</td>
-      <td>{{ team.table.goals_for }}</td>
-      <td>{{ team.table.goals_against }}</td>
-      <td>{{ team.table.goals_diff }}</td>
-      <td>{{ team.table.points }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+{% assign group_table = group[1] %}
+{% include team_table.html table=group_table group_name=group_key %}
 
 {% for game in page.group_games[group_key] %}
 {% assign gk = game[0] %}

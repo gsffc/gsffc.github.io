@@ -13,7 +13,6 @@ layout: default
 {% endif %}
 
 {% if page.knockout_array != nil %}
-<div class="row">&nbsp;</div>
 <h3>{% translate knockout_stage %}</h3>
 
 <div class="tournament">
@@ -88,7 +87,7 @@ layout: default
 {% assign group_key = group[0] %}
 {% assign sorted = group[1].sorted %}
 
-<table class="block">
+<table class="small">
   <thead>
     <tr>
       <th></th>

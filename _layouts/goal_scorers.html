@@ -39,7 +39,7 @@ layout: default
         🥉
         {% else %}
         {% endcase %}
-        <font color='#f55'>{{ player.name }}</font>
+        {{ player.name }}
       </td>
       <td>
         {% assign team = page.team_hash[player.teamkey] %}
