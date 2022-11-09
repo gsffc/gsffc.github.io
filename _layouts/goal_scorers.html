@@ -23,11 +23,9 @@ layout: default
     {% for player in page.rank_table %}
     <tr>
       <td>
-        {% if player.img != nil %}
-        <img src="{{site.baseurl}}/assets/img/{{player.img}}"/>
-        {% else %}
-        <img src="{{site.baseurl}}/assets/img/placeholder-player.jpg"/>
-        {% endif %}
+        <div class="player static">
+          <img src="{{site.baseurl}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
+        </div>
       </td>
       <td>
         {% case forloop.index %}
