@@ -237,7 +237,7 @@ table {
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 4);
+    padding: $table-spacing-unit $table-spacing-unit;
   }
   th {
     background-color: lighten($grey-color-light, 3%);
@@ -252,6 +252,6 @@ table {
 table.small {
   width: auto;
   th, td {
-    padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
+    padding: ($spacing-unit / 3) ($spacing-unit / 2.5);
   }
 }
