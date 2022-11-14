@@ -2,6 +2,7 @@
     "date": "2022-11-13 06:00PM",
     "type": "#14",
     "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/A29blimDegs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
@@ -44,10 +45,10 @@
         ],
         "squad": [
             {"name": "Evan", "locator": "GK"}
-            ,{"name": "汪兴", "locator": "LB"}
+            ,{"name": "Cedar", "locator": "LB"}
             ,{"name": "李强兵", "locator": "LCB"}
             ,{"name": "陈晨", "locator": "RCB"}
-            ,{"name": "Cedar", "locator": "RB"}
+            ,{"name": "汪兴", "locator": "RB"}
             ,{"name": "Han", "locator": "LDM"}
             ,{"name": "兰帕德", "locator": "RDM"}
             ,{"name": "xiang", "locator": "LCM"}
