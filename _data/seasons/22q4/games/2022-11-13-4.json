@@ -1,0 +1,70 @@
+{
+    "date": "2022-11-13 06:00PM",
+    "type": "#14",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 6,
+        "events": [
+            {"type": "goal", "time": 10, "player": "狄克", "assist": "张子豪"}
+            ,{"type": "goal", "time": 40, "player": "Casper", "assist": "王琛"}
+            ,{"type": "goal", "time": 60, "player": "Colin", "assist": "孟祥宇"}
+            ,{"type": "goal", "time": 70, "player": "玄宗"}
+            ,{"type": "goal", "time": 75, "player": "张稞雨"}
+            ,{"type": "goal", "time": 85, "player": "宁广涵"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "Bruce", "locator": "LWB"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "张稞雨", "locator": "RCB"}
+            ,{"name": "荆安东", "locator": "RWB"}
+            ,{"name": "狄克", "locator": "CDM"}
+            ,{"name": "宁广涵", "locator": "LCM"}
+            ,{"name": "张子豪", "locator": "RCM"}
+            ,{"name": "Kevin", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "黄中焱"}
+            ,{"name": "王琛"}
+            ,{"name": "玄宗"}
+            ,{"name": "Ricky"}
+            ,{"name": "Bruce"}
+            ,{"name": "孟祥宇"}
+            ,{"name": "王政"}
+            ,{"name": "云帆"}
+            ,{"name": "Casper"}
+        ]
+    },
+    "away": {
+        "key": "GSF-C",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 30, "player": "郝宇", "assist": "杨帆"}
+        ],
+        "squad": [
+            {"name": "Evan", "locator": "GK"}
+            ,{"name": "汪兴", "locator": "LB"}
+            ,{"name": "李强兵", "locator": "LCB"}
+            ,{"name": "陈晨", "locator": "RCB"}
+            ,{"name": "Cedar", "locator": "RB"}
+            ,{"name": "Han", "locator": "LDM"}
+            ,{"name": "兰帕德", "locator": "RDM"}
+            ,{"name": "xiang", "locator": "LCM"}
+            ,{"name": "刘昊", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "杨帆"}
+            ,{"name": "郝宇"}
+            ,{"name": "元健"}
+            ,{"name": "刘喆"}
+            ,{"name": "洪泽"}
+            ,{"name": "杜若衡"}
+            ,{"name": "张谌"}
+            ,{"name": "Cyrus"}
+            ,{"name": "庭朝"}
+            ,{"name": "吴骏"}
+        ]
+    }
+}
