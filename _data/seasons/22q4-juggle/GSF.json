@@ -312,7 +312,7 @@
             "locator": "LM"
         }
         ,{
-            "number": 70,
+            "number": 90,
             "name": "Evan",
             "img": "teams/GSF/evan.jpg",
             "position": "后卫"
@@ -377,6 +377,7 @@
             "name": "则博"
         }
         ,{
+            "number": 50,
             "name": "汪兴",
             "img": "teams/GSF/wangxing.jpg"
         }

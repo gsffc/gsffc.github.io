@@ -171,12 +171,6 @@
                 "position": "中场"
             }
             ,{
-                "number": 70,
-                "name": "Evan",
-                "img": "teams/GSF/evan.jpg",
-                "position": "后卫"
-            }
-            ,{
                 "number": 83,
                 "name": "liuzheng",
                 "img": "teams/GSF/liuzheng.jpg",
@@ -187,6 +181,12 @@
                 "name": "兰帕德",
                 "img": "teams/GSF/lanpade.jpg",
                 "position": "中场"
+            }
+            ,{
+                "number": 90,
+                "name": "Evan",
+                "img": "teams/GSF/evan.jpg",
+                "position": "后卫"
             }
             ,{
                 "number": 98,
@@ -213,7 +213,7 @@
                 "position": "中场"
             }
             ,{
-                "number": 103,
+                "number": 50,
                 "name": "汪兴",
                 "img": "teams/GSF/wangxing.jpg",
                 "position": "中场"
