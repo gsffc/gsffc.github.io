@@ -1,0 +1,46 @@
+{
+    "date": "2022-11-19 04:00PM",
+    "type": "#15",
+    "videos": [
+        "<a href=\"https://app.veo.co/matches/20221120-gsf-2a9f98f5\"><img src=\"/assets/img/news/season-22/r15-u-sb/veo.jpg\"></img></a>"
+        ,"<iframe src=\"https://www.youtube.com/embed/UDeE8znc64s\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF-U",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 18, "player": "狄克", "assist": "黄中焱"}
+            ,{"type": "goal", "time": 22, "player": "黄中焱"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "王政", "locator": "LWB"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "肖毅捷", "locator": "RCB"}
+            ,{"name": "王琛", "locator": "RWB"}
+            ,{"name": "黄中焱", "locator": "CDM"}
+            ,{"name": "狄克", "locator": "LCM"}
+            ,{"name": "Ricky", "locator": "RCM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "宁广涵"}
+            ,{"name": "玄宗"}
+            ,{"name": "张子豪"}
+            ,{"name": "Casper"}
+            ,{"name": "Bruce"}
+            ,{"name": "孟祥宇"}
+        ]
+    },
+    "away": {
+        "key": "SouthBay",
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 11, "player": "??"}
+            ,{"type": "goal", "time": 29, "player": "??"}
+            ,{"type": "goal", "time": 73, "player": "??"}
+            ,{"type": "goal", "time": 81, "player": "??"}
+        ],
+        "squad": []
+    }
+}

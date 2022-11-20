@@ -1,0 +1,12 @@
+{
+    "date": "2022-11-19 06:00PM",
+    "type": "#15",
+    "home": {
+        "key": "DeepSoccer",
+        "score": 3
+    },
+    "away": {
+        "key": "CalBlue",
+        "score": 2
+    }
+}
