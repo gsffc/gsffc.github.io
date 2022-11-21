@@ -42,9 +42,9 @@
         "score": 4,
         "events": [
             {"type": "goal", "time": 10, "player": "??"}
-            ,{"type": "goal", "time": 52, "player": "拓拓"}
+            ,{"type": "goal", "time": 52, "player": "??"}
             ,{"type": "goal", "time": 60, "player": "??"}
-            ,{"type": "goal", "time": 69, "player": "??", "assist": "拓拓"}
+            ,{"type": "goal", "time": 69, "player": "??", "assist": "??"}
         ],
         "squad": []
     }
