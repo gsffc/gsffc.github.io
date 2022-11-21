@@ -1,0 +1,45 @@
+{
+    "date": "2022-11-20 06:00PM",
+    "type": "#15",
+    "videos": [
+    ],
+    "home": {
+        "key": "GSF-C",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 50, "player": "蒋小神"}
+            ,{"type": "goal", "time": 70, "player": "蒋小神"}
+            ,{"type": "goal", "time": 90, "player": "Ted", "assist": "蒋小神"}
+        ],
+        "squad": [
+            {"name": "杨谱", "locator": "GK"}
+            ,{"name": "庭朝", "locator": "LB"}
+            ,{"name": "刘争", "locator": "LCB"}
+            ,{"name": "陈晨", "locator": "RCB"}
+            ,{"name": "汪兴", "locator": "RB"}
+            ,{"name": "蒋小神", "locator": "LDM"}
+            ,{"name": "杜若衡", "locator": "RDM"}
+            ,{"name": "郝宇", "locator": "LCM"}
+            ,{"name": "Ted", "locator": "RCM"}
+        ]
+        ,"bench": [
+            {"name": "杨帆"}
+            ,{"name": "元健"}
+            ,{"name": "兰帕德"}
+            ,{"name": "李峰"}
+            ,{"name": "刘喆"}
+            ,{"name": "吴骏"}
+            ,{"name": "Evan"}
+            ,{"name": "Cyrus"}
+        ]
+    },
+    "away": {
+        "key": "BD",
+        "score": 2,
+        "events": [
+            {"type": "owngoal", "time": 30, "player": "（乌龙）"}
+            ,{"type": "owngoal", "time": 87, "player": "（乌龙）"}
+        ],
+        "squad": []
+    }
+}
