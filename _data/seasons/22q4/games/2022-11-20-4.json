@@ -7,8 +7,8 @@
         "key": "GSF-C",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 50, "player": "蒋小神"}
-            ,{"type": "goal", "time": 70, "player": "蒋小神"}
+            {"type": "goal", "time": 60, "player": "郝宇", "assist": "蒋小神"}
+            ,{"type": "goal", "time": 65, "player": "蒋小神", "assist": "杨帆"}
             ,{"type": "goal", "time": 90, "player": "Ted", "assist": "蒋小神"}
         ],
         "squad": [
@@ -38,7 +38,7 @@
         "score": 2,
         "events": [
             {"type": "owngoal", "time": 30, "player": "（乌龙）"}
-            ,{"type": "owngoal", "time": 87, "player": "（乌龙）"}
+            ,{"type": "owngoal", "time": 89, "player": "（乌龙）"}
         ],
         "squad": []
     }
