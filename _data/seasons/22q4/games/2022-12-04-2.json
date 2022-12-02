@@ -1,0 +1,13 @@
+{
+    "date": "2022-12-04 04:00PM",
+    "type": "#16",
+    "schedule": true,
+    "home": {
+        "key": "Berkeley",
+        "score": 0
+    },
+    "away": {
+        "key": "DeepSoccer",
+        "score": 0
+    }
+}
