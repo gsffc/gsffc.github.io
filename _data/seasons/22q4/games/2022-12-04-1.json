@@ -1,0 +1,39 @@
+{
+    "date": "2022-12-04 04:00PM",
+    "type": "#16",
+    "videos": [
+    ],
+    "schedule": true,
+    "home": {
+        "key": "GSF-U",
+        "score": 2,
+        "events": [
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "王政", "locator": "LWB"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "Casper", "locator": "RCB"}
+            ,{"name": "孟祥宇", "locator": "RWB"}
+            ,{"name": "黄中焱", "locator": "CDM"}
+            ,{"name": "张稞雨", "locator": "LCM"}
+            ,{"name": "狄克", "locator": "RCM"}
+            ,{"name": "玄宗", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "宁广涵"}
+            ,{"name": "王琛"}
+            ,{"name": "张子豪"}
+            ,{"name": "Casper"}
+            ,{"name": "Bruce"}
+            ,{"name": "孟祥宇"}
+        ]
+    },
+    "away": {
+        "key": "ICP",
+        "score": 0,
+        "events": [
+        ],
+        "squad": []
+    }
+}
