@@ -12,16 +12,16 @@
         "squad": [
             {"name": "锡麟", "locator": "GK"}
             ,{"name": "王政", "locator": "LWB"}
-            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "孟祥宇", "locator": "LCB"}
             ,{"name": "Casper", "locator": "RCB"}
-            ,{"name": "孟祥宇", "locator": "RWB"}
+            ,{"name": "Ricky", "locator": "RWB"}
             ,{"name": "黄中焱", "locator": "CDM"}
-            ,{"name": "张稞雨", "locator": "LCM"}
+            ,{"name": "玄宗", "locator": "LCM"}
             ,{"name": "狄克", "locator": "RCM"}
-            ,{"name": "玄宗", "locator": "CAM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
         ]
         ,"bench": [
-            {"name": "宁广涵"}
+            {"name": "Kevin"}
             ,{"name": "王琛"}
             ,{"name": "张子豪"}
             ,{"name": "荆安东"}
