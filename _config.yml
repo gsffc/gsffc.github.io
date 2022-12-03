@@ -51,3 +51,7 @@ exclude:
 tag_page_layout: tag_page
 tag_page_dir: tag
 tag_permalink_style: pretty
+
+banners:
+  - { img: '/assets/img/banners/zhangfei.jpg', link: 'https://www.zhangfeihotpot.com/zh' }
+  - { img: '/assets/img/banners/guanggaowei.jpg', link: '#' }
