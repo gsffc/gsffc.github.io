@@ -1,13 +1,12 @@
 {
     "date": "2022-12-03 04:00PM",
     "type": "#16",
-    "schedule": true,
     "home": {
         "key": "SVTigers",
-        "score": 0
+        "score": 7
     },
     "away": {
         "key": "BD",
-        "score": 0
+        "score": 4
     }
 }

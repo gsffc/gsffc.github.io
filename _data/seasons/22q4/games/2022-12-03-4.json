@@ -1,13 +1,12 @@
 {
     "date": "2022-12-03 06:00PM",
     "type": "#16",
-    "schedule": true,
     "home": {
         "key": "GSF-C",
-        "score": 0
+        "score": 1
     },
     "away": {
         "key": "SouthBay",
-        "score": 0
+        "score": 4
     }
 }
