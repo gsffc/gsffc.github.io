@@ -8,6 +8,7 @@ layout: default
 {% if page.winner != nil and page.winner != "" %}
 <h3>🏆 {% translate champion %}</h3>
 {% include team_link.html team=page.winner %}
+<div class="row">&nbsp;</div>
 {% endif %}
 
 {% include team_table.html table=page.table %}
