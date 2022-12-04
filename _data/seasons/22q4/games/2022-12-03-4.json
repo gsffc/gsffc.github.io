@@ -3,10 +3,15 @@
     "type": "#16",
     "home": {
         "key": "GSF-C",
-        "score": 1
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 60, "player": "Evan", "assist": "杨帆"}
+        ]
     },
     "away": {
         "key": "SouthBay",
-        "score": 4
+        "score": 4,
+        "events": [
+        ]
     }
 }
