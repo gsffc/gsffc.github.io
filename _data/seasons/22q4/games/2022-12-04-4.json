@@ -1,13 +1,12 @@
 {
     "date": "2022-12-04 06:00PM",
     "type": "#16",
-    "schedule": true,
     "home": {
         "key": "Hunters",
         "score": 0
     },
     "away": {
         "key": "EBU",
-        "score": 0
+        "score": 1
     }
 }

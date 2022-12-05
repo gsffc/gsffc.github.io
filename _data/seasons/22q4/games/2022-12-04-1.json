@@ -8,30 +8,31 @@
         "key": "GSF-U",
         "score": 2,
         "events": [
+            {"type": "goal", "time": 10, "player": "张稞雨"}
+            ,{"type": "penalty", "time": 80, "player": "玄宗", "assist": "张稞雨"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
-            ,{"name": "王政", "locator": "LWB"}
-            ,{"name": "肖毅捷", "locator": "LCB"}
-            ,{"name": "孟祥宇", "locator": "RCB"}
-            ,{"name": "Ricky", "locator": "RWB"}
+            ,{"name": "王琛", "locator": "LWB"}
+            ,{"name": "狄克", "locator": "LCB"}
+            ,{"name": "肖毅捷", "locator": "RCB"}
+            ,{"name": "孟祥宇", "locator": "RWB"}
             ,{"name": "黄中焱", "locator": "CDM"}
             ,{"name": "玄宗", "locator": "LCM"}
-            ,{"name": "狄克", "locator": "RCM"}
+            ,{"name": "Ricky", "locator": "RCM"}
             ,{"name": "张稞雨", "locator": "CAM"}
         ]
         ,"bench": [
             {"name": "Kevin"}
-            ,{"name": "王琛"}
+            ,{"name": "王政"}
             ,{"name": "张子豪"}
-            ,{"name": "荆安东"}
-            ,{"name": "Casper"}
         ]
     },
     "away": {
         "key": "ICP",
-        "score": 0,
+        "score": 1,
         "events": [
+            {"type": "goal", "time": 65, "player": "??"}
         ],
         "squad": []
     }
