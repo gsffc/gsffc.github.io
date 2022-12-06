@@ -2,6 +2,7 @@
   "display_name": "22秋",
   "description": "NCCSF 2022 第六届 九人制联赛",
   "type": "league",
+  "link": "https://nccsf.org",
   "winner": "SVTigers",
   "rules": "*9人制\n*单场比赛净胜球最多计算3个，多出的胜方进球不计入赛果\n*弃权额外扣3分\n*本赛季结束排名决定下赛季分档，前八进入第一档，第九名及之后进入第二档"
 }

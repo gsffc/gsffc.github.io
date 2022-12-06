@@ -3,7 +3,7 @@ require 'json'
 module League
 
     class GoalScorerPage < Jekyll::Page
-        def initialize(site, base, dir, season_name, rank_table, team_hash)
+        def initialize(site, base, dir, season_name, rank_table, team_hash, config)
             @site = site
             @base = base
             @dir = dir
@@ -15,6 +15,8 @@ module League
             self.data['rank_table'] = rank_table
             self.data['team_hash'] = team_hash
             self.data['display_name'] = season_name
+            self.data['link'] = config['link']
+            self.data['description'] = config['description']
         end
     end
 
@@ -319,6 +321,7 @@ module League
             self.data["title"] = season_name
             self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
             
+            self.data['link'] = config['link']
 
             # League.calculate_table(team_hash, games_pair, 'table')
             team_tables = team_hash.map{ |key, value| value }
@@ -354,6 +357,7 @@ module League
 
             self.data['display_name'] = season_name
             self.data["title"] = season_name
+            self.data['link'] = config['link']
 
             self.data['table'] = team_hash.map{ |key, value| value }
 
@@ -535,6 +539,7 @@ module League
             # self.data["title"] = self.data['display_name']
             self.data['display_name'] = season_name
             self.data["title"] = season_name
+            self.data['link'] = config['link']
 
             knockout_stage = config['knockout_stage']
             # puts knockout_stage
@@ -641,6 +646,7 @@ module League
             self.read_yaml(File.join(base, "_layouts"), "season_region_knockouts.html")
             self.data['display_name'] = season_name
             self.data["title"] = season_name
+            self.data['link'] = config['link']
 
             if config['display_name'] != nil
                 self.data['display_name'] = config['display_name']
@@ -967,7 +973,7 @@ module League
                 end
 
                 
-                site.pages << GoalScorerPage.new(site, site.source, File.join('seasons', season[0]), season_name, sorted_goal_scorers, team_hash)
+                site.pages << GoalScorerPage.new(site, site.source, File.join('seasons', season[0]), season_name, sorted_goal_scorers, team_hash, config)
 
 
                 # puts games_hash

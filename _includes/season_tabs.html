@@ -11,5 +11,11 @@
   |
   &nbsp;
   <a href="goal_scorers">{% translate goal_scorers %}</a>
+  {% if include.link != nil %}
+  &nbsp;
+  |
+  &nbsp;
+  <a href="{{include.link}}">赛事网站</a>
+  {% endif %}
 </div>
 {% endif %}
