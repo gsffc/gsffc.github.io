@@ -3,11 +3,11 @@
     "type": "#17",
     "schedule": true,
     "home": {
-        "key": "Shoreline",
+        "key": "DeepSoccer",
         "score": 0
     },
     "away": {
-        "key": "SouthBay",
+        "key": "OverPower",
         "score": 0
     }
 }

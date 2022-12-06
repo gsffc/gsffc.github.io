@@ -3,11 +3,11 @@
     "type": "#17",
     "schedule": true,
     "home": {
-        "key": "EBU",
+        "key": "GSF-U",
         "score": 0
     },
     "away": {
-        "key": "GSF-C",
+        "key": "THU",
         "score": 0
     }
 }
