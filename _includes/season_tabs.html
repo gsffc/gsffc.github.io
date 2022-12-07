@@ -1,4 +1,11 @@
-<h2>{{ include.name }}</h2>
+<h2>
+  {{ include.name }}
+  {% if include.link != nil %}
+  &nbsp;[
+  <a href="{{include.link}}">赛事网站</a>
+  ]
+  {% endif %}
+</h2>
 
 {% if include.description != nil %}
 <p>{{include.description | newline_to_br}}</p>
@@ -11,11 +18,5 @@
   |
   &nbsp;
   <a href="goal_scorers">{% translate goal_scorers %}</a>
-  {% if include.link != nil %}
-  &nbsp;
-  |
-  &nbsp;
-  <a href="{{include.link}}">赛事网站</a>
-  {% endif %}
 </div>
 {% endif %}
