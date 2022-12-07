@@ -2,13 +2,15 @@
     "date": "2022-12-04 04:00PM",
     "type": "#16",
     "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/xWbAfFHN7dM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 10, "player": "张稞雨"}
-            ,{"type": "penalty", "time": 80, "player": "玄宗", "assist": "张稞雨"}
+            {"type": "goal", "time": 12, "player": "张稞雨", "assist": "玄宗"}
+            ,{"type": "yellow", "time": 44, "player": "狄克"}
+            ,{"type": "penalty", "time": 77, "player": "玄宗", "assist": "张稞雨"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -31,7 +33,7 @@
         "key": "ICP",
         "score": 1,
         "events": [
-            {"type": "goal", "time": 65, "player": "??"}
+            {"type": "goal", "time": 62, "player": "??"}
         ],
         "squad": []
     }
