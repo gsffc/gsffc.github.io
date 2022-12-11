@@ -1,13 +1,12 @@
 {
     "date": "2022-12-10 06:00PM",
     "type": "#17",
-    "schedule": true,
     "home": {
         "key": "Shoreline",
-        "score": 0
+        "score": 4
     },
     "away": {
         "key": "SouthBay",
-        "score": 0
+        "score": 6
     }
 }

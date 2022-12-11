@@ -1,13 +1,12 @@
 {
     "date": "2022-12-10 06:00PM",
     "type": "#17",
-    "schedule": true,
     "home": {
         "key": "OX9",
-        "score": 0
+        "score": 1
     },
     "away": {
         "key": "SVTigers",
-        "score": 0
+        "score": 3
     }
 }
