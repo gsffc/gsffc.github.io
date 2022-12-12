@@ -1,13 +1,40 @@
 {
     "date": "2022-12-11 06:00PM",
     "type": "#17",
-    "schedule": true,
     "home": {
         "key": "GSF-U",
-        "score": 0
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 55, "player": "张稞雨"}
+            ,{"type": "goal", "time": 65, "player": "玄宗", "assist": "黄中焱"}
+            ,{"type": "goal", "time": 70, "player": "黄中焱", "assist": "张稞雨"}
+            ,{"type": "goal", "time": 80, "player": "狄克"}
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "王政", "locator": "LWB"}
+            ,{"name": "Colin", "locator": "LCB"}
+            ,{"name": "Casper", "locator": "RCB"}
+            ,{"name": "王琛", "locator": "RWB"}
+            ,{"name": "黄中焱", "locator": "CDM"}
+            ,{"name": "玄宗", "locator": "LCM"}
+            ,{"name": "Ricky", "locator": "RCM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "Kevin"}
+            ,{"name": "张子豪"}
+            ,{"name": "肖毅捷"}
+            ,{"name": "狄克"}
+            ,{"name": "荆安东"}
+        ]
     },
     "away": {
         "key": "THU",
-        "score": 0
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 25, "player": "??"}
+        ],
+        "squad": []
     }
 }

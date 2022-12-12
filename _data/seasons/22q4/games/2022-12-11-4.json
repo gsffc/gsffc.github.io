@@ -1,13 +1,12 @@
 {
     "date": "2022-12-11 06:00PM",
     "type": "#17",
-    "schedule": true,
     "home": {
         "key": "Hunters",
-        "score": 0
+        "score": 5
     },
     "away": {
         "key": "Berkeley",
-        "score": 0
+        "score": 4
     }
 }

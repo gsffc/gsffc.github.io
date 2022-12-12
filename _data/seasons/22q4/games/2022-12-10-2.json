@@ -1,6 +1,9 @@
 {
     "date": "2022-12-10 04:00PM",
     "type": "#17",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/rI8Xq-TqT30\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
         "key": "EBU",
         "score": 3

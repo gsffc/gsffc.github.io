@@ -1,13 +1,12 @@
 {
     "date": "2022-12-11 04:00PM",
     "type": "#17",
-    "schedule": true,
     "home": {
         "key": "BD",
         "score": 0
     },
     "away": {
         "key": "WU",
-        "score": 0
+        "score": 3
     }
 }
