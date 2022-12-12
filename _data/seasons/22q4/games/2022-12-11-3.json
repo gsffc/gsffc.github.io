@@ -1,14 +1,18 @@
 {
     "date": "2022-12-11 06:00PM",
     "type": "#17",
+    "videos": [
+        "<a href=\"https://app.veo.co/matches/20221212-181146-8c306140/\"><img src=\"/assets/img/news/season-22/r17-u-sb/veo.jpg\"></img></a>"
+        ,"<iframe src=\"https://www.youtube.com/embed/zRBFc0vOh28\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
         "key": "GSF-U",
         "score": 4,
         "events": [
-            {"type": "goal", "time": 55, "player": "张稞雨", "assist": "荆安东"}
-            ,{"type": "goal", "time": 65, "player": "玄宗", "assist": "黄中焱"}
-            ,{"type": "goal", "time": 70, "player": "黄中焱", "assist": "张稞雨"}
-            ,{"type": "goal", "time": 80, "player": "狄克", "assist": "张稞雨"}
+            {"type": "goal", "time": 62, "player": "张稞雨", "assist": "荆安东"}
+            ,{"type": "goal", "time": 67, "player": "玄宗", "assist": "黄中焱"}
+            ,{"type": "goal", "time": 75, "player": "黄中焱", "assist": "张稞雨"}
+            ,{"type": "goal", "time": 85, "player": "狄克", "assist": "张稞雨"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
