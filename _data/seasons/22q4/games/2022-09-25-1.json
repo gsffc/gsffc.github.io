@@ -1,13 +1,14 @@
 {
     "date": "2022-09-25 04:00PM",
     "type": "#7",
+    "extra": "（Berkeley弃权，拉人完赛）",
     "videos": [
         "<iframe src=\"https://www.youtube.com/embed/ErTCPzchDkk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
         ,"<iframe src=\"https://www.youtube.com/embed/oGb8ruE-jcc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
     "home": {
         "key": "GSF-U",
-        "score": 6,
+        "score": 3,
         "events": [
             {"type": "goal", "time": 30, "player": "Kevin", "assist": "王金鹏"}
             ,{"type": "goal", "time": 50, "player": "小明", "assist": "王钊"}
@@ -41,7 +42,7 @@
     },
     "away": {
         "key": "Berkeley",
-        "score": 2,
+        "score": 0,
         "events": [
             {"type": "goal", "time": 8, "player": "??"}
             ,{"type": "goal", "time": 32, "player": "??"}

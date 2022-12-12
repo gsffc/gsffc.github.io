@@ -6,7 +6,7 @@
     ],
     "home": {
         "key": "GSF-U",
-        "score": 6,
+        "score": 4,
         "events": [
             {"type": "goal", "time": 10, "player": "狄克", "assist": "张子豪"}
             ,{"type": "goal", "time": 40, "player": "Casper", "assist": "王琛"}
