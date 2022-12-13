@@ -38,6 +38,7 @@
         "score": 1,
         "events": [
             {"type": "goal", "time": 25, "player": "??"}
+            ,{"type": "yellow", "time": 51, "player": "??"}
         ],
         "squad": []
     }
