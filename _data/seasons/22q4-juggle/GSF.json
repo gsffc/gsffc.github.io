@@ -374,7 +374,8 @@
             "position": "中场"
         }
         ,{
-            "name": "则博"
+            "name": "则博",
+            "img": "teams/GSF/zebo.jpg"
         }
         ,{
             "number": 50,

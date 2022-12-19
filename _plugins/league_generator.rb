@@ -474,12 +474,26 @@ module League
                         game_array = Array.new(3)
                         round_array[j] = game_array
 
+                        p0 = player_hash[a[2]]
+                        p1 = player_hash[a[3]]
+
+                        game_array[0] = p0 != nil ? p0 : {
+                            'info' => {
+                                'img' => 'question-mark.png',
+                                'name' => a[2]
+                            }
+                        }
+
+                        game_array[1] = p1 != nil ? p1 : {
+                            'info' => {
+                                'img' => 'question-mark.png',
+                                'name' => a[3]
+                            }
+                        }
+
                         if game != nil
                             # key = "K-8-宁广涵-张稞雨"
                             # score = [ 10, 8 ]
-                            
-                            game_array[0] = player_hash[a[2]]
-                            game_array[1] = player_hash[a[3]]
                             if game.length > 0
                                 game_array[2] = game
                             else
@@ -488,19 +502,6 @@ module League
                         else
                             # key = "K-8-A1-B2"
                             # 还未进行的小组赛分档用
-
-                            game_array[0] = { 
-                                'info' => {
-                                    'img' => 'question-mark.png',
-                                    'name' => a[2]
-                                }
-                            }
-                            game_array[1] = { 
-                                'info' => {
-                                    'img' => 'question-mark.png',
-                                    'name' => a[3]
-                                }
-                            }
                             game_array[2] = nil
                         end
                     end
