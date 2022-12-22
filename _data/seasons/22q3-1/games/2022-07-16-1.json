@@ -9,7 +9,7 @@
         "score": 2,
         "events": [
             {"type": "goal", "time": 17, "player": "狄克", "assist": "杨帆"}
-            ,{"type": "penalty", "time": 49, "player": "狄克"}
+            ,{"type": "penalty", "time": 49, "player": "狄克", "assist": "Ted"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}

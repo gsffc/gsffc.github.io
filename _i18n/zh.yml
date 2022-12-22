@@ -1,6 +1,7 @@
 posts_title: 战报
 schedule: 赛程
 goal_scorers: 射手榜
+assist_list: 助攻榜
 season: 赛季
 season_list: 全部赛季
 player:
@@ -10,9 +11,13 @@ player:
   goals_penalty: |
     进球数
     (点球)
+  assists_penalty: |
+    助攻数
+    (造点)
   number: 号码
   position: 位置
   goals: 进球
+  assists: 助攻
 champion: 冠军
 knockout_stage: 淘汰赛阶段
 group_stage: 小组赛阶段

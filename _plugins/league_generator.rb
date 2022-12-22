@@ -10,8 +10,34 @@ module League
             @name = 'goal_scorers.html'
 
             self.process(@name)
-            self.read_yaml(File.join(base, '_layouts'), 'goal_scorers.html')
+            self.read_yaml(File.join(base, '_layouts'), 'player_ranking.html')
 
+            self.data['rank_title'] = 'goal_scorers'
+            self.data['scoring_name'] = 'player.goals_penalty'
+            self.data['field1'] = 'goals'
+            self.data['field2'] = 'penalty'
+            self.data['rank_table'] = rank_table
+            self.data['team_hash'] = team_hash
+            self.data['display_name'] = season_name
+            self.data['link'] = config['link']
+            self.data['description'] = config['description']
+        end
+    end
+
+    class AssistsPage < Jekyll::Page
+        def initialize(site, base, dir, season_name, rank_table, team_hash, config)
+            @site = site
+            @base = base
+            @dir = dir
+            @name = 'assists_list.html'
+
+            self.process(@name)
+            self.read_yaml(File.join(base, '_layouts'), 'player_ranking.html')
+
+            self.data['rank_title'] = 'assist_list'
+            self.data['scoring_name'] = 'player.assists_penalty'
+            self.data['field1'] = 'assists'
+            self.data['field2'] = 'penalty_make'
             self.data['rank_table'] = rank_table
             self.data['team_hash'] = team_hash
             self.data['display_name'] = season_name
@@ -767,9 +793,45 @@ module League
     class SeasonPageGenerator < Jekyll::Generator
         safe true
 
+        def add_player_to_goal_scorers(player, team, e)
+            if player == nil
+                # puts e['player']
+                team['player_hash'][e['player']] = {
+                    'name' => e['player'],
+                    'goals' => 0,
+                    'penalty' => 0,
+                    'assists' => 0,
+                    'penalty_make' => 0,
+                }
+                player = team['player_hash'][e['player']]
+            end
+            
+            player['goals'] += 1
+            if e['type'] == 'penalty'
+                player['penalty'] += 1
+            end
+        end
+
+        def add_player_to_assists(player, team, e)
+            if player == nil
+                # puts e['player']
+                team['player_hash'][e['player']] = {
+                    'name' => e['player'],
+                    'goals' => 0,
+                    'penalty' => 0,
+                    'assists' => 0,
+                    'penalty_make' => 0,
+                }
+                player = team['player_hash'][e['player']]
+            end
+            
+            player['assists'] += 1
+            if e['type'] == 'penalty'
+                player['penalty_make'] += 1
+            end
+        end
+
         def generate(site)
-
-
 
             # team_key => { season_key => stats }
             site.data['history_teams_stats'] = Hash.new
@@ -811,6 +873,8 @@ module League
                             starting.each do |p|
                                 p['goals'] = 0
                                 p['penalty'] = 0
+                                p['assists'] = 0
+                                p['penalty_make'] = 0
                                 team['player_hash'][p['name']] = p
                             end
                         end
@@ -820,6 +884,8 @@ module League
                             subs.each do |p|
                                 p['goals'] = 0
                                 p['penalty'] = 0
+                                p['assists'] = 0
+                                p['penalty_make'] = 0
                                 team['player_hash'][p['name']] = p
                             end
                         end
@@ -877,16 +943,23 @@ module League
                             next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
                                 player = home_team['player_hash'][e['player']]
-                                if player == nil
-                                    # puts e['player']
-                                    home_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
-                                    player = home_team['player_hash'][e['player']]
+                                add_player_to_goal_scorers(player, home_team, e)
+
+                                if e['assist'] != nil
+                                    assist_player = home_team['player_hash'][e['assist']]
+                                    add_player_to_assists(assist_player, home_team, e)
                                 end
+
+                                # if player == nil
+                                #     # puts e['player']
+                                #     home_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
+                                #     player = home_team['player_hash'][e['player']]
+                                # end
                                 
-                                player['goals'] += 1
-                                if e['type'] == 'penalty'
-                                    player['penalty'] += 1
-                                end
+                                # player['goals'] += 1
+                                # if e['type'] == 'penalty'
+                                #     player['penalty'] += 1
+                                # end
                             end
                         end
                     end
@@ -896,16 +969,23 @@ module League
                             next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
                                 player = away_team['player_hash'][e['player']]
-                                if player == nil
-                                    # puts e['player']
-                                    away_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
-                                    player = away_team['player_hash'][e['player']]
+                                add_player_to_goal_scorers(player, away_team, e)
+
+                                if e['assist'] != nil
+                                    assist_player = away_team['player_hash'][e['assist']]
+                                    add_player_to_assists(assist_player, away_team, e)
                                 end
 
-                                player['goals'] += 1
-                                if e['type'] == 'penalty'
-                                    player['penalty'] += 1
-                                end
+                                # if player == nil
+                                #     # puts e['player']
+                                #     away_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
+                                #     player = away_team['player_hash'][e['player']]
+                                # end
+
+                                # player['goals'] += 1
+                                # if e['type'] == 'penalty'
+                                #     player['penalty'] += 1
+                                # end
                             end
                         end
                     end
@@ -915,6 +995,7 @@ module League
 
 
                 goal_scorers = Array.new
+                assists_list = Array.new
 
                 # include all games (groups and knockout for tournament)
                 League.calculate_table(team_hash, games_pair, 'stats')
@@ -937,6 +1018,10 @@ module League
                             p['teamkey'] = key
                             goal_scorers << p
                         end
+                        if p['assists'] > 0
+                            p['teamkey'] = key
+                            assists_list << p
+                        end
                     end
 
                     if stats_is_table
@@ -955,6 +1040,7 @@ module League
                 end
 
                 sorted_goal_scorers = (goal_scorers.sort_by { |p| [ -p['goals'], p['penalty'] ] })
+                sorted_assists_list = (assists_list.sort_by { |p| [ -p['assists'], p['penalty_make'] ] })
                 
 
                 # puts games_hash
@@ -975,6 +1061,8 @@ module League
 
                 
                 site.pages << GoalScorerPage.new(site, site.source, File.join('seasons', season[0]), season_name, sorted_goal_scorers, team_hash, config)
+                
+                site.pages << AssistsPage.new(site, site.source, File.join('seasons', season[0]), season_name, sorted_assists_list, team_hash, config)
 
 
                 # puts games_hash

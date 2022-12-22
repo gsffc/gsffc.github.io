@@ -11,7 +11,7 @@
         "key": "GSF-C",
         "score": 1,
         "events": [
-            {"type": "penalty", "time": 52, "player": "蒋小神"}
+            {"type": "penalty", "time": 52, "player": "蒋小神", "assist": "元健"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}

@@ -8,10 +8,10 @@
         "key": "GSF-C",
         "score": 4,
         "events": [
-            {"type": "penalty", "time": 10, "player": "布狄卡"}
-            ,{"type": "penalty", "time": 20, "player": "布狄卡"}
-            ,{"type": "penalty", "time": 35, "player": "布狄卡"}
-            ,{"type": "goal", "time": 60, "player": "布狄卡"}
+            {"type": "penalty", "time": 1, "player": "布狄卡"}
+            ,{"type": "penalty", "time": 15, "player": "布狄卡", "assist": "杜若衡"}
+            ,{"type": "penalty", "time": 21, "player": "布狄卡", "assist": "汪兴"}
+            ,{"type": "goal", "time": 60, "player": "布狄卡", "assist": "Alpha"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -39,10 +39,10 @@
         "key": "WU",
         "score": 5,
         "events": [
-            {"type": "penalty", "time": 30, "player": "??"}
+            {"type": "penalty", "time": 10, "player": "??"}
             ,{"type": "goal", "time": 50, "player": "??"}
-            ,{"type": "goal", "time": 70, "player": "??"}
-            ,{"type": "goal", "time": 80, "player": "??"}
+            ,{"type": "goal", "time": 56, "player": "??"}
+            ,{"type": "goal", "time": 75, "player": "??"}
             ,{"type": "penalty", "time": 85, "player": "??"}
         ],
         "squad": []

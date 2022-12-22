@@ -1,6 +1,7 @@
 posts_title: Posts
 schedule: Schedule
 goal_scorers: Goal Scorers
+assist_list: Assists
 season: Season
 player:
   photo: Pic
@@ -9,9 +10,13 @@ player:
   goals_penalty: |
     Goals
     (Penalty)
+  assists_penalty: |
+    Assists
+    (Penalty Makes)
   number: No.
   position: Position
   goals: Goals
+  assists: Assists
 champion: Champion
 knockout_stage: Knockout Stage
 group_stage: Group Stage
