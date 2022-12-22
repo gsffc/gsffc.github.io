@@ -8,8 +8,8 @@
         "key": "GSF-C",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 70, "player": "Han"}
-            ,{"type": "penalty", "time": 80, "player": "蒋小神", "assist": "元健"}
+            {"type": "goal", "time": 70, "player": "Han", "assist": "杨帆"}
+            ,{"type": "penalty", "time": 80, "player": "蒋小神", "assist": "郝宇"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
