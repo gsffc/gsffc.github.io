@@ -12,7 +12,7 @@
         "score": 3,
         "events": [
             {"type": "goal", "time": 50, "player": "王金鹏"},
-            {"type": "goal", "time": 60, "player": "玄宗"},
+            {"type": "goal", "time": 60, "player": "Xuan"},
             {"type": "goal", "time": 70, "player": "马超"}
         ],
         "squad": [
@@ -30,7 +30,7 @@
             {"name": "haolan"}
             ,{"name": "Alpha"}
             ,{"name": "Evan"}
-            ,{"name": "玄宗"}
+            ,{"name": "Xuan"}
             ,{"name": "杨帆"}
             ,{"name": "杜若衡"}
         ]

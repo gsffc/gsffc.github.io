@@ -12,7 +12,7 @@
             ,{"type": "goal", "time": 36, "player": "Colin", "assist": "厚汝轩"}
             ,{"type": "goal", "time": 70, "player": "张稞雨", "assist": "厚汝轩"}
             ,{"type": "penalty", "time": 78, "player": "张稞雨", "assist": "Ricky"}
-            ,{"type": "goal", "time": 90, "player": "Kevin", "assist": "玄宗"}
+            ,{"type": "goal", "time": 90, "player": "Kevin", "assist": "Xuan"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -21,7 +21,7 @@
             ,{"name": "Colin", "locator": "RCB"}
             ,{"name": "Ricky", "locator": "RWB"}
             ,{"name": "Bruce", "locator": "CDM"}
-            ,{"name": "玄宗", "locator": "LCM"}
+            ,{"name": "Xuan", "locator": "LCM"}
             ,{"name": "云帆", "locator": "RCM"}
             ,{"name": "张稞雨", "locator": "CAM"}
         ]

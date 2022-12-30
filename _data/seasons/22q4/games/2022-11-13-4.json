@@ -11,7 +11,7 @@
             {"type": "goal", "time": 10, "player": "狄克", "assist": "张子豪"}
             ,{"type": "goal", "time": 40, "player": "Casper", "assist": "王琛"}
             ,{"type": "goal", "time": 60, "player": "Colin", "assist": "孟祥宇"}
-            ,{"type": "goal", "time": 70, "player": "玄宗"}
+            ,{"type": "goal", "time": 70, "player": "Xuan"}
             ,{"type": "goal", "time": 75, "player": "张稞雨"}
             ,{"type": "goal", "time": 85, "player": "宁广涵"}
         ],
@@ -29,7 +29,7 @@
         ,"bench": [
             {"name": "黄中焱"}
             ,{"name": "王琛"}
-            ,{"name": "玄宗"}
+            ,{"name": "Xuan"}
             ,{"name": "Ricky"}
             ,{"name": "孟祥宇"}
             ,{"name": "王政"}

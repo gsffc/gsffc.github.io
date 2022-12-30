@@ -13,8 +13,8 @@
             {"type": "goal", "time": 30, "player": "Kevin", "assist": "王金鹏"}
             ,{"type": "goal", "time": 50, "player": "小明", "assist": "王钊"}
             ,{"type": "goal", "time": 60, "player": "马超", "assist": "Kevin"}
-            ,{"type": "goal", "time": 70, "player": "张稞雨", "assist": "玄宗"}
-            ,{"type": "goal", "time": 80, "player": "玄宗", "assist": "黄中焱"}
+            ,{"type": "goal", "time": 70, "player": "张稞雨", "assist": "Xuan"}
+            ,{"type": "goal", "time": 80, "player": "Xuan", "assist": "黄中焱"}
             ,{"type": "goal", "time": 88, "player": "张一宁", "assist": "张稞雨"}
         ],
         "squad": [
@@ -22,7 +22,7 @@
             ,{"name": "王政", "locator": "LB"}
             ,{"name": "张自然", "locator": "CB"}
             ,{"name": "Colin", "locator": "RB"}
-            ,{"name": "玄宗", "locator": "LM"}
+            ,{"name": "Xuan", "locator": "LM"}
             ,{"name": "黄中焱", "locator": "LDM"}
             ,{"name": "王钊", "locator": "RDM"}
             ,{"name": "王金鹏", "locator": "RM"}

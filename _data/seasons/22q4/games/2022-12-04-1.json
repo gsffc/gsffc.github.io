@@ -8,9 +8,9 @@
         "key": "GSF-U",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 12, "player": "张稞雨", "assist": "玄宗"}
+            {"type": "goal", "time": 12, "player": "张稞雨", "assist": "Xuan"}
             ,{"type": "yellow", "time": 44, "player": "狄克"}
-            ,{"type": "penalty", "time": 77, "player": "玄宗", "assist": "张稞雨"}
+            ,{"type": "penalty", "time": 77, "player": "Xuan", "assist": "张稞雨"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -19,7 +19,7 @@
             ,{"name": "肖毅捷", "locator": "RCB"}
             ,{"name": "孟祥宇", "locator": "RWB"}
             ,{"name": "黄中焱", "locator": "CDM"}
-            ,{"name": "玄宗", "locator": "LCM"}
+            ,{"name": "Xuan", "locator": "LCM"}
             ,{"name": "Ricky", "locator": "RCM"}
             ,{"name": "张稞雨", "locator": "CAM"}
         ]

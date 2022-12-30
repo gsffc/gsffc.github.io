@@ -8,7 +8,7 @@
         "key": "GSF-U",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 78, "player": "玄宗", "assist": "Casper"}
+            {"type": "goal", "time": 78, "player": "Xuan", "assist": "Casper"}
             ,{"type": "goal", "time": 89, "player": "Ricky"}
             ,{"type": "goal", "time": 90, "player": "Kevin"}
         ],
@@ -20,7 +20,7 @@
             ,{"name": "Ricky", "locator": "RWB"}
             ,{"name": "Bruce", "locator": "CDM"}
             ,{"name": "宁广涵", "locator": "LCM"}
-            ,{"name": "玄宗", "locator": "RCM"}
+            ,{"name": "Xuan", "locator": "RCM"}
             ,{"name": "张稞雨", "locator": "CAM"}
         ]
         ,"bench": [

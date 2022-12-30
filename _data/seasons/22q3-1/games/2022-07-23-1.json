@@ -8,9 +8,9 @@
         "key": "GSF",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 17, "player": "Kevin", "assist": "玄宗"}
-            ,{"type": "goal", "time": 67, "player": "李峰", "assist": "玄宗"}
-            ,{"type": "goal", "time": 90, "player": "玄宗", "assist": "狄克"}
+            {"type": "goal", "time": 17, "player": "Kevin", "assist": "Xuan"}
+            ,{"type": "goal", "time": 67, "player": "李峰", "assist": "Xuan"}
+            ,{"type": "goal", "time": 90, "player": "Xuan", "assist": "狄克"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -18,7 +18,7 @@
             ,{"name": "张自然", "locator": "RCB"}
             ,{"name": "王政", "locator": "LM"}
             ,{"name": "张一宁", "locator": "CDM"}
-            ,{"name": "玄宗", "locator": "RM"}
+            ,{"name": "Xuan", "locator": "RM"}
             ,{"name": "Kevin", "locator": "CAM"}
         ]
         ,"bench": [

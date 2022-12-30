@@ -55,7 +55,7 @@
             }
             ,{
                 "number": 9,
-                "name": "玄宗",
+                "name": "Xuan",
                 "img": "teams/GSF/xuan.jpg",
                 "position": "前锋",
                 "locator": "LM"
@@ -74,7 +74,7 @@
             }
             ,{
                 "number": 13,
-                "name": "Pedro（外援）",
+                "name": "Pedro",
                 "img": "teams/GSF/pedro.jpg",
                 "position": "中场"
             }

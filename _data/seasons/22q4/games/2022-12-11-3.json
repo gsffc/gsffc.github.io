@@ -10,7 +10,7 @@
         "score": 4,
         "events": [
             {"type": "goal", "time": 62, "player": "张稞雨", "assist": "荆安东"}
-            ,{"type": "goal", "time": 67, "player": "玄宗", "assist": "黄中焱"}
+            ,{"type": "goal", "time": 67, "player": "Xuan", "assist": "黄中焱"}
             ,{"type": "goal", "time": 75, "player": "黄中焱", "assist": "张稞雨"}
             ,{"type": "goal", "time": 85, "player": "狄克", "assist": "张稞雨"}
         ],
@@ -21,7 +21,7 @@
             ,{"name": "Casper", "locator": "RCB"}
             ,{"name": "王琛", "locator": "RWB"}
             ,{"name": "黄中焱", "locator": "CDM"}
-            ,{"name": "玄宗", "locator": "LCM"}
+            ,{"name": "Xuan", "locator": "LCM"}
             ,{"name": "Ricky", "locator": "RCM"}
             ,{"name": "张稞雨", "locator": "CAM"}
         ]

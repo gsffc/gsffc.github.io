@@ -9,10 +9,10 @@
         "key": "GSF-U",
         "score": 3,
         "events": [
-            {"type": "goal", "time": 22, "player": "玄宗", "assist": "Colin"}
-            ,{"type": "goal", "time": 40, "player": "玄宗", "assist": "狄克"}
+            {"type": "goal", "time": 22, "player": "Xuan", "assist": "Colin"}
+            ,{"type": "goal", "time": 40, "player": "Xuan", "assist": "狄克"}
             ,{"type": "yellow", "time": 53, "player": "王政"}
-            ,{"type": "goal", "time": 66, "player": "玄宗", "assist": "厚汝轩"}
+            ,{"type": "goal", "time": 66, "player": "Xuan", "assist": "厚汝轩"}
         ],
         "squad": [
             {"name": "锡麟", "locator": "GK"}
@@ -22,7 +22,7 @@
             ,{"name": "孟祥宇", "locator": "RWB"}
             ,{"name": "黄中焱", "locator": "CDM"}
             ,{"name": "宁广涵", "locator": "LCM"}
-            ,{"name": "玄宗", "locator": "RCM"}
+            ,{"name": "Xuan", "locator": "RCM"}
             ,{"name": "张稞雨", "locator": "CAM"}
         ]
         ,"bench": [

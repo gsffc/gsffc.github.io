@@ -9,7 +9,7 @@
         "score": 2,
         "events": [
             {"type": "goal", "time": 30, "player": "Kevin", "assist": "杨帆"}
-            ,{"type": "goal", "time": 70, "player": "元健", "assist": "玄宗"}
+            ,{"type": "goal", "time": 70, "player": "元健", "assist": "Xuan"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
@@ -17,7 +17,7 @@
             ,{"name": "张稞雨", "locator": "RCB"}
             ,{"name": "文韬", "locator": "LM"}
             ,{"name": "杜若衡", "locator": "CDM"}
-            ,{"name": "玄宗", "locator": "RM"}
+            ,{"name": "Xuan", "locator": "RM"}
             ,{"name": "Kevin", "locator": "CAM"}
         ]
         ,"bench": [
