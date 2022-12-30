@@ -5,7 +5,7 @@ game_key: "2022-08-06-1"
 
 title:  "GSF United大胜CalBlue迎开门红，Colin逆天倒钩艳压梅西一剑封喉"
 categories: news
-tags: 战报 9人制 22秋 U队
+tags: 战报 9人制 22秋9人制 U队
 author: 宁广涵
 
 show_excerpts: true

@@ -5,7 +5,7 @@ game_key: "2022-09-17-4"
 
 title:  "4个定位球丢球伤不起，GSF United 1:4 SV Tigers两连败，王政传中造进球，大核拉边进攻回暖"
 categories: news
-tags: 战报 9人制 22秋 U队
+tags: 战报 9人制 22秋9人制 U队
 author: 狄克
 ---
 

@@ -5,7 +5,7 @@ game_key: "2022-10-02-1"
 
 title:  "Bruce上任队长首场比赛，GSF United 1:2 Hunters，郭小明连场破门难救主，高帅富败走麦城失三分"
 categories: news
-tags: 战报 9人制 22秋 U队
+tags: 战报 9人制 22秋9人制 U队
 author: 小明
 ---
 

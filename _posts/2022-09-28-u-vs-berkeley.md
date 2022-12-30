@@ -5,7 +5,7 @@ game_key: "2022-09-25-1"
 
 title:  "GSF United 6:2 Berkeley 获张飞球衣首胜，小明远程重炮扳平，锋线三人均喜提一球一助"
 categories: news
-tags: 战报 9人制 22秋 U队
+tags: 战报 9人制 22秋9人制 U队
 author: 张稞雨
 ---
 
