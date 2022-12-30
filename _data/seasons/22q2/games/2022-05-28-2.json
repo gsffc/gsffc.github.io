@@ -3,11 +3,16 @@
     "type": "semi-final",
     "home": {
         "key": "GSF",
-        "score": 1
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 60, "player": "玄宗", "assist": "Pedro"}
+        ]
     },
     "away": {
         "key": "DeepSoccer",
-        "score": 1
+        "score": 1,
+        "events": [
+        ]
     },
     "extra": "（点球 4:5）"
 }
