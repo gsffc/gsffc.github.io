@@ -1,0 +1,13 @@
+{
+  "date": "2023-03-18",
+  "type": "#7",
+  "schedule": true,
+  "home": {
+      "key": "SVTigers",
+      "score": 0
+  },
+  "away": {
+      "key": "DeepSoccer",
+      "score": 0
+  }
+}

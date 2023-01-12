@@ -1,0 +1,13 @@
+{
+  "date": "2023-03-18",
+  "type": "#7",
+  "schedule": true,
+  "home": {
+      "key": "BUPT",
+      "score": 0
+  },
+  "away": {
+      "key": "EBU",
+      "score": 0
+  }
+}

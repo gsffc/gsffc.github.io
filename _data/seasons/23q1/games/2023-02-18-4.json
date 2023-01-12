@@ -1,0 +1,13 @@
+{
+  "date": "2023-02-18",
+  "type": "#3",
+  "schedule": true,
+  "home": {
+      "key": "THU",
+      "score": 0
+  },
+  "away": {
+      "key": "OverPower",
+      "score": 0
+  }
+}

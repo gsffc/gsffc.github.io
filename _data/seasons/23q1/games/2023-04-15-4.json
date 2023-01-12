@@ -1,0 +1,13 @@
+{
+  "date": "2023-04-15",
+  "type": "#11",
+  "schedule": true,
+  "home": {
+      "key": "WU",
+      "score": 0
+  },
+  "away": {
+      "key": "JTU",
+      "score": 0
+  }
+}

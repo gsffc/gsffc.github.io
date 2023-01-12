@@ -1,0 +1,13 @@
+{
+  "date": "2023-03-25",
+  "type": "#8",
+  "schedule": true,
+  "home": {
+      "key": "DeepSoccer",
+      "score": 0
+  },
+  "away": {
+      "key": "GSF-U",
+      "score": 0
+  }
+}

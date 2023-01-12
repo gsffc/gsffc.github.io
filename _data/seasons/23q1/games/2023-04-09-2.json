@@ -1,0 +1,13 @@
+{
+  "date": "2023-04-09",
+  "type": "#10",
+  "schedule": true,
+  "home": {
+      "key": "Wolf",
+      "score": 0
+  },
+  "away": {
+      "key": "Hunters",
+      "score": 0
+  }
+}

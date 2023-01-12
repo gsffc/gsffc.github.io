@@ -1,0 +1,13 @@
+{
+  "date": "2023-02-19",
+  "type": "#3",
+  "schedule": true,
+  "home": {
+      "key": "GSF-U",
+      "score": 0
+  },
+  "away": {
+      "key": "Shoreline",
+      "score": 0
+  }
+}

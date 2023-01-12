@@ -1,0 +1,12 @@
+{
+    "display_name": "CalBlue加蓝",
+    "description": "CalBlue是一支有20年历史，活跃在湾区的老牌华人足球劲旅。",
+    "logo": "teams/CalBlue/logo.jpg",
+    "image": "teams/CalBlue/team.jpg",
+    "players": {
+        "starting": [
+        ],
+        "subs": [
+        ]
+    }
+}

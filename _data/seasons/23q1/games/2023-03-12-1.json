@@ -1,0 +1,13 @@
+{
+  "date": "2023-03-12",
+  "type": "#6",
+  "schedule": true,
+  "home": {
+      "key": "ICP",
+      "score": 0
+  },
+  "away": {
+      "key": "THU",
+      "score": 0
+  }
+}

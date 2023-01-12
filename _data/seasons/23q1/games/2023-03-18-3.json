@@ -1,0 +1,13 @@
+{
+  "date": "2023-03-18",
+  "type": "#7",
+  "schedule": true,
+  "home": {
+      "key": "GSF-U",
+      "score": 0
+  },
+  "away": {
+      "key": "WU",
+      "score": 0
+  }
+}
