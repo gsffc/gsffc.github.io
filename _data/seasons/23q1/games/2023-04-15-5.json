@@ -3,11 +3,11 @@
   "type": "#11",
   "schedule": true,
   "home": {
-      "key": "GSF-L",
+      "key": "Wolf",
       "score": 0
   },
   "away": {
-      "key": "Wolf",
+      "key": "DeepSoccer",
       "score": 0
   }
 }
