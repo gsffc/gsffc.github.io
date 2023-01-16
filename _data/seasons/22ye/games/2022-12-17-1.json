@@ -1,0 +1,40 @@
+{
+    "date": "2022-12-17 8:30PM",
+    "type": "#17",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/dWTo02FLuqE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 27, "player": "柯南", "assist": "许伟凯"}
+            ,{"type": "goal", "time": 77, "player": "小小杨", "assist": "许伟凯"}
+        ],
+        "squad": [
+            {"name": "Evan", "locator": "GK"}
+            ,{"name": "Gary", "locator": "LB"}
+            ,{"name": "庭朝", "locator": "LCB"}
+            ,{"name": "柯南", "locator": "RCB"}
+            ,{"name": "王琛", "locator": "RB"}
+            ,{"name": "老吴", "locator": "LDM"}
+            ,{"name": "许伟凯", "locator": "RDM"}
+            ,{"name": "汪兴", "locator": "LM"}
+            ,{"name": "小小杨", "locator": "CAM"}
+            ,{"name": "唐酉芃", "locator": "RM"}
+            ,{"name": "杨帆", "locator": "ST"}
+        ]
+        ,"bench": [
+            {"name": "李峰"}
+            ,{"name": "吴骏"}
+        ]
+    },
+    "away": {
+        "key": "C-D-CABANAS",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 19, "player": "??"}
+        ],
+        "squad": []
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "date": "2023-01-15 8:30PM",
+    "type": "#22",
+    "images": [
+        "22ye/0115team.jpg"
+    ],
+    "videos": [
+        "<a href=\"https://app.veo.co/matches/20230116-2023-01-15-mexican-league-0cedabbc\"><img src=\"/assets/img/games/22ye/0115veo.jpg\"></img></a>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 15, "player": "杨帆", "assist": "老吴"}
+            ,{"type": "goal", "time": 70, "player": "锡麟"}
+        ],
+        "squad": [
+            {"name": "杨谱", "locator": "GK"}
+            ,{"name": "荆安东", "locator": "LB"}
+            ,{"name": "Cedar", "locator": "LCB"}
+            ,{"name": "Anthony", "locator": "RCB"}
+            ,{"name": "狄克", "locator": "RB"}
+            ,{"name": "安东朋友", "locator": "LM"}
+            ,{"name": "蒋小神", "locator": "LCM"}
+            ,{"name": "老吴", "locator": "RCM"}
+            ,{"name": "锡麟", "locator": "RM"}
+            ,{"name": "杨帆", "locator": "LS"}
+            ,{"name": "文韬", "locator": "RS"}
+        ]
+        ,"bench": [
+        ]
+    },
+    "away": {
+        "key": "CLUB-TEPA",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 63, "player": "??"}
+        ],
+        "squad": []
+    }
+}

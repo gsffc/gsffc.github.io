@@ -1,0 +1,39 @@
+{
+    "date": "2022-12-02 8:30PM",
+    "type": "#15",
+    "home": {
+        "key": "GSF",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "荆安东", "locator": "LB"}
+            ,{"name": "Anthony", "locator": "LCB"}
+            ,{"name": "孟祥宇", "locator": "RCB"}
+            ,{"name": "汪兴", "locator": "RB"}
+            ,{"name": "王琛", "locator": "LM"}
+            ,{"name": "老吴", "locator": "CM"}
+            ,{"name": "许伟凯", "locator": "RM"}
+            ,{"name": "Ted", "locator": "LW"}
+            ,{"name": "小小杨", "locator": "ST"}
+            ,{"name": "汪兴", "locator": "RW"}
+        ]
+        ,"bench": [
+            {"name": "狄克"}
+            ,{"name": "文韬"}
+            ,{"name": "蒋小神"}
+            ,{"name": "Han"}
+            ,{"name": "吴骏"}
+        ]
+    },
+    "away": {
+        "key": "C-D-VICOLOR",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 60, "player": "??"}
+        ],
+        "squad": []
+    }
+}

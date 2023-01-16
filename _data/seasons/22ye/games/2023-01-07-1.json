@@ -1,0 +1,41 @@
+{
+    "date": "2023-01-07 8:30PM",
+    "type": "#20",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/c7fM7lAvPxk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 0,
+        "events": [
+        ],
+        "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "文韬", "locator": "LB"}
+            ,{"name": "孟祥宇", "locator": "LCB"}
+            ,{"name": "Anthony", "locator": "RCB"}
+            ,{"name": "朱仪", "locator": "RB"}
+            ,{"name": "小黄", "locator": "LDM"}
+            ,{"name": "老吴", "locator": "RDM"}
+            ,{"name": "狄克", "locator": "LM"}
+            ,{"name": "杨帆", "locator": "RM"}
+            ,{"name": "许伟凯", "locator": "CAM"}
+            ,{"name": "张稞雨", "locator": "ST"}
+        ]
+        ,"bench": [
+            {"name": "Alpha"}
+            ,{"name": "吴骏"}
+            ,{"name": "刘喆"}
+        ]
+    },
+    "away": {
+        "key": "DEP-IXCAN",
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 15, "player": "??"}
+            ,{"type": "goal", "time": 27, "player": "??"}
+            ,{"type": "goal", "time": 53, "player": "??"}
+        ],
+        "squad": []
+    }
+}
