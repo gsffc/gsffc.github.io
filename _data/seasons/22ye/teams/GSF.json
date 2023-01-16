@@ -293,7 +293,7 @@
             ,{
                 "number": 10,
                 "name": "老吴",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/laowu.jpg",
                 "position": "中场"
             }
             ,{
@@ -311,7 +311,7 @@
             ,{
                 "number": 11,
                 "name": "Anthony",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/anthony.jpg",
                 "position": "后卫"
             }
             ,{
@@ -323,7 +323,7 @@
             ,{
                 "number": 7,
                 "name": "安东朋友",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/andongpengyou.jpg",
                 "position": "中场"
             }
             ,{
