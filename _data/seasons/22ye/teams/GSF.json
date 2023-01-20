@@ -287,7 +287,7 @@
             ,{
                 "number": 14,
                 "name": "唐酉芃",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/tangyoupeng.jpg",
                 "position": "中场"
             }
             ,{
@@ -299,7 +299,7 @@
             ,{
                 "number": 18,
                 "name": "小小杨",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/xiaoxiaoyang.jpg",
                 "position": "前锋"
             }
             ,{
@@ -317,7 +317,7 @@
             ,{
                 "number": 10,
                 "name": "许伟凯",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/xuweikai.jpg",
                 "position": "中场"
             }
             ,{
@@ -329,13 +329,13 @@
             ,{
                 "number": 23,
                 "name": "柯南",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/kenan.jpg",
                 "position": "后卫"
             }
             ,{
                 "number": 28,
                 "name": "Gary",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/gary.jpg",
                 "position": "后卫"
             }
             ,{
