@@ -12,15 +12,15 @@
         "squad": [
             {"name": "锡麟", "locator": "GK"}
             ,{"name": "Ted", "locator": "LWB"}
-            ,{"name": "Anthony", "locator": "LB"}
+            ,{"name": "Anthony", "locator": "LCB2"}
             ,{"name": "孟祥宇", "locator": "CB"}
-            ,{"name": "Colin", "locator": "RB"}
+            ,{"name": "Colin", "locator": "RCB2"}
             ,{"name": "汪兴", "locator": "RWB"}
-            ,{"name": "黄中焱", "locator": "LCM"}
-            ,{"name": "许伟凯", "locator": "RCM"}
-            ,{"name": "小耿", "locator": "CAM"}
-            ,{"name": "小小杨", "locator": "LS"}
-            ,{"name": "张稞雨", "locator": "RS"}
+            ,{"name": "黄中焱", "locator": "LDM"}
+            ,{"name": "许伟凯", "locator": "RDM"}
+            ,{"name": "小耿", "locator": "CM"}
+            ,{"name": "小小杨", "locator": "LAM"}
+            ,{"name": "张稞雨", "locator": "RAM"}
         ]
         ,"bench": [
             {"name": "狄克"}

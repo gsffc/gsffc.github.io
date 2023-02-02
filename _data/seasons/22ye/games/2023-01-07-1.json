@@ -19,8 +19,8 @@
             ,{"name": "老吴", "locator": "RDM"}
             ,{"name": "狄克", "locator": "LM"}
             ,{"name": "杨帆", "locator": "RM"}
-            ,{"name": "许伟凯", "locator": "CAM"}
-            ,{"name": "张稞雨", "locator": "ST"}
+            ,{"name": "许伟凯", "locator": "CM"}
+            ,{"name": "张稞雨", "locator": "CAM"}
         ]
         ,"bench": [
             {"name": "Alpha"}

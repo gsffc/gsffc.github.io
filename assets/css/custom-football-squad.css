@@ -154,6 +154,11 @@ td.player-td {
     left: 8%;
 }
 
+.player.LCB2 {
+    bottom: 20%;
+    left: 20%;
+}
+
 .player.LCB {
     bottom: 20%;
     left: 30%;
@@ -168,6 +173,11 @@ td.player-td {
 .player.RCB {
     bottom: 20%;
     right: 30%;
+}
+
+.player.RCB2 {
+    bottom: 20%;
+    right: 20%;
 }
 
 .player.RB {
@@ -233,10 +243,20 @@ td.player-td {
     left: 10%;
 }
 
+.player.LAM {
+    bottom: 65%;
+    left: 20%;
+}
+
 .player.CAM {
     bottom: 65%;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.player.RAM {
+    bottom: 65%;
+    right: 20%;
 }
 
 .player.RW {

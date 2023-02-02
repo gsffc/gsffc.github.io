@@ -20,9 +20,9 @@
             ,{"name": "老吴", "locator": "LDM"}
             ,{"name": "许伟凯", "locator": "RDM"}
             ,{"name": "汪兴", "locator": "LM"}
-            ,{"name": "小小杨", "locator": "CAM"}
+            ,{"name": "小小杨", "locator": "CM"}
             ,{"name": "小唐", "locator": "RM"}
-            ,{"name": "杨帆", "locator": "ST"}
+            ,{"name": "杨帆", "locator": "CAM"}
         ]
         ,"bench": [
             {"name": "李峰"}
