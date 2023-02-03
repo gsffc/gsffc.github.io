@@ -87,6 +87,12 @@
                 "locator": "LCM"
             }
             ,{
+                "number": 24,
+                "name": "潘言星",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 25,
                 "name": "东林",
                 "img": "teams/GSF/donglin.jpg",
@@ -138,7 +144,13 @@
                 "position": "后卫"
             }
             ,{
-                "number": 96,
+                "number": 86,
+                "name": "王琛",
+                "img": "teams/GSF/wangchen.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 95,
                 "name": "布狄卡",
                 "img": "teams/GSF/bdk.jpg",
                 "position": "前锋"
