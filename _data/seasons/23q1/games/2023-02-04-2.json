@@ -1,6 +1,9 @@
 {
     "date": "2023-02-04 14:00",
     "type": "#1",
+    "videos": [
+        "<a href=\"https://app.veo.co/matches/20230205-155649-c42000e6\"><img src=\"/assets/img/games/23q1/veo-l-op.jpg\"></img></a>"
+    ],
     "home": {
         "key": "GSF-L",
         "score": 1,

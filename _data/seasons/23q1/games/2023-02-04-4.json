@@ -1,14 +1,18 @@
 {
     "date": "2023-02-04 16:00",
     "type": "#1",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/OcsUmMXNEb0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        ,"<a href=\"https://app.veo.co/matches/20230205-155649-c42000e6\"><img src=\"/assets/img/games/23q1/veo-u-bd.jpg\"></img></a>"
+    ],
     "home": {
         "key": "BD",
         "score": 4,
         "events": [
-            {"type": "goal", "time": 5, "player": "??"}
-            ,{"type": "penalty", "time": 15, "player": "??"}
-            ,{"type": "goal", "time": 25, "player": "??"}
-            ,{"type": "goal", "time": 65, "player": "??"}
+            {"type": "goal", "time": 3, "player": "??"}
+            ,{"type": "penalty", "time": 31, "player": "??"}
+            ,{"type": "goal", "time": 34, "player": "??"}
+            ,{"type": "goal", "time": 51, "player": "??"}
         ],
         "squad": [
         ]
@@ -17,10 +21,10 @@
         "key": "GSF-U",
         "score": 4,
         "events": [
-            {"type": "penalty", "time": 35, "player": "蒋小神", "assist": "张稞雨"}
-            ,{"type": "goal", "time": 70, "player": "张稞雨"}
-            ,{"type": "penalty", "time": 70, "player": "蒋小神"}
-            ,{"type": "goal", "time": 80, "player": "Colin"}
+            {"type": "penalty", "time": 41, "player": "蒋小神", "assist": "张稞雨"}
+            ,{"type": "goal", "time": 50, "player": "张稞雨"}
+            ,{"type": "penalty", "time": 69, "player": "蒋小神", "assist": "张稞雨"}
+            ,{"type": "goal", "time": 85, "player": "Colin", "assist": "张稞雨"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
