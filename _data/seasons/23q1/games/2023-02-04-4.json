@@ -1,13 +1,48 @@
 {
     "date": "2023-02-04 16:00",
     "type": "#1",
-    "schedule": true,
     "home": {
         "key": "BD",
-        "score": 0
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 5, "player": "??"}
+            ,{"type": "penalty", "time": 15, "player": "??"}
+            ,{"type": "goal", "time": 25, "player": "??"}
+            ,{"type": "goal", "time": 65, "player": "??"}
+        ],
+        "squad": [
+        ]
     },
     "away": {
         "key": "GSF-U",
-        "score": 0
+        "score": 4,
+        "events": [
+            {"type": "penalty", "time": 35, "player": "蒋小神", "assist": "张稞雨"}
+            ,{"type": "goal", "time": 70, "player": "张稞雨"}
+            ,{"type": "penalty", "time": 70, "player": "蒋小神"}
+            ,{"type": "goal", "time": 80, "player": "Colin"}
+        ],
+        "squad": [
+            {"name": "Alpha", "locator": "GK"}
+            ,{"name": "王政", "locator": "LB"}
+            ,{"name": "孟祥宇", "locator": "LCB"}
+            ,{"name": "Colin", "locator": "RCB"}
+            ,{"name": "荆安东", "locator": "RB"}
+            ,{"name": "狄克", "locator": "CDM"}
+            ,{"name": "单思远", "locator": "LCM"}
+            ,{"name": "杜若衡", "locator": "RCM"}
+            ,{"name": "小唐", "locator": "RM"}
+            ,{"name": "杨帆", "locator": "LM"}
+            ,{"name": "东林", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "蒋小神"}
+            ,{"name": "Xuan"}
+            ,{"name": "宁广涵"}
+            ,{"name": "张一宁"}
+            ,{"name": "张稞雨"}
+            ,{"name": "陈晨"}
+            ,{"name": "庭朝"}
+        ]
     }
 }

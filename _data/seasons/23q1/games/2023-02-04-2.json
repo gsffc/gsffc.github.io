@@ -1,13 +1,17 @@
 {
     "date": "2023-02-04 14:00",
     "type": "#1",
-    "schedule": true,
     "home": {
         "key": "GSF-L",
-        "score": 0
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 10, "player": "于根伟"}
+        ]
     },
     "away": {
         "key": "OverPower",
-        "score": 0
+        "score": 4,
+        "events": [
+        ]
     }
 }

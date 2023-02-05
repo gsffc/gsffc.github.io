@@ -1,13 +1,12 @@
 {
     "date": "2023-02-04 14:00",
     "type": "#1",
-    "schedule": true,
     "home": {
         "key": "SVTigers",
         "score": 0
     },
     "away": {
         "key": "CalBlue",
-        "score": 0
+        "score": 3
     }
 }
