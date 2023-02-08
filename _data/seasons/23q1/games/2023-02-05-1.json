@@ -1,14 +1,13 @@
 {
   "date": "2023-02-05 16:00",
   "type": "#1",
-  "schedule": true,
   "home": {
       "key": "Wolf",
-      "score": 0
+      "score": 3
   },
   "away": {
       "key": "ICP",
-      "score": 0
+      "score": 4
   }
 }
     
