@@ -1,14 +1,13 @@
 {
   "date": "2023-02-11 18:15",
   "type": "#2",
-  "schedule": true,
   "home": {
       "key": "OverPower",
-      "score": 0
+      "score": 4
   },
   "away": {
       "key": "CalBlue",
-      "score": 0
+      "score": 5
   }
 }
     

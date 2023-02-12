@@ -1,14 +1,12 @@
 {
-  "date": "2023-02-11 16:15",
+  "date": "2023-02-11 18:15",
   "type": "#2",
-  "schedule": true,
   "home": {
-      "key": "WU",
+      "key": "EBU",
       "score": 0
   },
   "away": {
-      "key": "OX9",
-      "score": 0
+      "key": "BD",
+      "score": 1
   }
 }
-    
