@@ -1,14 +1,13 @@
 {
   "date": "2023-02-22 18:00",
   "type": "#2",
-  "schedule": true,
   "home": {
       "key": "DeepSoccer",
-      "score": 0
+      "score": 2
   },
   "away": {
       "key": "JTU",
-      "score": 0
+      "score": 3
   }
 }
     

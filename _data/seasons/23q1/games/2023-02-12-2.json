@@ -1,14 +1,49 @@
 {
   "date": "2023-02-22 16:00",
   "type": "#2",
-  "schedule": true,
   "home": {
       "key": "GSF-U",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 10, "player": "东林", "assist": "张一宁"}
+        ,{"type": "goal", "time": 40, "player": "Xuan", "assist": "狄克"}
+    ],
+    "squad": [
+        {"name": "锡麟", "locator": "GK"}
+        ,{"name": "庭朝", "locator": "LB"}
+        ,{"name": "陈晨", "locator": "LCB"}
+        ,{"name": "Colin", "locator": "RCB"}
+        ,{"name": "王琛", "locator": "RB"}
+        ,{"name": "张一宁", "locator": "LDM"}
+        ,{"name": "杜若衡", "locator": "RDM"}
+        ,{"name": "宁广涵", "locator": "LM"}
+        ,{"name": "东林", "locator": "RM"}
+        ,{"name": "杨帆", "locator": "LAM"}
+        ,{"name": "Alpha", "locator": "RAM"}
+    ]
+    ,"bench": [
+        {"name": "蒋小神"}
+        ,{"name": "Xuan"}
+        ,{"name": "宁广涵"}
+        ,{"name": "狄克"}
+        ,{"name": "张稞雨"}
+        ,{"name": "小唐"}
+        ,{"name": "孟祥宇"}
+        ,{"name": "王政"}
+        ,{"name": "荆安东"}
+        ,{"name": "单思远"}
+    ]
   },
   "away": {
       "key": "GSF-L",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 20, "player": "王欢", "assist": "王英汉"}
+    ],
+    "squad": [
+    ]
+    ,"bench": [
+    ]
   }
 }
     

@@ -1,14 +1,13 @@
 {
   "date": "2023-02-22 16:00",
   "type": "#2",
-  "schedule": true,
   "home": {
       "key": "ICP",
-      "score": 0
+      "score": 3
   },
   "away": {
       "key": "Shoreline",
-      "score": 0
+      "score": 7
   }
 }
     

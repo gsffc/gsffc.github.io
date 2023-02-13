@@ -15,6 +15,12 @@
                 "locator": "RB"
             }
             ,{
+                "number": 10,
+                "name": "Peter",
+                "img": "teams/GSF/peter.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 12,
                 "name": "Gary",
                 "img": "teams/GSF/gary.jpg",
@@ -108,8 +114,14 @@
             ,{
                 "number": 42,
                 "name": "程攻",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/chenggong.jpg",
                 "position": "门将"
+            }
+            ,{
+                "number": 58,
+                "name": "何思哲",
+                "img": "teams/GSF/hesizhe.jpg",
+                "position": "后卫"
             }
             ,{
                 "number": 68,
@@ -130,6 +142,12 @@
                 "position": "中场"
             }
             ,{
+                "number": 76,
+                "name": "Ren Jiaen",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 77,
                 "name": "刘昊",
                 "img": "teams/GSF/liuhao.jpg",
@@ -144,6 +162,12 @@
             ,{
                 "number": 80,
                 "name": "王欢",
+                "img": "teams/GSF/wanghuan.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 81,
+                "name": "朱梦渊",
                 "img": "placeholder-player.jpg",
                 "position": "中场"
             }
@@ -164,6 +188,12 @@
                 "name": "Evan",
                 "img": "teams/GSF/evan.jpg",
                 "position": "后卫"
+            }
+            ,{
+                "number": 94,
+                "name": "王英汉",
+                "img": "teams/GSF/wangyinghan.jpg",
+                "position": "中场"
             }
             ,{
                 "number": 98,
