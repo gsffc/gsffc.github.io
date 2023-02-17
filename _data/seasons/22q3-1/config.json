@@ -1,8 +1,8 @@
 {
   "display_name": "22校联杯",
   "description": "2022硅谷校联杯7人制",
-  "type": "group + knockout",
-  "group_stage": {
+  "type": "group",
+  "groups": {
     "社区组": [
       "GSF",
       "SouthBay",

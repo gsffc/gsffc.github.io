@@ -6,11 +6,7 @@ layout: default
 {% include season_tabs.html name=page.display_name description=page.description disable_tabs=true %}
 <div class="row">&nbsp;</div>
 
-{% if page.winner != nil and page.winner != "" %}
-<h3>🏆 {% translate champion %}</h3>
-{% include team_link.html team=page.winner %}
-<div class="row">&nbsp;</div>
-{% endif %}
+{% include champion.html winner=page.winner %}
 
 {% if page.knockout_array != nil %}
 <h3>{% translate knockout_stage %}</h3>

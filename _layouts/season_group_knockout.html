@@ -6,56 +6,9 @@ layout: default
 {% include season_tabs.html name=page.display_name description=page.description link=page.link %}
 <div class="row">&nbsp;</div>
 
-{% if page.winner != nil and page.winner != "" %}
-<h3>🏆 {% translate champion %}</h3>
-{% include team_link.html team=page.winner %}
-<div class="row">&nbsp;</div>
-{% endif %}
+{% include champion.html winner=page.winner %}
 
-{% if page.knockout_array != nil %}
-<h3>{% translate knockout_stage %}</h3>
-
-<div class="tournament">
-{% for round in page.knockout_array  %}
-  <ul class="round">
-    <li class="spacer">&nbsp;</li>
-		
-    {% for game_array in round %}
-		{% assign game_pair = game_array[2] %}
-    {% assign team0 = game_array[0] %}
-    {% assign team1 = game_array[1] %}
-    
-    <li class="game game-top">{% include team_link.html team=team0 %}</li>
-		<li class="game game-spacer"></li>
-		<li class="game game-spacer-text">
-			<div>
-			{% if game_pair[1] != nil %}
-			{% include knockout_game_link.html game=game_pair %}
-			{% else %}
-			?
-			{% endif %}
-			</div>
-		</li>
-		<li class="game game-spacer"></li>
-    <li class="game game-bottom ">{% include team_link.html team=team1 %}</li>
-
-
-
-    <li class="spacer">&nbsp;</li>
-    {% endfor %}
-  </ul>
-  {% endfor %}
-
-
-<ul class="round" style="width: 50px">
-{% if page.winner != nil and page.winner != "" %}
-{% include team_link.html team=page.winner %}
-{% else %}
-&nbsp;
-{% endif %}
-</ul>
-</div>
-{% endif %}
+{% include knockout_brackets.html knockouts=page.knockouts %}
 
 {% if page.group_tables != nil %}
 

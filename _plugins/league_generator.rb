@@ -244,6 +244,7 @@ module League
         end
     end
 
+    # TODO: reduce duplicate code
     def self.calculate_table_special_rank (team_hash, games_pair, entry)
         # Iterate games to calculate data
 
@@ -309,63 +310,146 @@ module League
         end
     end
 
-    # default SeasonPage (League table)
-    class LeagueSeasonPage < Jekyll::Page
-    # class LeagueSeasonPage < Jekyll::PageWithoutAFile
-        def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
+    # SeasonPage all types in one
+    class GeneralSeasonPage < Jekyll::Page
+        def initialize(site, base, dir, season, team_hash, games_hash, games_pair, config, season_name, layout_page, stages)
             @site = site
             @base = base
             @dir = dir
-            # @name = "#{season[0]}.html"
             @name = "index.html"
-            # @layout = 'season.html'
-            # @path = if site.in_theme_dir(base) == base # we're in a theme
-            #     site.in_theme_dir(base, dir, name)
-            #   else
-            #     site.in_source_dir(base, dir, name)
-            #   end
-
-            # puts @path
 
             self.process(@name)
             
-            
-            # self.data = season[1]
             # puts base
-            self.read_yaml(File.join(base, "_layouts"), "season.html")
-
-            # self.data = {}
-            
-            # if config != nil and config['display_name'] != nil
-            #     self.data['display_name'] = config['display_name']
-            # else
-            #     self.data['display_name'] = season
-            # end
-            # self.data["title"] = self.data['display_name']
+            self.read_yaml(File.join(base, "_layouts"), layout_page)
 
             self.data['display_name'] = season_name
+            if config['display_name'] != nil
+                self.data['display_name'] = config['display_name']
+            end
             self.data["title"] = season_name
-            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
-            
             self.data['link'] = config['link']
-
-            # League.calculate_table(team_hash, games_pair, 'table')
-            team_tables = team_hash.map{ |key, value| value }
-
-            # team_array = (season[1]['teams'].to_a).map{|key, team| team}
-
-            sorted = (team_tables.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
-            # sorted = (team_array.sort_by { |team| [ -team['table']['points'], -team['table']['goals_for'] + team['table']['goals_against'], -team['table']['goals_for'] ] })
-            # puts sorted
-
-            self.data['table'] = sorted
-
-            self.data['games_pair'] = games_pair
-
             self.data['description'] = config['description']
             self.data['rules'] = config['rules']
+
+            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
+
+
+            for stage in stages
+                case stage
+                when 'knockout'
+                    knockouts = config['knockouts']
+
+                    if knockouts != nil
+                        self.data['knockouts'] = Hash.new
+
+                        knockouts.each do |knockout_key, k|
+
+                            # make it in correct order
+                            # self.data['knockout_teams']
+                            knockout_array = Array.new(k['bracket'].length)
+
+                            # puts knockouts.length
+
+                            for i in 0..(k['bracket'].length-1)
+                                round = k['bracket'][i]
+                                round_array = Array.new(round.length)
+
+                                for j in 0..(round.length-1)
+                                    game = round[j]
+                                    game_array = Array.new(3)
+                                    
+                                    # there's team info in game
+                                    # but we still write team info
+                                    # because we display versus before game happens
+                                    game_array[0] = team_hash[game[0]]
+                                    game_array[1] = team_hash[game[1]]
+                                    game_array[2] = [game[2], games_hash[game[2]]]
+
+                                    round_array[j] = game_array
+                                end
+
+                                knockout_array[i] = round_array
+                            end
+
+                            # puts knockout_array
+
+                            # TODO: attach other games
+
+                            self.data['knockouts'][knockout_key] = Hash.new
+                            self.data['knockouts'][knockout_key]['knockout_array'] = knockout_array
+                            if (k['winner'] != nil)
+                                self.data['knockouts'][knockout_key]['winner'] = team_hash[k['winner']]
+                            end
+                            if (k['other_games'] != nil)
+                                self.data['knockouts'][knockout_key]['other_games'] = Array.new(k['other_games'].length)
+                                for i in 0..(k['other_games'].length-1)
+                                    gk = k['other_games'][i]
+                                    self.data['knockouts'][knockout_key]['other_games'][i] = [gk, games_hash[gk]]
+                                end
+                            end
+                        end
+                    end
+
+                when 'region', 'group'
+                    groups = config[stage + 's']
+                    
+                    if groups != nil
+
+                        ##############################################
+
+                        group_game_tag = (stage == 'region') ? 'rank' : 'group'
+
+                        # Iterate games to calculate data
+                        group_games_pair = games_pair.select{|key, game| game['type'].include? group_game_tag}
+                        # TEMP special rank
+                        if stage == 'region'
+                            League.calculate_table_special_rank(team_hash, group_games_pair, 'table')
+                        else
+                            League.calculate_table(team_hash, group_games_pair, 'table')
+                        end
+                        
+
+                        ##############################################
+
+
+                        # puts groups.count
+                        group_tables = Hash.new
+                        group_games = Hash.new
+
+                        groups.each do |group_key, team_keys|
+                            # simple not points version first
+                            team_array = team_keys.map{|key| team_hash[key]}
+                            team_keys_set = team_keys.to_set
+                            sorted = (team_array.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
+                            group_tables[group_key] = sorted
+
+                            # puts team_keys_set
+                            cur_group_games_pair = group_games_pair.select{|key, game| team_keys_set.include?(game['home']['key'])}
+
+                            group_games[group_key] = cur_group_games_pair
+                        end
+
+                        self.data['group_tables'] = group_tables
+                        self.data['group_games'] = group_games
+
+                    end
+
+                # when 'group'
+                when 'league_table'
+                    self.data['games_pair'] = games_pair
+                    team_tables = team_hash.map{ |key, value| value }
+                    sorted = (team_tables.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
+                    self.data['table'] = sorted
+                end
+            end
+
+            
         end
     end
+
+
+
 
     class FriendlySeasonPage < Jekyll::Page
         def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
@@ -549,246 +633,6 @@ module League
         end
     end
 
-    # group + knockout for jxcup
-    class GroupAndKnockOutSeasonPage < Jekyll::Page
-        def initialize(site, base, dir, season, team_hash, games_hash, games_pair, config, season_name)
-            @site = site
-            @base = base
-            @dir = dir
-            @name = "index.html"
-            self.process(@name)
-            self.read_yaml(File.join(base, "_layouts"), "season_group_knockout.html")
-            # if self.data['display_name'] != nil
-            #     self.data['display_name'] = config['display_name']
-            # else
-            #     self.data['display_name'] = season
-            # end
-            # self.data["title"] = self.data['display_name']
-            self.data['display_name'] = season_name
-            self.data["title"] = season_name
-            self.data['link'] = config['link']
-
-            knockout_stage = config['knockout_stage']
-            # puts knockout_stage
-
-            if config['display_name'] != nil
-                self.data['display_name'] = config['display_name']
-            end
-
-            if (knockout_stage != nil)
-                # knock out stage
-
-                # make it in correct order
-                # self.data['knockout_teams']
-                knockout_array = Array.new(knockout_stage.length)
-
-                # puts knockout_stage.length
-
-                for i in 0..(knockout_stage.length-1)
-                    round = knockout_stage[i]
-                    round_array = Array.new(round.length)
-
-                    for j in 0..(round.length-1)
-                        game = round[j]
-                        game_array = Array.new(3)
-                        
-                        # there's team info in game
-                        # but we still write team info
-                        # because we display versus before game happens
-                        game_array[0] = team_hash[game[0]]
-                        game_array[1] = team_hash[game[1]]
-                        game_array[2] = [game[2], games_hash[game[2]]]
-
-                        round_array[j] = game_array
-                    end
-
-                    knockout_array[i] = round_array
-
-                    # puts knockout_array[i]
-                    # puts team_hash[round[0]]
-                    # puts team_hash['613111']
-                end
-
-                # puts knockout_array
-
-                self.data['knockout_array'] = knockout_array
-            end
-
-            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
-
-            # group stage
-
-            groups = config['group_stage']
-
-            if groups != nil
-
-                ##############################################
-
-                # Iterate games to calculate data
-                group_games_pair = games_pair.select{|key, game| game['type'].include? 'group'}
-                League.calculate_table(team_hash, group_games_pair,'table')
-
-                ##############################################
-
-
-                # puts groups.count
-                group_tables = Hash.new
-                group_games = Hash.new
-
-                groups.each do |group_key, team_keys|
-                    # simple not points version first
-                    team_array = team_keys.map{|key| team_hash[key]}
-                    team_keys_set = team_keys.to_set
-                    sorted = (team_array.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
-                    group_tables[group_key] = sorted
-
-                    # puts team_keys_set
-                    cur_group_games_pair = group_games_pair.select{|key, game| team_keys_set.include?(game['home']['key'])}
-
-                    group_games[group_key] = cur_group_games_pair
-                end
-
-                self.data['group_tables'] = group_tables
-                self.data['group_games'] = group_games
-
-            end
-
-
-
-            # self.data['games_pair'] = games_pair
-            self.data['description'] = config['description']
-            self.data['rules'] = config['rules']
-
-        end
-    end
-
-    # region knockouts ranking for jxcup
-    class RegionKnockoutsSeasonPage < Jekyll::Page
-        def initialize(site, base, dir, season, team_hash, games_hash, games_pair, config, season_name)
-            @site = site
-            @base = base
-            @dir = dir
-            @name = "index.html"
-            self.process(@name)
-            self.read_yaml(File.join(base, "_layouts"), "season_region_knockouts.html")
-            self.data['display_name'] = season_name
-            self.data["title"] = season_name
-            self.data['link'] = config['link']
-
-            if config['display_name'] != nil
-                self.data['display_name'] = config['display_name']
-            end
-
-            knockouts = config['knockouts']
-            # puts knockouts
-
-            if (knockouts != nil)
-                # knock out stage
-
-                self.data['knockouts'] = Hash.new
-
-                knockouts.each do |knockout_key, k|
-
-                    # make it in correct order
-                    # self.data['knockout_teams']
-                    knockout_array = Array.new(k['bracket'].length)
-
-                    # puts knockouts.length
-
-                    for i in 0..(k['bracket'].length-1)
-                        round = k['bracket'][i]
-                        round_array = Array.new(round.length)
-
-                        for j in 0..(round.length-1)
-                            game = round[j]
-                            game_array = Array.new(3)
-                            
-                            # there's team info in game
-                            # but we still write team info
-                            # because we display versus before game happens
-                            game_array[0] = team_hash[game[0]]
-                            game_array[1] = team_hash[game[1]]
-                            game_array[2] = [game[2], games_hash[game[2]]]
-
-                            round_array[j] = game_array
-                        end
-
-                        knockout_array[i] = round_array
-
-                        # puts knockout_array[i]
-                        # puts team_hash[round[0]]
-                        # puts team_hash['613111']
-                    end
-
-                    # puts knockout_array
-
-                    # TODO: attach other games
-
-                    self.data['knockouts'][knockout_key] = Hash.new
-                    self.data['knockouts'][knockout_key]['knockout_array'] = knockout_array
-                    if (k['winner'] != nil)
-                        self.data['knockouts'][knockout_key]['winner'] = team_hash[k['winner']]
-                    end
-                    if (k['other_games'] != nil)
-                        self.data['knockouts'][knockout_key]['other_games'] = Array.new(k['other_games'].length)
-                        for i in 0..(k['other_games'].length-1)
-                            gk = k['other_games'][i]
-                            self.data['knockouts'][knockout_key]['other_games'][i] = [gk, games_hash[gk]]
-                        end
-                    end
-
-
-                end
-            end
-
-            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
-
-            # group stage
-
-            groups = config['regions']
-
-            if groups != nil
-
-                ##############################################
-
-                # Iterate games to calculate data
-                group_games_pair = games_pair.select{|key, game| game['type'].include? 'rank'}
-                # TEMP special rank
-                League.calculate_table_special_rank(team_hash, group_games_pair,'table')
-
-                ##############################################
-
-
-                # puts groups.count
-                group_tables = Hash.new
-                group_games = Hash.new
-
-                groups.each do |group_key, team_keys|
-                    # simple not points version first
-                    team_array = team_keys.map{|key| team_hash[key]}
-                    team_keys_set = team_keys.to_set
-                    sorted = (team_array.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
-                    group_tables[group_key] = sorted
-
-                    # puts team_keys_set
-                    cur_group_games_pair = group_games_pair.select{|key, game| team_keys_set.include?(game['home']['key'])}
-
-                    group_games[group_key] = cur_group_games_pair
-                end
-
-                self.data['group_tables'] = group_tables
-                self.data['group_games'] = group_games
-
-            end
-
-
-
-            # self.data['games_pair'] = games_pair
-            self.data['description'] = config['description']
-            self.data['rules'] = config['rules']
-
-        end
-    end
 
     class SeasonPageGenerator < Jekyll::Generator
         safe true
@@ -949,17 +793,6 @@ module League
                                     assist_player = home_team['player_hash'][e['assist']]
                                     add_player_to_assists(assist_player, home_team, e)
                                 end
-
-                                # if player == nil
-                                #     # puts e['player']
-                                #     home_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
-                                #     player = home_team['player_hash'][e['player']]
-                                # end
-                                
-                                # player['goals'] += 1
-                                # if e['type'] == 'penalty'
-                                #     player['penalty'] += 1
-                                # end
                             end
                         end
                     end
@@ -975,17 +808,6 @@ module League
                                     assist_player = away_team['player_hash'][e['assist']]
                                     add_player_to_assists(assist_player, away_team, e)
                                 end
-
-                                # if player == nil
-                                #     # puts e['player']
-                                #     away_team['player_hash'][e['player']] = {'name' => e['player'], 'goals' => 0, 'penalty' => 0}
-                                #     player = away_team['player_hash'][e['player']]
-                                # end
-
-                                # player['goals'] += 1
-                                # if e['type'] == 'penalty'
-                                #     player['penalty'] += 1
-                                # end
                             end
                         end
                     end
@@ -1005,8 +827,9 @@ module League
                     season_name = config['display_name']
                 end
 
+                # For league_table only season, avoid recalculate the 'table', as 'stats' would be the same
                 stats_is_table = false
-                if config == nil or config['type'] == 'league'
+                if config == nil or config['type'] == 'league_table'
                     stats_is_table = true
                 end
 
@@ -1045,18 +868,47 @@ module League
 
                 # puts games_hash
 
-                
+                if config == nil
+                    config = {
+                        'type' => 'league_table'
+                    }
+                end
 
-
-                # puts config
-                if config == nil or config['type'] == 'league'
-                    site.pages << LeagueSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
-                elsif config['type'] == 'group + knockout'
-                    site.pages << GroupAndKnockOutSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_hash, games_pair, config, season_name)
-                elsif config['type'] == 'region knockouts ranking'
-                    site.pages << RegionKnockoutsSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_hash, games_pair, config, season_name)
-                elsif config['type'] == 'friendly'
+                if config['type'] == 'friendly'
                     site.pages << FriendlySeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
+                else
+                    # use general season page with multiple stages
+
+                    if config['type'] == 'group + knockout'
+                        layout_page = 'season_group_knockout.html'
+                    elsif config['type'] == 'group'
+                        layout_page = 'season_group_knockout.html'
+                    elsif config['type'] == 'region + knockout'
+                        layout_page = 'season_region_knockouts.html'
+                    elsif config['type'] == 'league_table + region'
+                        layout_page = 'season_league_region.html'
+                    elsif config['type'] == 'league_table'
+                        layout_page = 'season.html'
+                    else
+                        # shouldn't reach
+                        layout_page = 'season.html'
+                    end
+
+                    stages = config['type'].split(' + ', -1)
+                    # puts stages
+
+                    site.pages << GeneralSeasonPage.new(
+                        site,
+                        site.source,
+                        File.join('seasons', season[0]),
+                        season[0],
+                        team_hash,
+                        games_hash,
+                        games_pair,
+                        config,
+                        season_name,
+                        layout_page,
+                        stages)
                 end
 
                 
