@@ -9,8 +9,8 @@
       "key": "GSF-U",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 10, "player": "东林", "assist": "张一宁"}
-        ,{"type": "goal", "time": 40, "player": "Xuan", "assist": "狄克"}
+        {"type": "goal", "time": 3, "player": "东林", "assist": "张一宁"}
+        ,{"type": "goal", "time": 38, "player": "Xuan", "assist": "狄克"}
     ],
     "squad": [
         {"name": "锡麟", "locator": "GK"}
@@ -42,11 +42,32 @@
       "key": "GSF-L",
       "score": 1,
       "events": [
-        {"type": "goal", "time": 20, "player": "王欢", "assist": "王英汉"}
+        {"type": "goal", "time": 19, "player": "王欢", "assist": "王英汉"}
     ],
     "squad": [
+      {"name": "程攻", "locator": "GK"}
+      ,{"name": "则博", "locator": "LB"}
+      ,{"name": "兰帕德", "locator": "LCB"}
+      ,{"name": "何思哲", "locator": "RCB"}
+      ,{"name": "张昀", "locator": "RB"}
+      ,{"name": "胡智宇", "locator": "CDM"}
+      ,{"name": "任佳恩", "locator": "LCM"}
+      ,{"name": "王英汉", "locator": "RCM"}
+      ,{"name": "王欢", "locator": "LM"}
+      ,{"name": "于根伟", "locator": "RM"}
+      ,{"name": "郝宇", "locator": "CAM"}
     ]
     ,"bench": [
+      {"name": "汪兴"}
+      ,{"name": "吴骏"}
+      ,{"name": "Peter"}
+      ,{"name": "洪泽"}
+      ,{"name": "Gary"}
+      ,{"name": "张谌"}
+      ,{"name": "Cedar"}
+      ,{"name": "Kevin"}
+      ,{"name": "Han"}
+      ,{"name": "李峰"}
     ]
   }
 }
