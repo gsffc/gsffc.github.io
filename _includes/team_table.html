@@ -1,3 +1,8 @@
+{% assign table_field = include.table_field %}
+{% if table_field == nil %}
+{% assign table_field = "table" %}
+{% endif %}
+
 <div style="overflow:auto; width: auto;">
   <table>
     <thead>
@@ -22,14 +27,15 @@
         <td>
           {% include team_link.html team=team %}
         </td>
-        <td><b>{{ team.table.points }}</b></td>
-        <td>{{ team.table.games_played }}</td>
-        <td>{{ team.table.wins }}</td>
-        <td>{{ team.table.draws }}</td>
-        <td>{{ team.table.loses }}</td>
-        <td>{{ team.table.goals_for }}</td>
-        <td>{{ team.table.goals_against }}</td>
-        <td>{{ team.table.goals_diff }}</td>
+        {% assign table_data = team[table_field] %}
+        <td><b>{{ table_data.points }}</b></td>
+        <td>{{ table_data.games_played }}</td>
+        <td>{{ table_data.wins }}</td>
+        <td>{{ table_data.draws }}</td>
+        <td>{{ table_data.loses }}</td>
+        <td>{{ table_data.goals_for }}</td>
+        <td>{{ table_data.goals_against }}</td>
+        <td>{{ table_data.goals_diff }}</td>
       </tr>
       {% endfor %}
       

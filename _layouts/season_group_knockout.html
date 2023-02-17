@@ -10,35 +10,10 @@ layout: default
 
 {% include knockout_brackets.html knockouts=page.knockouts %}
 
-{% if page.group_tables != nil %}
-
-<h3>{% translate group_stage %}</h3>
-
-{% for group in page.group_tables %}
-{% assign group_key = group[0] %}
-{% assign group_table = group[1] %}
-{% include team_table.html table=group_table group_name=group_key %}
-
-{% for game in page.group_games[group_key] %}
-{% assign gk = game[0] %}
-{% assign g = game[1] %}
-{% include game_lines.html game_key=gk game=g season_base_url="" %}
-{% endfor %}
-<br/>
-<br/>
-{% endfor %}
-
-{% comment %}
-{% for game in page.games_pair %}
-{% if game[1].type contains "group" %}
-{% assign gk = game[0] %}
-{% assign g = game[1] %}
-{% include game_lines.html game_key=gk game=g season_base_url="" %}
-{% endif %}
-{% endfor %}
-{% endcomment %}
-
-{% endif %}
+{% capture sn %}
+{% translate group_stage %}
+{% endcapture %}
+{% include group_tables.html group_tables=page.group_tables group_games=page.group_games stage_name=sn %}
 
 {% if page.rules != nil %}
 &nbsp;

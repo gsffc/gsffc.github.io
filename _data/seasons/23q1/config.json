@@ -1,7 +1,7 @@
 {
   "display_name": "23春11人制",
   "description": "NCCSF 2023 11人制联赛",
-  "type": "league_table",
+  "type": "league_table + region",
   "link": "https://nccsf.org",
   "rules": "*11人制\n*十轮循环赛+两轮区间内排位赛"
 }

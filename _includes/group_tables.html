@@ -1,0 +1,19 @@
+{% if include.group_tables != nil %}
+
+<h3>{{ include.stage_name }}</h3>
+
+{% for group in include.group_tables %}
+{% assign group_key = group[0] %}
+{% assign group_table = group[1] %}
+{% include team_table.html table=group_table group_name=group_key %}
+
+{% for game in include.group_games[group_key] %}
+{% assign gk = game[0] %}
+{% assign g = game[1] %}
+{% include game_lines.html game_key=gk game=g season_base_url="" %}
+{% endfor %}
+<br/>
+<br/>
+{% endfor %}
+
+{% endif %}

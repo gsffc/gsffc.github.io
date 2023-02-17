@@ -334,6 +334,8 @@ module League
 
             self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
 
+            self.data['games_pair'] = games_pair
+
 
             for stage in stages
                 case stage
@@ -435,12 +437,19 @@ module League
 
                     end
 
-                # when 'group'
                 when 'league_table'
-                    self.data['games_pair'] = games_pair
+                    table_games_pair = games_pair.reject{|key, game| game['type']=~ /rank|group/}
+                    League.calculate_table(team_hash, table_games_pair, 'league_table')
+
                     team_tables = team_hash.map{ |key, value| value }
-                    sorted = (team_tables.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
+
+                    # puts team_tables
+
+                    sorted = (team_tables.sort_by { |team| [ -team['league_table']['points'], -team['league_table']['goals_diff'], -team['league_table']['goals_for'], team['league_table']['goals_against'], team['league_table']['games_played'] ] })
                     self.data['table'] = sorted
+                    self.data['league_games'] = table_games_pair
+
+                    # puts self.data['table']
                 end
             end
 
@@ -449,7 +458,36 @@ module League
     end
 
 
+    class LeagueSeasonPage < Jekyll::Page
+        def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
+            @site = site
+            @base = base
+            @dir = dir
+            @name = "index.html"
+            # puts @path
 
+            self.process(@name)
+
+            self.read_yaml(File.join(base, "_layouts"), "season.html")
+
+            self.data['display_name'] = season_name
+            self.data["title"] = season_name
+            self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
+            
+            self.data['link'] = config['link']
+
+            team_tables = team_hash.map{ |key, value| value }
+
+            sorted = (team_tables.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
+
+            self.data['table'] = sorted
+
+            self.data['games_pair'] = games_pair
+
+            self.data['description'] = config['description']
+            self.data['rules'] = config['rules']
+        end
+    end
 
     class FriendlySeasonPage < Jekyll::Page
         def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
@@ -874,7 +912,9 @@ module League
                     }
                 end
 
-                if config['type'] == 'friendly'
+                if config['type'] == 'league_table'
+                    site.pages << LeagueSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
+                elsif config['type'] == 'friendly'
                     site.pages << FriendlySeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
                 else
                     # use general season page with multiple stages
