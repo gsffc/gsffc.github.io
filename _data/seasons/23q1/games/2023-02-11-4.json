@@ -1,6 +1,9 @@
 {
   "date": "2023-02-11 18:15",
   "type": "#2",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/U9rQZYhbm3Q\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "BUPT",
       "score": 0
