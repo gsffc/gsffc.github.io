@@ -3,6 +3,11 @@
 {% assign table_field = "table" %}
 {% endif %}
 
+{% assign index_offset = include.index_offset %}
+{% if index_offset == nil %}
+{% assign index_offset = 0 %}
+{% endif %}
+
 <div style="overflow:auto; width: auto;">
   <table>
     <thead>
@@ -23,7 +28,7 @@
     <tbody>
       {% for team in include.table %}
       <tr>
-        <td>{{ forloop.index }}</td>
+        <td>{{ forloop.index | plus: index_offset }}</td>
         <td>
           {% include team_link.html team=team %}
         </td>

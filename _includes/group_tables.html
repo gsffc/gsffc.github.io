@@ -2,10 +2,17 @@
 
 <h3>{{ include.stage_name }}</h3>
 
+{% assign id = 0 %}
+
 {% for group in include.group_tables %}
 {% assign group_key = group[0] %}
 {% assign group_table = group[1] %}
+
+{% if include.index_offset %}
+{% include team_table.html table=group_table group_name=group_key index_offset=id %}
+{% else %}
 {% include team_table.html table=group_table group_name=group_key %}
+{% endif %}
 
 {% for game in include.group_games[group_key] %}
 {% assign gk = game[0] %}
@@ -14,6 +21,9 @@
 {% endfor %}
 <br/>
 <br/>
+
+{% assign len = group_table | size %}
+{% assign id = id | plus: len %}
 {% endfor %}
 
 {% endif %}
