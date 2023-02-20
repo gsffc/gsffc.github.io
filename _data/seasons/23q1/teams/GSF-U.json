@@ -121,15 +121,19 @@
                 "number": 37,
                 "name": "庭朝",
                 "img": "teams/GSF/23/tingzhao.jpg",
-                "position": "后卫",
-                "locator": "RB"
+                "position": "后卫"
+            }
+            ,{
+                "number": 51,
+                "name": "Ken",
+                "img": "teams/GSF/23/ken.jpg",
+                "position": "中场"
             }
             ,{
                 "number": 55,
                 "name": "狄克",
                 "img": "teams/GSF/23/di.jpg",
-                "position": "中场",
-                "locator": "RM"
+                "position": "中场"
             }
             ,{
                 "number": 66,

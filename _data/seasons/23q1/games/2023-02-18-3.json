@@ -1,13 +1,15 @@
 {
   "date": "2023-02-18",
   "type": "#3",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/vLjA2mOc6D8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+],
   "home": {
       "key": "Hunters",
-      "score": 0
+      "score": 1
   },
   "away": {
       "key": "GSF-L",
-      "score": 0
+      "score": 2
   }
 }

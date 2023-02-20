@@ -1,13 +1,12 @@
 {
   "date": "2023-02-18",
   "type": "#3",
-  "schedule": true,
   "home": {
       "key": "BD",
       "score": 0
   },
   "away": {
       "key": "JTU",
-      "score": 0
+      "score": 1
   }
 }

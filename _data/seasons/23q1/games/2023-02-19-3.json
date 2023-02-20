@@ -1,13 +1,49 @@
 {
   "date": "2023-02-19",
   "type": "#3",
-  "schedule": true,
   "home": {
       "key": "GSF-U",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "red", "time": 50, "player": "张稞雨"}
+        ,{"type": "goal", "time": 55, "player": "布狄卡"}
+        ,{"type": "goal", "time": 70, "player": "Ken", "assist": "布狄卡"}
+        ,{"type": "red", "time": 80, "player": "孟祥宇"}
+      ],
+      "squad": [
+        {"name": "锡麟", "locator": "GK"}
+        ,{"name": "王政", "locator": "LB"}
+        ,{"name": "孟祥宇", "locator": "LCB"}
+        ,{"name": "Colin", "locator": "RCB"}
+        ,{"name": "荆安东", "locator": "RB"}
+        ,{"name": "狄克", "locator": "RCM"}
+        ,{"name": "张一宁", "locator": "CDM"}
+        ,{"name": "单思远", "locator": "LCM"}
+        ,{"name": "Ken", "locator": "RM"}
+        ,{"name": "Xuan", "locator": "LM"}
+        ,{"name": "张稞雨", "locator": "CAM"}
+      ]
+      ,"bench": [
+        {"name": "蒋小神"}
+        ,{"name": "杜若衡"}
+        ,{"name": "宁广涵"}
+        ,{"name": "布狄卡"}
+        ,{"name": "陈晨"}
+        ,{"name": "杨帆"}
+        ,{"name": "王琛"}
+        ,{"name": "小唐"}
+        ,{"name": "东林"}
+    ]
   },
   "away": {
       "key": "Shoreline",
-      "score": 0
+      "score": 2,
+      "events": [
+          {"type": "goal", "time": 3, "player": "??"}
+          ,{"type": "red", "time": 80, "player": "??"}
+          ,{"type": "goal", "time": 88, "player": "??"}
+      ],
+      "squad": [
+      ]
   }
 }
