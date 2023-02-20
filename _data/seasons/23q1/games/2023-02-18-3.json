@@ -3,7 +3,7 @@
   "type": "#3",
   "videos": [
     "<iframe src=\"https://www.youtube.com/embed/vLjA2mOc6D8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-],
+  ],
   "home": {
       "key": "Hunters",
       "score": 1
