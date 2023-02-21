@@ -5,10 +5,10 @@
       "key": "GSF-U",
       "score": 2,
       "events": [
-        {"type": "red", "time": 50, "player": "张稞雨"}
-        ,{"type": "goal", "time": 55, "player": "布狄卡"}
-        ,{"type": "goal", "time": 70, "player": "Ken", "assist": "布狄卡"}
-        ,{"type": "red", "time": 80, "player": "孟祥宇"}
+        {"type": "red", "time": 57, "player": "张稞雨"}
+        ,{"type": "goal", "time": 63, "player": "布狄卡"}
+        ,{"type": "goal", "time": 71, "player": "Ken", "assist": "布狄卡"}
+        ,{"type": "red", "time": 85, "player": "孟祥宇"}
       ],
       "squad": [
         {"name": "锡麟", "locator": "GK"}
@@ -40,7 +40,7 @@
       "score": 2,
       "events": [
           {"type": "goal", "time": 3, "player": "??"}
-          ,{"type": "red", "time": 80, "player": "??"}
+          ,{"type": "red", "time": 85, "player": "??"}
           ,{"type": "goal", "time": 88, "player": "??"}
       ],
       "squad": [
