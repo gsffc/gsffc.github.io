@@ -6,10 +6,39 @@
   ],
   "home": {
       "key": "Hunters",
-      "score": 1
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 30, "player": "??"}
+      ]
   },
   "away": {
       "key": "GSF-L",
-      "score": 2
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 59, "player": "王英汉"}
+        ,{"type": "goal", "time": 89, "player": "于根伟", "assist": "Kevin"}
+      ],
+      "squad": [
+        {"name": "程攻", "locator": "GK"}
+        ,{"name": "Gary", "locator": "LB"}
+        ,{"name": "兰帕德", "locator": "LCB"}
+        ,{"name": "胡智宇", "locator": "RCB"}
+        ,{"name": "李强兵", "locator": "RB"}
+        ,{"name": "Evan", "locator": "CDM"}
+        ,{"name": "王欢", "locator": "LM"}
+        ,{"name": "洪泽", "locator": "LCM"}
+        ,{"name": "王英汉", "locator": "RCM"}
+        ,{"name": "汪兴", "locator": "RM"}
+        ,{"name": "郝宇", "locator": "CAM"}
+      ]
+      ,"bench": [
+        {"name": "于根伟"}
+        ,{"name": "Peter"}
+        ,{"name": "张谌"}
+        ,{"name": "Cedar"}
+        ,{"name": "Kevin"}
+        ,{"name": "李峰"}
+        ,{"name": "刘昊"}
+      ]
   }
 }
