@@ -14,7 +14,7 @@
       "score": 2,
       "events": [
         {"type": "goal", "time": 20, "player": "Gary", "assist": "Adam"}
-        ,{"type": "goal", "time": 70, "player": "胡智宇", "assist": "Adam"}
+        ,{"type": "goal", "time": 88, "player": "张昀", "assist": "Adam"}
       ]
   }
 }
