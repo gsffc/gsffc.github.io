@@ -1,13 +1,20 @@
 {
   "date": "2023-02-26",
   "type": "#4",
-  "schedule": true,
   "home": {
       "key": "Wolf",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 50, "player": "??"}
+        ,{"type": "red", "time": 70, "player": "??"}
+      ]
   },
   "away": {
       "key": "GSF-L",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 20, "player": "Gary", "assist": "Adam"}
+        ,{"type": "goal", "time": 70, "player": "胡智宇", "assist": "Adam"}
+      ]
   }
 }

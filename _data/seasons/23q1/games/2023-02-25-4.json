@@ -1,13 +1,12 @@
 {
   "date": "2023-02-25",
   "type": "#4",
-  "schedule": true,
   "home": {
       "key": "CalBlue",
-      "score": 0
+      "score": 2
   },
   "away": {
       "key": "OX9",
-      "score": 0
+      "score": 1
   }
 }

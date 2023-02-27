@@ -1,13 +1,12 @@
 {
-  "date": "2023-02-26",
+  "date": "2023-02-25",
   "type": "#4",
-  "schedule": true,
   "home": {
-      "key": "Shoreline",
+      "key": "BUPT",
       "score": 0
   },
   "away": {
-      "key": "BD",
-      "score": 0
+      "key": "DeepSoccer",
+      "score": 1
   }
 }

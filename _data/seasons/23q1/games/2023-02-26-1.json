@@ -1,13 +1,12 @@
 {
   "date": "2023-02-26",
   "type": "#4",
-  "schedule": true,
   "home": {
       "key": "ICP",
-      "score": 0
+      "score": 4
   },
   "away": {
       "key": "Hunters",
-      "score": 0
+      "score": 1
   }
 }
