@@ -8,16 +8,44 @@
       "key": "Wolf",
       "score": 1,
       "events": [
-        {"type": "goal", "time": 50, "player": "??"}
-        ,{"type": "red", "time": 70, "player": "??"}
+        {"type": "goal", "time": 41, "player": "??"}
+        ,{"type": "red", "time": 72, "player": "??"}
       ]
   },
   "away": {
       "key": "GSF-L",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 20, "player": "Gary"}
-        ,{"type": "goal", "time": 88, "player": "张昀", "assist": "Adam"}
+        {"type": "goal", "time": 38, "player": "Gary"}
+        ,{"type": "goal", "time": 73, "player": "张昀", "assist": "Adam"}
+      ],
+      "squad": [
+        {"name": "程攻", "locator": "GK"}
+        ,{"name": "张昀", "locator": "LB"}
+        ,{"name": "兰帕德", "locator": "LCB"}
+        ,{"name": "胡智宇", "locator": "RCB"}
+        ,{"name": "汪兴", "locator": "RB"}
+        ,{"name": "于根伟", "locator": "LWB"}
+        ,{"name": "王英汉", "locator": "LDM"}
+        ,{"name": "Gary", "locator": "RDM"}
+        ,{"name": "吴骏", "locator": "RWB"}
+        ,{"name": "Adam", "locator": "CM"}
+        ,{"name": "郝宇", "locator": "CAM"}
+      ]
+      ,"bench": [
+        {"name": "Kevin"}
+        ,{"name": "王欢"}
+        ,{"name": "任佳恩"}
+        ,{"name": "则博"}
+        ,{"name": "Peter"}
+        ,{"name": "Sam"}
+        ,{"name": "洪泽"}
+        ,{"name": "张谌"}
+        ,{"name": "何思哲"}
+        ,{"name": "Wizard"}
+        ,{"name": "Cedar"}
+        ,{"name": "刘昊"}
+        ,{"name": "李峰"}
       ]
   }
 }
