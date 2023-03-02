@@ -10,12 +10,12 @@
         "events": [
             {"type": "penalty", "time": 1, "player": "布狄卡"}
             ,{"type": "penalty", "time": 15, "player": "布狄卡", "assist": "杜若衡"}
-            ,{"type": "penalty", "time": 21, "player": "布狄卡", "assist": "汪兴"}
+            ,{"type": "penalty", "time": 21, "player": "布狄卡", "assist": "汪星人"}
             ,{"type": "goal", "time": 60, "player": "布狄卡", "assist": "Alpha"}
         ],
         "squad": [
             {"name": "Alpha", "locator": "GK"}
-            ,{"name": "汪兴", "locator": "LB"}
+            ,{"name": "汪星人", "locator": "LB"}
             ,{"name": "庭朝", "locator": "LCB"}
             ,{"name": "吴骏", "locator": "RCB"}
             ,{"name": "Ted", "locator": "RB"}
