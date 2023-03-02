@@ -12,6 +12,9 @@ module League
             self.process(@name)
             self.read_yaml(File.join(base, '_layouts'), 'player_ranking.html')
 
+            # temp
+            self.data['title'] = season_name + ' 射手榜'
+
             self.data['rank_title'] = 'goal_scorers'
             self.data['scoring_name'] = 'player.goals_penalty'
             self.data['field1'] = 'goals'
@@ -33,6 +36,9 @@ module League
 
             self.process(@name)
             self.read_yaml(File.join(base, '_layouts'), 'player_ranking.html')
+
+            # temp
+            self.data['title'] = season_name + ' 助攻榜'
 
             self.data['rank_title'] = 'assist_list'
             self.data['scoring_name'] = 'player.assists_penalty'
@@ -56,6 +62,7 @@ module League
             self.process(@name)
             self.read_yaml(File.join(base, '_layouts'), 'team.html')
             
+            self.data['title'] = "#{team['display_name']} #{season['display_name']}"
 
             self.data['team_key'] = team_key
             self.data['team'] = team
@@ -104,7 +111,8 @@ module League
 
             self.process(@name)
             self.read_yaml(File.join(base, '_layouts'), 'game.html')
-            
+
+            self.data['title'] = "#{game['home']['display_name']} VS #{game['away']['display_name']} - #{game['date']}"
 
             self.data['key'] = key
             self.data['game'] = game
@@ -327,7 +335,7 @@ module League
             if config['display_name'] != nil
                 self.data['display_name'] = config['display_name']
             end
-            self.data["title"] = season_name
+            self.data['title'] = season_name
             self.data['link'] = config['link']
             self.data['description'] = config['description']
             self.data['rules'] = config['rules']
@@ -471,7 +479,7 @@ module League
             self.read_yaml(File.join(base, "_layouts"), "season.html")
 
             self.data['display_name'] = season_name
-            self.data["title"] = season_name
+            self.data['title'] = season_name
             self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
             
             self.data['link'] = config['link']
@@ -504,7 +512,7 @@ module League
             # self.data = {}
 
             self.data['display_name'] = season_name
-            self.data["title"] = season_name
+            self.data['title'] = season_name
             self.data['link'] = config['link']
 
             self.data['table'] = team_hash.map{ |key, value| value }
@@ -529,7 +537,7 @@ module League
             season_name = config['display_name']
 
             self.data['display_name'] = season_name
-            self.data["title"] = season_name
+            self.data['title'] = season_name
             self.data['description'] = config['description']
             self.data['rules'] = config['rules']
 
