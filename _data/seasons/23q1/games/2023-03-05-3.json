@@ -1,13 +1,12 @@
 {
   "date": "2023-03-05",
   "type": "#5",
-  "schedule": true,
   "home": {
       "key": "Wolf",
-      "score": 0
+      "score": 1
   },
   "away": {
       "key": "CalBlue",
-      "score": 0
+      "score": 1
   }
 }

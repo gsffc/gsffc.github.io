@@ -1,13 +1,37 @@
 {
   "date": "2023-03-05",
   "type": "#5",
-  "schedule": true,
   "home": {
       "key": "EBU",
-      "score": 0
+      "score": 0,
+      "events": [
+      ]
   },
   "away": {
       "key": "GSF-U",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 60, "player": "David"}
+      ],
+      "squad": [
+        {"name": "锡麟", "locator": "GK"}
+        ,{"name": "王政", "locator": "LB"}
+        ,{"name": "陈晨", "locator": "LCB"}
+        ,{"name": "Colin", "locator": "RCB"}
+        ,{"name": "Ken", "locator": "RB"}
+        ,{"name": "狄克", "locator": "LDM"}
+        ,{"name": "蒋小神", "locator": "RDM"}
+        ,{"name": "单思远", "locator": "LM"}
+        ,{"name": "Xuan", "locator": "RM"}
+        ,{"name": "David", "locator": "CM"}
+        ,{"name": "张稞雨", "locator": "CAM"}
+    ]
+    ,"bench": [
+        {"name": "杜若衡"}
+        ,{"name": "杨帆"}
+        ,{"name": "小唐"}
+        ,{"name": "庭朝"}
+        ,{"name": "荆安东"}
+    ]
   }
 }
