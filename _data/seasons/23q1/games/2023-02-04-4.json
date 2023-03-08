@@ -10,7 +10,8 @@
         "score": 4,
         "events": [
             {"type": "goal", "time": 3, "player": "??"}
-            ,{"type": "penalty", "time": 31, "player": "??"}
+            ,{"type": "penalty-miss", "time": 31, "player": "??"}
+            ,{"type": "goal", "time": 31, "player": "??"}
             ,{"type": "goal", "time": 34, "player": "??"}
             ,{"type": "goal", "time": 51, "player": "??"}
         ],
