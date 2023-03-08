@@ -5,6 +5,7 @@
       "key": "EBU",
       "score": 0,
       "events": [
+        {"type": "penalty-miss", "time": 88, "player": "??"}
       ]
   },
   "away": {
