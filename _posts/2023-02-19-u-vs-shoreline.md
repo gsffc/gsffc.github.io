@@ -11,6 +11,8 @@ author: 狄克
 
 联赛第三轮GSF-U迎战Shoreline。GSF-U最终被对手绝平。比赛过程跌宕起伏，裁判数次争议判罚影响比赛走势。
 
+{% include imgdesc.html url="/assets/img/news/season-23q1/r3-u-shoreline/team.jpg"%}
+
 {% include imgdesc.html url="/assets/img/news/season-23q1/r3-u-shoreline/squad.png"%}
 
 比赛开始不久，Shoreline的一次直线长传引起的一串边线球角球就首先破门。观看录像这次长传似乎越位，不过因为缺少边裁，也难以苛责主裁判对越位的误判。连续的界外球推进Shoreline获得角球。GSF又犯了角球看球不看人的老毛病，角球开出的落点上佳，对方前锋前冲将球顶进网窝。0-1。
