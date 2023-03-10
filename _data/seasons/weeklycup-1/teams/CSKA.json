@@ -83,13 +83,13 @@
             ,{
                 "number": 56,
                 "name": "熊宽晨",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/23/xiongkuanchen.jpg",
                 "position": "中场"
             }
             ,{
                 "number": 63,
                 "name": "安安",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/23/anan.jpg",
                 "position": "中场"
             }
             ,{
@@ -125,13 +125,13 @@
             ,{
                 "number": 100,
                 "name": "杨子羿",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/23/yangziyi.jpg",
                 "position": "中场"
             }
             ,{
                 "number": 150,
                 "name": "Kento",
-                "img": "placeholder-player.jpg",
+                "img": "teams/GSF/23/kento.jpg",
                 "position": "中场"
             }
         ]
