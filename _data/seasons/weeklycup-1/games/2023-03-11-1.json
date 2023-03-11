@@ -1,0 +1,30 @@
+{
+  "date": "2023-03-11 20:00",
+  "type": "#1",
+  "videos": [
+    "<a href=\"https://app.veo.co/matches/20230311-195502-9aeec4cf/\"><img src=\"/assets/img/games/weekly/veo1.jpg\"></img></a>"
+  ],
+  "home": {
+      "key": "Dynamo",
+      "score": 4,
+      "events": [
+        {"type": "goal", "time": 10, "player": "李峰", "assist": "则博"}
+        ,{"type": "goal", "time": 44, "player": "文韬", "assist": "任佳恩"}
+        ,{"type": "goal", "time": 46, "player": "??", "assist": "文韬"}
+        ,{"type": "goal", "time": 61, "player": "Cedar", "assist": "任佳恩"}
+      ]
+  },
+  "away": {
+      "key": "Washer",
+      "score": 7,
+      "events": [
+        {"type": "goal", "time": 7, "player": "Andy Wang", "assist": "杜若衡"}
+        ,{"type": "goal", "time": 14, "player": "杜若衡", "assist": "汪兴"}
+        ,{"type": "goal", "time": 25, "player": "杜若衡", "assist": "东林"}
+        ,{"type": "goal", "time": 52, "player": "Andy Wang", "assist": "某朋友"}
+        ,{"type": "goal", "time": 55, "player": "杜若衡", "assist": "杨帆"}
+        ,{"type": "penalty", "time": 58, "player": {"player": "狄克", "team": "CSKA"}, "assist": "杜若衡"}
+        ,{"type": "goal", "time": 97, "player": {"player": "王欢", "team": "StevensCreek"}, "assist": "杨帆"}
+      ]
+  }
+}

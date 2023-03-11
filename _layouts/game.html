@@ -18,8 +18,12 @@ layout: default
         {% for event in page.game.home.events %}
         <p>
             <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
-            {{event.time}}'  
+            {{event.time}}'
+            {% if event.player.team != nil %}
+            {{event.player.player}} (<a href='../../{{event.player.team.key}}'><img class="team-logo" src='{{site.baseurl}}/assets/img/{{ event.player.team.logo }}'/></a>)
+            {% else %}
             {{event.player}}
+            {% endif %}
             {% if event.assist %}
                 <img width="30px" src="{{site.baseurl}}/assets/img/icon/assist.png" />
                 {{event.assist}}
@@ -57,8 +61,12 @@ layout: default
         {% for event in page.game.away.events %}
         <p>
             <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
-            {{event.time}}'  
+            {{event.time}}'
+            {% if event.player.team != nil %}
+            {{event.player.player}} (<a href='../../{{event.player.team.key}}'><img class="team-logo" src='{{site.baseurl}}/assets/img/{{ event.player.team.logo }}'/></a>)
+            {% else %}
             {{event.player}}
+            {% endif %}
             {% if event.assist %}
                 <img width="30px" src="{{site.baseurl}}/assets/img/icon/assist.png" />
                 {{event.assist}}

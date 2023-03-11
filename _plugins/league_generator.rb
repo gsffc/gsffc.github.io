@@ -691,6 +691,11 @@ module League
                 # 租借 {player: 'aa', team: 'teamkey'}
                 team = team_hash[e['player']['team']]
                 player_name = e['player']['player']
+                e['player']['team'] = {
+                    'key' => e['player']['team'],
+                    'logo' => team['logo'],
+                    'display_name' => team['display_name'],
+                }
             end
             player = team['player_hash'][player_name]
 
@@ -720,6 +725,11 @@ module League
                 # 租借 {player: 'aa', team: 'teamkey'}
                 team = team_hash[e['assist']['team']]
                 player_name = e['assist']['player']
+                e['player']['team'] = {
+                    'key' => e['player']['team'],
+                    'logo' => team['logo'],
+                    'display_name' => team['display_name'],
+                }
             end
             player = team['player_hash'][player_name]
 
