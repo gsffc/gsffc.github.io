@@ -683,43 +683,45 @@ module League
     class SeasonPageGenerator < Jekyll::Generator
         safe true
 
-        def add_player_to_goal_scorers(player, team, e)
+        def add_player_to_goal_scorers(player, team, player_name, goal_type)
             if player == nil
                 # puts e['player']
-                team['player_hash'][e['player']] = {
-                    'name' => e['player'],
+                team['player_hash'][player_name] = {
+                    'name' => player_name,
                     'goals' => 0,
                     'penalty' => 0,
                     'assists' => 0,
                     'penalty_make' => 0,
                 }
-                player = team['player_hash'][e['player']]
+                player = team['player_hash'][player_name]
             end
             
             player['goals'] += 1
-            if e['type'] == 'penalty'
+            if goal_type == 'penalty'
                 player['penalty'] += 1
             end
         end
 
-        def add_player_to_assists(player, team, e)
+        def add_player_to_assists(player, team, player_name, goal_type)
             if player == nil
                 # puts e['player']
-                team['player_hash'][e['player']] = {
-                    'name' => e['player'],
+                team['player_hash'][player_name] = {
+                    'name' => player_name,
                     'goals' => 0,
                     'penalty' => 0,
                     'assists' => 0,
                     'penalty_make' => 0,
                 }
-                player = team['player_hash'][e['player']]
+                player = team['player_hash'][player_name]
             end
             
             player['assists'] += 1
-            if e['type'] == 'penalty'
+            if goal_type == 'penalty'
                 player['penalty_make'] += 1
             end
         end
+
+        # def event_find_player()
 
         def generate(site)
 
@@ -832,27 +834,59 @@ module League
                         game['home']['events'].each do |e|
                             next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
-                                player = home_team['player_hash'][e['player']]
-                                add_player_to_goal_scorers(player, home_team, e)
+                                if e['player'].class == String
+                                    team = home_team
+                                    player_name = e['player']
+                                else
+                                    # 租借 {player: 'aa', team: 'teamkey'}
+                                    team = team_hash[e['player']['team']]
+                                    player_name = e['player']['player']
+                                end
+                                player = team['player_hash'][player_name]
+                                add_player_to_goal_scorers(player, team, player_name, e['type'])
 
                                 if e['assist'] != nil
-                                    assist_player = home_team['player_hash'][e['assist']]
-                                    add_player_to_assists(assist_player, home_team, e)
+                                    if e['assist'].class == String
+                                        team = home_team
+                                        player_name = e['assist']
+                                    else
+                                        # 租借 {player: 'aa', team: 'teamkey'}
+                                        team = team_hash[e['player']['team']]
+                                        player_name = e['assist']['player']
+                                    end
+                                    player = team['player_hash'][player_name]
+                                    add_player_to_assists(player, team, player_name, e['type'])
                                 end
                             end
                         end
                     end
 
-                    if game['home']['events'] != nil
+                    if game['away']['events'] != nil
                         game['away']['events'].each do |e|
                             next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
-                                player = away_team['player_hash'][e['player']]
-                                add_player_to_goal_scorers(player, away_team, e)
+                                if e['player'].class == String
+                                    team = away_team
+                                    player_name = e['player']
+                                else
+                                    # 租借 {player: 'aa', team: 'teamkey'}
+                                    team = team_hash[e['player']['team']]
+                                    player_name = e['player']['player']
+                                end
+                                player = team['player_hash'][player_name]
+                                add_player_to_goal_scorers(player, team, player_name, e['type'])
 
                                 if e['assist'] != nil
-                                    assist_player = away_team['player_hash'][e['assist']]
-                                    add_player_to_assists(assist_player, away_team, e)
+                                    if e['assist'].class == String
+                                        team = away_team
+                                        player_name = e['assist']
+                                    else
+                                        # 租借 {player: 'aa', team: 'teamkey'}
+                                        team = team_hash[e['player']['team']]
+                                        player_name = e['assist']['player']
+                                    end
+                                    player = team['player_hash'][player_name]
+                                    add_player_to_assists(player, team, player_name, e['type'])
                                 end
                             end
                         end
