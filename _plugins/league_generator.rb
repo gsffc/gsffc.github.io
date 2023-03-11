@@ -683,7 +683,17 @@ module League
     class SeasonPageGenerator < Jekyll::Generator
         safe true
 
-        def add_player_to_goal_scorers(player, team, player_name, goal_type)
+        def add_player_to_goal_scorers(e, cur_team, team_hash)
+            if e['player'].class == String
+                team = cur_team
+                player_name = e['player']
+            else
+                # 租借 {player: 'aa', team: 'teamkey'}
+                team = team_hash[e['player']['team']]
+                player_name = e['player']['player']
+            end
+            player = team['player_hash'][player_name]
+
             if player == nil
                 # puts e['player']
                 team['player_hash'][player_name] = {
@@ -697,12 +707,22 @@ module League
             end
             
             player['goals'] += 1
-            if goal_type == 'penalty'
+            if e['type'] == 'penalty'
                 player['penalty'] += 1
             end
         end
 
-        def add_player_to_assists(player, team, player_name, goal_type)
+        def add_player_to_assists(e, cur_team, team_hash)
+            if e['assist'].class == String
+                team = cur_team
+                player_name = e['assist']
+            else
+                # 租借 {player: 'aa', team: 'teamkey'}
+                team = team_hash[e['assist']['team']]
+                player_name = e['assist']['player']
+            end
+            player = team['player_hash'][player_name]
+
             if player == nil
                 # puts e['player']
                 team['player_hash'][player_name] = {
@@ -716,7 +736,7 @@ module League
             end
             
             player['assists'] += 1
-            if goal_type == 'penalty'
+            if e['type'] == 'penalty'
                 player['penalty_make'] += 1
             end
         end
@@ -834,28 +854,10 @@ module League
                         game['home']['events'].each do |e|
                             next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
-                                if e['player'].class == String
-                                    team = home_team
-                                    player_name = e['player']
-                                else
-                                    # 租借 {player: 'aa', team: 'teamkey'}
-                                    team = team_hash[e['player']['team']]
-                                    player_name = e['player']['player']
-                                end
-                                player = team['player_hash'][player_name]
-                                add_player_to_goal_scorers(player, team, player_name, e['type'])
+                                add_player_to_goal_scorers(e, home_team, team_hash)
 
                                 if e['assist'] != nil
-                                    if e['assist'].class == String
-                                        team = home_team
-                                        player_name = e['assist']
-                                    else
-                                        # 租借 {player: 'aa', team: 'teamkey'}
-                                        team = team_hash[e['player']['team']]
-                                        player_name = e['assist']['player']
-                                    end
-                                    player = team['player_hash'][player_name]
-                                    add_player_to_assists(player, team, player_name, e['type'])
+                                    add_player_to_assists(e, home_team, team_hash)
                                 end
                             end
                         end
@@ -865,28 +867,10 @@ module League
                         game['away']['events'].each do |e|
                             next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
-                                if e['player'].class == String
-                                    team = away_team
-                                    player_name = e['player']
-                                else
-                                    # 租借 {player: 'aa', team: 'teamkey'}
-                                    team = team_hash[e['player']['team']]
-                                    player_name = e['player']['player']
-                                end
-                                player = team['player_hash'][player_name]
-                                add_player_to_goal_scorers(player, team, player_name, e['type'])
+                                add_player_to_goal_scorers(e, away_team, team_hash)
 
                                 if e['assist'] != nil
-                                    if e['assist'].class == String
-                                        team = away_team
-                                        player_name = e['assist']
-                                    else
-                                        # 租借 {player: 'aa', team: 'teamkey'}
-                                        team = team_hash[e['player']['team']]
-                                        player_name = e['assist']['player']
-                                    end
-                                    player = team['player_hash'][player_name]
-                                    add_player_to_assists(player, team, player_name, e['type'])
+                                    add_player_to_assists(e, away_team, team_hash)
                                 end
                             end
                         end
