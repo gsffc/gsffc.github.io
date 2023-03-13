@@ -1,13 +1,15 @@
 {
   "date": "2023-03-11",
   "type": "#6",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/oY8klXsweiE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "Shoreline",
-      "score": 0
+      "score": 5
   },
   "away": {
       "key": "BUPT",
-      "score": 0
+      "score": 2
   }
 }

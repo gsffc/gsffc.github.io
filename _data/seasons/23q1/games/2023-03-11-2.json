@@ -1,13 +1,46 @@
 {
   "date": "2023-03-11",
   "type": "#6",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/pg4PjNJIykE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "CalBlue",
-      "score": 0
+      "score": 5,
+      "events": [
+        {"type": "gaol", "time": 15, "player": "??"}
+        ,{"type": "gaol", "time": 25, "player": "??"}
+        ,{"type": "gaol", "time": 50, "player": "??"}
+        ,{"type": "pentaly", "time": 75, "player": "??"}
+        ,{"type": "goal", "time": 80, "player": "??"}
+      ]
   },
   "away": {
       "key": "GSF-U",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "pentaly", "time": 70, "player": "Xuan", "assist": "王政"}
+      ],
+      "squad": [
+        {"name": "Alpha", "locator": "GK"}
+        ,{"name": "王政", "locator": "LB"}
+        ,{"name": "陈晨", "locator": "LCB"}
+        ,{"name": "Colin", "locator": "RCB"}
+        ,{"name": "荆安东", "locator": "RB"}
+        ,{"name": "张一宁", "locator": "LDM"}
+        ,{"name": "蒋小神", "locator": "RDM"}
+        ,{"name": "小唐", "locator": "LM"}
+        ,{"name": "Ken", "locator": "RM"}
+        ,{"name": "Xuan", "locator": "CM"}
+        ,{"name": "杨帆", "locator": "CAM"}
+    ]
+    ,"bench": [
+        {"name": "锡麟"}
+        ,{"name": "狄克"}
+        ,{"name": "单思远"}
+        ,{"name": "庭朝"}
+        ,{"name": "刘喆"}
+        ,{"name": "魏巍"}
+    ]
   }
 }
