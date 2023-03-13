@@ -1,13 +1,12 @@
 {
   "date": "2023-03-12",
   "type": "#6",
-  "schedule": true,
   "home": {
       "key": "GSF-L",
       "score": 0
   },
   "away": {
       "key": "EBU",
-      "score": 0
+      "score": 6
   }
 }
