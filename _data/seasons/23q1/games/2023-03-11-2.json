@@ -8,9 +8,9 @@
       "key": "CalBlue",
       "score": 5,
       "events": [
-        {"type": "gaol", "time": 15, "player": "??"}
-        ,{"type": "gaol", "time": 25, "player": "??"}
-        ,{"type": "gaol", "time": 50, "player": "??"}
+        {"type": "goal", "time": 15, "player": "??"}
+        ,{"type": "goal", "time": 25, "player": "??"}
+        ,{"type": "goal", "time": 50, "player": "??"}
         ,{"type": "penalty", "time": 75, "player": "??"}
         ,{"type": "goal", "time": 80, "player": "??"}
       ]

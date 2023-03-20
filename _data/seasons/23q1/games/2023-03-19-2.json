@@ -1,13 +1,12 @@
 {
   "date": "2023-03-19",
   "type": "#7",
-  "schedule": true,
   "home": {
       "key": "THU",
-      "score": 0
+      "score": 3
   },
   "away": {
       "key": "Hunters",
-      "score": 0
+      "score": 1
   }
 }

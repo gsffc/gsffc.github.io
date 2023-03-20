@@ -1,13 +1,45 @@
 {
   "date": "2023-03-18",
   "type": "#7",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/jN960S49yd4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "GSF-U",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 49, "player": "布狄卡", "assist": "东林"}
+        ,{"type": "goal", "time": 79, "player": "布狄卡"}
+      ],
+      "squad": [
+        {"name": "Alpha", "locator": "GK"}
+        ,{"name": "王政", "locator": "LB"}
+        ,{"name": "陈晨", "locator": "LCB"}
+        ,{"name": "Colin", "locator": "RCB"}
+        ,{"name": "杜若衡", "locator": "RB"}
+        ,{"name": "狄克", "locator": "LDM"}
+        ,{"name": "蒋小神", "locator": "RDM"}
+        ,{"name": "单思远", "locator": "LM"}
+        ,{"name": "Ken", "locator": "RM"}
+        ,{"name": "Xuan", "locator": "CM"}
+        ,{"name": "杨帆", "locator": "CAM"}
+    ]
+    ,"bench": [
+        {"name": "张一宁"}
+        ,{"name": "布狄卡"}
+        ,{"name": "孟祥宇"}
+        ,{"name": "庭朝"}
+        ,{"name": "刘喆"}
+        ,{"name": "王琛"}
+    ]
   },
   "away": {
       "key": "WU",
-      "score": 0
+      "score": 3,
+      "events": [
+        {"type": "gaol", "time": 54, "player": "??"}
+        ,{"type": "gaol", "time": 57, "player": "??"}
+        ,{"type": "gaol", "time": 81, "player": "??"}
+      ]
   }
 }

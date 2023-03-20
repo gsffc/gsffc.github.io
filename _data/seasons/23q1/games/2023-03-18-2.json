@@ -1,13 +1,12 @@
 {
   "date": "2023-03-18",
   "type": "#7",
-  "schedule": true,
   "home": {
       "key": "OverPower",
-      "score": 0
+      "score": 4
   },
   "away": {
       "key": "BD",
-      "score": 0
+      "score": 1
   }
 }
