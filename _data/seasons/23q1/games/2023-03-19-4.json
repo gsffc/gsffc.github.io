@@ -1,6 +1,9 @@
 {
   "date": "2023-03-19",
   "type": "#7",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/KUOPwo0ZDqE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "CalBlue",
       "score": 6

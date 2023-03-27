@@ -1,13 +1,12 @@
 {
   "date": "2023-03-25",
   "type": "#8",
-  "schedule": true,
   "home": {
-      "key": "JTU",
+      "key": "BD",
       "score": 0
   },
   "away": {
-      "key": "CalBlue",
-      "score": 0
+      "key": "ICP",
+      "score": 5
   }
 }

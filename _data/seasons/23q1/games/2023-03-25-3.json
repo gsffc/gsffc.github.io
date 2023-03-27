@@ -1,13 +1,42 @@
 {
   "date": "2023-03-25",
   "type": "#8",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/S5SIMDLQdk4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "DeepSoccer",
       "score": 0
   },
   "away": {
       "key": "GSF-U",
-      "score": 0
+      "score": 4,
+      "events": [
+        {"type": "goal", "time": 55, "player": "单思远"}
+        ,{"type": "goal", "time": 55, "player": "布狄卡"}
+        ,{"type": "goal", "time": 63, "player": "布狄卡", "assist": "小唐"}
+        ,{"type": "owngoal", "time": 73, "player": "??", "assist": "布狄卡"}
+      ],
+      "squad": [
+        {"name": "Alpha", "locator": "GK"}
+        ,{"name": "王琛", "locator": "LWB"}
+        ,{"name": "狄克", "locator": "LCB2"}
+        ,{"name": "Colin", "locator": "CB"}
+        ,{"name": "荆安东", "locator": "RCB2"}
+        ,{"name": "Ken", "locator": "RWB"}
+        ,{"name": "张一宁", "locator": "LDM"}
+        ,{"name": "蒋小神", "locator": "RDM"}
+        ,{"name": "单思远", "locator": "CM"}
+        ,{"name": "小唐", "locator": "LAM"}
+        ,{"name": "杨帆", "locator": "RAM"}
+    ]
+    ,"bench": [
+        {"name": "王政"}
+        ,{"name": "杜若衡"}
+        ,{"name": "庭朝"}
+        ,{"name": "东林"}
+        ,{"name": "刘喆"}
+        ,{"name": "布狄卡"}
+    ]
   }
 }

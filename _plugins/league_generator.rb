@@ -862,10 +862,14 @@ module League
 
                     if game['home']['events'] != nil
                         game['home']['events'].each do |e|
-                            next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
+                                next if e['player'] == '??'
                                 add_player_to_goal_scorers(e, home_team, team_hash)
 
+                                if e['assist'] != nil
+                                    add_player_to_assists(e, home_team, team_hash)
+                                end
+                            elsif e['type'] == 'owngoal'
                                 if e['assist'] != nil
                                     add_player_to_assists(e, home_team, team_hash)
                                 end
@@ -875,10 +879,14 @@ module League
 
                     if game['away']['events'] != nil
                         game['away']['events'].each do |e|
-                            next if e['player'] == '??'
                             if e['type'] == 'goal' or e['type'] == 'penalty'
+                                next if e['player'] == '??'
                                 add_player_to_goal_scorers(e, away_team, team_hash)
 
+                                if e['assist'] != nil
+                                    add_player_to_assists(e, away_team, team_hash)
+                                end
+                            elsif e['type'] == 'owngoal'
                                 if e['assist'] != nil
                                     add_player_to_assists(e, away_team, team_hash)
                                 end
