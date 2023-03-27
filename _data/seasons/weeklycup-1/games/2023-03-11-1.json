@@ -21,7 +21,7 @@
         {"type": "goal", "time": 7, "player": "Andy Wang", "assist": "杜若衡"}
         ,{"type": "goal", "time": 14, "player": "杜若衡", "assist": "汪兴"}
         ,{"type": "goal", "time": 25, "player": "杜若衡", "assist": "东林"}
-        ,{"type": "goal", "time": 52, "player": "Andy Wang", "assist": "某朋友"}
+        ,{"type": "goal", "time": 52, "player": "Andy Wang"}
         ,{"type": "goal", "time": 55, "player": "杜若衡", "assist": "杨帆"}
         ,{"type": "penalty", "time": 58, "player": {"player": "狄克", "team": "CSKA"}, "assist": "杜若衡"}
         ,{"type": "goal", "time": 97, "player": {"player": "王欢", "team": "StevensCreek"}, "assist": "杨帆"}

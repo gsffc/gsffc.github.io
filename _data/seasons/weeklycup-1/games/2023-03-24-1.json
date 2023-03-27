@@ -1,0 +1,34 @@
+{
+  "date": "2023-03-24 20:00",
+  "type": "#2",
+  "videos": [
+    "<a href=\"https://app.veo.co/matches/20230325-a6bbb4e5-c786-42d2-a203-63122c2506c8-f83efe03\"><img src=\"/assets/img/games/weekly/veo2.jpg\"></img></a>"
+    ,"<iframe src=\"https://www.youtube.com/embed/ixTpsusRkqc\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
+  "home": {
+    "key": "CSKA",
+    "score": 12,
+    "events": [
+      {"type": "goal", "time": 17, "player": {"player": "杜若衡", "team": "Washer"}, "assist": "Colin"}
+      ,{"type": "goal", "time": 20, "player": {"player": "杨帆", "team": "Washer"}, "assist": "老宁头"}
+      ,{"type": "goal", "time": 24, "player": "老宁头", "assist": {"player": "Gary", "team": "Dynamo"}}
+      ,{"type": "goal", "time": 27, "player": {"player": "王欢", "team": "StevensCreek"}, "assist": "汪星人"}
+      ,{"type": "goal", "time": 36, "player": {"player": "杨帆", "team": "Washer"}, "assist": "汪星人"}
+      ,{"type": "goal", "time": 43, "player": {"player": "杨帆", "team": "Washer"}, "assist": {"player": "小唐", "team": "StevensCreek"}}
+      ,{"type": "goal", "time": 48, "player": {"player": "杜若衡", "team": "Washer"}, "assist": {"player": "杨帆", "team": "Washer"}}
+      ,{"type": "goal", "time": 51, "player": {"player": "小唐", "team": "StevensCreek"}}
+      ,{"type": "goal", "time": 59, "player": "汪星人", "assist": {"player": "杨帆", "team": "Washer"}}
+      ,{"type": "goal", "time": 61, "player": {"player": "杨帆", "team": "Washer"}, "assist": {"player": "杜雨琛", "team": "Washer"}}
+      ,{"type": "goal", "time": 68, "player": "汪星人", "assist": "老宁头"}
+      ,{"type": "goal", "time": 79, "player": {"player": "杜雨琛", "team": "Washer"}, "assist": {"player": "小唐", "team": "StevensCreek"}}
+    ]
+  },
+  "away": {
+    "key": "Dynamo",
+    "score": 2,
+    "events": [
+      {"type": "goal", "time": 39, "player": {"player": "Andy Wang", "team": "Washer"}, "assist": {"player": "安安", "team": "CSKA"}}
+      ,{"type": "goal", "time": 44, "player": "郝宇", "assist": {"player": "Andy Wang", "team": "Washer"}}
+    ]
+  }
+}

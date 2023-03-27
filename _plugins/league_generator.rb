@@ -725,8 +725,8 @@ module League
                 # 租借 {player: 'aa', team: 'teamkey'}
                 team = team_hash[e['assist']['team']]
                 player_name = e['assist']['player']
-                e['player']['team'] = {
-                    'key' => e['player']['team'],
+                e['assist']['team'] = {
+                    'key' => e['assist']['team'],
                     'logo' => team['logo'],
                     'display_name' => team['display_name'],
                 }
@@ -734,7 +734,6 @@ module League
             player = team['player_hash'][player_name]
 
             if player == nil
-                # puts e['player']
                 team['player_hash'][player_name] = {
                     'name' => player_name,
                     'goals' => 0,

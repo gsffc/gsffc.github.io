@@ -37,9 +37,9 @@
       "key": "WU",
       "score": 3,
       "events": [
-        {"type": "gaol", "time": 54, "player": "??"}
-        ,{"type": "gaol", "time": 57, "player": "??"}
-        ,{"type": "gaol", "time": 81, "player": "??"}
+        {"type": "goal", "time": 54, "player": "??"}
+        ,{"type": "goal", "time": 57, "player": "??"}
+        ,{"type": "goal", "time": 81, "player": "??"}
       ]
   }
 }
