@@ -1,13 +1,43 @@
 {
   "date": "2023-04-01",
   "type": "#9",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/2s0FMiFsiq8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "GSF-U",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 55, "player": "Ken", "assist": "单思远"}
+        ,{"type": "red", "time": 80, "player": "王政"}
+      ],
+      "squad": [
+        {"name": "Alpha", "locator": "GK"}
+        ,{"name": "王政", "locator": "LWB"}
+        ,{"name": "狄克", "locator": "LCB2"}
+        ,{"name": "Colin", "locator": "CB"}
+        ,{"name": "荆安东", "locator": "RCB2"}
+        ,{"name": "Ken", "locator": "RWB"}
+        ,{"name": "张一宁", "locator": "LDM"}
+        ,{"name": "蒋小神", "locator": "RDM"}
+        ,{"name": "小唐", "locator": "CM"}
+        ,{"name": "Xuan", "locator": "LAM"}
+        ,{"name": "杨帆", "locator": "RAM"}
+    ]
+    ,"bench": [
+        {"name": "单思远"}
+        ,{"name": "杜若衡"}
+        ,{"name": "庭朝"}
+        ,{"name": "东林"}
+    ]
   },
   "away": {
       "key": "OX9",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 48, "player": "??"}
+        ,{"type": "red", "time": 75, "player": "??"}
+        ,{"type": "goal", "time": 89, "player": "??"}
+      ]
   }
 }

@@ -1,13 +1,12 @@
 {
   "date": "2023-04-02",
   "type": "#9",
-  "schedule": true,
   "home": {
       "key": "Shoreline",
-      "score": 0
+      "score": 1
   },
   "away": {
       "key": "CalBlue",
-      "score": 0
+      "score": 3
   }
 }
