@@ -1,0 +1,26 @@
+{
+  "date": "2023-03-24 20:00",
+  "type": "#3",
+  "videos": [
+    "<a href=\"https://app.veo.co/matches/20230401-weekly-2023-03-31-63d1667f/\"><img src=\"/assets/img/games/weekly/veo3.jpg\"></img></a>"
+    ,"<iframe src=\"https://www.youtube.com/embed/mCXYivd6wqA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
+  "home": {
+    "key": "CSKA",
+    "score": 1,
+    "events": [
+      {"type": "goal", "time": 111, "player": {"player": "蒋小神", "team": "StevensCreek"}, "assist": {"player": "Andy Wang", "team": "Washer"}}
+    ]
+  },
+  "away": {
+    "key": "Dynamo",
+    "score": 5,
+    "events": [
+      {"type": "goal", "time": 3, "player": {"player": "张昀", "team": "Washer"}}
+      ,{"type": "goal", "time": 52, "player": "Xuan", "assist": {"player": "张昀", "team": "Washer"}}
+      ,{"type": "goal", "time": 87, "player": "王英汉"}
+      ,{"type": "goal", "time": 91, "player": {"player": "张昀", "team": "Washer"}}
+      ,{"type": "goal", "time": 52, "player": "则博", "assist": "Xuan"}
+    ]
+  }
+}

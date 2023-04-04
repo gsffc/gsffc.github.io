@@ -19,7 +19,7 @@
       "score": 7,
       "events": [
         {"type": "goal", "time": 7, "player": "Andy Wang", "assist": "杜若衡"}
-        ,{"type": "goal", "time": 14, "player": "杜若衡", "assist": "汪兴"}
+        ,{"type": "goal", "time": 14, "player": "杜若衡", "assist": {"player": "汪星人", "team": "CSKA"}}
         ,{"type": "goal", "time": 25, "player": "杜若衡", "assist": "东林"}
         ,{"type": "goal", "time": 52, "player": "Andy Wang"}
         ,{"type": "goal", "time": 55, "player": "杜若衡", "assist": "杨帆"}
