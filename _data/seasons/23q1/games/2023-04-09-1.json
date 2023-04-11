@@ -1,13 +1,23 @@
 {
   "date": "2023-04-09",
   "type": "#10",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/ADj5bDvs7qQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "ICP",
-      "score": 0
+      "score": 3,
+      "events": [
+        {"type": "goal", "time": 22, "player": "??"}
+        ,{"type": "goal", "time": 30, "player": "??"}
+        ,{"type": "goal", "time": 61, "player": "??"}
+      ]
   },
   "away": {
       "key": "GSF-U",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 49, "player": "Xuan", "assist": "张一宁"}
+      ]
   }
 }

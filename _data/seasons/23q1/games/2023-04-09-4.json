@@ -1,13 +1,12 @@
 {
   "date": "2023-04-09",
   "type": "#10",
-  "schedule": true,
   "home": {
       "key": "Shoreline",
-      "score": 0
+      "score": 2
   },
   "away": {
       "key": "DeepSoccer",
-      "score": 0
+      "score": 2
   }
 }

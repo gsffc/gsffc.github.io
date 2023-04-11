@@ -1,13 +1,24 @@
 {
   "date": "2023-04-08",
   "type": "#10",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/wJ0mmrJebJA\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "GSF-L",
-      "score": 0
+      "score": 4,
+      "events": [
+        {"type": "goal", "time": 3, "player": "任佳恩"}
+        ,{"type": "penalty", "time": 22, "player": "Kevin"}
+        ,{"type": "goal", "time": 31, "player": "任佳恩", "assist": "则博"}
+        ,{"type": "goal", "time": 76, "player": "王欢", "assist": "任佳恩"}
+      ]
   },
   "away": {
       "key": "BD",
-      "score": 0
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 88, "player": "??"}
+      ]
   }
 }
