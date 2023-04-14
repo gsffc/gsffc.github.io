@@ -12,6 +12,26 @@
         ,{"type": "penalty", "time": 22, "player": "Kevin"}
         ,{"type": "goal", "time": 31, "player": "任佳恩", "assist": "则博"}
         ,{"type": "goal", "time": 76, "player": "王欢", "assist": "任佳恩"}
+      ],
+      "squad": [
+        {"name": "Han", "locator": "GK"}
+        ,{"name": "则博", "locator": "LB"}
+        ,{"name": "兰帕德", "locator": "LCB"}
+        ,{"name": "胡智宇", "locator": "RCB"}
+        ,{"name": "Gary", "locator": "RB"}
+        ,{"name": "宁广涵", "locator": "LDM"}
+        ,{"name": "洪泽", "locator": "RDM"}
+        ,{"name": "王欢", "locator": "LM"}
+        ,{"name": "任佳恩", "locator": "CM"}
+        ,{"name": "汪星人", "locator": "RM"}
+        ,{"name": "Kevin", "locator": "CAM"}
+      ],
+      "bench": [
+        {"name": "Evan"}
+        ,{"name": "张谌"}
+        ,{"name": "Peter"}
+        ,{"name": "Wizard"}
+        ,{"name": "李峰"}
       ]
   },
   "away": {
