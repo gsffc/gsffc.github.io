@@ -10,7 +10,7 @@
       ,{"type": "goal", "time": 30, "player": {"player": "木泽马", "team": "Dynamo"}, "assist": "狄克"}
       ,{"type": "goal", "time": 40, "player": "熊宽晨", "assist": {"player": "Xuan", "team": "Dynamo"}}
       ,{"type": "penalty", "time": 60, "player": "老宁头"}
-      ,{"type": "goal", "time": 70, "player": {"player": "Xuan", "team": "Dynamo"}}
+      ,{"type": "goal", "time": 70, "player": {"player": "Xuan", "team": "Dynamo"}, "assist": {"player": "木泽马", "team": "Dynamo"}}
       ,{"type": "goal", "time": 80, "player": {"player": "Xuan", "team": "Dynamo"}}
     ]
   },
@@ -19,7 +19,7 @@
     "score": 6,
     "events": [
       {"type": "goal", "time": 15, "player": "东林"}
-      ,{"type": "goal", "time": 20, "player": "兰帕德"}
+      ,{"type": "goal", "time": 20, "player": "兰帕德", "assist": "东林"}
       ,{"type": "goal", "time": 25, "player": {"player": "Wizard", "team": "Dynamo"}, "assist": "兰帕德"}
       ,{"type": "goal", "time": 35, "player": {"player": "吴骏", "team": "CSKA"}}
       ,{"type": "goal", "time": 80, "player": {"player": "Wizard", "team": "Dynamo"}, "assist": "杜若衡"}

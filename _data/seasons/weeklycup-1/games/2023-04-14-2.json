@@ -1,0 +1,34 @@
+{
+  "date": "2023-04-14 20:00",
+  "type": "#4",
+  "videos": [
+    "<a href=\"https://app.veo.co/matches/20230415-vs-3f34cabb\"><img src=\"/assets/img/games/weekly/veo4.jpg\"></img></a>"
+  ],
+  "home": {
+    "key": "Dynamo",
+    "score": 11,
+    "events": [
+      {"type": "goal", "time": 8, "player": "Yi Wei"}
+      ,{"type": "goal", "time": 15, "player": "MJ", "assist": "王英汉"}
+      ,{"type": "goal", "time": 30, "player": "Yi Wei", "assist": "MJ"}
+      ,{"type": "goal", "time": 56, "player": "Yi Wei", "assist": "则博"}
+      ,{"type": "penalty", "time": 73, "player": "李峰", "assist": "Yi Wei"}
+      ,{"type": "goal", "time": 77, "player": "刘昊", "assist": "郝宇"}
+      ,{"type": "goal", "time": 79, "player": "MJ", "assist": "Gary"}
+      ,{"type": "goal", "time": 87, "player": "李峰", "assist": "郝宇"}
+      ,{"type": "goal", "time": 91, "player": "王英汉", "assist": "MJ"}
+      ,{"type": "goal", "time": 92, "player": "任佳恩", "assist": "MJ"}
+      ,{"type": "goal", "time": 100, "player": "刘昊", "assist": "王英汉"}
+    ]
+  },
+  "away": {
+    "key": "StevensCreek",
+    "score": 4,
+    "events": [
+      {"type": "goal", "time": 18, "player": "王欢", "assist": "张子豪"}
+      ,{"type": "goal", "time": 43, "player": "Casper", "assist": "??"}
+      ,{"type": "goal", "time": 44, "player": "张子豪", "assist": "??"}
+      ,{"type": "goal", "time": 93, "player": "Casper"}
+    ]
+  }
+}
