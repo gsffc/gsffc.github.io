@@ -3,5 +3,31 @@
   "description": "NCCSF 2023 11人制联赛",
   "type": "league_table + region",
   "link": "https://nccsf.org",
-  "rules": "*11人制\n*十轮循环赛+两轮区间内排位赛"
+  "rules": "*11人制\n*十轮循环赛+两轮区间内排位赛",
+  "regions": {
+    "D1": [
+      "CalBlue",
+      "SVTigers",
+      "Shoreline",
+      "ICP"
+    ],
+    "D2": [
+      "OverPower",
+      "WU",
+      "EBU",
+      "JTU"
+    ],
+    "D3": [
+      "THU",
+      "GSF-U",
+      "DeepSoccer",
+      "OX9"
+    ],
+    "D4": [
+      "BD",
+      "Hunters",
+      "GSF-L",
+      "Wolf"
+    ]
+  }
 }

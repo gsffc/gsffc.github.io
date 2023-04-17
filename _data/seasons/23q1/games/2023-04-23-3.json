@@ -1,0 +1,13 @@
+{
+  "date": "2023-04-23",
+  "type": "rank-r1",
+  "schedule": true,
+  "home": {
+      "key": "CalBlue",
+      "score": 0
+  },
+  "away": {
+      "key": "ICP",
+      "score": 0
+  }
+}

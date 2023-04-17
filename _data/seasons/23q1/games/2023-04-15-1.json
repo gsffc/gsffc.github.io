@@ -1,13 +1,12 @@
 {
   "date": "2023-04-15",
   "type": "#11",
-  "schedule": true,
   "home": {
       "key": "ICP",
-      "score": 0
+      "score": 4
   },
   "away": {
       "key": "EBU",
-      "score": 0
+      "score": 3
   }
 }
