@@ -1,0 +1,13 @@
+{
+  "date": "2023-04-22",
+  "type": "rank-r1",
+  "schedule": true,
+  "home": {
+      "key": "DeepSoccer",
+      "score": 0
+  },
+  "away": {
+      "key": "GSF-U",
+      "score": 0
+  }
+}
