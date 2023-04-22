@@ -26,8 +26,8 @@
     "score": 4,
     "events": [
       {"type": "goal", "time": 18, "player": "王欢", "assist": "张子豪"}
-      ,{"type": "goal", "time": 43, "player": "Casper", "assist": "??"}
-      ,{"type": "goal", "time": 44, "player": "张子豪", "assist": "??"}
+      ,{"type": "goal", "time": 43, "player": "Casper"}
+      ,{"type": "goal", "time": 44, "player": "张子豪"}
       ,{"type": "goal", "time": 93, "player": "Casper"}
     ]
   }

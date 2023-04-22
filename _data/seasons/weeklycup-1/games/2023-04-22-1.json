@@ -1,0 +1,30 @@
+{
+  "date": "2023-04-14 20:00",
+  "type": "#4",
+  "videos": [
+    "<a href=\"https://app.veo.co/matches/20230422-0421-weekly-b3d4f3ba/\"><img src=\"/assets/img/games/weekly/veo5.jpg\"></img></a>"
+  ],
+  "home": {
+    "key": "Washer",
+    "score": 5,
+    "events": [
+      {"type": "goal", "time": 1, "player": "杨帆"}
+      ,{"type": "goal", "time": 2, "player": "杨帆"}
+      ,{"type": "goal", "time": 65, "player": "杨帆"}
+      ,{"type": "goal", "time": 70, "player": "兰帕德", "assist": "刘争"}
+      ,{"type": "goal", "time": 79, "player": "杜若衡", "assist": {"player": "Kento", "team": "CSKA"}}
+    ]
+  },
+  "away": {
+    "key": "Dynamo",
+    "score": 6,
+    "events": [
+      {"type": "goal", "time": 3, "player": "Xuan"}
+      ,{"type": "goal", "time": 19, "player": "何思哲"}
+      ,{"type": "goal", "time": 43, "player": {"player": "张子豪", "team": "StevensCreek"}, "assist": "MJ"}
+      ,{"type": "goal", "time": 67, "player": "郝宇", "assist": "李峰"}
+      ,{"type": "goal", "time": 88, "player": "MJ", "assist": {"player": "Peter", "team": "StevensCreek"}}
+      ,{"type": "goal", "time": 89, "player": "何思哲", "assist": "Xuan"}
+    ]
+  }
+}
