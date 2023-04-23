@@ -1,13 +1,20 @@
 {
   "date": "2023-04-22",
   "type": "rank-r1",
-  "schedule": true,
   "home": {
       "key": "DeepSoccer",
-      "score": 0
+      "score": 0,
+      "events": [
+        {"type": "red", "time": 30, "player": "??"}
+      ]
   },
   "away": {
       "key": "GSF-U",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 35, "player": "杜若衡"}
+        ,{"type": "goal", "time": 70, "player": "荆安东", "assist": "狄克"}
+        ,{"type": "penalty-miss", "time": 90, "player": "狄克"}
+      ]
   }
 }

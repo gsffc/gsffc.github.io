@@ -1,13 +1,12 @@
 {
   "date": "2023-04-22",
   "type": "rank-r1",
-  "schedule": true,
   "home": {
       "key": "BD",
       "score": 0
   },
   "away": {
       "key": "Wolf",
-      "score": 0
+      "score": 6
   }
 }
