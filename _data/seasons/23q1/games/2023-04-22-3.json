@@ -3,20 +3,22 @@
   "type": "rank-r1",
   "videos": [
     "<a href=\"https://app.veo.co/matches/20230422-deep-soccer-02-gsf-united-8929498f/\"><img src=\"/assets/img/games/23q1/veo-u-dp-2.jpg\"></img></a>"
+    ,"<iframe src=\"https://www.youtube.com/embed/bibNlaNuGfs\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
   ],
   "home": {
       "key": "DeepSoccer",
       "score": 0,
       "events": [
-        {"type": "red", "time": 27, "player": "??"}
+        {"type": "yellow", "time": 24, "player": "??", "link": "https://youtu.be/bibNlaNuGfs?t=1860"}
+        ,{"type": "red", "time": 27, "player": "??", "link": "https://youtu.be/bibNlaNuGfs?t=2069"}
       ]
   },
   "away": {
       "key": "GSF-U",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 31, "player": "杜若衡", "assist": "王琛"}
-        ,{"type": "goal", "time": 65, "player": "荆安东", "assist": "狄克"}
+        {"type": "goal", "time": 31, "player": "杜若衡", "assist": "王琛", "link": "https://youtu.be/bibNlaNuGfs?t=2363"}
+        ,{"type": "goal", "time": 65, "player": "荆安东", "assist": "狄克", "link": "https://youtu.be/bibNlaNuGfs?t=5013"}
         ,{"type": "penalty-miss", "time": 90, "player": "狄克"}
       ],
       "squad": [
