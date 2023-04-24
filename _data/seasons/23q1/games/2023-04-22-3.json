@@ -8,15 +8,15 @@
       "key": "DeepSoccer",
       "score": 0,
       "events": [
-        {"type": "red", "time": 30, "player": "??"}
+        {"type": "red", "time": 27, "player": "??"}
       ]
   },
   "away": {
       "key": "GSF-U",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 35, "player": "杜若衡", "assist": "王琛"}
-        ,{"type": "goal", "time": 70, "player": "荆安东", "assist": "狄克"}
+        {"type": "goal", "time": 31, "player": "杜若衡", "assist": "王琛"}
+        ,{"type": "goal", "time": 65, "player": "荆安东", "assist": "狄克"}
         ,{"type": "penalty-miss", "time": 90, "player": "狄克"}
       ],
       "squad": [
