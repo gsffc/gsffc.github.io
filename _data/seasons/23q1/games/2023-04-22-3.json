@@ -1,6 +1,9 @@
 {
   "date": "2023-04-22",
   "type": "rank-r1",
+  "videos": [
+    "<a href=\"https://app.veo.co/matches/20230422-deep-soccer-02-gsf-united-8929498f/\"><img src=\"/assets/img/games/23q1/veo-u-dp-2.jpg\"></img></a>"
+  ],
   "home": {
       "key": "DeepSoccer",
       "score": 0,
@@ -12,9 +15,30 @@
       "key": "GSF-U",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 35, "player": "杜若衡"}
+        {"type": "goal", "time": 35, "player": "杜若衡", "assist": "王琛"}
         ,{"type": "goal", "time": 70, "player": "荆安东", "assist": "狄克"}
         ,{"type": "penalty-miss", "time": 90, "player": "狄克"}
-      ]
+      ],
+      "squad": [
+        {"name": "锡麟", "locator": "GK"}
+        ,{"name": "王政", "locator": "LWB"}
+        ,{"name": "Colin", "locator": "LCB2"}
+        ,{"name": "孟祥宇", "locator": "CB"}
+        ,{"name": "陈晨", "locator": "RCB2"}
+        ,{"name": "荆安东", "locator": "RWB"}
+        ,{"name": "张一宁", "locator": "LDM"}
+        ,{"name": "狄克", "locator": "RDM"}
+        ,{"name": "Xuan", "locator": "CM"}
+        ,{"name": "小唐", "locator": "LAM"}
+        ,{"name": "杨帆", "locator": "RAM"}
+    ]
+    ,"bench": [
+        {"name": "Alpha"}
+        ,{"name": "杜若衡"}
+        ,{"name": "王琛"}
+        ,{"name": "东林"}
+        ,{"name": "刘喆"}
+        ,{"name": "杜雨琛"}
+    ]
   }
 }
