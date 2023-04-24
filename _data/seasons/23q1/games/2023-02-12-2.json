@@ -9,8 +9,8 @@
       "key": "GSF-U",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 3, "player": "东林", "assist": "张一宁"}
-        ,{"type": "goal", "time": 38, "player": "Xuan", "assist": "狄克"}
+        {"type": "goal", "time": 3, "player": "东林", "assist": "张一宁", "link": "https://youtu.be/DwYaW0CtcL0?t=681"}
+        ,{"type": "goal", "time": 38, "player": "Xuan", "assist": "狄克", "link": "https://youtu.be/DwYaW0CtcL0?t=2823"}
     ],
     "squad": [
         {"name": "锡麟", "locator": "GK"}
@@ -41,7 +41,7 @@
       "key": "GSF-L",
       "score": 1,
       "events": [
-        {"type": "goal", "time": 19, "player": "王欢", "assist": "王英汉"}
+        {"type": "goal", "time": 19, "player": "王欢", "assist": "王英汉", "link": "https://youtu.be/DwYaW0CtcL0?t=1679"}
     ],
     "squad": [
       {"name": "程攻", "locator": "GK"}

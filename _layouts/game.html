@@ -17,6 +17,7 @@ layout: default
 
         {% for event in page.game.home.events %}
         <p>
+        <a href="{{event.link}}">
             <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
             {{event.time}}'
             {% if event.player.team != nil %}
@@ -35,6 +36,7 @@ layout: default
                 <img width="30px" src="{{site.baseurl}}/assets/img/icon/sub.png" />
                 {{event.sub}}
             {% endif %}
+        </a>
         </p>
         {% endfor %}
     </div>
@@ -64,6 +66,7 @@ layout: default
 
         {% for event in page.game.away.events %}
         <p>
+        <a href="{{event.link}}">
             <img width="30px" src="{{site.baseurl}}/assets/img/icon/{{event.type}}.png" />
             {{event.time}}'
             {% if event.player.team != nil %}
@@ -82,6 +85,7 @@ layout: default
                 <img width="30px" src="{{site.baseurl}}/assets/img/icon/sub.png" />
                 {{event.sub}}
             {% endif %}
+        </a>
         </p>
         {% endfor %}
     </div>
