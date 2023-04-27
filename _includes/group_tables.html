@@ -2,7 +2,7 @@
 
 <h3>{{ include.stage_name }}</h3>
 
-{% assign id = 0 %}
+{% assign id = include.index_offset %}
 
 {% for group in include.group_tables %}
 {% assign group_key = group[0] %}

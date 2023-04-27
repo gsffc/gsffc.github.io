@@ -1,0 +1,11 @@
+{
+    "display_name": "清华老兵",
+    "description": "湾区清华老兵足球队是北美清华老兵足球队的加州湾区分队。母队北美清华老兵足球队已经有20年历史，一直是北美华人足球劲旅。",
+    "logo": "teams/THU/logo.jpg",
+    "players": {
+        "starting": [
+        ],
+        "subs": [
+        ]
+    }
+}

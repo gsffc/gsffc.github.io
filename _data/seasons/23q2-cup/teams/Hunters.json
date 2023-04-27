@@ -1,0 +1,11 @@
+{
+    "display_name": "Hunters",
+    "description": "Hunters成立于2011年，迄今已经连续参加了六届华体会的比赛。球队主要由来自Fremont，Milpitas和North San Jose的足球爱好者组成，大家在享受快乐足球的同时也通过与其他球队的交流不断提高球队水平。球队一路走来历经风雨，人员变动很大，但是我们始终维持良好的队内气氛，使大家享受足球带来的乐趣也以球会友。\n我们在球场上的口号是“勇气，耐心”，争取出球之前多想一点！",
+    "logo": "teams/Hunters/logo.png",
+    "players": {
+        "starting": [
+        ],
+        "subs": [
+        ]
+    }
+}

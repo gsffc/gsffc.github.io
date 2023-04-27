@@ -1,0 +1,61 @@
+{
+  "display_name": "23足联杯",
+  "description": "2023北加州足联杯锦标赛",
+  "type": "game_list + group + region + knockout",
+  "link": "http://54.215.45.224/en/node/74",
+  "rules": "*11人制\n",
+  "knockouts": {
+    "冠军杯": {
+      "bracket": [
+        [
+          "2023-05-20-k1"
+          ,"2023-05-20-k2"
+          ,"2023-05-20-k3"
+          ,"2023-05-20-k4"
+          ,"2023-05-20-k5"
+          ,"2023-05-20-k6"
+          ,"2023-05-20-k7"
+          ,"2023-05-20-k8"
+        ],
+        [
+          ""
+          ,""
+          ,""
+          ,""
+        ],
+        [
+          ""
+          ,""
+        ],
+        [
+          ""
+        ]
+      ],
+      "other_games": [
+      ]
+    }
+  },
+  "regions": {
+    "": [
+      "CalBlue"
+      ,"Davis"
+      ,"DeepSoccer"
+      ,"EBU"
+      ,"Hunters"
+      ,"OverPower"
+      ,"Shoreline"
+      ,"SouthBay"
+      ,"SouthBayKnight"
+      ,"SouthBaySuper"
+      ,"SVTigers"
+      ,"THU"
+      ,"WU"
+    ]
+  },
+  "groups": {
+    "": [
+      "CCAA"
+    ]
+  },
+  "game_list": "qualify"
+}

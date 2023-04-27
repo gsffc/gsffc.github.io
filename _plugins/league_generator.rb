@@ -253,7 +253,7 @@ module League
     end
 
     # TODO: reduce duplicate code
-    def self.calculate_table_special_rank (team_hash, games_pair, entry)
+    def self.calculate_table_special_rank (team_hash, games_pair, entry, num_rounds)
         # Iterate games to calculate data
 
         # clear data 
@@ -288,8 +288,10 @@ module League
             t1['goals_for'] += game['away']['score'];
             t1['goals_against'] += game['home']['score'];
             
-            # TEMP: ranking win points special rules
-            winpoint = game['type'] == 'rank-r1' ? 2 : 1;
+            # # TEMP: ranking win points special rules
+            # winpoint = game['type'] == 'rank-r1' ? 2 : 1;
+            round = game['type'][-1].to_i()
+            winpoint = 1 << (num_rounds - round)
 
             if game['home']['score'] > game['away']['score']
                 t0['wins'] += 1;
@@ -368,13 +370,42 @@ module League
                                 for j in 0..(round.length-1)
                                     game = round[j]
                                     game_array = Array.new(3)
+
+                                    tk0 = nil
+                                    tk1 = nil
                                     
-                                    # there's team info in game
-                                    # but we still write team info
-                                    # because we display versus before game happens
-                                    game_array[0] = team_hash[game[0]]
-                                    game_array[1] = team_hash[game[1]]
-                                    game_array[2] = [game[2], games_hash[game[2]]]
+                                    if game.kind_of?(Array)
+                                        # there's team info in game
+                                        # but we still write team info
+                                        # because we display versus before game happens
+
+                                        # game_array[0] = team_hash[game[0]]
+                                        # game_array[1] = team_hash[game[1]]
+                                        # game_array[2] = [game[2], games_hash[game[2]]]
+
+                                        tk0 = game[0]
+                                        tk1 = game[1]
+                                        game_array[2] = [game[2], games_hash[game[2]]]
+                                    else
+                                        g = games_hash[game]
+                                        if g != nil
+                                            tk0 = g['home']['key']
+                                            tk1 = g['away']['key']
+                                            game_array[2] = [game, g]
+                                        end
+                                    end
+
+                                    t0 = team_hash[tk0]
+                                    t1 = team_hash[tk1]
+
+                                    game_array[0] = t0 != nil ? t0 : {
+                                        'logo' => 'question-mark.png',
+                                        'display_name' => tk0
+                                    }
+                                    game_array[1] = t1 != nil ? t1 : {
+                                        'logo' => 'question-mark.png',
+                                        'display_name' => tk1
+                                    }
 
                                     round_array[j] = game_array
                                 end
@@ -412,9 +443,16 @@ module League
 
                         # Iterate games to calculate data
                         group_games_pair = games_pair.select{|key, game| game['type'].include? group_game_tag}
-                        # TEMP special rank
+                        
                         if stage == 'region'
-                            League.calculate_table_special_rank(team_hash, group_games_pair, 'table')
+                            # TEMP special rank, use first region team number to decide numRounds
+                            rank_round = 2
+                            groups.each do |group_key, team_keys|
+                                rank_round = Math.log2(team_keys.length).to_i
+                                break
+                            end
+                            # puts rank_round
+                            League.calculate_table_special_rank(team_hash, group_games_pair, 'table', rank_round)
                         else
                             League.calculate_table(team_hash, group_games_pair, 'table')
                         end
@@ -440,8 +478,10 @@ module League
                             group_games[group_key] = cur_group_games_pair
                         end
 
-                        self.data['group_tables'] = group_tables
-                        self.data['group_games'] = group_games
+                        self.data[group_game_tag + '_tables'] = group_tables
+                        self.data[group_game_tag + '_games'] = group_games
+                        # self.data['group_tables'] = group_tables
+                        # self.data['group_games'] = group_games
 
                     end
 
@@ -458,6 +498,14 @@ module League
                     self.data['league_games'] = table_games_pair
 
                     # puts self.data['table']
+
+                when 'game_list'
+                    game_tag = config["game_list"]
+                    gp = games_pair.select{|key, game| game['type'].include?(game_tag) }
+                    self.data['game_list'] = gp
+
+                # when 'big_rank'
+
                 end
             end
 
@@ -497,7 +545,7 @@ module League
         end
     end
 
-    class FriendlySeasonPage < Jekyll::Page
+    class SimpleGameListSeasonPage < Jekyll::Page
         def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
             @site = site
             @base = base
@@ -838,6 +886,23 @@ module League
                     home_team = team_hash[game['home']['key']]
                     away_team = team_hash[game['away']['key']]
 
+                    if home_team == nil
+                        home_team = {
+                            "display_name" => game['home']['key'],
+                            "logo" => "question-mark.png"
+                        }
+                    else
+                        home_team['games'] << p
+                    end
+                    if away_team == nil
+                        away_team = {
+                            "display_name" => game['away']['key'],
+                            "logo" => "question-mark.png"
+                        }
+                    else
+                        away_team['games'] << p
+                    end
+
                     if home_team['players'] == nil
                         home_team['players'] = {
                             "starting" => [],
@@ -850,9 +915,6 @@ module League
                             "subs" => []
                         }
                     end
-
-                    home_team['games'] << p
-                    away_team['games'] << p
 
                     game['home']['display_name'] = home_team['display_name']
                     game['home']['logo'] = home_team['logo']
@@ -957,8 +1019,8 @@ module League
 
                 if config['type'] == 'league_table'
                     site.pages << LeagueSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
-                elsif config['type'] == 'friendly'
-                    site.pages << FriendlySeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
+                elsif config['type'] == 'game_list'
+                    site.pages << SimpleGameListSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
                 else
                     # use general season page with multiple stages
 
@@ -969,7 +1031,11 @@ module League
                     elsif config['type'] == 'region + knockout'
                         layout_page = 'season_region_knockouts.html'
                     elsif config['type'] == 'league_table + region'
+                        # 23春11人制，联赛 + 4队排位
                         layout_page = 'season_league_region.html'
+                    elsif config['type'] == 'game_list + group + region + knockout'
+                        # 23足联杯，预选赛，勇者杯（17-），大二分排位（1-16），淘汰bracket
+                        layout_page = 'season_big_rank_knockout.html'
                     elsif config['type'] == 'league_table'
                         layout_page = 'season.html'
                     else

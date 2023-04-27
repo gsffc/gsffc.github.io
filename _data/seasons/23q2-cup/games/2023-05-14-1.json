@@ -1,0 +1,14 @@
+{
+    "date": "2023-05-14 04:00PM",
+    "type": "qualify",
+    "extra": " A4 ",
+    "schedule": true,
+    "home": {
+        "key": "Wolf",
+        "score": 0
+    },
+    "away": {
+        "key": "SouthBayKnight",
+        "score": 0
+    }
+}
