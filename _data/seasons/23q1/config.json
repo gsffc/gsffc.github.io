@@ -4,6 +4,7 @@
   "type": "league_table + region",
   "link": "https://nccsf.org",
   "rules": "*11人制\n*十轮循环赛+两轮区间内排位赛",
+  "interested_teams": ["GSF-U", "GSF-L"],
   "regions": {
     "D1": [
       "CalBlue",

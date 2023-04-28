@@ -827,7 +827,11 @@ module League
                 end
                 # -------------------------------------------------------------
 
-
+                generate_interested_teams_gamepage_only = false
+                if config['interested_teams'] != nil
+                    interested_teams = Set.new(config['interested_teams'])
+                    generate_interested_teams_gamepage_only = true
+                end
 
                 team_hash = season[1]['teams']
                 team_hash.each do |key, team|
@@ -955,7 +959,16 @@ module League
                         end
                     end
 
-                    site.pages << GamePage.new(site, site.source, File.join('seasons', season[0], 'games', key), key, game, home_team, away_team)
+                    generate_gamepage = true
+                    if generate_interested_teams_gamepage_only
+                        if !(interested_teams.member?(game['home']['key']) ||  interested_teams.member?(game['away']['key']))
+                            generate_gamepage = false
+                        end
+                    end
+
+                    if generate_gamepage
+                        site.pages << GamePage.new(site, site.source, File.join('seasons', season[0], 'games', key), key, game, home_team, away_team)
+                    end
                 end
 
 
