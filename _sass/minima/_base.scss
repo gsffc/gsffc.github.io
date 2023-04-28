@@ -255,3 +255,10 @@ table.small {
     padding: ($spacing-unit / 3) ($spacing-unit / 2.5);
   }
 }
+
+/**
+* Game lines
+*/
+.game-line span {
+  color:#aaa;
+}

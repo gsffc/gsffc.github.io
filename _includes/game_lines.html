@@ -1,8 +1,8 @@
-<a href="{{include.season_base_url}}games/{{include.game_key}}">
-<font color="#aaa">{{include.game.date}}</font>
-<font color="#aaa">{% translate {{include.game.type | prepend: "games."}} %}</font>
+<a href="{{include.season_base_url}}games/{{include.game_key}}" class="game-line">
+<span>{{include.game.date}}</span>
+<span>{% translate {{include.game.type | prepend: "games."}} %}</span>
 {% if include.game.extra != nil %}
-<font color="#aaa">{{include.game.extra}}</font>
+<span>{{include.game.extra}}</span>
 {% endif %}
   {{ include.game.home.display_name }}
   <img class="team-logo" src='{{site.baseurl}}/assets/img/{{ include.game.home.logo }}'/>
