@@ -9,7 +9,11 @@
 {% endif %}
 
 <div style="overflow:auto; width: auto;">
+  {% if include.table_class != nil %}
+  <table class="{{include.table_class}}">
+  {% else %}
   <table>
+  {% endif %}
     <thead>
       <tr>
         <th>{{include.group_name}}</th>

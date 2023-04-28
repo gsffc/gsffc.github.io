@@ -34,10 +34,9 @@ layout: default
 {% break %}
 {% endfor %}
 
-{% assign group_key = group[0] %}
-{% assign group_table = group[1] %}
+{% assign big_rank_table = group[1] %}
 
-{% include team_table_big_rank.html table=group_table group_name=group_key %}
+{% include team_table.html table=big_rank_table table_class="big-rank" %}
 
 <p>
 * <span class="tier1">冠军杯</span>
