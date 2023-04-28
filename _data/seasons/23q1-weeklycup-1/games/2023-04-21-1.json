@@ -1,6 +1,7 @@
 {
   "date": "2023-04-21 20:00",
   "type": "#5",
+  "extra": "（三队累积赛果）",
   "videos": [
     "<a href=\"https://app.veo.co/matches/20230422-0421-weekly-b3d4f3ba/\"><img src=\"/assets/img/games/weekly/veo5.jpg\"></img></a>"
   ],
@@ -17,7 +18,7 @@
   },
   "away": {
     "key": "Dynamo",
-    "score": 6,
+    "score": 5,
     "events": [
       {"type": "goal", "time": 3, "player": "Xuan"}
       ,{"type": "goal", "time": 19, "player": "何思哲"}

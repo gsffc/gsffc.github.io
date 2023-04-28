@@ -7,7 +7,7 @@
   ],
   "home": {
     "key": "CSKA",
-    "score": 12,
+    "score": 13,
     "events": [
       {"type": "goal", "time": 17, "player": {"player": "杜若衡", "team": "Washer"}, "assist": "Colin"}
       ,{"type": "goal", "time": 20, "player": {"player": "杨帆", "team": "Washer"}, "assist": "老宁头"}
@@ -21,6 +21,7 @@
       ,{"type": "goal", "time": 61, "player": {"player": "杨帆", "team": "Washer"}, "assist": {"player": "杜雨琛", "team": "Washer"}}
       ,{"type": "goal", "time": 68, "player": "汪星人", "assist": "老宁头"}
       ,{"type": "goal", "time": 79, "player": {"player": "杜雨琛", "team": "Washer"}, "assist": {"player": "小唐", "team": "StevensCreek"}}
+      ,{"type": "goal", "time": 92, "player": {"player": "杜若衡", "team": "Washer"}, "assist": "刘喆"}
     ]
   },
   "away": {
