@@ -1,13 +1,42 @@
 {
   "date": "2023-04-29",
   "type": "rank-r2",
-  "schedule": true,
   "home": {
       "key": "THU",
-      "score": 0
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 83, "player": "??"}
+        ,{"type": "goal", "time": 88, "player": "??"}
+      ]
   },
   "away": {
       "key": "GSF-U",
-      "score": 0
+      "score": 5,
+      "events": [
+        {"type": "goal", "time": 5, "player": "单思远"}
+        ,{"type": "goal", "time": 30, "player": "布狄卡"}
+        ,{"type": "goal", "time": 55, "player": "单思远", "assist": "布狄卡"}
+        ,{"type": "goal", "time": 65, "player": "布狄卡", "assist": "王政"}
+        ,{"type": "goal", "time": 70, "player": "小唐", "assist": "狄克"}
+      ],
+      "squad": [
+        {"name": "锡麟", "locator": "GK"}
+        ,{"name": "小唐", "locator": "LWB"}
+        ,{"name": "陈晨", "locator": "LCB2"}
+        ,{"name": "Colin", "locator": "CB"}
+        ,{"name": "荆安东", "locator": "RCB2"}
+        ,{"name": "王政", "locator": "RWB"}
+        ,{"name": "狄克", "locator": "LDM"}
+        ,{"name": "孟祥宇", "locator": "RDM"}
+        ,{"name": "Xuan", "locator": "RCM"}
+        ,{"name": "单思远", "locator": "LCM"}
+        ,{"name": "东林", "locator": "CAM"}
+    ]
+    ,"bench": [
+        {"name": "布狄卡"}
+        ,{"name": "杜若衡"}
+        ,{"name": "刘喆"}
+        ,{"name": "杜雨琛"}
+    ]
   }
 }
