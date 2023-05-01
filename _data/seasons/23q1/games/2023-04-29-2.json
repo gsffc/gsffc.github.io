@@ -1,10 +1,12 @@
 {
   "date": "2023-04-29",
   "type": "rank-r2",
-  "schedule": true,
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/EIELYldUgjQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "BD",
-      "score": 0
+      "score": 2
   },
   "away": {
       "key": "GSF-L",

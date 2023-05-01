@@ -1,23 +1,26 @@
 {
   "date": "2023-04-29",
   "type": "rank-r2",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/AmgJ2eAu12s\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
       "key": "THU",
       "score": 2,
       "events": [
-        {"type": "goal", "time": 83, "player": "??"}
-        ,{"type": "goal", "time": 88, "player": "??"}
+        {"type": "goal", "time": 83, "player": "??", "link": "https://www.youtube.com/watch?v=AmgJ2eAu12s&t=5049s"}
+        ,{"type": "goal", "time": 88, "player": "??", "link": "https://www.youtube.com/watch?v=AmgJ2eAu12s&t=5797s"}
       ]
   },
   "away": {
       "key": "GSF-U",
       "score": 5,
       "events": [
-        {"type": "goal", "time": 5, "player": "单思远"}
-        ,{"type": "goal", "time": 30, "player": "布狄卡"}
-        ,{"type": "goal", "time": 55, "player": "单思远", "assist": "布狄卡"}
-        ,{"type": "goal", "time": 65, "player": "布狄卡", "assist": "王政"}
-        ,{"type": "goal", "time": 70, "player": "小唐", "assist": "狄克"}
+        {"type": "goal", "time": 5, "player": "单思远", "link": "https://youtu.be/AmgJ2eAu12s?t=267"}
+        ,{"type": "goal", "time": 30, "player": "布狄卡", "link": "https://www.youtube.com/watch?v=AmgJ2eAu12s&t=2032s"}
+        ,{"type": "goal", "time": 55, "player": "单思远", "assist": "布狄卡", "link": "https://www.youtube.com/watch?v=AmgJ2eAu12s&t=4018s"}
+        ,{"type": "goal", "time": 65, "player": "布狄卡", "assist": "王政", "link": "https://www.youtube.com/watch?v=AmgJ2eAu12s&t=4270s"}
+        ,{"type": "goal", "time": 70, "player": "小唐", "assist": "狄克", "link": "https://www.youtube.com/watch?v=AmgJ2eAu12s&t=4397s"}
       ],
       "squad": [
         {"name": "锡麟", "locator": "GK"}
