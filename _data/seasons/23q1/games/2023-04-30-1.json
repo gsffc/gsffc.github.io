@@ -3,10 +3,10 @@
   "type": "rank-r2",
   "home": {
       "key": "EBU",
-      "score": 1
+      "score": 2
   },
   "away": {
       "key": "JTU",
-      "score": 2
+      "score": 1
   }
 }
