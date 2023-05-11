@@ -6,6 +6,169 @@
         "starting": [
         ],
         "subs": [
+            {
+                "number": 1,
+                "name": "锡麟",
+                "img": "teams/GSF/23/xilin.jpg",
+                "position": "门将",
+                "locator": "GK"
+            }
+            ,{
+                "number": 5,
+                "name": "Colin",
+                "img": "teams/GSF/23/colin.jpg",
+                "position": "后卫",
+                "locator": "RM"
+            }
+            ,{
+                "number": 6,
+                "name": "王政",
+                "img": "teams/GSF/23/wangzhen.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 8,
+                "name": "杨帆",
+                "img": "teams/GSF/23/yangfan.jpg",
+                "position": "前锋",
+                "locator": "LS"
+            }
+            ,{
+                "number": 9,
+                "name": "Xuan",
+                "img": "teams/GSF/23/xuan.jpg",
+                "position": "前锋",
+                "locator": "LM"
+            }
+            ,{
+                "number": 11,
+                "name": "张稞雨",
+                "img": "teams/GSF/23/zhangkeyu.jpg",
+                "position": "前锋"
+            }       
+            ,{
+                "number": 20,
+                "name": "刘喆",
+                "img": "teams/GSF/23/liuzhe.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 21,
+                "name": "Ted",
+                "img": "teams/GSF/23/ted.jpg",
+                "position": "中场",
+                "locator": "LCM"
+            }
+            ,{
+                "number": 24,
+                "name": "潘言星",
+                "img": "placeholder-player.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 25,
+                "name": "东林",
+                "img": "teams/GSF/23/donglin.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 28,
+                "name": "杨谱",
+                "img": "teams/GSF/23/yangpu.jpg",
+                "position": "中场",
+                "locator": "RM"
+            }
+            ,{
+                "number": 29,
+                "name": "杜若衡",
+                "img": "teams/GSF/23/duruoheng.jpg",
+                "position": "中场",
+                "locator": "LCM"
+            }
+            ,{
+                "number": 30,
+                "name": "陈晨",
+                "img": "teams/GSF/23/chenchen.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 36,
+                "name": "单思远",
+                "img": "teams/GSF/23/shansiyuan.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 55,
+                "name": "狄克",
+                "img": "teams/GSF/23/di.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 69,
+                "name": "荆安东",
+                "img": "teams/GSF/23/jingandong.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 76,
+                "name": "任佳恩",
+                "img": "teams/GSF/23/renjiaen.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 86,
+                "name": "王琛",
+                "img": "teams/GSF/23/wangchen.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 94,
+                "name": "王英汉",
+                "img": "teams/GSF/23/wangyinghan.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 95,
+                "name": "MJ",
+                "img": "teams/GSF/23/mj.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 96,
+                "name": "肖毅捷",
+                "img": "teams/GSF/23/xiaoyijie.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 97,
+                "name": "Casper",
+                "img": "teams/GSF/23/casper.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 98,
+                "name": "郝宇",
+                "img": "teams/GSF/23/haoyu.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 102,
+                "name": "马路遥",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 108,
+                "name": "杜雨琛",
+                "img": "teams/GSF/23/duyuchen.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 404,
+                "name": "小唐",
+                "img": "teams/GSF/23/tangyoupeng.jpg",
+                "position": "中场"
+            }
         ]
     }
 }
