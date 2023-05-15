@@ -11,7 +11,7 @@
         "score": 3,
         "events": [
             {"type": "goal", "time": 5, "player": "王英汉"}
-            ,{"type": "goal", "time": 25, "player": "MJ"}
+            ,{"type": "goal", "time": 25, "player": "MJ", "assist": "小唐"}
             ,{"type": "goal", "time": 60, "player": "MJ", "assist": "Xuan"}
           ],
           "squad": [
