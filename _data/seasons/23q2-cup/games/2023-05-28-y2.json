@@ -3,11 +3,11 @@
     "type": "group-r4",
     "schedule": true,
     "home": {
-        "key": "CCAA",
+        "key": "FlyingHorse",
         "score": 0
     },
     "away": {
-        "key": "GSF-U",
+        "key": "SouthBayKnight",
         "score": 0
     }
 }

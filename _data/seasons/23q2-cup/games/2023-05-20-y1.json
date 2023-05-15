@@ -1,13 +1,13 @@
 {
-    "date": "2023-05-20 12:20PM",
+    "date": "2023-05-20 12:15PM",
     "type": "group-r1",
     "schedule": true,
     "home": {
-        "key": "CCAA",
+        "key": "SouthBayKnight",
         "score": 0
     },
     "away": {
-        "key": "E1",
+        "key": "CCAA",
         "score": 0
     }
 }

@@ -57,7 +57,11 @@
   },
   "groups": {
     "": [
-      "CCAA"
+      "CCAA",
+      "SouthBayKnight",
+      "GSF-U",
+      "FlyingHorse",
+      "JTU"
     ]
   },
   "game_list": "qualify"
