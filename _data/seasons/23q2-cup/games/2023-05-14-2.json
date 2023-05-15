@@ -2,10 +2,9 @@
     "date": "2023-05-14 04:00PM",
     "type": "qualify",
     "extra": " B4 ",
-    "schedule": true,
     "home": {
         "key": "OX9",
-        "score": 0
+        "score": 6
     },
     "away": {
         "key": "FlyingHorse",

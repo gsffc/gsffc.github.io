@@ -2,13 +2,39 @@
     "date": "2023-05-14 06:00PM",
     "type": "qualify",
     "extra": " C4 ",
-    "schedule": true,
     "home": {
         "key": "JTU",
         "score": 0
     },
     "away": {
         "key": "GSF",
-        "score": 0
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 5, "player": "王英汉"}
+            ,{"type": "goal", "time": 25, "player": "MJ"}
+            ,{"type": "goal", "time": 60, "player": "MJ", "assist": "Xuan"}
+          ],
+          "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "小唐", "locator": "LWB"}
+            ,{"name": "陈晨", "locator": "LCB2"}
+            ,{"name": "Colin", "locator": "CB"}
+            ,{"name": "荆安东", "locator": "RCB2"}
+            ,{"name": "王政", "locator": "RWB"}
+            ,{"name": "狄克", "locator": "LDM"}
+            ,{"name": "王英汉", "locator": "RDM"}
+            ,{"name": "Xuan", "locator": "RCM"}
+            ,{"name": "东林", "locator": "LCM"}
+            ,{"name": "郝宇", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "MJ"}
+            ,{"name": "杜若衡"}
+            ,{"name": "刘喆"}
+            ,{"name": "任佳恩"}
+            ,{"name": "王琛"}
+            ,{"name": "杨谱"}
+            ,{"name": "张子豪"}
+        ]
     }
 }
