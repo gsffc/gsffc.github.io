@@ -30,11 +30,12 @@ layout: default
 {% assign id = 0 %}
 
 {% for bb in page.rank_tables %}
-{% assign group = bb %}
+{% assign rr = bb %}
 {% break %}
 {% endfor %}
 
-{% assign big_rank_table = group[1] %}
+{% assign rank_key = rr[0] %}
+{% assign big_rank_table = rr[1] %}
 
 {% include team_table.html table=big_rank_table table_class="big-rank" %}
 
@@ -46,7 +47,7 @@ layout: default
 
 </p>
 
-{% for game in page.rank_games[group_key] %}
+{% for game in page.rank_games[rank_key] %}
 {% assign gk = game[0] %}
 {% assign g = game[1] %}
 {% include game_lines.html game_key=gk game=g season_base_url="" %}
