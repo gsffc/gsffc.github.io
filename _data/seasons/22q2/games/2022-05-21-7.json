@@ -3,11 +3,11 @@
     "type": "rank-r1",
     "home": {
         "key": "EBU",
-        "score": 6
+        "score": 3
     },
     "away": {
         "key": "SouthBaySuper",
-        "score": 7
+        "score": 3
     },
-    "extra": "（点球 3:4）"
+    "penalty": [3, 4]
 }

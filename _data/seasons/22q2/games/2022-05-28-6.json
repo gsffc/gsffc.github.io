@@ -9,5 +9,5 @@
         "key": "SouthBaySuper",
         "score": 1
     },
-    "extra": "（点球 2:3）"
+    "penalty": [2, 3]
 }

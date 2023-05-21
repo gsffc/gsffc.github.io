@@ -23,6 +23,7 @@ knockout_stage: 淘汰赛阶段
 group_stage: 小组赛阶段
 rank_stage: 排位赛阶段
 games_list: 比赛
+penalty: 点球
 table:
   team_name: 队名
   played: 场次

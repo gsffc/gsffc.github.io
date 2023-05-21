@@ -226,6 +226,15 @@ module League
             elsif game['home']['score'] < game['away']['score']
                 t1['wins'] += 1;
                 t0['loses'] += 1;
+            elsif game['penalty'] != nil
+                penalty = game['penalty']
+                if penalty[0] > penalty[1]
+                    t0['wins'] += 1;
+                    t1['loses'] += 1;
+                else
+                    t1['wins'] += 1;
+                    t0['loses'] += 1;
+                end
             else
                 t0['draws'] += 1;
                 t1['draws'] += 1;
@@ -301,6 +310,17 @@ module League
                 t1['wins'] += 1;
                 t0['loses'] += 1;
                 t1['points'] += winpoint;
+            elsif game['penalty'] != nil
+                penalty = game['penalty']
+                if penalty[0] > penalty[1]
+                    t0['wins'] += 1;
+                    t1['loses'] += 1;
+                    t0['points'] += winpoint;
+                else
+                    t1['wins'] += 1;
+                    t0['loses'] += 1;
+                    t1['points'] += winpoint;
+                end
             else
                 t0['draws'] += 1;
                 t1['draws'] += 1;

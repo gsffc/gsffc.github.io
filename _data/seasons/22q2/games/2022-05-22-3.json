@@ -7,7 +7,7 @@
     },
     "away": {
         "key": "Davis",
-        "score": 5
+        "score": 2
     },
-    "extra": "（点球 0:3）"
+    "penalty": [0, 3]
 }

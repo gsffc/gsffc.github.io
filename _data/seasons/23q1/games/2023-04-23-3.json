@@ -3,11 +3,11 @@
   "type": "rank-r1",
   "home": {
       "key": "CalBlue",
-      "score": 7
+      "score": 4
   },
   "away": {
       "key": "ICP",
-      "score": 8
+      "score": 4
   },
-  "extra": "（点球3:4）"
+  "penalty": [3, 4]
 }

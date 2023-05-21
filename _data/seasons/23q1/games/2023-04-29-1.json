@@ -1,13 +1,13 @@
 {
   "date": "2023-04-29",
   "type": "rank-r2",
-  "extra": "（点球2:3）",
+  "penalty": [2, 3],
   "home": {
       "key": "DeepSoccer",
-      "score": 2
+      "score": 0
   },
   "away": {
       "key": "OX9",
-      "score": 3
+      "score": 0
   }
 }

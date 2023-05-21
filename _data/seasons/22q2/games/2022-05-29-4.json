@@ -9,5 +9,5 @@
         "key": "EBU",
         "score": 3
     },
-    "extra": "（点球 3:4）"
+    "penalty": [3, 4]
 }

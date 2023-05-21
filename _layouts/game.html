@@ -28,6 +28,9 @@ layout: default
         {% else %}
         <h2> {{ page.game.home.score }} : {{ page.game.away.score }} </h2>
         {% endif %}
+        {% if page.game.penalty != nil %}
+        <p>（{%t penalty %} {{page.game.penalty[0]}}:{{page.game.penalty[1]}}）</p>
+        {% endif %}
         {% if page.game.extra %}
         <p>{{page.game.extra}}</p>
         {% endif %}
