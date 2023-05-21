@@ -1,7 +1,7 @@
 {
     "date": "2023-05-20 04:00PM",
     "type": "rank-r1",
-    "schedule": true,
+    "penalty": [5, 4],
     "home": {
         "key": "Shoreline",
         "score": 0

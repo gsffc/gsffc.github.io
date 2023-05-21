@@ -1,13 +1,12 @@
 {
     "date": "2023-05-20 12:15PM",
     "type": "group-r1",
-    "schedule": true,
     "home": {
         "key": "JTU",
-        "score": 0
+        "score": 3
     },
     "away": {
         "key": "FlyingHorse",
-        "score": 0
+        "score": 3
     }
 }

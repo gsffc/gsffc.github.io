@@ -1,13 +1,41 @@
 {
     "date": "2023-05-20 05:50PM",
     "type": "rank-r1",
-    "schedule": true,
+    "penalty": [3, 1],
     "home": {
         "key": "CalBlue",
-        "score": 0
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 60, "player": "??"}
+            ,{"type": "goal", "time": 65, "player": "??"}
+        ]
     },
     "away": {
         "key": "GSF",
-        "score": 0
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 80, "player": "东林"}
+            ,{"type": "goal", "time": 90, "player": "MJ"}
+          ],
+          "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "张子豪", "locator": "LWB"}
+            ,{"name": "陈晨", "locator": "LCB2"}
+            ,{"name": "Colin", "locator": "CB"}
+            ,{"name": "荆安东", "locator": "RCB2"}
+            ,{"name": "王政", "locator": "RWB"}
+            ,{"name": "狄克", "locator": "LDM"}
+            ,{"name": "杨谱", "locator": "RDM"}
+            ,{"name": "杜若衡", "locator": "RM"}
+            ,{"name": "小唐", "locator": "LM"}
+            ,{"name": "Casper", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "MJ"}
+            ,{"name": "东林"}
+            ,{"name": "刘喆"}
+            ,{"name": "王琛"}
+            ,{"name": "杜雨琛"}
+        ]
     }
 }
