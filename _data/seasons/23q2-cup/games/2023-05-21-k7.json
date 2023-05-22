@@ -8,7 +8,7 @@
             {"type": "penalty", "time": 20, "player": "Xuan", "assist": "王政"}
             ,{"type": "goal", "time": 30, "player": "郝宇", "assist": "Xuan"}
             ,{"type": "goal", "time": 40, "player": "MJ", "assist": "杜若衡"}
-            ,{"type": "goal", "time": 50, "player": "MJ"}
+            ,{"type": "goal", "time": 50, "player": "MJ", "assist": "王琛"}
           ],
           "squad": [
             {"name": "锡麟", "locator": "GK"}
