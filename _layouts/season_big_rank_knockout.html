@@ -55,14 +55,15 @@ layout: default
 <br/>
 <br/>
 
-{% assign len = group_table | size %}
+{% assign len = big_rank_table | size %}
 {% assign id = id | plus: len %}
 
 <!-- 17名以后 -->
 {% capture sn2 %}
 勇者杯分区
 {% endcapture %}
-{% include group_tables.html group_tables=page.group_tables group_games=page.group_games stage_name=sn2 index_offset=16 %}
+
+{% include group_tables.html group_tables=page.group_tables group_games=page.group_games stage_name=sn2 index_offset=id table_field='group_table'%}
 
 <h3>预选赛对阵</h3>
 {% for game in page.game_list %}

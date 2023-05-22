@@ -13,7 +13,7 @@ layout: default
 {% capture sn %}
 {% translate group_stage %}
 {% endcapture %}
-{% include group_tables.html group_tables=page.group_tables group_games=page.group_games stage_name=sn %}
+{% include group_tables.html group_tables=page.group_tables group_games=page.group_games stage_name=sn table_field='group_table' %}
 
 {% if page.rules != nil %}
 &nbsp;

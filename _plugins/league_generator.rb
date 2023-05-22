@@ -184,11 +184,18 @@ module League
         end
     end
 
-    def self.calculate_table (team_hash, games_pair, entry)
+    def self.calculate_table(team_hash, games_pair, entry)
         # Iterate games to calculate data
+        # puts team_hash.keys.count
+        # puts 'calculate_table'
 
         # clear data 
         for team in team_hash
+            # if team_keys != nil
+            #     if !(team[0] in team_keys)
+            #         continue
+            #     end
+            # end
             team[1][entry] = {
                 'games_played' => 0,
                 'wins' => 0,
@@ -264,6 +271,9 @@ module League
     # TODO: reduce duplicate code
     def self.calculate_table_special_rank (team_hash, games_pair, entry, num_rounds)
         # Iterate games to calculate data
+
+        # puts team_hash.keys.count
+        # puts 'calculate_table_special_rank'
 
         # clear data 
         for team in team_hash
@@ -472,9 +482,11 @@ module League
                                 break
                             end
                             # puts rank_round
-                            League.calculate_table_special_rank(team_hash, group_games_pair, 'table', rank_round)
+                            table_entry = 'table'
+                            League.calculate_table_special_rank(team_hash, group_games_pair, table_entry, rank_round)
                         else
-                            League.calculate_table(team_hash, group_games_pair, 'table')
+                            table_entry = 'group_table'
+                            League.calculate_table(team_hash, group_games_pair, table_entry)
                         end
                         
 
@@ -489,7 +501,7 @@ module League
                             # simple not points version first
                             team_array = team_keys.map{|key| team_hash[key]}
                             team_keys_set = team_keys.to_set
-                            sorted = (team_array.sort_by { |team| [ -team['table']['points'], -team['table']['goals_diff'], -team['table']['goals_for'], team['table']['goals_against'], team['table']['games_played'] ] })
+                            sorted = (team_array.sort_by { |team| [ -team[table_entry]['points'], -team[table_entry]['goals_diff'], -team[table_entry]['goals_for'], team[table_entry]['goals_against'], team[table_entry]['games_played'] ] })
                             group_tables[group_key] = sorted
 
                             # puts team_keys_set
@@ -502,6 +514,14 @@ module League
                         self.data[group_game_tag + '_games'] = group_games
                         # self.data['group_tables'] = group_tables
                         # self.data['group_games'] = group_games
+
+                        # if team_hash.keys.count == 21
+                        #     puts group_game_tag + '_tables'
+                        #     for t in self.data[group_game_tag + '_tables']['']
+                        #         puts t['display_name']
+                        #         puts t[table_entry]
+                        #     end
+                        # end
 
                     end
 
