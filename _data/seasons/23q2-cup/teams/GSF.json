@@ -27,13 +27,6 @@
                 "position": "后卫"
             }
             ,{
-                "number": 8,
-                "name": "杨帆",
-                "img": "teams/GSF/23/yangfan.jpg",
-                "position": "前锋",
-                "locator": "LS"
-            }
-            ,{
                 "number": 9,
                 "name": "Xuan",
                 "img": "teams/GSF/23/xuan.jpg",
