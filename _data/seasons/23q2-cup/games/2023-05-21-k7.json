@@ -1,10 +1,35 @@
 {
     "date": "2023-05-21 07:00PM",
     "type": "rank-r2",
-    "schedule": true,
     "home": {
         "key": "GSF",
-        "score": 0
+        "score": 4,
+        "events": [
+            {"type": "penalty", "time": 20, "player": "Xuan", "assist": "王政"}
+            ,{"type": "goal", "time": 30, "player": "郝宇", "assist": "Xuan"}
+            ,{"type": "goal", "time": 40, "player": "MJ", "assist": "杜若衡"}
+            ,{"type": "goal", "time": 50, "player": "MJ"}
+          ],
+          "squad": [
+            {"name": "锡麟", "locator": "GK"}
+            ,{"name": "张子豪", "locator": "LWB"}
+            ,{"name": "狄克", "locator": "LCB2"}
+            ,{"name": "Colin", "locator": "CB"}
+            ,{"name": "陈晨", "locator": "RCB2"}
+            ,{"name": "王政", "locator": "RWB"}
+            ,{"name": "任佳恩", "locator": "LDM"}
+            ,{"name": "王英汉", "locator": "RDM"}
+            ,{"name": "东林", "locator": "LCM"}
+            ,{"name": "Xuan", "locator": "RCM"}
+            ,{"name": "郝宇", "locator": "CAM"}
+        ]
+        ,"bench": [
+            {"name": "MJ"}
+            ,{"name": "杜若衡"}
+            ,{"name": "刘喆"}
+            ,{"name": "王琛"}
+            ,{"name": "杜雨琛"}
+        ]
     },
     "away": {
         "key": "Hunters",

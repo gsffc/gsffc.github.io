@@ -1,13 +1,12 @@
 {
     "date": "2023-05-21 01:30PM",
     "type": "rank-r2",
-    "schedule": true,
     "home": {
         "key": "SVTigers",
-        "score": 0
+        "score": 11
     },
     "away": {
         "key": "Shoreline",
-        "score": 0
+        "score": 1
     }
 }

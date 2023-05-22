@@ -1,13 +1,12 @@
 {
     "date": "2023-05-21 05:10PM",
     "type": "rank-r2",
-    "schedule": true,
     "home": {
         "key": "OX9",
         "score": 0
     },
     "away": {
         "key": "EBU",
-        "score": 0
+        "score": 1
     }
 }
