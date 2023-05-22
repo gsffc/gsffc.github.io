@@ -3,7 +3,12 @@
     "type": "group-r2",
     "home": {
         "key": "GSF-U",
-        "score": 3
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 20, "player": "宁广涵", "assist": "Kevin"}
+            ,{"type": "goal", "time": 60, "player": "木泽马", "assist": "智班"}
+            ,{"type": "goal", "time": 85, "player": "智班", "assist": "杨帆"}
+        ]
     },
     "away": {
         "key": "JTU",
