@@ -1,3 +1,7 @@
+global:
+  en: English
+  zh: 中文
+  ja: 日本語
 posts_title: 战报
 schedule: 赛程
 goal_scorers: 射手榜
