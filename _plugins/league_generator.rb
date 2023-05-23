@@ -1060,7 +1060,9 @@ module League
                     end
                     history_team_stats[key][season[0]] = team['stats']
                     history_team_stats[key][season[0]]['season_key'] = season[0]
-                    history_team_stats[key][season[0]]['season_name'] = season_name
+                    # history_team_stats[key][season[0]]['season_name'] = season_name
+                    history_team_stats[key][season[0]]['display_name'] = season_name
+                    history_team_stats[key][season[0]]['display_name_zh'] = config['display_name_zh']
                     history_team_stats[key][season[0]]['is_winner'] = config['winner'] == key
 
                     # site.pages << TeamPage.new(site, site.source, File.join('seasons', season[0], key), key, team, season[0], season[1])

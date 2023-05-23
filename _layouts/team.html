@@ -33,7 +33,7 @@ layout: default
     {% else %}
     <tbody>
     {% endif %}
-        <td>{%if stats.is_winner == true %}🏆{%endif%} <a href="../../{{ stats.season_key }}/{{page.team_key}}">{{ stats.season_name }}</a></td>
+        <td>{%if stats.is_winner == true %}🏆{%endif%} <a href="../../{{ stats.season_key }}/{{page.team_key}}">{% include i18n_display_name.html entity=stats %}</a></td>
         <td>{{ stats.games_played }}</td>
         <td>{{ stats.wins }}</td>
         <td>{{ stats.draws }}</td>
