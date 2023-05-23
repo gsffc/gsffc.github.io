@@ -5,8 +5,8 @@ layout: default
 <article class="post">
 <div class="post-content">
 <h1>
-    <img width="20%" class="team-page-logo" src='{{site.baseurl}}/assets/img/{{page.team.logo}}'/>
-    {{ page.team.display_name }}
+    <img width="20%" class="team-page-logo" src='{{site.baseurl_root}}/assets/img/{{page.team.logo}}'/>
+    {% include i18n_display_name.html entity=page.team %}
 </h1>
 
 <p>{{ page.team.description }}</p>
@@ -94,7 +94,7 @@ layout: default
 {% if page.team.image %}
 <br/>
 <div>
-    <img src="{{site.baseurl}}/assets/img/{{page.team.image}}" />
+    <img src="{{site.baseurl_root}}/assets/img/{{page.team.image}}" />
 </div>
 <br/>
 {% endif %}

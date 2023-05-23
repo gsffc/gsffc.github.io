@@ -10,19 +10,19 @@
       <button class="dropbtn">{% t season_list %} ▾</button>
       <div class="dropdown-content" style="min-width: 120px;">
         {%- for s in site.data.nav_lists -%}
-        <a class="page-link" href="{{site.baseurl}}/seasons/{{s.key}}">{{ s.display_name | escape }}</a>
+        <a class="page-link" href="{{site.baseurl_root}}/seasons/{{s.key}}">{{ s.display_name | escape }}</a>
         {%- endfor -%}
       </div>
     </div>
 
     <div class="dropdown">
-      <button class="dropbtn"><img src="{{site.baseurl}}/assets/img/lang.svg"> ▾</button>
+      <button class="dropbtn"><img src="{{site.baseurl_root}}/assets/img/lang.svg"> ▾</button>
       <div class="dropdown-content">
         {%- for s in site.languages -%}
         {%- if s == 'zh' -%}
-        <a class="page-link" href="{{site.baseurl_root}}{{page.url}}">{% t global.{{s}} %}</a>
+        <a class="page-link" href="{{site.baseurl_root_root}}{{page.url}}">{% t global.{{s}} %}</a>
         {%- else -%}
-        <a class="page-link" href="{{site.baseurl_root}}/{{s}}{{page.url}}">{% t global.{{s}} %}</a>
+        <a class="page-link" href="{{site.baseurl_root_root}}/{{s}}{{page.url}}">{% t global.{{s}} %}</a>
         {%- endif -%}
         {%- endfor -%}
       </div>

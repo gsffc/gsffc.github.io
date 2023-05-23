@@ -1,5 +1,6 @@
 {
-  "display_name": "23春11人制",
+  "display_name_zh": "23春11人制",
+  "display_name": "23 Spring 11v11",
   "description": "NCCSF 2023 11人制联赛",
   "type": "league_table + region",
   "link": "https://nccsf.org",

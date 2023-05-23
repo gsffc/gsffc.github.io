@@ -1,5 +1,6 @@
 {
-  "display_name": "GSF首届颠球大会",
+  "display_name_zh": "GSF首届颠球大会",
+  "display_name": "GSF Juggle Cup 22",
   "description": "喜迎世界杯，球队大联欢，详细赛制和规则见页面底部。",
   "type": "player contest",
   "team_info": "GSF",

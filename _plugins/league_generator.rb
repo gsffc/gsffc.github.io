@@ -961,8 +961,10 @@ module League
                     end
 
                     game['home']['display_name'] = home_team['display_name']
+                    game['home']['display_name_zh'] = home_team['display_name_zh']
                     game['home']['logo'] = home_team['logo']
                     game['away']['display_name'] = away_team['display_name']
+                    game['away']['display_name_zh'] = away_team['display_name_zh']
                     game['away']['logo'] = away_team['logo']
 
                     if game['home']['events'] != nil

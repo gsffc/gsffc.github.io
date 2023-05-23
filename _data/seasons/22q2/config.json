@@ -1,5 +1,6 @@
 {
-  "display_name": "22足联杯",
+  "display_name_zh": "22足联杯",
+  "display_name": "22 NCCSF Cup",
   "description": "2022北加州足联杯锦标赛",
   "type": "region + knockout",
   "link": "https://nccsf.org",

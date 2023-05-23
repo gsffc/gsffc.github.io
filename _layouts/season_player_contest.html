@@ -24,10 +24,10 @@ layout: default
     <li class="game game-top">
       <div class="player static">
         {% if p0 != nil %}
-        <img src="{{site.baseurl}}/assets/img/{{p0.img | default: 'placeholder-player.jpg'}}" />
+        <img src="{{site.baseurl_root}}/assets/img/{{p0.img | default: 'placeholder-player.jpg'}}" />
         <span class="align-center">{{p0.number}} {{p0.name}}</span>
         {% else %}
-        <img src="{{site.baseurl}}/assets/img/question-mark.png" />
+        <img src="{{site.baseurl_root}}/assets/img/question-mark.png" />
         <span class="align-center">&nbsp;</span>
         {% endif %}
       </div>
@@ -48,10 +48,10 @@ layout: default
     <li class="game game-bottom ">
       <div class="player static">
         {% if p1 != nil %}
-        <img src="{{site.baseurl}}/assets/img/{{p1.img | default: 'placeholder-player.jpg'}}" />
+        <img src="{{site.baseurl_root}}/assets/img/{{p1.img | default: 'placeholder-player.jpg'}}" />
         <span class="align-center">{{p1.number}} {{p1.name}}</span>
         {% else %}
-        <img src="{{site.baseurl}}/assets/img/question-mark.png" />
+        <img src="{{site.baseurl_root}}/assets/img/question-mark.png" />
         <span class="align-center">&nbsp;</span>
         {% endif %}
       </div>
@@ -104,7 +104,7 @@ layout: default
       <td>{{ forloop.index }}</td>
       <td class="player-td">
         <div class="player static">
-          <img src="{{site.baseurl}}/assets/img/{{p.img | default: 'placeholder-player.jpg'}}" />
+          <img src="{{site.baseurl_root}}/assets/img/{{p.img | default: 'placeholder-player.jpg'}}" />
         </div>
         <span>#{{p.number}} {{p.name}}</span>
       </td>

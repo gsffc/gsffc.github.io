@@ -6,10 +6,10 @@ layout: default
 <div class="row-game">
     <div class="column align-right">
 
-        <img class="team-logo-large" src='{{site.baseurl}}/assets/img/{{page.game.home.logo}}'/>
+        <img class="team-logo-large" src='{{site.baseurl_root}}/assets/img/{{page.game.home.logo}}'/>
         <h2>
             <a href='../../{{page.game.home.key}}'>
-                {{ page.game.home.display_name }}
+                {% include i18n_display_name.html entity=page.game.home %}
             </a>
         </h2>
         <br/>
@@ -37,10 +37,10 @@ layout: default
     </div>
 
     <div class="column align-left">
-        <img class="team-logo-large" src='{{site.baseurl}}/assets/img/{{page.game.away.logo}}'/>
+        <img class="team-logo-large" src='{{site.baseurl_root}}/assets/img/{{page.game.away.logo}}'/>
         <h2>
             <a href='../../{{page.game.away.key}}'>
-                {{ page.game.away.display_name }}
+                {% include i18n_display_name.html entity=page.game.away %}
             </a>
         </h2>
         <br/>
@@ -62,7 +62,7 @@ layout: default
         <div class="row align-left">
         {% for player in page.game.home.bench %}
         <div class="player sub">
-            <img src="{{site.baseurl}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
+            <img src="{{site.baseurl_root}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
             <p>{{player.number}} {{player.name}}</p>
         </div>
         {% endfor %}
@@ -79,7 +79,7 @@ layout: default
         <div class="row align-left">
         {% for player in page.game.away.bench %}
         <div class="player sub">
-            <img src="{{site.baseurl}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
+            <img src="{{site.baseurl_root}}/assets/img/{{player.img | default: 'placeholder-player.jpg'}}" />
             <p>{{player.number}} {{player.name}}</p>
         </div>
         {% endfor %}
@@ -109,7 +109,7 @@ layout: default
 <div class="row-game">
     <div class="column align-center">
         {% for url in page.game.images %}
-        <img src="{{site.baseurl}}/assets/img/games/{{url}}" />
+        <img src="{{site.baseurl_root}}/assets/img/games/{{url}}" />
         {% endfor %}
     </div>
 </div>

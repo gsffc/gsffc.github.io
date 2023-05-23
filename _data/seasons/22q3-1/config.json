@@ -1,6 +1,7 @@
 {
-  "display_name": "22校联杯",
-  "description": "2022硅谷校联杯7人制",
+  "display_name_zh": "22校联杯",
+  "display_name": "22 UCAA Community Shield",
+  "description": "2022 UNITED CHINESE ALUMNI ASSOCIATIONS 硅谷校联杯7人制",
   "type": "group",
   "groups": {
     "社区组": [

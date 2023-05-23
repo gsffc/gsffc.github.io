@@ -8,6 +8,7 @@ goal_scorers: Goal Scorers
 assist_list: Assists
 season: Season
 season_list: All Seasons
+league_website: League Website
 player:
   photo: Photo
   name: Name
@@ -26,6 +27,9 @@ champion: Champion
 knockout_stage: Knockout Stage
 group_stage: Group Stage
 rank_stage: Ranking Stage
+qualify_stage: Qualifying Stage
+open_group: Open Group Complete Ranking
+yzb_group: Courage Cup Ranking
 games_list: Games
 penalty: Penalty
 table:
@@ -65,6 +69,7 @@ games:
   group-r4: Group Round 4
   group-r5: Group Round 5
   group-r6: Group Round 6
+  qualify: Qualifier
   league: League
   '#1': Round 1
   '#2': Round 2

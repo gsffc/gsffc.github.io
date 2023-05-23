@@ -1,5 +1,6 @@
 {
-  "display_name": "23足联杯",
+  "display_name_zh": "23足联杯",
+  "display_name": "23 NCCSF Cup",
   "description": "2023北加州足联杯锦标赛",
   "type": "game_list + group + region + knockout",
   "link": "http://54.215.45.224/en/node/74",

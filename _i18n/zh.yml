@@ -8,6 +8,7 @@ goal_scorers: 射手榜
 assist_list: 助攻榜
 season: 赛季
 season_list: 全部赛季
+league_website: 赛事网站
 player:
   photo: 头像
   name: 姓名
@@ -26,6 +27,10 @@ champion: 冠军
 knockout_stage: 淘汰赛阶段
 group_stage: 小组赛阶段
 rank_stage: 排位赛阶段
+qualify_stage: 预选赛阶段
+champion_cup: 冠军杯
+open_group: Open组完整排位分区
+yzb_group: 勇者杯分区
 games_list: 比赛
 penalty: 点球
 table:

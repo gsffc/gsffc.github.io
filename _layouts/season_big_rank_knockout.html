@@ -26,7 +26,7 @@ layout: default
 {% include knockout_brackets.html knockouts=page.knockouts %}
 
 <!-- 大 ranking table -->
-<h3>Open组完整排位分区</h3>
+<h3>{% t open_group %}</h3>
 {% assign id = 0 %}
 
 {% for bb in page.rank_tables %}
@@ -60,12 +60,12 @@ layout: default
 
 <!-- 17名以后 -->
 {% capture sn2 %}
-勇者杯分区
+{% t yzb_group %}
 {% endcapture %}
 
 {% include group_tables.html group_tables=page.group_tables group_games=page.group_games stage_name=sn2 index_offset=id table_field='group_table'%}
 
-<h3>预选赛对阵</h3>
+<h3>{% t qualify_stage %}</h3>
 {% for game in page.game_list %}
 {% assign gk = game[0] %}
 {% assign g = game[1] %}

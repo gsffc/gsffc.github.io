@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: zh
 languages: ["zh", "en"]
-exclude_from_localizations: ["_posts", javascript", "images", "css"]
+exclude_from_localizations: ["_posts", "assets", "docs", "scripts"]
 
 # Build settings
 markdown: kramdown
