@@ -23,6 +23,10 @@ player:
   position: 位置
   goals: 进球
   assists: 助攻
+门将: 门将
+后卫: 后卫
+中场: 中场
+前锋: 前锋
 champion: 冠军
 knockout_stage: 淘汰赛阶段
 group_stage: 小组赛阶段

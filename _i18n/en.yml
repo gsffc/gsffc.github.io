@@ -23,6 +23,10 @@ player:
   position: Position
   goals: Goals
   assists: Assists
+门将: GK
+后卫: DF
+中场: MF
+前锋: FW
 champion: Champion
 knockout_stage: Knockout Stage
 group_stage: Group Stage
