@@ -8,7 +8,7 @@
 <span>{{include.game.extra}}</span>
 {% endif %}
   {% include i18n_display_name.html entity=include.game.home %}
-  <img class="team-logo" src='{{site.baseurl_root_root}}/assets/img/{{ include.game.home.logo }}'/>
+  <img class="team-logo" src='{{site.baseurl_root}}/assets/img/{{ include.game.home.logo }}'/>
   {% if include.game.schedule %}
   &nbsp;VS&nbsp;
   {% else %}
@@ -16,7 +16,7 @@
   :
   {{ include.game.away.score }}
   {% endif %}
-  <img class="team-logo" src='{{site.baseurl_root_root}}/assets/img/{{ include.game.away.logo }}'/>
+  <img class="team-logo" src='{{site.baseurl_root}}/assets/img/{{ include.game.away.logo }}'/>
   {% include i18n_display_name.html entity=include.game.away %}
 </a>
 <br/>

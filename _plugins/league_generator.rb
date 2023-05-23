@@ -3,7 +3,7 @@ require 'json'
 module League
 
     class GoalScorerPage < Jekyll::Page
-        def initialize(site, base, dir, season_name, rank_table, team_hash, config)
+        def initialize(site, base, dir, season, rank_table, team_hash, config)
             @site = site
             @base = base
             @dir = dir
@@ -13,7 +13,7 @@ module League
             self.read_yaml(File.join(base, '_layouts'), 'player_ranking.html')
 
             # temp
-            self.data['title'] = season_name + ' 射手榜'
+            self.data['title'] = season['display_name'] + ' 射手榜'
 
             self.data['rank_title'] = 'goal_scorers'
             self.data['scoring_name'] = 'player.goals_penalty'
@@ -21,14 +21,15 @@ module League
             self.data['field2'] = 'penalty'
             self.data['rank_table'] = rank_table
             self.data['team_hash'] = team_hash
-            self.data['display_name'] = season_name
+            self.data['display_name'] = season['display_name']
+            self.data['display_name_zh'] = season['display_name_zh']
             self.data['link'] = config['link']
             self.data['description'] = config['description']
         end
     end
 
     class AssistsPage < Jekyll::Page
-        def initialize(site, base, dir, season_name, rank_table, team_hash, config)
+        def initialize(site, base, dir, season, rank_table, team_hash, config)
             @site = site
             @base = base
             @dir = dir
@@ -38,7 +39,7 @@ module League
             self.read_yaml(File.join(base, '_layouts'), 'player_ranking.html')
 
             # temp
-            self.data['title'] = season_name + ' 助攻榜'
+            self.data['title'] = season['display_name'] + ' 助攻榜'
 
             self.data['rank_title'] = 'assist_list'
             self.data['scoring_name'] = 'player.assists_penalty'
@@ -46,7 +47,8 @@ module League
             self.data['field2'] = 'penalty_make'
             self.data['rank_table'] = rank_table
             self.data['team_hash'] = team_hash
-            self.data['display_name'] = season_name
+            self.data['display_name'] = season['display_name']
+            self.data['display_name_zh'] = season['display_name_zh']
             self.data['link'] = config['link']
             self.data['description'] = config['description']
         end
@@ -352,7 +354,7 @@ module League
 
     # SeasonPage all types in one
     class GeneralSeasonPage < Jekyll::Page
-        def initialize(site, base, dir, season, team_hash, games_hash, games_pair, config, season_name, layout_page, stages)
+        def initialize(site, base, dir, season, team_hash, games_hash, games_pair, config, layout_page, stages)
             @site = site
             @base = base
             @dir = dir
@@ -363,11 +365,13 @@ module League
             # puts base
             self.read_yaml(File.join(base, "_layouts"), layout_page)
 
-            self.data['display_name'] = season_name
+            self.data['display_name'] = season['display_name']
             if config['display_name'] != nil
                 self.data['display_name'] = config['display_name']
             end
-            self.data['title'] = season_name
+            self.data['display_name_zh'] = season['display_name_zh']
+
+            self.data['title'] = season['display_name']
             self.data['link'] = config['link']
             self.data['description'] = config['description']
             self.data['rules'] = config['rules']
@@ -555,7 +559,7 @@ module League
 
 
     class LeagueSeasonPage < Jekyll::Page
-        def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
+        def initialize(site, base, dir, team_hash, games_pair, config, season_name)
             @site = site
             @base = base
             @dir = dir
@@ -567,6 +571,7 @@ module League
             self.read_yaml(File.join(base, "_layouts"), "season.html")
 
             self.data['display_name'] = season_name
+            self.data['display_name_zh'] = config['display_name_zh']
             self.data['title'] = season_name
             self.data['winner'] = config['winner'] ? team_hash[config['winner']] : nil
             
@@ -586,7 +591,7 @@ module League
     end
 
     class SimpleGameListSeasonPage < Jekyll::Page
-        def initialize(site, base, dir, season, team_hash, games_pair, config, season_name)
+        def initialize(site, base, dir, team_hash, games_pair, config, season_name)
             @site = site
             @base = base
             @dir = dir
@@ -600,6 +605,7 @@ module League
             # self.data = {}
 
             self.data['display_name'] = season_name
+            self.data['display_name_zh'] = config['display_name_zh']
             self.data['title'] = season_name
             self.data['link'] = config['link']
 
@@ -1073,9 +1079,9 @@ module League
                 end
 
                 if config['type'] == 'league_table'
-                    site.pages << LeagueSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
+                    site.pages << LeagueSeasonPage.new(site, site.source, File.join('seasons', season[0]), team_hash, games_pair, config, season_name)
                 elsif config['type'] == 'game_list'
-                    site.pages << SimpleGameListSeasonPage.new(site, site.source, File.join('seasons', season[0]), season[0], team_hash, games_pair, config, season_name)
+                    site.pages << SimpleGameListSeasonPage.new(site, site.source, File.join('seasons', season[0]), team_hash, games_pair, config, season_name)
                 else
                     # use general season page with multiple stages
 
@@ -1105,20 +1111,19 @@ module League
                         site,
                         site.source,
                         File.join('seasons', season[0]),
-                        season[0],
+                        config,
                         team_hash,
                         games_hash,
                         games_pair,
                         config,
-                        season_name,
                         layout_page,
                         stages)
                 end
 
                 
-                site.pages << GoalScorerPage.new(site, site.source, File.join('seasons', season[0]), season_name, sorted_goal_scorers, team_hash, config)
+                site.pages << GoalScorerPage.new(site, site.source, File.join('seasons', season[0]), config, sorted_goal_scorers, team_hash, config)
                 
-                site.pages << AssistsPage.new(site, site.source, File.join('seasons', season[0]), season_name, sorted_assists_list, team_hash, config)
+                site.pages << AssistsPage.new(site, site.source, File.join('seasons', season[0]), config, sorted_assists_list, team_hash, config)
 
 
                 # puts games_hash
@@ -1140,7 +1145,8 @@ module League
 
                 site.data['nav_lists'].push({
                     'key' => season_key,
-                    'display_name' => season['config']['display_name']
+                    'display_name' => season['config']['display_name'],
+                    'display_name_zh' => season['config']['display_name_zh']
                 })
 
                 # puts season['config']
