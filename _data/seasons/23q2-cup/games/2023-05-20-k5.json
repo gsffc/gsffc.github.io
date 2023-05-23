@@ -15,7 +15,7 @@
         "score": 2,
         "events": [
             {"type": "goal", "time": 80, "player": "东林"}
-            ,{"type": "goal", "time": 90, "player": "MJ"}
+            ,{"type": "goal", "time": 90, "player": "MJ", "assist": "小唐"}
           ],
           "squad": [
             {"name": "锡麟", "locator": "GK"}
