@@ -6,8 +6,8 @@
         "key": "CalBlue",
         "score": 2,
         "events": [
-            {"type": "goal", "time": 60, "player": "??"}
-            ,{"type": "goal", "time": 65, "player": "??"}
+            {"type": "goal", "time": 55, "player": "??"}
+            ,{"type": "goal", "time": 57, "player": "??"}
         ]
     },
     "away": {
