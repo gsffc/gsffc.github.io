@@ -5,8 +5,9 @@ title:  "我想加入GSF！"
 
 GSF足球俱乐部 (Google Soccer Field, 简称“GSF”, 昵称“高帅富”)，最初由FAANG (Facebook, Apple, Amazon, Netflix, Google) 等硅谷高科技公司的工程狮、程序猿组成，发起于2012年盛夏，活跃在Google Athletic Recreational Field Park，每个周末固定在GSF娱乐野球，故此得名。
 
-球队积极参与加州旧金山湾区（San Francisco Bay Area）的各个足球联赛。球队目前（2023年1月）
-* 每周五8:00-9:30pm在 **[Reed & Grant Sports Park, Field #3 (762 Reed St, Santa Clara, CA 95050)](https://goo.gl/maps/yu1n2WYLss19ivhu5)** 组织娱乐向每周杯Pickup。
+球队积极参与加州旧金山湾区（San Francisco Bay Area）的各足球赛事。球队目前（2023年5月）
+* 每周二8:00-10:00pm在 **[Shorty Garcia Park (33940 7th St, Union City, CA 94587)](https://goo.gl/maps/12xqUwEXCfst29ydA)** 由Kento教练带领组织训练。
+* 每周五8:00-9:30pm在 **[Reed & Grant Sports Park, Field #3 (762 Reed St, Santa Clara, CA 95050)](https://goo.gl/maps/yu1n2WYLss19ivhu5)** 组织娱乐向每周杯。
 
 欢迎想要加入的球友提供联系方式，教练组将视情况安排试训。
 

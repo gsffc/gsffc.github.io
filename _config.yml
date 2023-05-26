@@ -13,10 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: GSF足球俱乐部
+title: GSF Football Club
+title_zh: GSF足球俱乐部
 author: By 狄学长
 # email: sul@sul.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
+  GSF Football Club is based at San Francisco Bay area. We want to build our own football community
+  and culture using our website.
+description_zh: >-
   GSF足球俱乐部，活跃于加州旧金山湾区，用自己的网站记录和培养属于我们自己的足球文化
 baseurl: "" # the subpath of your site
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
