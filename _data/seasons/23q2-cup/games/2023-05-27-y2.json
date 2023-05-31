@@ -1,13 +1,12 @@
 {
     "date": "2023-05-27 12:0PM",
     "type": "group-r3",
-    "schedule": true,
     "home": {
         "key": "JTU",
-        "score": 0
+        "score": 1
     },
     "away": {
         "key": "CCAA",
-        "score": 0
+        "score": 3
     }
 }

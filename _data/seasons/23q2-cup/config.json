@@ -5,8 +5,10 @@
   "type": "game_list + group + region + knockout",
   "link": "http://54.215.45.224/en/node/74",
   "rules": "*11人制\n",
+  "winner": "SVTigers",
   "knockouts": {
     "冠军杯": {
+      "winner": "SVTigers",
       "bracket": [
         [
           "2023-05-20-k1"
@@ -29,7 +31,7 @@
           ,"2023-05-27-k3"
         ],
         [
-          ""
+          "2023-05-28-k4"
         ]
       ],
       "other_games": [

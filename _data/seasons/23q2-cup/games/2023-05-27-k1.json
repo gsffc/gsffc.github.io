@@ -1,13 +1,12 @@
 {
     "date": "2023-05-27 02:00PM",
     "type": "rank-r3",
-    "schedule": true,
     "home": {
         "key": "OverPower",
-        "score": 0
+        "score": 1
     },
     "away": {
         "key": "SVTigers",
-        "score": 0
+        "score": 3
     }
 }

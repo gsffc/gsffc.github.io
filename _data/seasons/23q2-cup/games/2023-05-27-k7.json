@@ -1,7 +1,7 @@
 {
     "date": "2023-05-27 08:00PM",
     "type": "rank-r3",
-    "schedule": true,
+    "penalty": [3, 4],
     "home": {
         "key": "THU",
         "score": 0

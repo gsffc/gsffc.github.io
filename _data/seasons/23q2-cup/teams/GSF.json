@@ -115,9 +115,21 @@
                 "position": "中场"
             }
             ,{
+                "number": 77,
+                "name": "马路遥",
+                "img": "placeholder-player.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 86,
                 "name": "王琛",
                 "img": "teams/GSF/23/wangchen.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 93,
+                "name": "杜雨琛",
+                "img": "teams/GSF/23/duyuchen.jpg",
                 "position": "中场"
             }
             ,{
@@ -149,18 +161,6 @@
                 "name": "郝宇",
                 "img": "teams/GSF/23/haoyu.jpg",
                 "position": "前锋"
-            }
-            ,{
-                "number": 102,
-                "name": "马路遥",
-                "img": "placeholder-player.jpg",
-                "position": "后卫"
-            }
-            ,{
-                "number": 108,
-                "name": "杜雨琛",
-                "img": "teams/GSF/23/duyuchen.jpg",
-                "position": "中场"
             }
             ,{
                 "number": 404,

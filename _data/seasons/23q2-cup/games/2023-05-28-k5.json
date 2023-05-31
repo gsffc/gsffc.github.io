@@ -1,0 +1,25 @@
+{
+    "date": "2023-05-28 06:00PM",
+    "type": "rank-r4",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/GbSCQLV3IsM\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "EBU",
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "penalty", "time": 67, "player": "??"}
+        ]
+    },
+    "away": {
+        "key": "GSF",
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 10, "player": "MJ"}
+            ,{"type": "goal", "time": 20, "player": "单思远", "assist": "Xuan"}
+            ,{"type": "goal", "time": 54, "player": "Colin", "assist": "单思远"}
+            ,{"type": "goal", "time": 60, "player": "MJ"}
+        ]
+    }
+}

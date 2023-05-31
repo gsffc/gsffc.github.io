@@ -1,13 +1,12 @@
 {
     "date": "2023-05-28 12:00PM",
     "type": "group-r4",
-    "schedule": true,
     "home": {
         "key": "FlyingHorse",
-        "score": 0
+        "score": 4
     },
     "away": {
         "key": "SouthBayKnight",
-        "score": 0
+        "score": 4
     }
 }

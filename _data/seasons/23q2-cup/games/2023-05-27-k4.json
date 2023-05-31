@@ -1,13 +1,25 @@
 {
     "date": "2023-05-27 04:00PM",
     "type": "rank-r3",
-    "schedule": true,
+    "videos": [
+        "<a href=\"https://app.veo.co/matches/20230528-gsf-community-vs-tengfei-6e09429d/\"><img src=\"/assets/img/games/23q2cup/veo-c-tf.jpg\"></img></a>"
+    ],
     "home": {
         "key": "GSF",
-        "score": 0
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 70, "player": "郝宇", "assist": "Xuan"}
+            ,{"type": "goal", "time": 76, "player": "Colin", "assist": "杨谱"}
+        ]
     },
     "away": {
         "key": "Tengfei",
-        "score": 0
+        "score": 4,
+        "events": [
+            {"type": "goal", "time": 6, "player": "??"}
+            ,{"type": "goal", "time": 9, "player": "??"}
+            ,{"type": "goal", "time": 15, "player": "??"}
+            ,{"type": "goal", "time": 73, "player": "??"}
+        ]
     }
 }

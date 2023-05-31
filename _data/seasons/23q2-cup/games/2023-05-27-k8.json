@@ -1,13 +1,12 @@
 {
     "date": "2023-05-27 08:00PM",
     "type": "rank-r3",
-    "schedule": true,
     "home": {
         "key": "SouthBaySuper",
-        "score": 0
+        "score": 5
     },
     "away": {
         "key": "EBU",
-        "score": 0
+        "score": 4
     }
 }
