@@ -27,6 +27,12 @@
                 "position": "后卫"
             }
             ,{
+                "number": 7,
+                "name": "Bruce",
+                "img": "teams/GSF/23/bruce.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 9,
                 "name": "Xuan",
                 "img": "teams/GSF/23/xuan.jpg",
