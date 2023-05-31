@@ -16,7 +16,7 @@
         "key": "GSF",
         "score": 4,
         "events": [
-            {"type": "goal", "time": 10, "player": "MJ"}
+            {"type": "goal", "time": 10, "player": "MJ", "assist": "Colin"}
             ,{"type": "goal", "time": 20, "player": "单思远", "assist": "Xuan"}
             ,{"type": "goal", "time": 54, "player": "Colin", "assist": "单思远"}
             ,{"type": "goal", "time": 60, "player": "MJ"}
