@@ -1,12 +1,23 @@
 {
     "date": "2023-05-27 12:0PM",
     "type": "group-r3",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/dx286GARTQ0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
         "key": "GSF-U",
-        "score": 3
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 17, "player": "木泽马", "assist": "吴骏"}
+            ,{"type": "goal", "time": 24, "player": "杨帆", "assist": "木泽马"}
+            ,{"type": "goal", "time": 55, "player": "杨帆", "assist": "Gary"}
+        ]
     },
     "away": {
         "key": "SouthBayKnight",
-        "score": 1
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 89, "player": "??"}
+        ]
     }
 }

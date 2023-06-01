@@ -141,6 +141,12 @@
                 "position": "门将"
             }
             ,{
+                "number": 44,
+                "name": "文韬",
+                "img": "teams/GSF/23/wentao.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 58,
                 "name": "何思哲",
                 "img": "teams/GSF/23/hesizhe.jpg",

@@ -4,10 +4,25 @@
     "extra": " D4 ",
     "home": {
         "key": "GSF-U",
-        "score": 3
+        "score": 3,
+        "events": [
+            {"type": "goal", "time": 25, "player": "文韬"}
+            ,{"type": "goal", "time": 50, "player": "Kevin", "assist": "云帆"}
+            ,{"type": "goal", "time": 60, "player": "Kevin", "assist": "云帆"}
+            ,{"type": "yellow", "time": 70, "player": "老韩"}
+        ]
     },
     "away": {
         "key": "Tengfei",
-        "score": 6
+        "score": 7,
+        "events": [
+            {"type": "goal", "time": 10, "player": "??"}
+            ,{"type": "goal", "time": 20, "player": "??"}
+            ,{"type": "goal", "time": 28, "player": "??"}
+            ,{"type": "goal", "time": 30, "player": "??"}
+            ,{"type": "goal", "time": 35, "player": "??"}
+            ,{"type": "goal", "time": 40, "player": "??"}
+            ,{"type": "penalty", "time": 70, "player": "??"}
+        ]
     }
 }
