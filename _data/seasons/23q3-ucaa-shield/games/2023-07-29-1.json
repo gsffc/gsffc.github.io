@@ -1,0 +1,13 @@
+{
+    "date": "2023-07-29 10:00AM",
+    "type": "#3",
+    "schedule": true,
+    "home": {
+        "key": "GSF",
+        "score": 0
+    },
+    "away": {
+        "key": "SouthBayKnight",
+        "score": 0
+    }
+}

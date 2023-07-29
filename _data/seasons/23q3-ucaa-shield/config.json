@@ -1,0 +1,8 @@
+{
+  "display_name_zh": "23校联杯社区盾",
+  "display_name": "23 UCAA Community Shield",
+  "description": "2023 UNITED CHINESE ALUMNI ASSOCIATIONS 硅谷校联杯 社区盾 11人制",
+  "type": "league_table",
+  "interested_teams": ["GSF"],
+  "rules": "*11人制"
+}

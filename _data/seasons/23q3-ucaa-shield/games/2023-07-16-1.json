@@ -1,0 +1,21 @@
+{
+    "date": "2023-07-16 12:00PM",
+    "type": "#1",
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/PVIdJ-Z4mzE\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+        "key": "GSF",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 85, "player": "庭朝"}
+        ]
+    },
+    "away": {
+        "key": "EBU",
+        "score": 1,
+        "events": [
+            {"type": "goal", "time": 50, "player": "??"}
+        ]
+    }
+}

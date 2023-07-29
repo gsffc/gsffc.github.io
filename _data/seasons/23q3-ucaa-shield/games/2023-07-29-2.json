@@ -1,0 +1,13 @@
+{
+    "date": "2023-07-29 14:00PM",
+    "type": "#3",
+    "schedule": true,
+    "home": {
+        "key": "Neighborhood",
+        "score": 0
+    },
+    "away": {
+        "key": "CalBlue",
+        "score": 0
+    }
+}
