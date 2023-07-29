@@ -1,5 +1,5 @@
 <h2>
-  {{ include.name }}
+  {% include i18n_display_name.html entity=page %}
   {% if include.link != nil %}
   &nbsp;[
   <a href="{{include.link}}">{% t league_website %}</a>
