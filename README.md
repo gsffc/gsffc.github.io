@@ -72,7 +72,7 @@ GSF最终3:2逆转绝杀SBK。玄宗助攻Kevin 李峰两度扳平比分，并�
 ```
 {
     "date": "2022-07-16 04:00PM",
-    "type": "group#1",
+    "type": "group-r1",
     "videos": [
         "<iframe src=\"https://www.youtube.com/embed/wDIlQnrIDl0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],

@@ -1,6 +1,6 @@
 {
     "date": "2022-07-17 02:00PM",
-    "type": "group#2",
+    "type": "#2",
     "videos": [
         "<iframe src=\"https://www.youtube.com/embed/-W_Tzj6fYug\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
     ],
