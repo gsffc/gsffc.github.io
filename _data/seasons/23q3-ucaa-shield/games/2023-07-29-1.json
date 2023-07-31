@@ -1,13 +1,21 @@
 {
     "date": "2023-07-29 10:00AM",
     "type": "#3",
-    "schedule": true,
+    "videos": [
+        "<iframe src=\"https://www.youtube.com/embed/WHyFMPKTCt8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
         "key": "GSF",
-        "score": 0
+        "score": 2,
+        "events": [
+            {"type": "goal", "time": 65, "player": "Kevin", "assist": "荆安东"}
+            ,{"type": "goal", "time": 69, "player": "Kevin", "assist": "小唐"}
+        ]
     },
     "away": {
         "key": "SouthBayKnight",
-        "score": 0
+        "score": 0,
+        "events": [
+        ]
     }
 }

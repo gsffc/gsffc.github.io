@@ -1,13 +1,12 @@
 {
     "date": "2023-07-30 12:00PM",
     "type": "#4",
-    "schedule": true,
     "home": {
         "key": "EBU",
-        "score": 0
+        "score": 3
     },
     "away": {
         "key": "SouthBayKnight",
-        "score": 0
+        "score": 2
     }
 }
