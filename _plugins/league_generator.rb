@@ -529,6 +529,39 @@ module League
 
                     end
 
+                when 'division'
+                    groups = config[stage + 's']
+                    
+                    if groups != nil
+
+                        ##############################################
+                        group_game_tag = 'group'
+                        table_entry = 'group_table'
+                        League.calculate_table(team_hash, games_pair, table_entry)
+                        
+                        ##############################################
+                        # puts groups.count
+                        group_tables = Hash.new
+                        group_games = Hash.new
+
+                        groups.each do |group_key, team_keys|
+                            # simple not points version first
+                            team_array = team_keys.map{|key| team_hash[key]}
+                            team_keys_set = team_keys.to_set
+                            sorted = (team_array.sort_by { |team| [ -team[table_entry]['points'], -team[table_entry]['goals_diff'], -team[table_entry]['goals_for'], team[table_entry]['goals_against'], team[table_entry]['games_played'] ] })
+                            group_tables[group_key] = sorted
+
+                            # puts team_keys_set
+                            cur_group_games_pair = games_pair.select{|key, game| team_keys_set.include?(game['home']['key'])}
+
+                            group_games[group_key] = cur_group_games_pair
+                        end
+
+                        self.data[group_game_tag + '_tables'] = group_tables
+                        self.data[group_game_tag + '_games'] = group_games
+
+                    end
+
                 when 'league_table'
                     table_games_pair = games_pair.reject{|key, game| game['type']=~ /rank|group/}
                     League.calculate_table(team_hash, table_games_pair, 'league_table')
@@ -1091,6 +1124,8 @@ module League
                         layout_page = 'season_group_knockout.html'
                     elsif config['type'] == 'group'
                         layout_page = 'season_group_knockout.html'
+                    elsif config['type'] == 'division'
+                        layout_page = 'divisions.html'
                     elsif config['type'] == 'region + knockout'
                         layout_page = 'season_region_knockouts.html'
                     elsif config['type'] == 'league_table + region'

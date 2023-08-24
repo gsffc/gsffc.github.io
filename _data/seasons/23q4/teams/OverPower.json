@@ -1,0 +1,18 @@
+{
+    "display_name": "OverPower",
+    "description": "OverPower是一支由热爱足球的湾区华人青年组成的队伍，我们活跃于湾区各大足球比赛，成绩斐然，近三年来队伍不断壮大，成绩不断提高，成为北加成长最快的队伍。",
+    "logo": "teams/OverPower/logo.jpg",
+    "players": {
+        "starting": [
+            {
+                "number": 13,
+                "name": "拓拓",
+                "img": "teams/OverPower/tuotuo.jpg",
+                "position": "中场",
+                "locator": "CM" 
+            }
+        ],
+        "subs": [
+        ]
+    }
+}

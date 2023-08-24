@@ -1,0 +1,32 @@
+{
+  "display_name_zh": "23-24 11人制",
+  "display_name": "23-24 11v11",
+  "description": "NCCSF 2023秋-2024春 11人制联赛",
+  "type": "division",
+  "link": "https://nccsf.org",
+  "rules": "*11人制\n*分为两个Division\n*Division内双循环",
+  "interested_teams": ["GSF-U", "GSF-L"],
+  "divisions": {
+    "D1": [
+      "CalBlue",
+      "EBU",
+      "GSF-U",
+      "ICP",
+      "OverPower",
+      "Shoreline",
+      "SVTigers",
+      "WU"
+    ],
+    "D2": [
+      "DeepSoccer",
+      "Wolf",
+      "GSF-L",
+      "HeHe",
+      "Hunters",
+      "JTU",
+      "OX9",
+      "SouthBayKnight",
+      "THU"
+    ]
+  }
+}
