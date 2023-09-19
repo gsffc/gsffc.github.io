@@ -42,8 +42,8 @@ function writeGameJson(
     "date": "${dateStr}",
     "type": "#${round}",
     "home": {
-        "key": "${teamKeyMap[team0]}",
-        "score": ${score0}
+      "key": "${teamKeyMap[team0]}",
+      "score": ${score0}
     },
     "away": {
       "key": "${teamKeyMap[team1]}",

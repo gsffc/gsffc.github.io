@@ -1,13 +1,24 @@
 {
     "date": "2023-09-17 16:00",
     "type": "#1",
+    "videos": [
+      "<iframe src=\"https://www.youtube.com/embed/UnWKmNcjsII\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
-        "key": "JTU",
-        "score": 1
+      "key": "JTU",
+      "score": 1,
+      "events": [
+        {"type": "goal", "time": 69, "player": "??"}
+      ]
     },
     "away": {
       "key": "GSF-L",
-      "score": 3
+      "score": 3,
+      "events": [
+          {"type": "penalty", "time": 4, "player": "蒋小神", "assist": "杨帆"}
+          ,{"type": "penalty", "time": 27, "player": "蒋小神", "assist": "杜若衡"}
+          ,{"type": "goal", "time": 29, "player": "Kento"}
+      ]
     }
   }
   
