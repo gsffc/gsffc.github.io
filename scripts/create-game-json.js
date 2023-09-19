@@ -2,66 +2,88 @@
 
 const fs = require('fs');
 
-const list = [
-  ['2023-02-04', 'SVTigers', 'CalBlue'],
-  ['2023-02-05'],
+const teamKeyMap = {
+  'THU West': 'THU',
+  'Eastbay Wolverine': 'Wolf',
+  'JTU': 'JTU',
+  'GSF-Locomotive': 'GSF-L',
+  'Wash.Utd': 'WU',
+  'EBU Rangers': 'EBU',
+  'ICP': 'ICP',
+  'SV Tigers': 'SVTigers',
+  'Deep Soccer': 'DeepSoccer',
+  'OX9 F.C.': 'OX9',
+  'SB Knights': 'SouthBayKnight',
+  'OverPower': 'OverPower',
+  'Shoreline': 'Shoreline',
+  'HeHeFC': 'HeHe',
+  'CalBlue': 'CalBlue',
+  'GSF United': 'GSF-U',
+  'Hunters': 'Hunters',
+};
 
-  ['2023-02-11'],
-  ['2023-02-12'],
-  
-  ['2023-02-18'],
-  ['2023-02-19'],
 
-  ['2023-02-25'],
-  ['2023-02-26'],
+// text format
+// Sun#D2-1	THU West (紫色)	Eastbay Wolverine (Black)	09-17 18:00	Newark LeftSide	2:0
 
-  ['2023-03-04'],
-  ['2023-03-05'],
+let idx = 0;
 
-  ['2023-03-11'],
-  ['2023-03-12'],
-  
-  ['2023-03-18'],
-  ['2023-03-19'],
-
-  ['2023-03-25'],
-  ['2023-03-26'],
-
-  ['2023-04-01'],
-  ['2023-04-02'],
-  
-  ['2023-04-08'],
-  ['2023-04-09'],
-
-];
-
-// for(let i = 0; i < list.length; i++) {
-for(let i = 10; i < list.length; i++) {
-  for (let j = 1; j <= 4; j++) {
-    const date = list[i][0];
-    // const home = list[i][1];
-    // const away = list[i][2];
-
-    const round = Math.floor(i / 2 + 0.1) + 1;
-    // const t = j <= 2 ? '14:00' : '16:00';
-    const content = `{
-  "date": "${date}",
-  "type": "#${round}",
-  "schedule": true,
-  "home": {
-      "key": "",
-      "score": 0
-  },
-  "away": {
-      "key": "",
-      "score": 0
+function writeGameJson(
+  date,   // '2023-09-17'
+  dateStr,  // '2023-09-17 18:00'
+  round,  // '1'
+  team0,
+  team1,
+  score0,
+  score1
+) {
+  const filename = `${date}-${idx}.json`;
+  const content = `{
+    "date": "${dateStr}",
+    "type": "#${round}",
+    "home": {
+        "key": "${teamKeyMap[team0]}",
+        "score": ${score0}
+    },
+    "away": {
+      "key": "${teamKeyMap[team1]}",
+      "score": ${score1}
+    }
   }
-}
-`;
+  `;
+  
+  fs.writeFileSync("_data/seasons/23q4/games/" + filename, content);
+  // console.log(content);
 
-    const filename = `${list[i]}-${j}.json`;
-    fs.writeFileSync("_data/seasons/23q1/games/" + filename, content);
-    // fs.writeFileSync("_data/seasons/23q222/games/" + filename, content);
-    // console.log(filename);
-  }
+  idx++;
 }
+
+const allFileContents = fs.readFileSync('scripts/games.txt', 'utf-8');
+allFileContents.split(/\r?\n/).forEach(line =>  {
+  // console.log(line);
+  
+  const fields = line.split(/\t/);
+  // console.log(fields);
+  const round = fields[0].substring(fields[0].indexOf('-') + 1);
+
+  const d = fields[3].split(' ');
+
+  const date = `2023-${d[0]}`;
+  const dateStr = `${date} ${d[1]}`;
+  const i0 = fields[1].indexOf('(');
+  const i1 = fields[2].indexOf('(');
+  const team0 = fields[1].substring(0, i0 === -1 ? undefined: i0 - 1);
+  const team1 = fields[2].substring(0, i1 === -1 ? undefined: i1 - 1);
+
+  const score = fields[5].split(':');
+  
+  writeGameJson(
+    date,
+    dateStr,
+    round,
+    team0,
+    team1,
+    score[0],
+    score[1]
+  );
+});
