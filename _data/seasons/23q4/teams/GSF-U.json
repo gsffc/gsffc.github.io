@@ -115,6 +115,18 @@
                 "position": "后卫"
             }
             ,{
+                "number": 40,
+                "name": "ZR",
+                "img": "teams/GSF/23/zr.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 52,
+                "name": "Leo Gao",
+                "img": "teams/GSF/23/gaopeng.jpg",
+                "position": "前锋"
+            }
+            ,{
                 "number": 55,
                 "name": "狄克",
                 "img": "teams/GSF/23/di.jpg",
@@ -173,6 +185,18 @@
                 "name": "郝宇",
                 "img": "teams/GSF/23/haoyu.jpg",
                 "position": "前锋"
+            }
+            ,{
+                "number": 119,
+                "name": "安澜",
+                "img": "teams/GSF/23/anlan.jpg",
+                "position": "前锋"
+            }
+            ,{
+                "number": 226,
+                "name": "辰龙",
+                "img": "teams/GSF/23/lcl.jpg",
+                "position": "中场"
             }
         ]
     }

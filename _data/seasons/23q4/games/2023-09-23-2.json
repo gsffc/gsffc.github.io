@@ -1,0 +1,23 @@
+{
+    "date": "2023-09-23 19:00",
+    "type": "#2",
+    "videos": [
+      "<iframe src=\"https://www.youtube.com/embed/ZVoGm0Jy-oI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
+    "home": {
+      "key": "OX9",
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 30, "player": "??"}
+        ,{"type": "goal", "time": 70, "player": "??"}
+      ]
+    },
+    "away": {
+      "key": "GSF-L",
+      "score": 1,
+      "events": [
+          {"type": "goal", "time": 65, "player": "胡智宇", "assist": "Kento"}
+      ]
+    }
+  }
+  
