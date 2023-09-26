@@ -1,7 +1,0 @@
-Sat#D1-1	OverPower (Black/White)	Shoreline (Red/White)	09-16 16:00	Newark LeftSide	1:2
-Sat#D2-1	SB Knights (Red)	HeHeFC	09-16 18:00	Newark LeftSide	1:8
-Sat#D2-1	Deep Soccer (Yellow/Blue)	OX9 F.C. (Red/White)	09-16 19:00	Nordvik Park	1:0
-Sat#D1-1	Wash.Utd (White/Red)	EBU Rangers (White/Blue)	09-16 20:00	Newark LeftSide	0:3
-Sat#D1-1	ICP (Yellow/Blue)	SV Tigers (Red/White)	09-16 20:00	Newark RightSide	1:6
-Sun#D2-1	JTU (Blue/White)	GSF-Locomotive (White/Blue)	09-17 16:00	Newark LeftSide	1:3
-Sun#D2-1	THU West (紫色)	Eastbay Wolverine (Black)	09-17 18:00	Newark LeftSide	2:0
