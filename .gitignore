@@ -4,4 +4,4 @@ _site
 .jekyll-cache
 .DS_Store
 .csv
-.txt
+games.txt
