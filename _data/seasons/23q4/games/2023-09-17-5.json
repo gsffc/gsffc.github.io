@@ -16,7 +16,7 @@
       "score": 3,
       "events": [
           {"type": "penalty", "time": 4, "player": "蒋小神", "assist": "杨帆"}
-          ,{"type": "penalty", "time": 27, "player": "蒋小神", "assist": "杜若衡"}
+          ,{"type": "penalty", "time": 27, "player": "蒋小神"}
           ,{"type": "goal", "time": 29, "player": "Kento"}
       ]
     }
