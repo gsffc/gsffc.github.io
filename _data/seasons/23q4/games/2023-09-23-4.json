@@ -7,7 +7,7 @@
       "events": [
         {"type": "goal", "time": 15, "player": "张稞雨", "assist": "黄中焱"}
         ,{"type": "goal", "time": 43, "player": "ZR", "assist": "Kevin Gao"}
-        ,{"type": "goal", "time": 50, "player": "ZR"}
+        ,{"type": "goal", "time": 50, "player": "ZR", "assist": "东林"}
       ]
     },
     "away": {
