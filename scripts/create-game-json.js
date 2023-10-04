@@ -37,16 +37,24 @@ function writeGameJson(
   score0,
   score1
 ) {
-  const filename = `${date}-${idx}.json`;
+  const tk0 = teamKeyMap[team0];
+  const tk1 = teamKeyMap[team1];
+  if (tk0 === undefined) {
+    console.warn(team0);
+  }
+  if (tk1 === undefined) {
+    console.warn(team1);
+  }
+  const filename = `${date}-${tk0}-${tk1}.json`;
   const content = `{
     "date": "${dateStr}",
     "type": "#${round}",
     "home": {
-      "key": "${teamKeyMap[team0]}",
+      "key": "${tk0}",
       "score": ${score0}
     },
     "away": {
-      "key": "${teamKeyMap[team1]}",
+      "key": "${tk1}",
       "score": ${score1}
     }
   }
