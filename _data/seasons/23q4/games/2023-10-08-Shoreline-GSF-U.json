@@ -1,13 +1,28 @@
 {
     "date": "2023-10-08 16:00",
     "type": "#4",
+    "videos": [
+      "<iframe src=\"https://www.youtube.com/embed/bSApw-EZBD8\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+    ],
     "home": {
       "key": "Shoreline",
-      "score": 4
+      "score": 4,
+      "events": [
+        {"type": "goal", "time": 6, "player": "??"}
+        ,{"type": "goal", "time": 23, "player": "??"}
+        ,{"type": "penalty", "time": 50, "player": "??"}
+        ,{"type": "goal", "time": 88, "player": "??"}
+      ]
     },
     "away": {
       "key": "GSF-U",
-      "score": 2
+      "score": 2,
+      "events": [
+        {"type": "goal", "time": 3, "player": "MJ", "assist": "张稞雨"}
+        ,{"type": "penalty-miss", "time": 5, "player": "黄中焱"}
+        ,{"type": "goal", "time": 75, "player": "MJ", "assist": "Ken"}
+        ,{"type": "red", "time": 90, "player": "张稞雨"}
+      ]
     }
   }
   
