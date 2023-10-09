@@ -15,6 +15,12 @@
                 "locator": "RB"
             }
             ,{
+                "number": 7,
+                "name": "Bruce",
+                "img": "teams/GSF/23/bruce.jpg",
+                "position": "中场"
+            }
+            ,{
                 "number": 8,
                 "name": "杨帆",
                 "img": "teams/GSF/23/yangfan.jpg",
@@ -132,6 +138,12 @@
                 "position": "门将"
             }
             ,{
+                "number": 50,
+                "name": "魏一",
+                "img": "teams/GSF/23/yiwei.jpg",
+                "position": "前锋"
+            }
+            ,{
                 "number": 58,
                 "name": "何思哲",
                 "img": "teams/GSF/23/hesizhe.jpg",
@@ -141,6 +153,12 @@
                 "number": 66,
                 "name": "蒋小神",
                 "img": "teams/GSF/23/jiangxiaoshen.jpg",
+                "position": "中场"
+            }
+            ,{
+                "number": 67,
+                "name": "智班",
+                "img": "teams/GSF/23/zhiban.jpg",
                 "position": "中场"
             }
             ,{
@@ -154,12 +172,6 @@
                 "name": "Cyrus",
                 "img": "teams/GSF/23/cyrus.jpg",
                 "position": "前锋"
-            }
-            ,{
-                "number": 72,
-                "name": "Adam",
-                "img": "teams/GSF/23/adam.jpg",
-                "position": "中场"
             }
             ,{
                 "number": 74,
