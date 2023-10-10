@@ -29,6 +29,8 @@ author: 智班
 
 一分钟后Kevin禁区内接界外球转身过人，被hunters后卫从身后绊倒，裁判果断判罚点球。Kevin亲自主罚一蹴而就，**GSF 1:0 hunters**
 
+{% include imgdesc.html url="/assets/img/news/23-24/l-hunters/1-0.gif" %}
+
 Hunters落后之后加强了进攻，并且制造了一些进攻机会，但是都没能制造出有威胁的射门
 
 比赛进行到下半场第17分钟，云帆中路突破造成对方犯规，GSF获得前场35米出任意球。Kento主罚任意球直奔球门右上死角飞去，可惜打中立柱没能继续扩大比分
@@ -38,6 +40,8 @@ Hunters落后之后加强了进攻，并且制造了一些进攻机会，但是�
 几分钟过后，kento禁区右路强突hunters后卫，突入禁区后传中制造险情，hunters门将奋力将球扑出。
 
 比赛进行到下半场第32分钟，云帆左路内切之后横传在弧顶的kento，kento回做给智班。智班不停球起射门，球直挂球门右上死角，GSG 2:0 hunters
+
+{% include imgdesc.html url="/assets/img/news/23-24/l-hunters/2-0.gif" %}
 
 之后双方都无力改变比分。GSF最终2:0战胜hunters取得第二场胜利
 
