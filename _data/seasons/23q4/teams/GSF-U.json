@@ -8,13 +8,6 @@
         ],
         "subs": [
             {
-                "number": 0,
-                "name": "Alpha",
-                "img": "teams/GSF/23/alpha.jpg",
-                "position": "门将",
-                "locator": "GK"
-            }
-            ,{
                 "number": 1,
                 "name": "锡麟",
                 "img": "teams/GSF/23/xilin.jpg",
