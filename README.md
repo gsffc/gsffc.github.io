@@ -30,7 +30,7 @@ primary custom domain为 https://www.gsffc.org
 * `_posts/` 目录下复制粘贴一个以前的post进行修改最方便
 * 文件名称格式 `2022-07-30-title-blablabla.md`
 * 如果是针对一场比赛的战报，`season_key`和`game_key`填入对应比赛数值即可生成一个formatted比赛链接。否则可以删掉这两个field。
-例如: `/_data/seasons/23q4/games/2023-10-14-GSF-U-ICP.json` 这一场比赛的 `session_key` 是 `23q4`，而 `game_key` 是 `2023-10-14-GSF-U-ICP`。
+例如: `/_data/seasons/23q4/games/2023-10-14-GSF-U-ICP.json` 这一场比赛的 `session_key` 是 `23q4`，而 `game_key` 则是 `2023-10-14-GSF-U-ICP`。
 * 图片放置在`assets/img/news`目录下，欢迎新建subfolder
 * `![](/assets/img/news/first-champion/r3-squad.png){:.centered}`以插入图片（`{.centered}`是ref一个css class用来居中）
 * 带描述文字的图片也可以这样添加`{% include imgdesc.html url="assets/img/news/bio/ningguanghan-1.gif" description="Dribbling / solo goals" %}`
