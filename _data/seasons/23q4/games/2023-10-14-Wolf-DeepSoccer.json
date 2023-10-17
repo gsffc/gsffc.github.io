@@ -1,0 +1,12 @@
+{
+  "date": "2023-10-14 20:00",
+  "type": "#5",
+  "home": {
+    "key": "Wolf",
+    "score": 2
+  },
+  "away": {
+    "key": "DeepSoccer",
+    "score": 1
+  }
+}
