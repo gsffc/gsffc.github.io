@@ -47,19 +47,19 @@ function writeGameJson(
   }
   const filename = `${date}-${tk0}-${tk1}.json`;
   const content = `{
-    "date": "${dateStr}",
-    "type": "#${round}",
-    "home": {
-      "key": "${tk0}",
-      "score": ${score0}
-    },
-    "away": {
-      "key": "${tk1}",
-      "score": ${score1}
-    }
+  "date": "${dateStr}",
+  "type": "#${round}",
+  "home": {
+    "key": "${tk0}",
+    "score": ${score0}
+  },
+  "away": {
+    "key": "${tk1}",
+    "score": ${score1}
   }
-  `;
-  
+}
+`;
+
   fs.writeFileSync("_data/seasons/23q4/games/" + filename, content);
   // console.log(content);
 
@@ -69,7 +69,7 @@ function writeGameJson(
 const allFileContents = fs.readFileSync('scripts/games.txt', 'utf-8');
 allFileContents.split(/\r?\n/).forEach(line =>  {
   // console.log(line);
-  
+
   const fields = line.split(/\t/);
   // console.log(fields);
   const round = fields[0].substring(fields[0].indexOf('-') + 1);
@@ -84,7 +84,7 @@ allFileContents.split(/\r?\n/).forEach(line =>  {
   const team1 = fields[2].substring(0, i1 === -1 ? undefined: i1 - 1);
 
   const score = fields[5].split(':');
-  
+
   writeGameJson(
     date,
     dateStr,
