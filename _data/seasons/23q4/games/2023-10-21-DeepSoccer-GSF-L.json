@@ -1,0 +1,22 @@
+{
+  "date": "2023-10-21 20:00",
+  "type": "#6",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/Cnh-iFPdqLI\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
+  "home": {
+    "key": "DeepSoccer",
+    "score": 0,
+    "events": [
+      {"type": "penalty-miss", "time": 61, "player": "??"}
+    ]
+  },
+  "away": {
+    "key": "GSF-L",
+    "score": 2,
+    "events": [
+      {"type": "goal", "time": 68, "player": "Kevin", "assist": "智班"}
+      ,{"type": "goal", "time": 80, "player": "Bruce"}
+    ]
+  }
+}
