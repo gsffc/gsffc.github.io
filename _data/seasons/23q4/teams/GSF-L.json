@@ -38,7 +38,7 @@
                 "number": 10,
                 "name": "Peter",
                 "img": "teams/GSF/23/peter.jpg",
-                "position": "中场"
+                "position": "前锋"
             }
             ,{
                 "number": 13,
@@ -62,13 +62,13 @@
                 "number": 16,
                 "name": "胡智宇",
                 "img": "teams/GSF/23/huzhiyu.jpg",
-                "position": "中场"
+                "position": "后卫"
             }
             ,{
                 "number": 18,
                 "name": "兰帕德",
                 "img": "teams/GSF/23/lanpade.jpg",
-                "position": "中场"
+                "position": "后卫"
             }
             ,{
                 "number": 19,
@@ -196,7 +196,7 @@
                 "number": 74,
                 "name": "Sam",
                 "img": "teams/GSF/23/sam.jpg",
-                "position": "中场"
+                "position": "门将"
             }
             ,{
                 "number": 77,
@@ -229,16 +229,28 @@
                 "position": "后卫"
             }
             ,{
+                "number": 83,
+                "name": "刘争",
+                "img": "teams/GSF/23/liuzheng.jpg",
+                "position": "后卫"
+            }
+            ,{
                 "number": 85,
-                "name": "李强兵",
+                "name": "飞雪",
                 "img": "teams/GSF/23/feixue.jpg",
+                "position": "后卫"
+            }
+            ,{
+                "number": 87,
+                "name": "杜雨琛",
+                "img": "teams/GSF/23/duyuchen.jpg",
                 "position": "后卫"
             }
             ,{
                 "number": 88,
                 "name": "洪泽",
                 "img": "teams/GSF/23/hongze.jpg",
-                "position": "后卫"
+                "position": "中场"
             }
             ,{
                 "number": 90,
