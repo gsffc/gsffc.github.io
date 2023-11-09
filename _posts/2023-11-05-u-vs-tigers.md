@@ -3,7 +3,7 @@ layout: game_post
 season_key: "23q4"
 game_key: "2023-11-05-SVTigers-GSF-U"
 
-title:  "GSF United 3:0 SV Tigers"
+title:  "GSF-United 3:0 战胜劲敌 SV Tigers"
 categories: news
 tags: 战报 11人制 23-24赛季 U队 Tigers
 author: 稞雨
