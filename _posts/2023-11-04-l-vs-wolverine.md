@@ -3,7 +3,7 @@ layout: game_post
 season_key: "23q4"
 game_key: "2023-11-04-GSF-L-Wolf"
 
-title:  "GSF L 再胜金刚狼"
+title:  "大Kevin梅开二度，GSF-L再胜金刚狼"
 categories: news
 tags: 战报 11人制 23-24赛季 L队
 author: 大Kevin
