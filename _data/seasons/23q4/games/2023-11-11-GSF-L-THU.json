@@ -1,12 +1,24 @@
 {
   "date": "2023-11-11 18:00",
   "type": "#9",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/R5uxLNKpY8I\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
     "key": "GSF-L",
-    "score": 1
+    "score": 1,
+    "events": [
+      {"type": "goal", "time": 25, "player": "杨帆", "assist": "云帆"}
+    ]
   },
   "away": {
     "key": "THU",
-    "score": 4
+    "score": 4,
+    "events": [
+      {"type": "goal", "time": 5, "player": "??"}
+      ,{"type": "goal", "time": 55, "player": "??"}
+      ,{"type": "goal", "time": 60, "player": "??"}
+      ,{"type": "goal", "time": 70, "player": "??"}
+    ]
   }
 }
