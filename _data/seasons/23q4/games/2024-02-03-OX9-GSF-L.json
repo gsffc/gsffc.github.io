@@ -1,0 +1,22 @@
+{
+  "date": "2024-02-03 19:00",
+  "type": "#11",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/HlrvbTBormQ\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
+  "home": {
+    "key": "OX9",
+    "score": 1,
+    "events": [
+      {"type": "goal", "time": 85, "player": "??"}
+    ]
+  },
+  "away": {
+    "key": "GSF-L",
+    "score": 2,
+    "events": [
+      {"type": "goal", "time": 60, "player": "Kevin", "assist": "宁广涵"},
+      {"type": "penalty", "time": 75, "player": "Kevin"}
+    ]
+  }
+}

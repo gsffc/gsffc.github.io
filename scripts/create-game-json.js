@@ -76,7 +76,7 @@ allFileContents.split(/\r?\n/).forEach(line =>  {
 
   const d = fields[3].split(' ');
 
-  const date = `2023-${d[0]}`;
+  const date = `2024-${d[0]}`;
   const dateStr = `${date} ${d[1]}`;
   const i0 = fields[1].indexOf('(');
   const i1 = fields[2].indexOf('(');
