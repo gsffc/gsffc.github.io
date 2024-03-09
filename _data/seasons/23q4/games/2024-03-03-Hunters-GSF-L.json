@@ -1,12 +1,23 @@
 {
   "date": "2024-03-03 18:00",
   "type": "#13",
+  "videos": [
+    "<iframe src=\"https://www.youtube.com/embed/CLAJSzsbbPU\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+  ],
   "home": {
     "key": "Hunters",
-    "score": 1
+    "score": 1,
+    "events": [
+      {"type": "goal", "time": 33, "player": "??"}
+    ]
   },
   "away": {
     "key": "GSF-L",
-    "score": 3
+    "score": 3,
+    "events": [
+      {"type": "goal", "time": 45, "player": "Kento"},
+      {"type": "goal", "time": 64, "player": "宁广涵", "assist": "Alpha"},
+      {"type": "penalty", "time": 75, "player": "Kento"}
+    ]
   }
 }
