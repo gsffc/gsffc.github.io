@@ -17,7 +17,7 @@
     "events": [
       {"type": "goal", "time": 45, "player": "Kento"},
       {"type": "goal", "time": 64, "player": "宁广涵", "assist": "Alpha"},
-      {"type": "penalty", "time": 75, "player": "Kento"}
+      {"type": "goal", "time": 75, "player": "Kento"}
     ]
   }
 }
