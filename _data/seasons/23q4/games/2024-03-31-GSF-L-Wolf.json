@@ -1,0 +1,20 @@
+{
+  "date": "2024-03-31 18:00",
+  "type": "#17",
+  "home": {
+    "key": "GSF-L",
+    "score": 2,
+    "events": [
+      {"type": "goal", "time": 30, "player": "Kevin", "assist": "云帆"},
+      {"type": "goal", "time": 50, "player": "汪星人", "assist": "Kento"}
+    ]
+  },
+  "away": {
+    "key": "Wolf",
+    "score": 2,
+    "events": [
+      {"type": "goal", "time": 80, "player": "??"},
+      {"type": "penalty", "time": 90, "player": "??"}
+    ]
+  }
+}
