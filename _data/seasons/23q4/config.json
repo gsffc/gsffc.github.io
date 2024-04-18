@@ -6,6 +6,7 @@
   "link": "https://nccsf.org",
   "rules": "*11人制\n*分为两个Division\n*Division内双循环",
   "interested_teams": ["GSF-U", "GSF-L"],
+  "winner": "CalBlue",
   "divisions": {
     "D1": [
       "CalBlue",
