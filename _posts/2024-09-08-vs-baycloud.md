@@ -5,7 +5,7 @@ layout: game_post
 
 title:  "大胜迎来联赛开门红， GSF Locomotive 8:0 Baycloud"
 categories: news
-tags: 战报 足联杯 11人制 C队 L队 2024
+tags: 战报 足联杯 11人制 L队 2024
 author: 宇昂Ryan
 ---
 
