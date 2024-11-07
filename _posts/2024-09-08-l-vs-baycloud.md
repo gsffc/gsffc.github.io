@@ -1,7 +1,7 @@
 ---
 layout: game_post
-# season_key: "24q4"
-# game_key: "2024-09-08-GSF-C-Baycloud"
+season_key: "24q4"
+game_key: "2024-09-08-GSF-L-Baycloud"
 
 title:  "大胜迎来联赛开门红， GSF Locomotive 8:0 Baycloud"
 categories: news
