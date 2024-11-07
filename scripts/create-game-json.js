@@ -20,6 +20,10 @@ const teamKeyMap = {
   'CalBlue': 'CalBlue',
   'GSF United': 'GSF-U',
   'Hunters': 'Hunters',
+  'PP United': 'PP-United',
+  'Tengfei': 'Tengfei',
+  'Baycloud': 'Baycloud',
+  'South Bay FC Super': 'SouthBaySuper'
 };
 
 
@@ -40,10 +44,10 @@ function writeGameJson(
   const tk0 = teamKeyMap[team0];
   const tk1 = teamKeyMap[team1];
   if (tk0 === undefined) {
-    console.warn(team0);
+    console.warn("Undefined team: " + team0);
   }
   if (tk1 === undefined) {
-    console.warn(team1);
+    console.warn("Undefined team: " + team1);
   }
   const filename = `${date}-${tk0}-${tk1}.json`;
   const content = `{
@@ -60,7 +64,7 @@ function writeGameJson(
 }
 `;
 
-  fs.writeFileSync("_data/seasons/23q4/games/" + filename, content);
+  fs.writeFileSync("_data/seasons/24q4/games/" + filename, content);
   // console.log(content);
 
   idx++;

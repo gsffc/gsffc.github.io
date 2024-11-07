@@ -1,0 +1,11 @@
+{
+    "display_name": "SV Tigers",
+    "description": "SV Tigers是北美华人足球老牌劲旅SV Tigers传承下来的一支年轻稳定并富有比赛经验的球队，队中大多球员均多次参加北美最高级别华人足球比赛，如全国华人冠军赛（GT）, 美西杯，北加州湾区华人足联杯，并担任主力，战绩显赫。此外，球队常年参加跨族裔足球联赛，如东湾墨西哥拉丁美裔联赛（周日），南湾Corp League Open组（周中晚上）。",
+    "logo": "teams/SVTigers/logo.jpg",
+    "players": {
+        "starting": [
+        ],
+        "subs": [
+        ]
+    }
+}
