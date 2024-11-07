@@ -1,7 +1,7 @@
 ---
 layout: game_post
-# season_key: "24q4"
-# game_key: ""
+season_key: "24q4"
+game_key: "2024-09-15-Shoreline-GSF-U"
 
 title:  "GSF United 1:0 小胜老对手Shoreline 惊险取得赛季首胜"
 categories: news
