@@ -1,7 +1,7 @@
 ---
 layout: game_post
-# season_key: "25q4"
-# game_key: "2025-09-20-Hunters-GSF-U"
+season_key: "25q4"
+game_key: "2025-09-20-GSFUnited-Hunters"
 
 title:  "Kenny 连场制胜球，GSF United 2:1 逆转 Hunters"
 categories: news

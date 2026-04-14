@@ -1,0 +1,30 @@
+{
+    "display_name_zh": "25-26 11人制",
+    "display_name": "25-26 11v11",
+    "description": "NCCSF 2025秋-2026春 11人制联赛",
+    "type": "division",
+    "link": "https://nccsf.org",
+    "rules": "*11人制\n*分为两个Division\n*Division内双循环",
+    "interested_teams": ["GSFUnited", "GSFLocomotive"],
+    "divisions": {
+      "D1": [
+        "CalBlue",
+        "DeepSoccer",
+        "EBURangers",
+        "GSFUnited",
+        "HeHeFC",
+        "Hunters",
+        "THUWest",
+        "Tengfei"
+      ],
+      "D2": [
+        "AthleticCapybara",
+        "EastbayWolverine",
+        "JTU",
+        "OverPower",
+        "PKU",
+        "PPUnited",
+        "Shoreline"
+      ]
+    }
+  }
